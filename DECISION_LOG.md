@@ -594,3 +594,24 @@ gröna. **INTE verifierat:** en fullständig, skarp backfill-körning i CI
 — kräver att ägaren laddar upp `backfill.yml` manuellt (samma
 fine-grained-PAT-begränsning som tidigare workflow-filer) och triggar en
 första testomgång.
+
+## 2026-07-22 — Diagnostikfil tillagd i backfill, pga svårighet att läsa GitHub Actions-loggar
+
+Efter första testkörningen av backfill (5 sekunder, misstänkt 0 möten
+bearbetade): flera försök att läsa den faktiska konsolutskriften
+misslyckades — både via GitHub:s webbgränssnitt (svårt för ägaren att
+hitta rätt klickyta i den lilla logg-panelen) och via API från min sida
+(logg-nedladdning omdirigerar till en Azure blob-lagringsdomän som ligger
+utanför sandboxens tillåtna nätverk, och `check-runs`-API:et gav inget
+för det här repot).
+
+Löst mer robust: `run-backfill.mjs` skriver nu ALLTID en liten
+diagnostikfil (`data/backfill-log/{instans}-{tidsstämpel}.json`) med
+nyckeltal (hur många möten hittades totalt, hur många i datumintervallet,
+hur många redan bearbetade, vilken batch som kördes) — oavsett om
+körningen faktiskt bearbetade något eller inte. Filen committas
+automatiskt (redan befintlig `git status --porcelain`-logik i
+`backfill.yml` fångar den som en förändring). Ger framtida felsökning en
+pålitlig väg via GitHub:s contents-API, helt oberoende av att navigera
+Actions-loggarnas UI eller kämpa mot nätverksbegränsningar för
+logg-nedladdning.

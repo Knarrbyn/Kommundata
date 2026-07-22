@@ -128,6 +128,38 @@ async function main() {
     `${inRange.length} möten inom datumintervallet, ${remaining.length} ännu obearbetade, ` +
       `bearbetar ${batch.length} denna körning.`
   );
+
+  // Diagnostikfil, ALLTID skriven oavsett utfall — oberoende av
+  // GitHub Actions egna loggar (som visat sig svåra att komma åt både
+  // via webbgränssnittet och via API från utvecklingssandboxen). Gör det
+  // möjligt att felsöka en körning genom att bara läsa en committad fil
+  // via GitHubs contents-API, utan att förlita sig på logg-UI:t alls.
+  const diagnostics = {
+    timestamp: new Date().toISOString().replace(/[:.]/g, "-"),
+    committee: committeeSlug,
+    startDate,
+    endDate,
+    maxPerRun,
+    totalRefsOnListingPage: allRefs.length,
+    inRangeCount: inRange.length,
+    alreadySeenCount: alreadySeen.length,
+    remainingBeforeThisRun: remaining.length,
+    batchThisRun: batch.map((r) => r.date),
+    warning:
+      allRefs.length === 0
+        ? "INGA möten alls hittades på listsidan — misstänk att listsidan " +
+          "(/committees/{slug}, utan ett specifikt möte) INTE har samma " +
+          "fullständiga årsmeny som en enskild mötessida. Se DECISION_LOG.md, " +
+          "posten om detta antagande. Prova att peka om koden mot en känd " +
+          "mötes-URL istället för listsidan."
+        : null,
+  };
+  await mkdir("data/backfill-log", { recursive: true });
+  await writeFile(
+    `data/backfill-log/${committeeSlug}-${diagnostics.timestamp}.json`,
+    JSON.stringify(diagnostics, null, 2)
+  );
+
   if (batch.length === 0) {
     console.error("Inget att göra — alla möten inom intervallet är redan bearbetade.");
     return;
