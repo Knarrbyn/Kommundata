@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-07-22T19-21-00-146Z",
+  "committeesChecked": [
+    "kommunfullmaktige",
+    "kommunstyrelsen",
+    "vard-och-omsorgsnamnden",
+    "tekniska-namnden",
+    "kultur-och-utbildningsnamnden",
+    "socialnamnden",
+    "barn-och-ungdomsnamnden",
+    "bygg-och-miljonamnden",
+    "overformyndarnamnden",
+    "samhallsbyggnadsnamnden"
+  ],
+  "totalNewMeetingsFound": 0,
+  "cappedAtThisRun": false,
+  "maxPerRun": 15,
+  "meetingsThisRun": []
+}
