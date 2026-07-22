@@ -490,3 +490,23 @@ körde den injicerade sidans JS i en sandlåda (samma mönster som
 `build.test.ts`), och testade `viewNamnd`/`viewSok` direkt — båda
 fungerar, okänd nämnd-slug hanteras snyggt utan krasch. 116/116 tester
 fortsatt gröna.
+
+## 2026-07-22 — "Om tjänsten"-texten korrigerad (ägarbeslut)
+
+Footer-meningen "byggd på samma öppna arkitekturmall som övriga
+civic-tech-projekt från institutet" togs bort — den antydde en aktiv
+familjegemenskap med andra Mjörninstitutet-appar som ägaren uttryckligen
+inte vill kommunicera just nu (Faktagranskaren betraktas som fristående,
+se tidigare post om Grön Väg-produktsamtalet). "Skapad av Tankesmedjan
+Mjörninstitutet" (både i header och footer) behålls oförändrat — det är
+bara attribution, inte ett påstående om delad arkitektur.
+
+## 2026-07-22 — Processlärdom sparad som stående minne
+
+Efter ägarens feedback om att flera separata tekniska delval (token-scope,
+secret-namn, build-inställningar) krävde bedömningar hen som lekman inte
+hade förutsättningar att göra: en instruktion har lagts till i Claudes
+minnessystem (inte i det här repot) om att lägga fram samlade planer med
+motivering istället för sekventiella delval vid framtida tekniska
+projekt. Ett jargonfritt referensdokument om GitHub/GitHub Actions/Netlify
+levererades samtidigt till ägaren, för att fylla kunskapsluckan direkt.
