@@ -543,3 +543,54 @@ workflow-filen.
 **Verifierat i skarp drift:** körning lyckades, alla tre nya steg gröna.
 Live på `https://knarrbyn.github.io/Kommundata/`, oberoende av Netlifys
 infrastruktur och kreditsystem helt.
+
+## 2026-07-22 — Backfill-lösning byggd (manuellt styrbar, kostnadstak per omgång)
+
+Ägarbeslut efter diskussion om att fylla på historik till hela
+mandatperioden (2022–2026): bygg ett separat, manuellt styrbart
+backfill-läge — INTE en automatisk bakåtgående cron, av kostnads- och
+riskskäl (rate-limiting, oväntat stor API-räkning på en gång).
+
+**Viktigt fynd som förenklade lösningen rejält:** varje mötessidas
+sidmeny på sammantradesportal.alingsas.se innehåller redan länkar till
+HELA historiken bakåt (bekräftat till 2009 för kommunfullmäktige, via
+`web_fetch` mot en riktig mötessida). Ingen separat
+bläddrings-/pagineringslogik behövde byggas — `extractMeetingRefs`
+(redan befintlig kod i `fetch.ts`) plockar upp alla historiska datum
+direkt ur en enda sidhämtning. **Inte 100 % verifierat:** antagandet att
+den BARA listsidan (`/committees/{slug}`, utan ett specifikt möte)
+har samma fullständiga sidmeny som en enskild mötessida — bekräftat bara
+för den senare. Bör verifieras första gången backfill faktiskt körs
+skarpt; om listsidan visar sig ha en kortare historik än mötessidorna är
+en enkel fix att istället utgå från en känd, nyligen hämtad mötes-URL.
+
+**`scripts/run-backfill.mjs`** — tar instans-slug, start-/slutdatum, och
+ett kostnadstak (`max-möten-denna-körning`, default 10) som argument.
+Hämtar all historik, filtrerar på datumintervall OCH mot `data/seen.json`
+(delas med den vanliga veckopipelinen — ingen risk för dubbelbearbetning
+mellan de två), sorterar äldst-först, tar bara upp till taket. Rapporterar
+tydligt hur många möten som återstår inom intervallet efter varje
+körning, så nästa omgång vet var den ska fortsätta. Kör i övrigt samma
+extract→gates→verify→archive→link→publish→build-kedja som
+`run-weekly-pipeline.mjs`.
+
+**`.github/workflows/backfill.yml`** — `workflow_dispatch` MED
+inmatningsfält (instans, start-/slutdatum, kostnadstak) — medvetet INGEN
+`schedule`-trigger. Speglar även till GitHub Pages efter varje omgång
+(samma mönster som veckopipelinen, nu med kostnadstak-medvetenhet given
+Netlifys kreditsystem — se tidigare post om det).
+
+**Kostnadsuppskattning, given tidigare bekräftad ~cent/möte:** en full
+backfill av alla nio instanser över fyra år (uppskattningsvis 100–150+
+möten totalt) landar sannolikt i storleksordningen 10–30 USD i
+Anthropic-kostnad, spritt över flera manuella omgångar snarare än en
+enda stor räkning.
+
+**Verifierat:** skriptet laddar felfritt (alla imports), validerar
+korrekt (avvisar okänd/obekräftad instans-slug), och testkörning mot en
+riktig instans (`samhallsbyggnadsnamnden`) gick igenom hela vägen till
+sandboxens förväntade nätverksbegränsning. 116/116 tester fortsatt
+gröna. **INTE verifierat:** en fullständig, skarp backfill-körning i CI
+— kräver att ägaren laddar upp `backfill.yml` manuellt (samma
+fine-grained-PAT-begränsning som tidigare workflow-filer) och triggar en
+första testomgång.
