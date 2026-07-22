@@ -14,6 +14,8 @@ on:
 # en separat personal access token.
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   run-pipeline:
@@ -85,20 +87,25 @@ jobs:
       # repo via Netlifys egen GitHub-integration och deployar automatiskt
       # vid varje push till standardgrenen — inget extra steg behövs här.
       #
-      # GitHub Pages som varm reserv (spec §2 punkt 5: "tre parallella
-      # deploys"). Aktiveras genom att slå på Pages i repots Settings
-      # (Source: GitHub Actions) — då används stegen nedan. Kommenterade ut
-      # tills dess, så workflowen inte fallerar på en inte-aktiverad
-      # inställning.
-      #
-      # - name: Ladda upp dist/ som Pages-artefakt
-      #   if: steps.diff.outputs.changed == 'true'
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: dist
-      # - name: Deploya till GitHub Pages
-      #   if: steps.diff.outputs.changed == 'true'
-      #   uses: actions/deploy-pages@v4
+      # GitHub Pages som varm, helt gratis reserv (spec §2 punkt 5: "tre
+      # parallella deploys"). Aktiverad 2026-07-22 efter att Netlifys nya
+      # kreditbaserade prismodell (sep 2025) gjorde gratisnivåns
+      # bandbreddstak mindre generöst än tidigare antaget — se
+      # DECISION_LOG.md för resonemanget. Körs UTAN `if: changed`-villkor
+      # (till skillnad från commit-stegen ovan): Pages ska alltid spegla
+      # den redan committade `dist/`-mappen exakt som den ser ut efter
+      # checkout, oavsett om just DEN HÄR körningen hittade ny data eller
+      # inte — annars skulle Pages-sajten aldrig hinna ikapp Netlify vid
+      # första aktiveringen, eftersom "inget nytt att publicera" är det
+      # vanliga utfallet en given vecka.
+      - name: Konfigurera Pages
+        uses: actions/configure-pages@v5
+      - name: Ladda upp dist/ som Pages-artefakt
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploya till GitHub Pages
+        uses: actions/deploy-pages@v4
 
       - name: Sammanfattning
         if: always()
