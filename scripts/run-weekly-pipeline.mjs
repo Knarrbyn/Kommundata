@@ -110,14 +110,17 @@ async function main() {
 
   console.error(`Söker nya möten hos ${confirmedCommittees.length} bevakade instanser...`);
   const newMeetings = [];
+  const perCommitteeResults = [];
   let cappedAnyCommittee = false;
   for (const committee of confirmedCommittees) {
     try {
       const found = await fetchNewMeetingsForCommittee(committee, seen, fetchText);
       if (found.length > 0) console.error(`  ${committee.name}: ${found.length} nytt`);
       newMeetings.push(...found);
+      perCommitteeResults.push({ slug: committee.slug, foundCount: found.length, error: null });
     } catch (e) {
       console.error(`  ${committee.name}: FEL vid fetch — ${e.message} (hoppar över denna instans denna körning)`);
+      perCommitteeResults.push({ slug: committee.slug, foundCount: 0, error: e.message });
     }
   }
 
@@ -147,6 +150,7 @@ async function main() {
       {
         timestamp: runTimestampForDiag,
         committeesChecked: confirmedCommittees.map((c) => c.slug),
+        perCommitteeResults,
         totalNewMeetingsFound: newMeetings.length,
         cappedAtThisRun: cappedAnyCommittee,
         maxPerRun: MAX_NEW_MEETINGS_PER_RUN,
