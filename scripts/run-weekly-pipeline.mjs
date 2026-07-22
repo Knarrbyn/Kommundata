@@ -108,6 +108,30 @@ async function main() {
   // explicita, manuellt styrda tak.
   const MAX_NEW_MEETINGS_PER_RUN = 15;
 
+  // ENGÅNGSDIAGNOSTIK (2026-07-22): kommunfullmäktige fick 0 träffar även
+  // via sitt seedMeetingUrl, trots att samma URL bevisligen innehöll en
+  // fullständig sidmeny när den hämtades via web_fetch (Claude:s eget
+  // verktyg) i en tidigare konversation. Misstanke: sajten kan rendera
+  // sidmenyn med JavaScript, som en vanlig serverbegäran (Node fetch(),
+  // det pipelinen faktiskt använder) inte får med sig, till skillnad från
+  // web_fetch som eventuellt hanterar det annorlunda. Fångar råa
+  // HTML-mått för att bevisa/motbevisa detta, INTE en permanent del av
+  // pipelinens normala flöde — ta bort när frågan är besvarad.
+  const diagFetchProbe = {};
+  try {
+    const kfCommittee = confirmedCommittees.find((c) => c.slug === "kommunfullmaktige");
+    if (kfCommittee?.seedMeetingUrl) {
+      const probeHtml = await fetchText(kfCommittee.seedMeetingUrl);
+      diagFetchProbe.seedUrl = kfCommittee.seedMeetingUrl;
+      diagFetchProbe.htmlLength = probeHtml.length;
+      diagFetchProbe.htmlSnippet = probeHtml.slice(0, 800);
+      diagFetchProbe.containsMoteString = probeHtml.includes("mote-");
+      diagFetchProbe.containsKommunfullmaktigeString = probeHtml.includes("kommunfullmaktige");
+    }
+  } catch (e) {
+    diagFetchProbe.error = e.message;
+  }
+
   console.error(`Söker nya möten hos ${confirmedCommittees.length} bevakade instanser...`);
   const newMeetings = [];
   const perCommitteeResults = [];
@@ -151,6 +175,7 @@ async function main() {
         timestamp: runTimestampForDiag,
         committeesChecked: confirmedCommittees.map((c) => c.slug),
         perCommitteeResults,
+        diagFetchProbe,
         totalNewMeetingsFound: newMeetings.length,
         cappedAtThisRun: cappedAnyCommittee,
         maxPerRun: MAX_NEW_MEETINGS_PER_RUN,
