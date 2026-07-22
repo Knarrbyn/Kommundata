@@ -30,6 +30,12 @@ jobs:
       - name: Installera beroenden
         run: npm ci
 
+      - name: Markera starttid (för att skilja denna körnings needs_review-filer från ev. äldre kvarlevor)
+        id: start_marker
+        run: |
+          mkdir -p /tmp
+          touch /tmp/run-start-marker
+
       - name: Kör hela pipelinen (fetch → download → extract → gates → verify → archive → link → publish → build)
         id: pipeline
         env:
@@ -98,10 +104,20 @@ jobs:
         if: always()
         run: |
           echo "### Pipeline-körning $(date -u +%Y-%m-%d)" >> "$GITHUB_STEP_SUMMARY"
-          if [ -d data/needs_review ]; then
-            LATEST_REVIEW=$(ls -t data/needs_review/*.json 2>/dev/null | head -1)
-            if [ -n "$LATEST_REVIEW" ]; then
-              COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$LATEST_REVIEW','utf-8')).length)")
-              echo "- Poster till manuell granskning denna körning: $COUNT ($LATEST_REVIEW)" >> "$GITHUB_STEP_SUMMARY"
+          if [ -d data/needs_review ] && [ -f /tmp/run-start-marker ]; then
+            # Bara filer NYARE än markören (satt precis innan pipelinen
+            # kördes) räknas — annars kan en gammal kvarleva från en
+            # tidigare körning felaktigt rapporteras som om den hörde till
+            # just nu (se DECISION_LOG.md, fyndet från körning #1
+            # 2026-07-22: en två dagar gammal fil från manuella
+            # smoke-tester råkade committas med i det första repo-pushet
+            # och visades felaktigt som "denna körning" i sammanfattningen).
+            NEW_REVIEWS=$(find data/needs_review -name "*.json" -newer /tmp/run-start-marker 2>/dev/null)
+            if [ -n "$NEW_REVIEWS" ]; then
+              COUNT=$(echo "$NEW_REVIEWS" | wc -l)
+              echo "- Poster till manuell granskning DENNA körning: $COUNT" >> "$GITHUB_STEP_SUMMARY"
+              echo "$NEW_REVIEWS" | while read -r f; do echo "  - \`$f\`" >> "$GITHUB_STEP_SUMMARY"; done
+            else
+              echo "- Inga nya poster till manuell granskning denna körning." >> "$GITHUB_STEP_SUMMARY"
             fi
           fi
