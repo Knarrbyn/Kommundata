@@ -23,6 +23,11 @@ on:
         required: false
         default: "10"
         type: string
+      seed_meeting_url:
+        description: "VALFRITT: känd mötes-URL att utgå från (krävs bara om instansen aldrig bearbetats förut och listsidan inte räcker — se DECISION_LOG.md)"
+        required: false
+        default: ""
+        type: string
 
 permissions:
   contents: write
@@ -55,7 +60,8 @@ jobs:
             "${{ inputs.committee }}" \
             "${{ inputs.start_date }}" \
             "${{ inputs.end_date }}" \
-            "${{ inputs.max_meetings }}"
+            "${{ inputs.max_meetings }}" \
+            "${{ inputs.seed_meeting_url }}"
 
       - name: Committa och pusha resultatet av denna omgång
         run: |
