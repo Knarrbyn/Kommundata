@@ -309,6 +309,7 @@
   </div>
   <nav class="site">
     <a onclick="navigate('/')" data-route="/">Ärenden</a>
+    <a onclick="navigate('/sok')" data-route="/sok">Sök</a>
     <a onclick="navigate('/metod')" data-route="/metod">Metod</a>
     <a onclick="navigate('/om')" data-route="/om">Om tjänsten</a>
   </nav>
@@ -325,8 +326,18 @@
 const PARTY_NAMES = {s:'Socialdemokraterna', m:'Moderaterna', sd:'Sverigedemokraterna', c:'Centerpartiet',
   v:'Vänsterpartiet', kd:'Kristdemokraterna', l:'Liberalerna', mp:'Miljöpartiet'};
 const PARTY_COLOR = {s:'#C23B3B', m:'#2E5AA8', sd:'#D9A61A', c:'#3E7A3B', v:'#8A1F3B', kd:'#1F4D8F', l:'#1C93B8', mp:'#6FA82E'};
-const INSTANCE_NAMES = {kommunfullmaktige:'Kommunfullmäktige', vard_och_omsorgsnamnden:'Vård- och omsorgsnämnden',
-  tekniska_namnden:'Tekniska nämnden', kommunstyrelsen:'Kommunstyrelsen'};
+const INSTANCE_NAMES = {
+  kommunfullmaktige: 'Kommunfullmäktige',
+  kommunstyrelsen: 'Kommunstyrelsen',
+  'vard-och-omsorgsnamnden': 'Vård- och omsorgsnämnden',
+  'tekniska-namnden': 'Tekniska nämnden',
+  'kultur-och-utbildningsnamnden': 'Kultur- och utbildningsnämnden',
+  socialnamnden: 'Socialnämnden',
+  'barn-och-ungdomsnamnden': 'Barn- och ungdomsnämnden',
+  'bygg-och-miljonamnden': 'Bygg- och miljönämnden',
+  overformyndarnamnden: 'Överförmyndarnämnden',
+  samhallsbyggnadsnamnden: 'Samhällsbyggnadsnämnden',
+};
 const TYPE_NAMES = {motion_inlamnad:'Motion inlämnad', namndyttrande:'Nämndyttrande', beslut:'Beslut',
   beredning:'Beredning', interpellation_stalld:'Interpellation ställd', interpellation_svarad:'Interpellation besvarad',
   initiativarende_vackt:'Initiativärende väckt'};
@@ -391,7 +402,7 @@ function renderArchiveLink(archiveUrl){
 function renderStep(step){
   let html = `<div class="step">
     <div class="step-head">
-      <div class="step-instance">${INSTANCE_NAMES[step.instance]||step.instance} — ${TYPE_NAMES[step.type]||step.type}</div>
+      <div class="step-instance"><a onclick="navigate('/namnd/${step.instance}')" style="color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer;">${INSTANCE_NAMES[step.instance]||step.instance}</a> — ${TYPE_NAMES[step.type]||step.type}</div>
       <div class="step-meta">${fmtDate(step.date)} · ${step.source.protocol_ref}</div>
     </div>`;
 
@@ -638,6 +649,105 @@ function viewParti(kod){
   return html;
 }
 
+function viewNamnd(slug){
+  const name = INSTANCE_NAMES[slug];
+  if(!name){
+    return `<a class="back-link" onclick="navigate('/')">← Alla ärenden</a><div class="empty-note">Okänd instans "${slug}".</div>`;
+  }
+  const involved = ARENDEN.filter(a => a.steps.some(s=>s.instance===slug));
+
+  let html = `
+  <a class="back-link" onclick="navigate('/')">← Alla ärenden</a>
+  <div class="detail-head">
+    <div class="eyebrow-row" style="margin-bottom:6px;"><span class="eyebrow">Nämnd/instans</span></div>
+    <h1>${name}</h1>
+    <p style="color:var(--ink-soft); max-width:56ch; margin-top:6px;">Alla ärenden med minst ett steg hos ${name} — motioner, yttranden, beslut och övriga initiativtyper, med samma verifieringsmetod som för resten av sajten.</p>
+  </div>`;
+
+  if(!involved.length){
+    html += `<div class="empty-note">Inga ärenden registrerade hos ${name} ännu — det säger inget om nämndens faktiska aktivitet, bara att inget av de hittills granskade ärendena råkar beröra den.</div>`;
+    return html;
+  }
+
+  html += `<div class="arende-list">${involved.map(renderCard).join('')}</div>`;
+  return html;
+}
+
+let sokQuery = '';
+let sokFilter = { namnd: 'alla', status: 'alla' };
+
+function matchesSok(a, q){
+  if(sokFilter.namnd!=='alla' && !a.steps.some(s=>s.instance===sokFilter.namnd)) return false;
+  if(sokFilter.status!=='alla' && a.status!==sokFilter.status) return false;
+  if(!q) return true;
+  if(a.title.toLowerCase().includes(q)) return true;
+  return a.steps.some(s =>
+    (s.quote||'').toLowerCase().includes(q) ||
+    (s.reservations||[]).some(r=>(r.quote||'').toLowerCase().includes(q)) ||
+    (s.protocol_anteckning||[]).some(x=>(x.quote||'').toLowerCase().includes(q))
+  );
+}
+
+function renderSokResults(){
+  const q = sokQuery.trim().toLowerCase();
+  const results = ARENDEN.filter(a=>matchesSok(a,q));
+  if(!results.length) return '<div class="empty-note">Inga ärenden matchar sökningen.</div>';
+  return results.map(renderCard).join('');
+}
+
+function handleSokInput(value){
+  // Uppdaterar bara resultatlistan, inte hela sidan — annars tappar
+  // sökfältet fokus (och markörens position) vid varje tangenttryckning,
+  // eftersom render() annars skriver om hela app.innerHTML.
+  sokQuery = value;
+  const el = document.getElementById('sok-results');
+  if(el) el.innerHTML = renderSokResults();
+}
+
+function setSokFilter(axis, value){
+  sokFilter[axis] = value;
+  render();
+}
+
+function viewSok(){
+  const namndButtons = Object.keys(INSTANCE_NAMES).map(slug=>
+    `<button class="${sokFilter.namnd===slug?'active':''}" onclick="setSokFilter('namnd','${slug}')">${INSTANCE_NAMES[slug]}</button>`
+  ).join('');
+
+  return `
+  <div class="hero" style="border-bottom:none; padding-bottom:0;">
+    <h1>Sök i ärenden</h1>
+    <p class="lede">Fritextsök i titlar och citat, kombinerat med filter för nämnd/instans och status.</p>
+  </div>
+
+  <div class="filter-group">
+    <input type="search" id="sok-input" placeholder="Sök på ord i titel eller citat…" value="${sokQuery.replace(/"/g,'&quot;')}"
+      oninput="handleSokInput(this.value)"
+      style="width:100%; max-width:480px; padding:10px 14px; border:1px solid var(--line); border-radius:8px; font-size:0.95rem; font-family:inherit; background:var(--paper);">
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-group-label">Nämnd/instans</span>
+    <div class="filters">
+      <button class="${sokFilter.namnd==='alla'?'active':''}" onclick="setSokFilter('namnd','alla')">Alla instanser</button>
+      ${namndButtons}
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-group-label">Status</span>
+    <div class="filters">
+      <button class="${sokFilter.status==='alla'?'active':''}" onclick="setSokFilter('status','alla')">Alla ärenden</button>
+      <button class="${sokFilter.status==='pågående'?'active':''}" onclick="setSokFilter('status','pågående')">Pågående</button>
+      <button class="${sokFilter.status==='avgjort'?'active':''}" onclick="setSokFilter('status','avgjort')">Avgjorda</button>
+    </div>
+  </div>
+
+  <div id="sok-results" class="arende-list">
+    ${renderSokResults()}
+  </div>`;
+}
+
 function viewMetod(){
   return `
   <div class="hero" style="border-bottom:none; padding-bottom:0;">
@@ -647,8 +757,8 @@ function viewMetod(){
   <div style="max-width:64ch; font-size:1rem; color:var(--ink-soft);">
     <p><strong style="color:var(--ink)">1. Källa → pipeline → publikt.</strong> Protokoll hämtas från kommunens öppna sammanträdesportal. En AI-modell strukturerar rådata till kandidatposter med citat, beslut, initiativtyp och röstutfall.</p>
     <p><strong style="color:var(--ink)">2. Verbatimgrinden.</strong> Varje citat kontrolleras i ren kod — inte av AI:n själv — mot den faktiska, extraherade protokolltexten. Whitespace normaliseras, men texten måste vara exakt likadan. Klarar citatet inte grinden publiceras det aldrig, oavsett vad AI:n påstår.</p>
-    <p><strong style="color:var(--ink)">3. Dubbel oberoende AI-granskning.</strong> En andra, oberoende modell kontrollerar extraktionen innan publicering. Vid oenighet går ärendet till manuell granskning.</p>
-    <p><strong style="color:var(--ink)">4. Källarkivering.</strong> Varje protokoll som citeras skickas samtidigt till Wayback Machine. Om originalet senare ändras eller tas bort finns beviset kvar.</p>
+    <p><strong style="color:var(--ink)">3. Oberoende AI-granskning.</strong> En andra AI-modell kontrollerar extraktionen innan publicering, med en egen, annorlunda utformad prompt som aktivt letar fel snarare än att bekräfta. Vid oenighet går ärendet till manuell granskning. <em>(För närvarande avstängt i väntan på en andra modellleverantör — verbatimgrinden i steg 2 är opåverkad av detta och gäller alltid.)</em></p>
+    <p><strong style="color:var(--ink)">4. Källarkivering via git.</strong> Varje nedladdat protokoll committas till den offentliga git-historiken tillsammans med resten av datan. En commit-pinnad länk fungerar som arkiverad kopia — om originalet hos kommunen senare ändras eller tas bort finns beviset kvar i repots egen, omanipulerbara historik. Inget beroende av en extern tredje part.</p>
     <p><strong style="color:var(--ink)">5. Git som databas.</strong> All data lever som versionerade filer, aldrig i en dold databas. Hela historiken är offentlig och granskbar.</p>
     <p><strong style="color:var(--ink)">6. Alla initiativtyper, inte bara motioner.</strong> Motion, interpellation, enkel fråga, medborgarförslag, initiativärende och nämndens/kommunstyrelsens egna förslag bevakas med identisk metod. En tjänst som bara visade motioner skulle osynliggöra merparten av majoritetens faktiska beslutsfattande.</p>
   </div>`;
@@ -683,6 +793,12 @@ function render(){
   } else if(route.startsWith('/parti/')){
     const kod = route.split('/parti/')[1];
     app.innerHTML = viewParti(kod);
+  } else if(route.startsWith('/namnd/')){
+    const slug = route.split('/namnd/')[1];
+    app.innerHTML = viewNamnd(slug);
+  } else if(route === '/sok'){
+    app.innerHTML = viewSok();
+    document.querySelector('nav.site a[data-route="/sok"]').classList.add('active');
   } else if(route === '/metod'){
     app.innerHTML = viewMetod();
     document.querySelector('nav.site a[data-route="/metod"]').classList.add('active');
