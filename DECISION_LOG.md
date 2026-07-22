@@ -510,3 +510,36 @@ minnessystem (inte i det här repot) om att lägga fram samlade planer med
 motivering istället för sekventiella delval vid framtida tekniska
 projekt. Ett jargonfritt referensdokument om GitHub/GitHub Actions/Netlify
 levererades samtidigt till ägaren, för att fylla kunskapsluckan direkt.
+
+## 2026-07-22 — GitHub Pages aktiverad som gratis, kreditfri reserv
+
+Bakgrund: en kostnadsdiskussion med ägaren avslöjade att Netlify bytte till
+en kreditbaserad prismodell i september 2025 (efter min kunskapsgräns) —
+gratisnivån är nu ~15 GB bandbredd/månad (300 krediter, 20 kr/GB) snarare
+än den tidigare mer generösa 100 GB-modellen, och deploys kostar också
+krediter (15 st). Vid överskriden gräns går sajten OFFLINE tills nästa
+månad snarare än att fakturera — en risk för en civic-tech-tjänst om
+trafiktoppar (t.ex. kring ett omdebatterat beslut) skulle sammanfalla med
+slut på krediter.
+
+Löst genom att aktivera GitHub Pages som en helt gratis, obegränsad
+(publikt repo) reserv — exakt vad spec §2 punkt 5 ursprungligen
+efterlyste ("tre parallella deploys"). `.github/workflows/weekly-pipeline.yml`
+uppdaterad: nya `pages`/`id-token`-permissions, tre nya steg
+(configure-pages, upload-pages-artifact, deploy-pages) EFTER commit-stegen,
+medvetet UTAN `if: changed`-villkor (till skillnad från Netlify som redan
+sköter sig själv via sin egen GitHub-integration) — Pages ska alltid
+spegla den redan committade `dist/`-mappen oavsett om just den körningen
+hittade ny data, annars hade Pages aldrig hunnit ikapp vid denna första
+aktivering.
+
+**Manuellt UI-steg krävdes av ägaren** (samma mönster som workflow-filen
+tidigare): fine-grained PAT saknar behörighet att ändra Pages-inställningar
+via API (`403 Resource not accessible`, samma familj av begränsning som
+workflow-filerna). Ägaren satte Source: GitHub Actions själv i
+Settings → Pages, jag förberedde och laddade upp den uppdaterade
+workflow-filen.
+
+**Verifierat i skarp drift:** körning lyckades, alla tre nya steg gröna.
+Live på `https://knarrbyn.github.io/Kommundata/`, oberoende av Netlifys
+infrastruktur och kreditsystem helt.
