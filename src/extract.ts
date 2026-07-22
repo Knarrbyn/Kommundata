@@ -141,6 +141,7 @@ KRITISKA REGLER (invarianter från spec v1.6):
 - R9: interpellationer/enkla frågor har ALDRIG decision eller voting annat än null — sätt dem explicit till null, lämna dem inte odefinierade.
 - R10: initiativärenden (kommunallagen 4 kap §20) kan stanna helt inom en instans (t.ex. bara kommunstyrelsen) — anta inte att de eskalerar till KF. Reservation ska ENDAST sättas när protokollet uttryckligen skriver "Reservation", inte bara för att en sida förlorade en omröstning — förlorare skriver ofta bara "Anteckning" istället.
 - Om ett ärende bara har en informationspunkt utan beslutskaraktär (t.ex. "Information"), hoppa över det helt — det är inte ett ärende enligt G6.
+- R11 (spec v1.7, ägarbeslut 2026-07-22): AVSÄGELSER av uppdrag och KOMPLETTERINGSVAL/fyllnadsval (t.ex. "Avsägelse av uppdrag som ledamot i...", "Kommunalt kompletteringsval – Ledamot i... efter...") ska INTE extraheras som ärenden, oavsett att de är formella beslutspunkter. De saknar den sortens politiska sakfråga-karaktär som Faktagranskaren är byggd kring, och passar ingen av de sex initiativ_typ-kategorierna (motion, interpellation, enkel_fraga, medborgarforslag, styrelseforslag, initiativarende). Hoppa över dem helt, precis som rena informationspunkter.
 
 Protokollreferens för detta dokument: ${context.protocolRef}
 Datum: ${context.date}

@@ -417,3 +417,25 @@ poster till manuell granskning denna körning" istället för att peka på
 2026-07-20-kvarlevan. GitHub Actions-schemaläggningen är därmed fullt
 verifierad i skarp drift: repo, secrets, manuell körning, och den
 schemalagda cron-körningen (0 6 * * 1, måndagar) redo att ta vid.
+
+## 2026-07-22 — initiativ_typ-luckan löst: R11, väg B (exkludera, ingen ny kategori)
+
+Ägarbeslut, efter genomgång av alternativen: de sex befintliga
+`initiativ_typ`-kategorierna räcker. Avsägelser av uppdrag och kommunala
+kompletteringsval/fyllnadsval (7 av 22 ärenden i KF 2026-03-25 — nästan en
+tredjedel av ett typiskt möte) exkluderas nu HELT ur scope, på samma sätt
+som rena informationspunkter redan exkluderades. `src/extract.ts`
+uppdaterad med en ny R11-regel i prompten. Ingen kodstrukturell ändring
+(bara prompttext), 116/116 tester fortsatt gröna.
+
+**Inte live-verifierat ännu** — ingen ANTHROPIC_API_KEY tillgänglig i den
+här sessionen för en skarp omkörning mot samma 2026-03-25-data. Nästa
+riktiga extract-körning (skarpt, via GitHub Actions eller manuellt) blir
+det facto-testet av att modellen faktiskt respekterar R11.
+
+Ägaren har samtidigt beslutat att betrakta Faktagranskaren som en
+FRISTÅENDE app, utan ytterligare arkitektur-återanvändning mot andra
+planerade civic-tech-appar (Grön Väg-uppföljaren visade sig i produktsamtal
+vara en helt orelaterad reseplanerare för elbilsresor, inte civic-tech —
+hör inte hemma i den här familjen alls). Detta var den sista öppna punkten
+i den överenskomna prioritetsordningen för att "bli klar" med appen.
