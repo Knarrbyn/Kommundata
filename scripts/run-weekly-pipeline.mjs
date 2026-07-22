@@ -134,7 +134,17 @@ async function main() {
         `INTE ett fel i sig, men värt att vara medveten om.`
     );
   }
-  newMeetings.sort((a, b) => a.date.localeCompare(b.date)); // äldst först, konsekvent med backfill
+  // NYAST FÖRST (fixat 2026-07-22, efter en skarp körning som avslöjade
+  // designfelet): veckopipelinens jobb är att hålla sajten AKTUELL. Med
+  // relativ-URL-fixen (se DECISION_LOG.md) visade det sig att alla
+  // instanser plötsligt hade hundratals "nya" möten (757 totalt, eftersom
+  // seen.json var tomt) — med den GAMLA äldst-först-sorteringen bearbetade
+  // första körningen 15 möten från 2018 istället för de senaste. Äldst
+  // först är rätt för `run-backfill.mjs` (dess uttryckliga jobb är att
+  // fylla på historik kronologiskt), men fel här — här ska de mest
+  // AKTUELLA mötena prioriteras, så sajten känns aktuell även under de
+  // veckor det tar att (om man vill) fylla på resten via backfill separat.
+  newMeetings.sort((a, b) => b.date.localeCompare(a.date));
   const cappedMeetings = newMeetings.slice(0, MAX_NEW_MEETINGS_PER_RUN);
 
   // Diagnostikfil, ALLTID skriven — samma resonemang som i

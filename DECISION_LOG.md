@@ -740,3 +740,40 @@ genom hela sessionen — inte bara dagens backfill-försök, utan även de
 allra första skarpa veckokörningarna tidigare idag. De var förmodligen
 ALDRIG genuint "inget nytt", utan strukturellt trasiga hela tiden, ända
 sedan den första skarpa driftsättningen.
+
+## 2026-07-22 — Genombrott bekräftat i skarp drift, men avslöjade ett sorteringsfel
+
+Skarp veckokörning EFTER den relativa URL-fixen (föregående post):
+`success` efter ~28 minuter (konsekvent med att faktiskt bearbeta flera
+riktiga möten). **Total framgång för själva grundfixen:** alla tio
+bevakade instanser hittade nu möten — INTE bara kommunfullmäktige med
+sitt seedMeetingUrl. Det bevisar att rotorsaken (relativa URL:er) var
+den verkliga boven; seedMeetingUrl-fallbacken behövs numera bara om även
+listsidan skulle sluta fungera av någon annan anledning.
+
+**Siffror:** 757 "nya" möten hittade totalt över alla instanser (eftersom
+`data/seen.json` var helt tomt — kommunstyrelsen ensam hade 122,
+vård- och omsorgsnämnden 97, socialnämnden 94, och så vidare). Taket
+(15/körning) fångade upp detta korrekt och blockerade en okontrollerad
+massbearbetning.
+
+**Ett verkligt designfel avslöjades dock:** möten sorterades äldst-först
+(samma logik som redan fanns i `run-backfill.mjs`, kopierad hit utan att
+tänka igenom skillnaden i syfte). Med 757 möten i kön bearbetade den
+här första körningen 15 möten från JANUARI–MARS 2018 — helt fel
+prioritering för en veckopipeline vars jobb är att hålla sajten AKTUELL.
+Fixat: sorteringen är nu NYAST FÖRST i `run-weekly-pipeline.mjs`
+specifikt (`run-backfill.mjs` behåller sin äldst-först-sortering, som är
+rätt för dess syfte — kronologisk historikpåfyllning). Framtida
+veckokörningar kommer nu prioritera de senaste mötena, medan den återstående
+historiska luckan (2018 fram till nu, minus de 15 redan bearbetade)
+lämnas kvar att fyllas på medvetet via `run-backfill.mjs` om/när ägaren
+vill det — inte av misstag via veckopipelinen.
+
+121/121 tester fortsatt gröna.
+
+**Rekommenderat nästa steg (inte gjort än):** kör veckopipelinen en gång
+till nu, med den nya nyast-först-sorteringen, för att bekräfta att den
+faktiskt hämtar in de senaste mötena (t.ex. 2026-05-06 och 2026-06-10 för
+kommunfullmäktige, som vi VET existerar men som ännu inte finns i
+`data/published/arenden.json`).
