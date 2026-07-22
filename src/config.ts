@@ -17,11 +17,28 @@ export interface Committee {
   slug: string;
   name: string;
   confirmed: boolean;
+  /**
+   * KRITISKT (tillagt 2026-07-22, se DECISION_LOG.md): bara listsidan
+   * (/committees/{slug}, utan ett specifikt möte) innehåller INGA
+   * mötalänkar när den hämtas programmatiskt — bekräftat empiriskt i
+   * skarp drift. En ENSKILD mötessida har däremot bevisat en fullständig
+   * sidmeny med hela historiken. `fetch.ts` faller därför tillbaka på
+   * detta fält om listsidan ger noll träffar. Sätt det till en KÄND,
+   * fungerande mötes-URL för instansen (vilken som helst — gammal eller
+   * ny, sidmenyn har allt). Uppdateras gärna över tid till en nyare känd
+   * URL, men behöver inte — vilken som helst räcker.
+   */
+  seedMeetingUrl?: string;
   note?: string;
 }
 
 export const COMMITTEES: Committee[] = [
-  { slug: "kommunfullmaktige", name: "Kommunfullmäktige", confirmed: true },
+  {
+    slug: "kommunfullmaktige",
+    name: "Kommunfullmäktige",
+    confirmed: true,
+    seedMeetingUrl: "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-01-28",
+  },
   { slug: "kommunstyrelsen", name: "Kommunstyrelsen", confirmed: true },
   { slug: "vard-och-omsorgsnamnden", name: "Vård- och omsorgsnämnden", confirmed: true },
   { slug: "tekniska-namnden", name: "Tekniska nämnden", confirmed: true },

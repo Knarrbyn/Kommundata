@@ -169,3 +169,49 @@ test("fetchNewMeetingsForCommittee: full integrationstest med mockad fetchText, 
     "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-02-25/protocol/protokoll-kf-2026-02-25pdf?downloadMode=open"
   );
 });
+
+/* ============ seedMeetingUrl-fallback (kritiskt fynd 2026-07-22, se DECISION_LOG.md) ============ */
+
+test("fetchNewMeetingsForCommittee: faller tillbaka på seedMeetingUrl om listsidan ger noll mötalänkar", async () => {
+  const committee = {
+    slug: "test-instans",
+    name: "Testinstans",
+    confirmed: true,
+    seedMeetingUrl: "https://sammantradesportal.alingsas.se/committees/test-instans/mote-2026-02-25",
+  };
+  const seen: Record<string, string[]> = {};
+
+  const seedPageHtml = `
+<html><body>
+<a href="https://sammantradesportal.alingsas.se/committees/test-instans/mote-2026-02-25">2026-02-25</a>
+</body></html>`;
+
+  const pages: Record<string, string> = {
+    // Listsidan ger medvetet TOM html (simulerar det bekräftade fyndet).
+    "https://sammantradesportal.alingsas.se/committees/test-instans": "<html><body>Ingen mötalänk här</body></html>",
+    // Seed-sidan har (precis som en riktig mötessida) en mötalänk i sin
+    // sidmeny — här bara en, för att hålla testet enkelt.
+    "https://sammantradesportal.alingsas.se/committees/test-instans/mote-2026-02-25":
+      FIXTURE_MEETING_PAGE_WITH_PROTOCOL_HTML.replace(/kommunfullmaktige/g, "test-instans") + seedPageHtml,
+  };
+  const fetchText = async (url: string) => {
+    if (!(url in pages)) throw new Error(`Oväntad URL i test: ${url}`);
+    return pages[url];
+  };
+
+  const result = await fetchNewMeetingsForCommittee(committee, seen, fetchText);
+  assert.equal(result.length, 1, "ska hitta mötet via seed-sidan trots att listsidan var tom");
+  assert.equal(result[0].date, "2026-02-25");
+});
+
+test("fetchNewMeetingsForCommittee: kastar ett TYDLIGT fel (inte tyst '0 nya möten') om listsidan är tom OCH inget seedMeetingUrl finns", async () => {
+  const committee = { slug: "test-instans-utan-fro", name: "Testinstans utan frö", confirmed: true };
+  const seen: Record<string, string[]> = {};
+  const fetchText = async () => "<html><body>Ingen mötalänk här</body></html>";
+
+  await assert.rejects(
+    () => fetchNewMeetingsForCommittee(committee, seen, fetchText),
+    /seedMeetingUrl/,
+    "felmeddelandet ska förklara att seedMeetingUrl saknas, inte bara ge ett generiskt fel"
+  );
+});

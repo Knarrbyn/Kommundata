@@ -615,3 +615,60 @@ automatiskt (redan befintlig `git status --porcelain`-logik i
 pålitlig väg via GitHub:s contents-API, helt oberoende av att navigera
 Actions-loggarnas UI eller kämpa mot nätverksbegränsningar för
 logg-nedladdning.
+
+## 2026-07-22 — KRITISKT FYND: listsidan saknar mötalänkar, påverkade även veckopipelinen
+
+Bakgrund: första backfill-testkörningen avslutades misstänkt snabbt.
+Den nya diagnostikfilen (se föregående post) avslöjade orsaken:
+`totalRefsOnListingPage: 0` — den BARA listsidan
+(`/committees/{slug}`, utan ett specifikt möte) innehåller INGA
+mötalänkar när den hämtas programmatiskt, trots att en ENSKILD
+mötessida bevisat har en fullständig sidmeny med hela historiken
+(verifierat via `web_fetch` mot `mote-2026-01-28`, som visade länkar
+tillbaka till 2009).
+
+**Detta är allvarligare än bara ett backfill-problem** — `fetch.ts`s
+`fetchNewMeetingsForCommittee` (som ANVÄNDS AV DEN VANLIGA
+VECKOPIPELINEN) hämtar exakt samma listsides-URL. Det betyder att de
+tidigare "lyckade" veckokörningarna som rapporterade "inga nya justerade
+protokoll hittades" möjligen inte var genuint sanna — de kan ha
+misslyckats strukturellt med att upptäcka möten överhuvudtaget, och bara
+RÅKAT se likadana ut som ett äkta "inget nytt"-utfall utåt sett.
+
+**Fixat på två ställen:**
+1. `src/config.ts` — nytt valfritt fält `Committee.seedMeetingUrl`: en
+   känd, fungerande mötes-URL att falla tillbaka på om listsidan ger
+   noll träffar. Satt för `kommunfullmaktige`
+   (`.../mote-2026-01-28`, den URL som redan bevisligen fungerar).
+   **INTE satt för de övriga åtta instanserna** — inga påhittade URL:er;
+   kräver antingen att en riktig sådan hittas manuellt, eller att
+   veckopipelinen råkar bearbeta ett första möte för dem via backfill
+   (vilket automatiskt skulle ge `data/published/arenden.json` ett
+   pdf_url att härleda ett frö ifrån).
+2. `src/fetch.ts` — `fetchNewMeetingsForCommittee` faller nu tillbaka på
+   `committee.seedMeetingUrl` om listsidan ger noll träffar. Om INGET
+   frö finns: kastar ett TYDLIGT fel ("mötesupptäckt ... strukturellt
+   trasig, inte bara 'inget nytt'") istället för att tyst rapportera
+   "0 nya möten" — eftersom de två situationerna (genuint inget nytt vs.
+   trasig upptäckt) annars är omöjliga att skilja åt utifrån, precis det
+   som hände här.
+3. `scripts/run-backfill.mjs` — samma fallback, men härleder i första
+   hand fröet automatiskt ur `data/published/arenden.json` (redan kända
+   pdf_url:er), med ett valfritt femte CLI-/workflow-argument
+   (`seed_meeting_url`) som sista utväg för instanser utan någon
+   tidigare publicerad data alls.
+
+**Två nya regressionstester** i `fetch.test.ts` bevisar både
+fallback-vägen och att avsaknad av frö ger ett tydligt fel, inte en tyst
+felaktig "inget nytt"-rapport. 118/118 tester gröna (upp från 116).
+
+**Kvarstående, viktigt att göra näst:** kör en skarp veckopipeline-körning
+NU (efter denna fix) för `kommunfullmaktige` och jämför mot vad som
+FAKTISKT borde ha hittats sedan senaste kända mötet i den publicerade
+datan (2026-03-25) — om det verkligen dykt upp nya justerade protokoll
+sedan dess (t.ex. 2026-05-06, som vi VET existerar och har protokoll,
+men som ALDRIG kom med i den publicerade datan) bevisar det definitivt
+att tidigare veckokörningar missade riktiga möten. De åtta instanserna
+utan seedMeetingUrl kommer nu larma tydligt istället för att tyst
+rapportera "inget nytt" — vänta er felmeddelanden för dem tills frön
+satts, inte en bugg.

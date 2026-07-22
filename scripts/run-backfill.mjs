@@ -71,6 +71,27 @@ async function callAnthropic({ apiUrl, model, apiKey, prompt, maxTokens }) {
   return textBlock.text;
 }
 
+async function findSeedMeetingUrl(committeeSlug, explicitSeed) {
+  if (explicitSeed) return explicitSeed;
+  try {
+    const publishedRaw = await readFile("data/published/arenden.json", "utf-8");
+    const published = JSON.parse(publishedRaw);
+    for (const arende of published) {
+      for (const step of arende.steps ?? []) {
+        if (step.instance === committeeSlug && step.source?.pdf_url) {
+          // pdf_url: .../committees/{slug}/mote-ÅÅÅÅ-MM-DD/protocol/...pdf?...
+          // → mötessidans egen URL, utan /protocol/-delen.
+          const match = /^(.*\/committees\/[^/]+\/mote-\d{4}-\d{2}-\d{2})\//.exec(step.source.pdf_url);
+          if (match) return match[1];
+        }
+      }
+    }
+  } catch {
+    // data/published/arenden.json finns inte än eller gick inte att läsa — inget frö att härleda.
+  }
+  return null;
+}
+
 async function main() {
   const [, , committeeSlug, startDate, endDate, maxArg] = process.argv;
   const maxPerRun = maxArg ? parseInt(maxArg, 10) : DEFAULT_MAX_PER_RUN;
@@ -111,8 +132,31 @@ async function main() {
   // Hämta EN sida för instansen — sidmenyn på varje mötessida innehåller
   // redan hela historiken (bekräftat till 2009), så en enda hämtning
   // räcker för att harvesta alla datum, oavsett hur långt bak vi vill.
-  const listUrl = `${BASE_URL}/committees/${committeeSlug}`;
-  const listHtml = await fetchText(listUrl);
+  // KRITISKT FYND (2026-07-22, se DECISION_LOG.md): den BARA listsidan
+  // (/committees/{slug}, utan ett specifikt möte) innehåller INGA
+  // mötalänkar alls när den hämtas programmatiskt — bekräftat empiriskt
+  // via en skarp körning (totalRefsOnListingPage: 0), trots att en
+  // ENSKILD mötessida bevisat innehåller en fullständig sidmeny med hela
+  // historiken (bekräftat via web_fetch mot en riktig mötessida). Detta
+  // påverkar sannolikt ÄVEN den vanliga veckopipelinen (fetch.ts
+  // använder samma listsides-URL) — flaggat separat, se DECISION_LOG.md.
+  //
+  // Lösning här: använd en KÄND mötessida som "frö" istället för
+  // listsidan. Härled den i första hand ur redan publicerad data
+  // (data/published/arenden.json — pdf_url pekar mot en mötessida vi vet
+  // fungerar), annars kräv ett explicit femte CLI-argument.
+  const seedMeetingUrl = await findSeedMeetingUrl(committeeSlug, process.argv[6]);
+  if (!seedMeetingUrl) {
+    console.error(
+      `Kunde inte hitta en känd mötes-URL för "${committeeSlug}" i data/published/arenden.json, ` +
+        `och inget frö angavs som femte argument. Ange en känd mötes-URL manuellt, t.ex.:\n` +
+        `  node --experimental-strip-types scripts/run-backfill.mjs ${committeeSlug} ${startDate} ${endDate} ${maxPerRun} ` +
+        `${BASE_URL}/committees/${committeeSlug}/mote-ÅÅÅÅ-MM-DD`
+    );
+    process.exit(1);
+  }
+  console.error(`Använder känd mötessida som frö: ${seedMeetingUrl}`);
+  const listHtml = await fetchText(seedMeetingUrl);
   const allRefs = extractMeetingRefs(committeeSlug, listHtml);
   console.error(`Hittade ${allRefs.length} möten totalt i sidmenyn (alla år).`);
 

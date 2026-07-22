@@ -128,7 +128,30 @@ export async function fetchNewMeetingsForCommittee(
 ): Promise<MeetingWithProtocol[]> {
   const listUrl = `${BASE_URL}/committees/${committee.slug}`;
   const listHtml = await fetchText(listUrl);
-  const allRefs = extractMeetingRefs(committee.slug, listHtml);
+  let allRefs = extractMeetingRefs(committee.slug, listHtml);
+
+  // KRITISKT FYND (2026-07-22, se DECISION_LOG.md): listsidan har visat
+  // sig sakna mötalänkar helt i skarp drift (bekräftat empiriskt, inte
+  // bara en teoretisk risk) — troligen renderas den olikt en enskild
+  // mötessida. Enskilda mötessidor har bevisat en fullständig sidmeny
+  // med hela historiken, så om listsidan ger NOLL träffar faller vi
+  // tillbaka på en känd mötes-URL (`committee.seedMeetingUrl`) istället.
+  // Om inget frö är satt för instansen: logga tydligt (INTE bara "0 nya
+  // möten", som osynliggör att UPPTÄCKTEN misslyckades strukturellt,
+  // skiljt från det normala "inget nytt sedan sist").
+  if (allRefs.length === 0) {
+    if (committee.seedMeetingUrl) {
+      const seedHtml = await fetchText(committee.seedMeetingUrl);
+      allRefs = extractMeetingRefs(committee.slug, seedHtml);
+    } else {
+      throw new Error(
+        `Listsidan (${listUrl}) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för ` +
+          `"${committee.slug}" — mötesupptäckt för denna instans är strukturellt trasig, inte bara ` +
+          `"inget nytt". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen.`
+      );
+    }
+  }
+
   const newRefs = diffNewMeetings(allRefs, seen);
 
   const results: MeetingWithProtocol[] = [];
