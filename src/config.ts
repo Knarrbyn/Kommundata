@@ -33,11 +33,13 @@ export const COMMITTEES: Committee[] = [
   {
     slug: "samhallsbyggnadsnamnden",
     name: "Samhällsbyggnadsnämnden",
-    confirmed: false,
-    note: "Ej bekräftad som egen nämnd under research — 'samhällsbyggnadsförvaltningen' " +
-      "förekommer ofta som BEREDANDE förvaltning i ärenden som sedan avgörs av tekniska " +
-      "nämnden, bygg- och miljönämnden eller direkt av KS/KF. Kan vara att denna nämnd inte " +
-      "finns i Alingsås — verifiera mot /committees innan aktivering.",
+    confirmed: true,
+    note: "Bekräftad 2026-07-22 via webbsökning mot /committees/samhallsbyggnadsnamnden — " +
+      "riktiga möten och protokoll hittade (t.ex. mote-2021-01-25, ett justerat protokoll " +
+      "med diariefört ärende). Nämnden finns alltså på riktigt, till skillnad från vad den " +
+      "tidigare noten misstänkte. Bekräftade samtidigt att arbetsutskottet ligger på en " +
+      "SEPARAT slug (samhallsbyggnadsnamndens-arbetsutskott) — konsekvent med att AU redan " +
+      "medvetet exkluderas i v1 (spec §2.1).",
   },
 ];
 

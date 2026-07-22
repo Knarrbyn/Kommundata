@@ -439,3 +439,54 @@ planerade civic-tech-appar (Grön Väg-uppföljaren visade sig i produktsamtal
 vara en helt orelaterad reseplanerare för elbilsresor, inte civic-tech —
 hör inte hemma i den här familjen alls). Detta var den sista öppna punkten
 i den överenskomna prioritetsordningen för att "bli klar" med appen.
+
+## 2026-07-22 — Tre autonoma förbättringar (ingen ägarinsats krävdes)
+
+Efter att ägaren frågade vilka kvarstående punkter jag kunde åtgärda själv:
+
+**1. `samhallsbyggnadsnamnden` verifierad.** Websökning bekräftade riktiga
+möten/protokoll under `/committees/samhallsbyggnadsnamnden` (t.ex.
+mote-2021-01-25). `confirmed: false` → `true` i `config.ts`, med
+källhänvisning. Bekräftade samtidigt att arbetsutskottet ligger på en
+separat slug, konsekvent med att AU redan medvetet exkluderas.
+
+**2. Repo-städning.** Alla utvecklings-/smoke-test-artefakter (från
+2026-07-20, innan pipelinen automatiserades) flyttade till
+`dev-artifacts/2026-07-20-smoke-test/` med en förklarande README, istället
+för att ligga blandat med produktionskoden i `data/`. `data/needs_review`,
+`data/ready`, `data/archived`, `data/raw` behåller sin katalogstruktur
+(`.gitkeep`) redo för riktig drift. **Viktigt att komma ihåg:** de 18
+ärendena som fortfarande är publicerade på `faktagranskaren.netlify.app`
+kommer ursprungligen från just den flyttade smoke-test-körningen — se
+`dev-artifacts/README.md` för fullständig spårbarhet.
+
+**3. Två saknade sidor från spec §7 byggda: `/sök` och `/nämnd/[slug]`.**
+Lagt till `viewNamnd(slug)` (alla ärenden med minst ett steg hos en given
+instans, samma kortmönster som `/parti/[kod]`) och `viewSok()`
+(fritextsök i titel+citat, kombinerat med nämnd- och statusfilter).
+Sökfältets input uppdaterar bara resultatlistan via
+`document.getElementById`, inte hela `render()`, för att inte tappa fokus
+i inputfältet vid varje tangenttryckning. Nämndnamnet i varje ärendes
+tidslinje är nu klickbart och länkar till `/namnd/[slug]`. Lade till
+"Sök" i huvudnavigeringen.
+
+**Ett verkligt, live-påverkande fel hittat och fixat under arbetet:**
+`INSTANCE_NAMES` i `templates/site.html` använde understreck
+(`vard_och_omsorgsnamnden`) som nycklar, men både `config.ts` och — viktigast
+— den FAKTISKA skarpa extraherade datan (kontrollerat direkt i
+`data/published/arenden.json`) använder bindestreck
+(`vard-och-omsorgsnamnden`), matchande de riktiga URL-sökvägarna. Det
+betydde att nämndnamn för allt utom de fyra ursprungligen hårdkodade
+instanserna visades som råa, oformaterade slugs på den LIVE sajten redan
+innan denna fix. Rättat och kompletterat till alla nio bevakade instanser.
+
+**Även uppdaterat:** `/metod`-sidans beskrivning av arkivering (påstod
+fortfarande Wayback Machine — nu ärligt beskriven som git-baserad) och av
+verify-steget (nu tydligt märkt som tillfälligt avstängt, utan att påstå
+"dubbel oberoende AI-granskning" som om det vore aktivt).
+
+**Verifierat:** byggde sajten lokalt med den riktiga publicerade datan,
+körde den injicerade sidans JS i en sandlåda (samma mönster som
+`build.test.ts`), och testade `viewNamnd`/`viewSok` direkt — båda
+fungerar, okänd nämnd-slug hanteras snyggt utan krasch. 116/116 tester
+fortsatt gröna.
