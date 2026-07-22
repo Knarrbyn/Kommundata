@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-07-22T19-26-51-984Z",
+  "committeesChecked": [
+    "kommunfullmaktige",
+    "kommunstyrelsen",
+    "vard-och-omsorgsnamnden",
+    "tekniska-namnden",
+    "kultur-och-utbildningsnamnden",
+    "socialnamnden",
+    "barn-och-ungdomsnamnden",
+    "bygg-och-miljonamnden",
+    "overformyndarnamnden",
+    "samhallsbyggnadsnamnden"
+  ],
+  "perCommitteeResults": [
+    {
+      "slug": "kommunfullmaktige",
+      "foundCount": 0,
+      "error": null
+    },
+    {
+      "slug": "kommunstyrelsen",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/kommunstyrelsen) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"kommunstyrelsen\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "vard-och-omsorgsnamnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"vard-och-omsorgsnamnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "tekniska-namnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/tekniska-namnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"tekniska-namnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "kultur-och-utbildningsnamnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"kultur-och-utbildningsnamnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "socialnamnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/socialnamnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"socialnamnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "barn-och-ungdomsnamnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"barn-och-ungdomsnamnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "bygg-och-miljonamnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"bygg-och-miljonamnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "overformyndarnamnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/overformyndarnamnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"overformyndarnamnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    },
+    {
+      "slug": "samhallsbyggnadsnamnden",
+      "foundCount": 0,
+      "error": "Listsidan (https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för \"samhallsbyggnadsnamnden\" — mötesupptäckt för denna instans är strukturellt trasig, inte bara \"inget nytt\". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen."
+    }
+  ],
+  "diagFetchProbe": {
+    "seedUrl": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-01-28",
+    "htmlLength": 146169,
+    "htmlSnippet": "\r\n\r\n<!doctype html>\r\n<html class=\"no-js\" lang=\"sv\">\r\n<head>\r\n    \r\n\r\n  <meta charset=\"utf-8\" />\r\n  \r\n  <meta name=\"description\" content=\"Alstr&#246;merteatern, Alstr&#246;mergymnasiet\" />\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n  \r\n  <meta name=\"viewport\" content=\"width=device-width,height=device-height, initial-scale=1\" /> \r\n    <title>M&#246;te 2026-01-28 | MeetingPlus [sv]</title>\r\n    \r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"//fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin-ext\">\r\n    <link href=\"/bundles/web-app-styles.css?v=diXXUQ17oAGnKgl11whxhtwnZRA5erIQAG4cwOjMAfw1\" rel=\"stylesheet\"/>\r\n\r\n\r\n    <script src=\"/bundles/libraries.js?v=DiUf-_ZOYsFfPBaqmToqQLPMFct5Ix1aBmcYeV45aDw1\"></script>\r\n\r\n    <script>cssVars({ onlyLegacy: true });</script>",
+    "containsMoteString": true,
+    "containsKommunfullmaktigeString": true
+  },
+  "totalNewMeetingsFound": 0,
+  "cappedAtThisRun": false,
+  "maxPerRun": 15,
+  "meetingsThisRun": []
+}
