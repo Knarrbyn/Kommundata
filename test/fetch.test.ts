@@ -172,6 +172,31 @@ test("fetchNewMeetingsForCommittee: full integrationstest med mockad fetchText, 
 
 /* ============ seedMeetingUrl-fallback (kritiskt fynd 2026-07-22, se DECISION_LOG.md) ============ */
 
+test("extractMeetingRefs: hittar möten även med RELATIVA länkar (utan domän-prefix) — kritiskt fynd 2026-07-22, se DECISION_LOG.md", () => {
+  const html = `
+<html><body>
+<a href="/committees/kommunfullmaktige/mote-2026-06-10">2026-06-10</a>
+<a href="/committees/kommunfullmaktige/mote-2026-05-06">2026-05-06</a>
+</body></html>`;
+  const refs = extractMeetingRefs("kommunfullmaktige", html);
+  assert.equal(refs.length, 2);
+  assert.deepEqual(
+    refs.map((r) => r.date).sort(),
+    ["2026-05-06", "2026-06-10"]
+  );
+  // meetingUrl ska alltid vara ABSOLUT i resultatet, oavsett källformat.
+  assert.ok(refs[0].meetingUrl.startsWith("https://sammantradesportal.alingsas.se/"));
+});
+
+test("extractProtocolPdfUrl: hittar och absolutiserar en RELATIV protokollänk", () => {
+  const html = `<a href="/committees/kommunfullmaktige/mote-2026-02-25/protocol/protokoll-kf-2026-02-25pdf?downloadMode=open">Öppna protokoll</a>`;
+  const url = extractProtocolPdfUrl("kommunfullmaktige", "2026-02-25", html);
+  assert.equal(
+    url,
+    "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-02-25/protocol/protokoll-kf-2026-02-25pdf?downloadMode=open"
+  );
+});
+
 test("fetchNewMeetingsForCommittee: faller tillbaka på seedMeetingUrl om listsidan ger noll mötalänkar", async () => {
   const committee = {
     slug: "test-instans",

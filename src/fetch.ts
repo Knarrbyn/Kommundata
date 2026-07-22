@@ -39,10 +39,20 @@ const MEETING_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 /**
  * Extraherar unika mötesreferenser (datum + url) för en instans ur den
  * hämtade sidans råtext (HTML).
+ *
+ * VIKTIGT FYND (2026-07-22, se DECISION_LOG.md): sidans länkar visade sig
+ * vara RELATIVA (t.ex. `href="/committees/kommunfullmaktige/mote-2026-01-28"`)
+ * i den råa HTML:en som en vanlig `fetch()` faktiskt får, INTE fullständiga
+ * URL:er med domän. Tidigare antogs alltid fullständiga URL:er, baserat på
+ * hur `web_fetch` (Claude:s eget verktyg, som tycks normalisera länkar till
+ * absoluta vid HTML→markdown-konvertering) visade sidan — aldrig verifierat
+ * mot ett riktigt `fetch()`-svar förrän en skarp körning avslöjade att 0
+ * möten hittades trots att sidan bevisligen innehöll rätt text. BASE_URL-
+ * prefixet är därför nu VALFRITT i mönstret — matchar båda formerna.
  */
 export function extractMeetingRefs(committeeSlug: string, html: string): MeetingRef[] {
   const pattern = new RegExp(
-    `${escapeRegex(BASE_URL)}/committees/${escapeRegex(committeeSlug)}/mote-(\\d{4}-\\d{2}-\\d{2})(?![\\w/-])`,
+    `(?:${escapeRegex(BASE_URL)})?/committees/${escapeRegex(committeeSlug)}/mote-(\\d{4}-\\d{2}-\\d{2})(?![\\w/-])`,
     "g"
   );
   const seen = new Set<string>();
@@ -76,12 +86,15 @@ export function extractMeetingRefs(committeeSlug: string, html: string): Meeting
  */
 export function extractProtocolPdfUrl(committeeSlug: string, date: string, html: string): string | null {
   const pattern = new RegExp(
-    `${escapeRegex(BASE_URL)}/committees/${escapeRegex(committeeSlug)}/mote-${escapeRegex(date)}` +
+    `(?:${escapeRegex(BASE_URL)})?/committees/${escapeRegex(committeeSlug)}/mote-${escapeRegex(date)}` +
       `/protocol/[^"'\\s)>]+?pdf(?:\\?downloadMode=open)?`,
     "i"
   );
   const match = pattern.exec(html);
-  return match ? match[0] : null;
+  if (!match) return null;
+  // Om matchningen var relativ (inget domän-prefix), gör den absolut —
+  // resten av pipelinen (download.ts m.fl.) förväntar sig fullständiga URL:er.
+  return match[0].startsWith("http") ? match[0] : `${BASE_URL}${match[0]}`;
 }
 
 function escapeRegex(s: string): string {

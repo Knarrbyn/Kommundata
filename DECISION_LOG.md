@@ -702,3 +702,41 @@ GitHub:s contents-API istället för att förlita sig på Actions-loggarnas
 UI (som visat sig svåra att komma åt både för ägaren och för mig).
 
 118/118 tester fortsatt gröna.
+
+## 2026-07-22 — GRUNDORSAK HITTAD: relativa URL:er, inte JS-rendering
+
+Uppföljning av föregående post (kommunfullmäktige fick 0 träffar trots
+satt seedMeetingUrl). Riktad diagnostik (`diagFetchProbe` i
+`run-weekly-pipeline.mjs`, borttagen igen efter användning) visade:
+sidan var INTE tom (146 169 tecken), och både "mote-" och
+"kommunfullmaktige" förekom i den råa HTML:en — men klassen
+`<html class="no-js">` ledde först till en felaktig JS-rendering-hypotes.
+
+**Verklig orsak:** länkarna i den råa HTML:en (det en vanlig `fetch()`
+faktiskt får) är RELATIVA (`/committees/kommunfullmaktige/mote-...`),
+inte fullständiga URL:er med domän. Alla tre regex-baserade
+extraktionsfunktioner (`extractMeetingRefs`, `extractProtocolPdfUrl` i
+`fetch.ts`, `extractAgendaBilagaLinks` i `download.ts`) krävde tidigare
+ett hårdkodat `https://sammantradesportal.alingsas.se`-prefix och missade
+därför ALLA relativa länkar helt.
+
+**Viktig metod-lärdom:** detta antagande hade ALDRIG genuint bevisats
+mot pipelinens egen `fetch()`-kod. Varje tidigare "lyckad" testkörning av
+just dessa funktioner (dokumenterat i tidigare README-poster som
+"Liveresultat") kördes mot HTML hämtad via `web_fetch` (Claude:s eget
+verktyg i konversationen) — som tycks normalisera relativa länkar till
+absoluta vid sin HTML-till-markdown-konvertering. Det gav en falsk
+trygghet: koden "fungerade" i varje tidigare test, men aldrig mot den
+faktiska formen av data pipelinens egen körtidsmiljö faktiskt möter.
+
+**Fixat:** domän-prefixet är nu VALFRITT i alla tre regex-mönster,
+resultatet absolutiseras alltid innan det returneras (resten av
+pipelinen, t.ex. `fetchBinary`, förutsätter fullständiga URL:er). Tre
+nya regressionstester bevisar specifikt det relativa fallet.
+121/121 tester gröna (upp från 118).
+
+**Detta förklarar sannolikt HELA mönstret** av "0 nya möten"-resultat
+genom hela sessionen — inte bara dagens backfill-försök, utan även de
+allra första skarpa veckokörningarna tidigare idag. De var förmodligen
+ALDRIG genuint "inget nytt", utan strukturellt trasiga hela tiden, ända
+sedan den första skarpa driftsättningen.

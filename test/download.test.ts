@@ -123,3 +123,13 @@ test("downloadMeetingFiles: laddar ner protokoll + samtliga bilagor, skriver til
   // Totalt 4 nätverksanrop (1 protokoll + 3 bilagor), inte fler (bevisar dedupe funkade)
   assert.equal(fetchedUrls.length, 4);
 });
+
+test("extractAgendaBilagaLinks: hittar och absolutiserar RELATIVA bilagalänkar (utan domän-prefix) — kritiskt fynd 2026-07-22", () => {
+  const html = `<a href="/welcome-sv/namnder-styrelser/kommunfullmaktige/mote-2026-01-28/agenda/ss228-ks-revidering-av-foretagspolicy-for-alingsas-kommunkoncernpdf?downloadMode=open">Bilaga</a>`;
+  const refs = extractAgendaBilagaLinks(html);
+  assert.equal(refs.length, 1);
+  assert.ok(
+    refs[0].url.startsWith("https://sammantradesportal.alingsas.se/"),
+    "url ska absolutiseras även när källan var relativ"
+  );
+});

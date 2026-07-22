@@ -39,8 +39,11 @@ export interface DownloadedMeeting {
   bilagaPaths: string[];
 }
 
+// VIKTIGT FYND (2026-07-22, se DECISION_LOG.md): samma sak som i fetch.ts —
+// länkar i den råa HTML:en en vanlig fetch() faktiskt får kan vara RELATIVA
+// (utan domän-prefix). Domänen är därför valfri i mönstret nedan.
 const AGENDA_BILAGA_RE =
-  /https:\/\/sammantradesportal\.alingsas\.se\/welcome-sv\/namnder-styrelser\/[^"'\s)>]+?\/agenda\/([^"'\s)>/]+?pdf(?:-\d+)?)(?:\?downloadMode=open)?/g;
+  /(?:https:\/\/sammantradesportal\.alingsas\.se)?\/welcome-sv\/namnder-styrelser\/[^"'\s)>]+?\/agenda\/([^"'\s)>/]+?pdf(?:-\d+)?)(?:\?downloadMode=open)?/g;
 
 /**
  * Extraherar alla enskilda kallelsebilaga-PDF:er från en mötessidas råtext.
@@ -53,7 +56,7 @@ export function extractAgendaBilagaLinks(html: string): BilagaRef[] {
   let match: RegExpExecArray | null;
   AGENDA_BILAGA_RE.lastIndex = 0;
   while ((match = AGENDA_BILAGA_RE.exec(html)) !== null) {
-    const fullUrl = match[0];
+    const fullUrl = match[0].startsWith("http") ? match[0] : `https://sammantradesportal.alingsas.se${match[0]}`;
     if (seen.has(fullUrl)) continue;
     seen.add(fullUrl);
     const slug = match[1];
