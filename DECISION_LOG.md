@@ -672,3 +672,33 @@ att tidigare veckokörningar missade riktiga möten. De åtta instanserna
 utan seedMeetingUrl kommer nu larma tydligt istället för att tyst
 rapportera "inget nytt" — vänta er felmeddelanden för dem tills frön
 satts, inte en bugg.
+
+## 2026-07-22 — Kostnadstak retroaktivt tillagt i veckopipelinen (nära missöde)
+
+Direkt efter seedMeetingUrl-fixen (föregående post) triggades en skarp
+veckokörning för att verifiera fixen. Innan resultatet hanns kollas
+insåg jag ett verkligt hål: veckopipelinen (till skillnad från
+`run-backfill.mjs`) hade INGET tak på hur många "nya" möten den fick
+bearbeta per körning. Eftersom `data/seen.json` var helt tomt, och
+seedMeetingUrl-fallbacken kan hitta en instans hela historik (potentiellt
+över hundra möten tillbaka till 2009), fanns en verklig risk att
+körningen skulle försöka bearbeta ALLA dessa i en enda, mycket lång och
+kostsam körning. Försökte avbryta via API men hann inte — körningen hade
+redan slutförts (på 34 sekunder, vilket i efterhand visar att inget
+faktiskt bearbetades den gången: `data/seen.json` förblev `{}`).
+
+**Ingen skada skedd denna gång, men en verklig konstruktionslucka.**
+Fixat retroaktivt: `MAX_NEW_MEETINGS_PER_RUN = 15` i
+`run-weekly-pipeline.mjs`, mötena sorteras äldst-först och kapas till
+taket innan bearbetning påbörjas, med en tydlig varning i loggen om
+kapning sker. Samma princip som redan fanns i `run-backfill.mjs`, bara
+tidigare inte tillämpad på veckopipelinen eftersom risken inte fanns
+förrän seedMeetingUrl-fallbacken introducerades.
+
+**Även tillagt:** en alltid skriven diagnostikfil
+(`data/weekly-run-log/{tidsstämpel}.json`) för veckopipelinen, samma
+mönster som backfill — oberoende, pålitlig felsökningsväg via
+GitHub:s contents-API istället för att förlita sig på Actions-loggarnas
+UI (som visat sig svåra att komma åt både för ägaren och för mig).
+
+118/118 tester fortsatt gröna.

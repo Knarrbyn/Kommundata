@@ -94,8 +94,23 @@ async function main() {
   const seen = await loadSeen(SEEN_FILE, (p) => readFile(p, "utf-8"));
   const confirmedCommittees = COMMITTEES.filter((c) => c.confirmed);
 
+  // KOSTNADSTAK (tillagt 2026-07-22, se DECISION_LOG.md): innan
+  // seedMeetingUrl-fixen fanns ingen risk att en enda körning skulle
+  // hitta orimligt många "nya" möten (listsidan visade bara ett fåtal
+  // aktuella möten). Nu när en instans kan falla tillbaka på en
+  // mötessidas fullständiga historik (potentiellt tillbaka till 2009)
+  // MÅSTE veckopipelinen ha samma sorts hårda tak som backfill redan
+  // har — annars kan en instans med tomt seen.json (t.ex. första
+  // körningen efter att ett nytt seedMeetingUrl satts) plötsligt försöka
+  // bearbeta hundratals historiska möten i EN körning, helt oavsiktligt.
+  // Veckopipelinens jobb är att hänga med FRAMÅT, inte fylla på historik
+  // — det är vad `scripts/run-backfill.mjs` finns för, med sitt eget
+  // explicita, manuellt styrda tak.
+  const MAX_NEW_MEETINGS_PER_RUN = 15;
+
   console.error(`Söker nya möten hos ${confirmedCommittees.length} bevakade instanser...`);
   const newMeetings = [];
+  let cappedAnyCommittee = false;
   for (const committee of confirmedCommittees) {
     try {
       const found = await fetchNewMeetingsForCommittee(committee, seen, fetchText);
@@ -106,11 +121,47 @@ async function main() {
     }
   }
 
-  if (newMeetings.length === 0) {
+  if (newMeetings.length > MAX_NEW_MEETINGS_PER_RUN) {
+    cappedAnyCommittee = true;
+    console.error(
+      `\n⚠️  ${newMeetings.length} möten hittades, men taket är ${MAX_NEW_MEETINGS_PER_RUN} per körning. ` +
+        `Bearbetar bara de ${MAX_NEW_MEETINGS_PER_RUN} äldsta nu — resten plockas upp i kommande körningar ` +
+        `(veckovis, eller kör scripts/run-backfill.mjs manuellt för snabbare påfyllning). Detta är ett tecken ` +
+        `på att en instans troligen just fått ett nytt seedMeetingUrl och har mycket historik att hämta in — ` +
+        `INTE ett fel i sig, men värt att vara medveten om.`
+    );
+  }
+  newMeetings.sort((a, b) => a.date.localeCompare(b.date)); // äldst först, konsekvent med backfill
+  const cappedMeetings = newMeetings.slice(0, MAX_NEW_MEETINGS_PER_RUN);
+
+  // Diagnostikfil, ALLTID skriven — samma resonemang som i
+  // scripts/run-backfill.mjs (se DECISION_LOG.md 2026-07-22): GitHub
+  // Actions egna loggar har visat sig opålitliga att komma åt både via
+  // webbgränssnittet och via API. En committad fil går alltid att läsa
+  // via contents-API:et, oberoende av det.
+  const runTimestampForDiag = new Date().toISOString().replace(/[:.]/g, "-");
+  await mkdir("data/weekly-run-log", { recursive: true });
+  await writeFile(
+    `data/weekly-run-log/${runTimestampForDiag}.json`,
+    JSON.stringify(
+      {
+        timestamp: runTimestampForDiag,
+        committeesChecked: confirmedCommittees.map((c) => c.slug),
+        totalNewMeetingsFound: newMeetings.length,
+        cappedAtThisRun: cappedAnyCommittee,
+        maxPerRun: MAX_NEW_MEETINGS_PER_RUN,
+        meetingsThisRun: cappedMeetings.map((m) => `${m.committeeSlug} ${m.date}`),
+      },
+      null,
+      2
+    )
+  );
+
+  if (cappedMeetings.length === 0) {
     console.error("\nInga nya justerade protokoll hittades. Klart — inget att publicera denna vecka.");
     return;
   }
-  console.error(`\n${newMeetings.length} nya möten totalt att bearbeta.\n`);
+  console.error(`\n${cappedMeetings.length} möten att bearbeta denna körning${cappedAnyCommittee ? " (kapat, se varning ovan)" : ""}.\n`);
 
   const manifest = [];
   const allNeedsReview = [];
@@ -123,7 +174,7 @@ async function main() {
     writeFile: (p, data) => writeFile(p, data),
   };
 
-  for (const meeting of newMeetings) {
+  for (const meeting of cappedMeetings) {
     console.error(`--- ${meeting.committeeSlug} ${meeting.date} ---`);
     try {
       const meetingUrl = `${BASE_URL}/committees/${meeting.committeeSlug}/mote-${meeting.date}`;
