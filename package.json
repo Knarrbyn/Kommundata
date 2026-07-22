@@ -1,0 +1,25 @@
+{
+  "name": "faktagranskaren-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fetch-steget (spec §5, steg 1) för Faktagranskaren. Node 22 LTS, TypeScript utan build-steg via --experimental-strip-types.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "fetch": "node --experimental-strip-types src/fetch-cli.ts",
+    "download": "node --experimental-strip-types src/download-cli.ts",
+    "extract": "node --experimental-strip-types src/extract-cli.ts",
+    "gates": "node --experimental-strip-types src/gates-cli.ts",
+    "verify": "node --experimental-strip-types src/verify-cli.ts",
+    "archive": "node --experimental-strip-types src/archive-cli.ts",
+    "link": "node --experimental-strip-types src/link-cli.ts",
+    "publish": "node --experimental-strip-types src/publish-cli.ts",
+    "build": "node --experimental-strip-types src/build-cli.ts",
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
+  "dependencies": {
+    "pdf-parse": "^2.4.5"
+  }
+}

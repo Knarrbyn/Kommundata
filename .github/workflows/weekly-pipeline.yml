@@ -1,0 +1,107 @@
+name: Veckovis pipeline-körning
+
+# Spec §5, §6 (teknikval): "GitHub Actions, cron: '0 6 * * 1'" (måndagar).
+# `workflow_dispatch` finns också, så en manuell körning går att trigga
+# från Actions-fliken utan att vänta till nästa måndag — praktiskt för
+# felsökning eller för att testa efter en kodändring.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+# Behövs för att workflowen ska få pusha commits tillbaka till repot
+# (publicerad data + statisk sajt) med det inbyggda GITHUB_TOKEN, utan
+# en separat personal access token.
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checka ut repot
+        uses: actions/checkout@v4
+
+      - name: Sätt upp Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Installera beroenden
+        run: npm ci
+
+      - name: Kör hela pipelinen (fetch → download → extract → gates → verify → archive → link → publish → build)
+        id: pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Frivilliga — se scripts/run-weekly-pipeline.mjs och
+          # DECISION_LOG.md för vad som händer om dessa saknas (verify
+          # hoppas då över helt, git-arkivet är alltid primärt oavsett).
+          VERIFY_API_KEY: ${{ secrets.VERIFY_API_KEY }}
+          VERIFY_API_URL: ${{ secrets.VERIFY_API_URL }}
+          VERIFY_MODEL: ${{ secrets.VERIFY_MODEL }}
+        run: node --experimental-strip-types scripts/run-weekly-pipeline.mjs
+
+      - name: Kontrollera om något faktiskt ändrades
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Committa och pusha ny data + byggd sajt
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ dist/
+          git commit -m "Veckovis pipeline-körning $(date -u +%Y-%m-%d)"
+          git push
+
+      # Sekvensproblemet beskrivet i src/archive.ts: archive-steget (som
+      # redan kört ovan, som en del av run-weekly-pipeline.mjs) kände
+      # ANNU INTE till denna commits SHA när det satte PENDING-markörerna.
+      # Nu när commit precis skett, fyll i de riktiga arkivlänkarna i en
+      # liten uppföljande commit.
+      - name: Fyll i arkivlänkar mot den nyss skapade commit-SHA:n
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          node scripts/fill-archive-urls.mjs
+          git push
+
+      # Netlify (primär hosting, spec §6) är redan kopplat direkt mot detta
+      # repo via Netlifys egen GitHub-integration och deployar automatiskt
+      # vid varje push till standardgrenen — inget extra steg behövs här.
+      #
+      # GitHub Pages som varm reserv (spec §2 punkt 5: "tre parallella
+      # deploys"). Aktiveras genom att slå på Pages i repots Settings
+      # (Source: GitHub Actions) — då används stegen nedan. Kommenterade ut
+      # tills dess, så workflowen inte fallerar på en inte-aktiverad
+      # inställning.
+      #
+      # - name: Ladda upp dist/ som Pages-artefakt
+      #   if: steps.diff.outputs.changed == 'true'
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: dist
+      # - name: Deploya till GitHub Pages
+      #   if: steps.diff.outputs.changed == 'true'
+      #   uses: actions/deploy-pages@v4
+
+      - name: Sammanfattning
+        if: always()
+        run: |
+          echo "### Pipeline-körning $(date -u +%Y-%m-%d)" >> "$GITHUB_STEP_SUMMARY"
+          if [ -d data/needs_review ]; then
+            LATEST_REVIEW=$(ls -t data/needs_review/*.json 2>/dev/null | head -1)
+            if [ -n "$LATEST_REVIEW" ]; then
+              COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$LATEST_REVIEW','utf-8')).length)")
+              echo "- Poster till manuell granskning denna körning: $COUNT ($LATEST_REVIEW)" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi

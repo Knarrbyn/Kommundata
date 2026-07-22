@@ -1,0 +1,908 @@
+[
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2026.113 KS",
+    "id": "a-2026-0001",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-02-18",
+        "decision": "tillstyrker",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Förvaltningen bedömer att det är skäligt att avgift för bårhustransport tas ut av dödsboet i samband med dödsfall utanför sjukhus för patienter som omfattas av kommunal primärvård.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§4 VON 2026-02-18"
+        },
+        "step_id": "vard-avgifter-von-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 28 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§28 KS 2026-03-16"
+        },
+        "step_id": "vard-avgifter-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "1. Vård- och omsorgsnämndens taxor och avgifter antas och börjar gälla från och med den 1 april 2026. 2. Vård- och omsorgsnämnden får för varje kalenderår besluta om att justera taxans avgifter uppåt med maximalt angivna index i taxedokumentet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§63 KF 2026-03-25"
+        },
+        "step_id": "vard-avgifter-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Taxor och avgifter för vård- och omsorgsnämnden 2026"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2026.062 KS",
+    "id": "a-2026-0002",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 29 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§29 KS 2026-03-16"
+        },
+        "step_id": "bygglov-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Bygglovstaxa enligt plan- och bygglagen fastställs och börjar gälla från och med 1 april 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§64 KF 2026-03-25"
+        },
+        "step_id": "bygglov-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bygglovstaxa 2026"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2026.056 KS",
+    "id": "a-2026-0003",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 30 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§30 KS 2026-03-16"
+        },
+        "step_id": "avfall-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Reviderade avfallsföreskrifter med tillägg antas och träder i kraft omedelbart när beslutet har vunnit laga kraft.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§65 KF 2026-03-25"
+        },
+        "step_id": "avfall-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Tillägg i Alingsås kommuns avfallsföreskrifter"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.494 KS",
+    "id": "a-2026-0004",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-02-18",
+        "decision": "tillstyrker",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "AB Alingsås Rådhus har den 18 februari 2026, § 3 behandlat ärendet och beslutat att godkänna de reviderade ägardirektiven.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§3 ABAR 2026-02-18"
+        },
+        "step_id": "energi-abar-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 31 behandlat ärendet och föreslagit att de reviderade ägardirektiven godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§31 KS 2026-03-16"
+        },
+        "step_id": "energi-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "1. Reviderade ägardirektiv för Alingsås Energi AB godkänns. 2. Reviderade ägardirektiv för Alingsås Energi Elnät AB godkänns. 3. Reviderade ägardirektiv för Alingsås Energi Elhandel och Elproduktion AB godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§66 KF 2026-03-25"
+        },
+        "step_id": "energi-kf-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Reviderade ägardirektiv för Alingsås Energi"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2026.076 KS",
+    "id": "a-2026-0005",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 32 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§32 KS 2026-03-16"
+        },
+        "step_id": "avtalssamverkan-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Avtalssamverkan mellan Borås Stad och Alingsås kommun godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§67 KF 2026-03-25"
+        },
+        "step_id": "avtalssamverkan-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Avtalssamverkan mellan Borås Stad och Alingsås kommun - inom miljö- och hälsoskydd, livsmedel, alkohol, tobak och receptfria läkemedel"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2025.259 KS",
+    "id": "a-2026-0006",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 33 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§33 KS 2026-03-16"
+        },
+        "step_id": "hallbarhet-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "1. Hållbarhetspolicy för Alingsås kommun antas, med redaktionell ändring \"fodras\" -> \"fordras\" på sidan 4 och sidan 5. 2. Klimatstrategi för Alingsås kommun 2022-2030 upphävs.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§68 KF 2026-03-25"
+        },
+        "step_id": "hallbarhet-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Hållbarhetspolicy för Alingsås kommun"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2025.317 KS",
+    "id": "a-2025-0001",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Camilla Stensson",
+        "party": "s"
+      },
+      {
+        "name": "Anton César",
+        "party": "s"
+      },
+      {
+        "name": "Anita Hedén Unosson",
+        "party": "s"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-06-11",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Camilla Stensson (S), Anton César (S) och Anita Hedén Unosson (S) har till kommunfullmäktige den 11 juni 2025 lämnat en motion om kommunala ungdomsanställningar.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§143 KF 2025-06-11"
+        },
+        "step_id": "ungdomsanst-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2025-11-12",
+        "decision": "besvarad",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden ansåg motionen besvarad på sitt sammanträde 12 november 2025, § 56.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§56 SN 2025-11-12"
+        },
+        "step_id": "ungdomsanst-sn-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2025-11-19",
+        "decision": "tillstyrker",
+        "instance": "kultur-och-utbildningsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Kultur- och fritidsnämnden tillstyrkte motionen på sitt sammanträde den 19 november 2025, § 115.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§115 KUN 2025-11-19"
+        },
+        "step_id": "ungdomsanst-kun-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 35 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§35 KS 2026-03-16"
+        },
+        "step_id": "ungdomsanst-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "avslag",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Motionen avslås.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§70 KF 2026-03-25"
+        },
+        "step_id": "ungdomsanst-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion gällande kommunala ungdomsanställningar - Camilla Stensson (S), Anton César (S) och Anita Hedén Unosson (S)"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2025.318 KS",
+    "id": "a-2025-0002",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Camilla Stensson",
+        "party": "s"
+      },
+      {
+        "name": "Anton César",
+        "party": "s"
+      },
+      {
+        "name": "Anita Hedén Unosson",
+        "party": "s"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-06-11",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Camilla Stensson (S), Anton César (S) och Anita Hedén Unosson (S) har till kommunfullmäktige den 11 juni 2025 inkommit med en motion om kommunal ersättning till ungdomar inom det kommunala aktivitetsansvaret (KAA).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§145 KF 2025-06-11"
+        },
+        "step_id": "kaa-ersattning-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2025-11-12",
+        "decision": "besvarad",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden ansåg motionen besvarad på sitt sammanträde den 12 november 2025, § 55.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§55 SN 2025-11-12"
+        },
+        "step_id": "kaa-ersattning-sn-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2025-11-19",
+        "decision": "tillstyrker",
+        "instance": "kultur-och-utbildningsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Kultur- och utbildningsnämnden tillstyrkte motionen på sitt sammanträde den 19 november 2025, § 114.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§114 KUN 2025-11-19"
+        },
+        "step_id": "kaa-ersattning-kun-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 36 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§36 KS 2026-03-16"
+        },
+        "step_id": "kaa-ersattning-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "avslag",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Motionen avslås.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§71 KF 2026-03-25"
+        },
+        "step_id": "kaa-ersattning-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion om kommunal ersättning till ungdomar inom det kommunala aktivitetsansvaret (KAA) - Camilla Stensson (S), Anton César (S) och Anita Hedén Unosson (S)"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2025.313 KS",
+    "id": "a-2025-0003",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Heidi Hankanen Ängberg",
+        "party": "c"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-06-11",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Heidi Hankanen Ängberg (C) har till kommunfullmäktige den 11 juni 2025 lämnat in en motion om HBTQI-arbete i Alingsås kommun.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§147 KF 2025-06-11"
+        },
+        "step_id": "hbtqi-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 37 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§37 KS 2026-03-16"
+        },
+        "step_id": "hbtqi-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "besvarad",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Motionen anses besvarad.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§72 KF 2026-03-25"
+        },
+        "step_id": "hbtqi-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion gällande HBTQI-arbete i Alingsås kommun - Heidi Hankanen Ängberg (C)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.447 KS",
+    "id": "a-2025-0004",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Amanda Andersson",
+        "party": "mp"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-09-24",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Amanda Andersson (MP) har till kommunfullmäktige den 24 september 2025 lämnat en motion om att inrätta en kulturbank i kommunen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§205 KF 2025-09-24"
+        },
+        "step_id": "kulturbank-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2025-12-17",
+        "decision": "avstyrker",
+        "instance": "kultur-och-utbildningsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Kultur- och utbildningsnämnden beslutade den 17 december 2025, § 129 att avstyrka motionen att inrätta en kulturbank, samtidigt som nämnden har beslutat att utreda frågan om möjlighet att inordna en kulturbank i samband med pågående ärende om utredning av fritidsbank.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§129 KUN 2025-12-17"
+        },
+        "step_id": "kulturbank-kun-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2026-03-16",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 38 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§38 KS 2026-03-16"
+        },
+        "step_id": "kulturbank-ks-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": "besvarad",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Motionen anses besvarad.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§73 KF 2026-03-25"
+        },
+        "step_id": "kulturbank-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion gällande att inrätta en kulturbank i Alingsås kommun - Amanda Andersson (MP)"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2026.182 KS",
+    "id": "a-2026-0007",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Camilla Stensson",
+        "party": "s"
+      },
+      {
+        "name": "Anton César",
+        "party": "s"
+      },
+      {
+        "name": "Anita Hedén Unosson",
+        "party": "s"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Camilla Stensson (S), Anton César (S) och Anita Hedén Unosson (S) lämnar en motion om att utreda och stärka insatserna inom det kommunala aktivitetsansvaret.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§74 KF 2026-03-25"
+        },
+        "step_id": "kaa-utreda-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2026-03-25",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Motionen lämnas till kommunstyrelsen för beredning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§74 KF 2026-03-25"
+        },
+        "step_id": "kaa-utreda-kf-remiss",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Motion gällande att utreda och stärka insatserna inom det kommunala aktivitetsansvaret - Camilla Stensson (S) med flera"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.162 KS",
+    "id": "a-2026-0008",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Fredrik Bergman",
+        "party": "s"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Fredrik Bergman (S) har i skrivelse den 10 mars 2026 avsagt sig sitt uppdrag som ersättare i kommunstyrelsen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§75 KF 2026-03-25"
+        },
+        "step_id": "avsagelse-bergman-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Avsägelse av uppdrag som ersättare i kommunstyrelsen - Fredrik Bergman (S)"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.183 KS",
+    "id": "a-2026-0009",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Angelika Wais",
+        "party": "v"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Angelika Wais (V) har i skrivelse den 24 mars 2026 avsagt sig sitt uppdrag som ledamot i socialnämnden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§76 KF 2026-03-25"
+        },
+        "step_id": "avsagelse-wais-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Avsägelse av uppdrag som ledamot i socialnämnden - Angelika Wais (V)"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.178 KS",
+    "id": "a-2026-0010",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Anders Hjälm",
+        "party": "v"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Anders Hjälm (V) har i skrivelse den 23 mars 2026 avsagt sig sitt uppdrag som ersättare i socialnämnden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§77 KF 2026-03-25"
+        },
+        "step_id": "avsagelse-hjalm-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Avsägelse av uppdrag som ersättare i socialnämnden - Anders Hjälm (V)"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.181 KS",
+    "id": "a-2026-0011",
+    "initiativ_typ": "initiativarende",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Thomas Martinsson (MP) utses till ledamot i bygg- och miljönämnden, efter Emma Glynn (MP), för tiden fram till och med den 31 december 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§78 KF 2026-03-25"
+        },
+        "step_id": "val-bmn-ledamot-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kommunalt kompletteringsval – Ledamot i bygg- och miljönämnden efter Emma Glynn (MP), Thomas Martinsson (MP)"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.184 KS",
+    "id": "a-2026-0012",
+    "initiativ_typ": "initiativarende",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Anders Hjälm (V) utses till ledamot i socialnämnden, efter Angelika Wais (V), för tiden fram till och med den 31 december 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§79 KF 2026-03-25"
+        },
+        "step_id": "val-sn-ledamot-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kommunalt kompletteringsval – Ledamot i socialnämnden efter Angelika Wais (V), Anders Hjälm (V)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2026-0012 (titel-likhet 0.79) — ej auto-sammanslagen",
+    "category": "demokrati",
+    "diarienummer": "2026.185 KS",
+    "id": "a-2026-0013",
+    "initiativ_typ": "initiativarende",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Angelika Wais (V) utses till ersättare i socialnämnden, efter Anders Hjälm (V), för tiden fram till och med den 31 december 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§80 KF 2026-03-25"
+        },
+        "step_id": "val-sn-ersattare-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kommunalt kompletteringsval – Ersättare i socialnämnden efter Anders Hjälm (V), Angelika Wais (V)"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.180 KS",
+    "id": "a-2026-0014",
+    "initiativ_typ": "initiativarende",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Harriet Ljungdahl (MP) utses till ersättare i valberedningen, efter Amanda Andersson (MP), för tiden fram till och med den 14 oktober 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-03-25/protocol/protokoll-kf-2026-03-25pdf?downloadMode=open",
+          "protocol_ref": "§81 KF 2026-03-25"
+        },
+        "step_id": "val-valberedning-ersattare-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kommunalt kompletteringsval – Ersättare i valberedningen efter Amanda Andersson (MP), Harriet Ljungdahl (MP)"
+  }
+]

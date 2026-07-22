@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faktagranskaren — källspårad bevakning av politiska ärenden i Alingsås</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EEEBE2;
+    --paper-dim:#E4E0D2;
+    --white:#FBFAF6;
+    --ink:#20241F;
+    --ink-soft:#565F53;
+    --ink-faint:#8B9186;
+    --verified:#2F6E5C;
+    --verified-bg:#DCE7DF;
+    --flag:#9C4B2E;
+    --flag-bg:#F1E1D8;
+    --gold:#A97D2E;
+    --gold-bg:#F0E6D2;
+    --line:#C7C2AE;
+    --line-soft:#DAD6C7;
+    --radius:3px;
+    --shadow-card: 0 1px 0 rgba(32,36,31,0.05), 0 1px 3px rgba(32,36,31,0.06);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Source Serif 4', serif;
+    font-size:17px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{ background: var(--gold-bg); }
+  a{ color:inherit; }
+  .ui{ font-family:'Inter', sans-serif; }
+  .mono{ font-family:'IBM Plex Mono', monospace; }
+  .display{ font-family:'Fraunces', serif; }
+
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+  }
+  .header-inner{
+    max-width:1000px; margin:0 auto; padding:18px 24px;
+    display:flex; align-items:baseline; justify-content:space-between; gap:16px;
+    flex-wrap:wrap;
+  }
+  .wordmark{
+    font-family:'Fraunces', serif; font-weight:900; font-size:1.5rem;
+    letter-spacing:-0.01em; text-decoration:none; color:var(--ink);
+    cursor:pointer; display:flex; align-items:baseline; gap:10px;
+  }
+  .wordmark .dot{ color:var(--verified); }
+  .byline{
+    font-family:'Inter', sans-serif; font-size:0.68rem; font-weight:600;
+    letter-spacing:0.09em; text-transform:uppercase; color:var(--ink-soft);
+    text-align:right;
+  }
+  nav.site{
+    max-width:1000px; margin:0 auto; padding:0 24px 14px;
+    display:flex; gap:22px; font-family:'Inter',sans-serif; font-size:0.82rem;
+    font-weight:600; color:var(--ink-soft);
+  }
+  nav.site a{ text-decoration:none; cursor:pointer; padding-bottom:2px; border-bottom:2px solid transparent; }
+  nav.site a.active{ color:var(--ink); border-bottom-color:var(--verified); }
+  nav.site a:hover{ color:var(--ink); }
+
+  main{ max-width:1000px; margin:0 auto; padding:40px 24px 100px; }
+
+  .hero{ padding: 8px 0 36px; border-bottom:1px solid var(--line); margin-bottom:28px; }
+  .hero h1{
+    font-family:'Fraunces', serif; font-weight:600; font-size:2.15rem;
+    line-height:1.18; margin:0 0 14px; max-width:30ch; letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    max-width:58ch; color:var(--ink-soft); font-size:1.05rem; margin:0 0 22px;
+  }
+  .method-strip{
+    display:flex; gap:0; border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; background:var(--white);
+  }
+  .method-strip .cell{
+    flex:1; padding:14px 18px; border-right:1px solid var(--line-soft);
+  }
+  .method-strip .cell:last-child{ border-right:none; }
+  .method-strip .num{
+    font-family:'Fraunces', serif; font-weight:600; font-size:1.5rem; color:var(--verified);
+    display:block; line-height:1;
+  }
+  .method-strip .label{
+    font-family:'Inter', sans-serif; font-size:0.72rem; color:var(--ink-soft);
+    letter-spacing:0.02em; margin-top:5px; display:block;
+  }
+
+  .filter-group{ margin-bottom:14px; }
+  .filter-group-label{
+    font-family:'Inter', sans-serif; font-size:0.66rem; font-weight:700;
+    letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-faint);
+    margin-bottom:8px; display:block;
+  }
+  .filters{
+    display:flex; flex-wrap:wrap; gap:8px;
+    font-family:'Inter', sans-serif; font-size:0.78rem;
+  }
+  .filters button{
+    font-family:inherit; font-size:inherit; font-weight:600;
+    background:var(--white); border:1px solid var(--line); color:var(--ink-soft);
+    padding:7px 13px; border-radius:100px; cursor:pointer;
+    transition:all .12s ease;
+    display:inline-flex; align-items:center; gap:6px;
+  }
+  .filters button .swatch{
+    width:8px; height:8px; border-radius:50%; display:inline-block;
+  }
+  .filters button:hover{ border-color:var(--ink-soft); color:var(--ink); }
+  .filters button.active{ background:var(--ink); color:var(--paper); border-color:var(--ink); }
+  .filters button.active .swatch{ background:var(--paper) !important; }
+  .filters button .count{ color:var(--ink-faint); font-weight:400; }
+  .filters button.active .count{ color:var(--paper); opacity:0.7; }
+
+  .filter-note{
+    font-family:'Inter', sans-serif; font-size:0.76rem; color:var(--ink-faint);
+    margin:10px 0 24px; line-height:1.5; max-width:64ch;
+  }
+
+  .arende-list{ display:flex; flex-direction:column; gap:14px; }
+  .arende-card{
+    background:var(--white); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px 22px; cursor:pointer; box-shadow:var(--shadow-card);
+    transition:border-color .12s ease, transform .12s ease;
+    text-decoration:none; color:inherit; display:block;
+  }
+  .arende-card:hover{ border-color:var(--verified); transform:translateY(-1px); }
+  .card-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:14px; margin-bottom:8px;}
+  .eyebrow-row{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .eyebrow{
+    font-family:'Inter', sans-serif; font-size:0.7rem; font-weight:600;
+    letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-faint);
+  }
+  .type-tag{
+    font-family:'Inter', sans-serif; font-size:0.68rem; font-weight:700;
+    letter-spacing:0.03em; padding:2px 9px 2px 7px; border-radius:100px;
+    display:inline-flex; align-items:center; gap:5px; border:1px solid currentColor;
+  }
+  .type-tag .swatch{ width:7px; height:7px; border-radius:50%; background:currentColor; display:inline-block; }
+  .arende-card h3{
+    font-family:'Fraunces', serif; font-weight:600; font-size:1.28rem; margin:6px 0 10px;
+    line-height:1.28;
+  }
+  .stamp{
+    font-family:'IBM Plex Mono', monospace; font-size:0.66rem; font-weight:600;
+    letter-spacing:0.06em; text-transform:uppercase;
+    padding:4px 9px; border-radius:2px; white-space:nowrap;
+    transform:rotate(-2deg); display:inline-block; border:1.5px solid currentColor;
+  }
+  .stamp.avgjort{ color:var(--verified); background:var(--verified-bg); }
+  .stamp.pagaende{ color:var(--gold); background:var(--gold-bg); }
+
+  .initiators{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; align-items:center; }
+  .party-pill{
+    font-family:'Inter', sans-serif; font-size:0.72rem; font-weight:600;
+    display:inline-flex; align-items:center; gap:5px; color:var(--ink-soft);
+  }
+  .party-pill .dot{ width:8px; height:8px; border-radius:50%; display:inline-block; }
+  .no-initiators{
+    font-family:'Inter', sans-serif; font-size:0.72rem; font-style:italic; color:var(--ink-faint);
+  }
+  .meta-row{
+    display:flex; gap:16px; font-family:'IBM Plex Mono', monospace; font-size:0.74rem;
+    color:var(--ink-faint); flex-wrap:wrap;
+  }
+
+  .back-link{
+    font-family:'Inter', sans-serif; font-size:0.8rem; font-weight:600; color:var(--ink-soft);
+    text-decoration:none; cursor:pointer; display:inline-flex; align-items:center; gap:6px;
+    margin-bottom:20px;
+  }
+  .back-link:hover{ color:var(--ink); }
+  .detail-head{ margin-bottom:30px; }
+  .detail-head h1{
+    font-family:'Fraunces', serif; font-weight:600; font-size:2rem; line-height:1.2;
+    margin:10px 0 14px; letter-spacing:-0.01em;
+  }
+  .detail-meta{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:14px; }
+
+  .timeline{ position:relative; margin-top:8px; }
+  .timeline::before{
+    content:''; position:absolute; left:9px; top:8px; bottom:8px; width:2px;
+    background:var(--line);
+  }
+  .step{ position:relative; padding:0 0 34px 40px; }
+  .step:last-child{ padding-bottom:4px; }
+  .step::before{
+    content:''; position:absolute; left:2px; top:4px; width:16px; height:16px;
+    border-radius:50%; background:var(--paper); border:2.5px solid var(--verified);
+  }
+  .step-head{ margin-bottom:10px; }
+  .step-instance{
+    font-family:'Inter', sans-serif; font-weight:700; font-size:0.95rem; color:var(--ink);
+  }
+  .step-meta{
+    font-family:'IBM Plex Mono', monospace; font-size:0.74rem; color:var(--ink-faint);
+    margin-top:2px;
+  }
+
+  .quote-block{
+    background:var(--white); border:1px solid var(--line-soft); border-left:3px solid var(--verified);
+    border-radius:0 var(--radius) var(--radius) 0; padding:16px 18px; margin:10px 0 12px;
+  }
+  .quote-block blockquote{
+    margin:0 0 12px; font-family:'IBM Plex Mono', monospace; font-size:0.9rem;
+    line-height:1.65; color:var(--ink);
+  }
+  .quote-block blockquote::before{ content:'"'; color:var(--ink-faint); }
+  .quote-block blockquote::after{ content:'"'; color:var(--ink-faint); }
+  .verify-row{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  .verify-stamp{
+    display:inline-flex; align-items:center; gap:6px;
+    font-family:'IBM Plex Mono', monospace; font-size:0.66rem; font-weight:600;
+    letter-spacing:0.05em; text-transform:uppercase; color:var(--verified);
+    border:1.5px solid var(--verified); padding:3px 9px 3px 7px; border-radius:2px;
+    transform:rotate(-1.5deg);
+  }
+  .verify-stamp svg{ width:11px; height:11px; }
+  .source-links{ display:flex; gap:14px; font-family:'Inter', sans-serif; font-size:0.74rem; }
+  .source-links a{ color:var(--ink-soft); text-decoration:underline; text-underline-offset:2px; }
+  .source-links a:hover{ color:var(--ink); }
+
+  .decision-row{
+    display:flex; align-items:center; gap:10px; margin:10px 0; flex-wrap:wrap;
+  }
+  .decision-tag{
+    font-family:'Inter', sans-serif; font-weight:700; font-size:0.82rem;
+    padding:3px 11px; border-radius:100px;
+  }
+  .decision-tag.bifall,.decision-tag.tillstyrker{ background:var(--verified-bg); color:var(--verified); }
+  .decision-tag.avslag,.decision-tag.avstyrker{ background:var(--flag-bg); color:var(--flag); }
+  .decision-tag.delvis,.decision-tag.besvarad,.decision-tag.neutral{ background:var(--gold-bg); color:var(--gold); }
+
+  .voting-box{
+    font-family:'Inter', sans-serif; font-size:0.82rem; background:var(--paper-dim);
+    border:1px solid var(--line-soft); border-radius:var(--radius); padding:12px 16px; margin:10px 0;
+  }
+  .voting-box .q{ color:var(--ink-soft); font-size:0.78rem; margin-bottom:8px; }
+  .voting-tally{ display:flex; gap:18px; font-family:'IBM Plex Mono', monospace; font-weight:600; }
+  .voting-tally span.n{ font-size:1.1rem; }
+  .voting-tally .ja{ color:var(--verified); }
+  .voting-tally .nej{ color:var(--flag); }
+  .voting-note{ color:var(--ink-faint); font-style:italic; font-size:0.8rem; }
+  .no-decision-note{
+    font-family:'Inter', sans-serif; font-size:0.78rem; color:var(--ink-faint); font-style:italic;
+    margin:10px 0;
+  }
+
+  .aside-block{
+    border-left:2px solid var(--line); padding:9px 0 9px 14px; margin:10px 0;
+    font-size:0.92rem; color:var(--ink-soft);
+  }
+  .aside-block .tag{
+    font-family:'Inter', sans-serif; font-weight:700; font-size:0.68rem;
+    text-transform:uppercase; letter-spacing:0.05em; margin-bottom:4px; display:block;
+  }
+  .aside-block.reservation .tag{ color:var(--flag); }
+  .aside-block.anteckning .tag{ color:var(--ink-faint); }
+  .aside-block q{ font-style:italic; }
+
+  footer.site{
+    border-top:1px solid var(--line); margin-top:60px; padding:28px 24px;
+    max-width:1000px; margin-left:auto; margin-right:auto;
+    font-family:'Inter', sans-serif; font-size:0.78rem; color:var(--ink-faint);
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
+  }
+  footer.site a{ color:var(--ink-soft); text-decoration:none; }
+  footer.site a:hover{ text-decoration:underline; }
+
+  .empty-note{
+    font-family:'Inter', sans-serif; color:var(--ink-faint); font-size:0.85rem;
+    padding:30px 0; text-align:center;
+  }
+
+  @media (max-width:640px){
+    .hero h1{ font-size:1.6rem; }
+    .method-strip{ flex-direction:column; }
+    .method-strip .cell{ border-right:none; border-bottom:1px solid var(--line-soft); }
+    .method-strip .cell:last-child{ border-bottom:none; }
+  }
+
+  :focus-visible{ outline:2px solid var(--verified); outline-offset:2px; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *{ transition:none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="header-inner">
+    <a class="wordmark" onclick="navigate('/')">FAKTAGRANSKAREN<span class="dot">.</span></a>
+    <div class="byline">Skapad av Tankesmedjan Mjörninstitutet</div>
+  </div>
+  <nav class="site">
+    <a onclick="navigate('/')" data-route="/">Ärenden</a>
+    <a onclick="navigate('/metod')" data-route="/metod">Metod</a>
+    <a onclick="navigate('/om')" data-route="/om">Om tjänsten</a>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<footer class="site">
+  <span>Källa: sammantradesportal.alingsas.se — offentliga protokoll, Alingsås kommun.</span>
+  <span>Neutralitetslöfte: identisk metod för alla partier och initiativtyper.</span>
+</footer>
+
+<script>
+const PARTY_NAMES = {s:'Socialdemokraterna', m:'Moderaterna', sd:'Sverigedemokraterna', c:'Centerpartiet',
+  v:'Vänsterpartiet', kd:'Kristdemokraterna', l:'Liberalerna', mp:'Miljöpartiet'};
+const PARTY_COLOR = {s:'#C23B3B', m:'#2E5AA8', sd:'#D9A61A', c:'#3E7A3B', v:'#8A1F3B', kd:'#1F4D8F', l:'#1C93B8', mp:'#6FA82E'};
+const INSTANCE_NAMES = {kommunfullmaktige:'Kommunfullmäktige', vard_och_omsorgsnamnden:'Vård- och omsorgsnämnden',
+  tekniska_namnden:'Tekniska nämnden', kommunstyrelsen:'Kommunstyrelsen'};
+const TYPE_NAMES = {motion_inlamnad:'Motion inlämnad', namndyttrande:'Nämndyttrande', beslut:'Beslut',
+  beredning:'Beredning', interpellation_stalld:'Interpellation ställd', interpellation_svarad:'Interpellation besvarad',
+  initiativarende_vackt:'Initiativärende väckt'};
+const CATEGORY_NAMES = {'vård-omsorg':'Vård & omsorg','infrastruktur':'Infrastruktur','ekonomi':'Ekonomi',
+  'demokrati':'Demokrati','miljö-klimat':'Miljö & klimat','barn-utbildning':'Barn & utbildning','övrigt':'Övrigt'};
+const DECISION_NAMES = {bifall:'Bifall', avslag:'Avslag', delvis:'Delvis bifall', besvarad:'Anses besvarad',
+  'ingen rekommendation':'Ingen rekommendation lämnad', tillstyrker:'Tillstyrker', avstyrker:'Avstyrker'};
+const DECISION_CLASS = {bifall:'bifall', avslag:'avslag', delvis:'delvis', besvarad:'besvarad',
+  'ingen rekommendation':'neutral', tillstyrker:'tillstyrker', avstyrker:'avstyrker'};
+
+const INITIATIVE_TYPE_META = {
+  motion:          { label: 'Motion',          color: '#5B6A5E' },
+  interpellation:  { label: 'Interpellation',  color: '#A97D2E' },
+  initiativarende: { label: 'Initiativärende', color: '#9C4B2E' },
+  styrelseforslag: { label: 'Styrelseförslag', color: '#2F6E5C' },
+  enkel_fraga:     { label: 'Enkel fråga',     color: '#A97D2E' },
+  medborgarforslag:{ label: 'Medborgarförslag',color: '#8B9186' }
+};
+
+const ARENDEN = __ARENDEN_JSON__;
+
+function partyPill(p){
+  const color = PARTY_COLOR[p.party] || '#999';
+  return `<span class="party-pill" style="cursor:pointer;" onclick="event.stopPropagation(); navigate('/parti/${p.party}')"><span class="dot" style="background:${color}"></span>${p.name} (${(p.party||'').toUpperCase()})</span>`;
+}
+function partyCodeLink(code){
+  const color = PARTY_COLOR[code] || '#999';
+  const name = PARTY_NAMES[code] || code.toUpperCase();
+  return `<a class="party-pill" style="text-decoration:none;" onclick="event.stopPropagation(); navigate('/parti/${code}')"><span class="dot" style="background:${color}"></span>${name} (${code.toUpperCase()})</a>`;
+}
+function partiesLabel(parties){
+  return parties.map(p => (PARTY_NAMES[p]||p) + ' (' + p.toUpperCase() + ')').join(', ');
+}
+function fmtDate(d){
+  const months=['jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
+  const [y,m,day]=d.split('-');
+  return `${parseInt(day)} ${months[parseInt(m)-1]} ${y}`;
+}
+function verifyStamp(){
+  return `<span class="verify-stamp"><svg viewBox="0 0 16 16" fill="none"><path d="M3 8.5L6.5 12L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Verifierat ordagrant</span>`;
+}
+function typeTag(initiativTyp){
+  const meta = INITIATIVE_TYPE_META[initiativTyp] || {label: initiativTyp, color:'#999'};
+  return `<span class="type-tag" style="color:${meta.color}"><span class="swatch"></span>${meta.label}</span>`;
+}
+
+/**
+ * Arkivlänk (spec §3: "dubbel länk vid varje citat"). Primärt arkiv är
+ * numera git-historiken (se DECISION_LOG.md 2026-07-20) — archive_url är
+ * antingen en riktig, commit-pinnad GitHub-permalänk, en PENDING-markör
+ * ("git-pending:...", innan CI:s efterkomstskript hunnit fylla i den
+ * riktiga länken), eller helt saknad. I de två sistnämnda fallen visas
+ * INGEN länk alls — aldrig en trasig sådan (jfr det tidigare fyndet där
+ * testfallens bokstavliga "TODO"-sträng annars skulle synts som en
+ * klickbar länk i produktion).
+ */
+function renderArchiveLink(archiveUrl){
+  if(!archiveUrl || archiveUrl.startsWith('git-pending:')) return '';
+  return `<a href="${archiveUrl}" target="_blank" rel="noopener">Arkiverad kopia ↗</a>`;
+}
+
+function renderStep(step){
+  let html = `<div class="step">
+    <div class="step-head">
+      <div class="step-instance">${INSTANCE_NAMES[step.instance]||step.instance} — ${TYPE_NAMES[step.type]||step.type}</div>
+      <div class="step-meta">${fmtDate(step.date)} · ${step.source.protocol_ref}</div>
+    </div>`;
+
+  if(step.decision){
+    const cls = DECISION_CLASS[step.decision] || 'neutral';
+    html += `<div class="decision-row"><span class="decision-tag ${cls}">${DECISION_NAMES[step.decision]||step.decision}</span></div>`;
+  }
+
+  html += `<div class="quote-block">
+    <blockquote>${step.quote}</blockquote>
+    <div class="verify-row">
+      ${verifyStamp()}
+      <div class="source-links">
+        <a href="${step.source.pdf_url}" target="_blank" rel="noopener">Originalprotokoll ↗</a>
+        ${renderArchiveLink(step.source.archive_url)}
+      </div>
+    </div>
+  </div>`;
+
+  if(step.voting === null){
+    html += `<div class="no-decision-note">Leder inte till beslut eller omröstning (${TYPE_NAMES[step.type]||step.type}).</div>`;
+  } else if(step.voting){
+    if(step.voting.recorded){
+      html += `<div class="voting-box">
+        <div class="q">${step.voting.question||''}</div>
+        <div class="voting-tally">
+          <span class="ja">Ja <span class="n">${step.voting.result.ja}</span></span>
+          <span class="nej">Nej <span class="n">${step.voting.result.nej}</span></span>
+          <span class="avstar">Avstår <span class="n">${step.voting.result.avstar}</span></span>
+        </div>
+      </div>`;
+    } else {
+      html += `<div class="voting-box"><span class="voting-note">${step.voting.note}</span></div>`;
+    }
+  }
+
+  (step.reservations||[]).forEach(r=>{
+    html += `<div class="aside-block reservation"><span class="tag">Reservation — ${partiesLabel(r.parties)}</span><q>${r.quote}</q></div>`;
+  });
+  (step.protocol_anteckning||[]).forEach(a=>{
+    html += `<div class="aside-block anteckning"><span class="tag">Protokollsanteckning — ${partiesLabel(a.parties)}</span><q>${a.quote}</q></div>`;
+  });
+
+  html += `</div>`;
+  return html;
+}
+
+function renderCard(arende){
+  const lastStep = arende.steps[arende.steps.length-1];
+  const stampClass = arende.status === 'avgjort' ? 'avgjort' : 'pagaende';
+  const stampLabel = arende.status === 'avgjort' ? 'Avgjort' : 'Pågående';
+  const initiatorsHtml = arende.initiators.length
+    ? arende.initiators.map(partyPill).join('')
+    : `<span class="no-initiators">Förvaltningens eget förslag — inget enskilt parti</span>`;
+  return `<a class="arende-card" onclick="navigate('/arende/${arende.id}')">
+    <div class="card-top">
+      <div class="eyebrow-row">
+        <span class="eyebrow">${CATEGORY_NAMES[arende.category]||arende.category}</span>
+        ${typeTag(arende.initiativ_typ)}
+      </div>
+      <span class="stamp ${stampClass}">${stampLabel}</span>
+    </div>
+    <h3>${arende.title}</h3>
+    <div class="initiators">${initiatorsHtml}</div>
+    <div class="meta-row">
+      <span>${arende.steps.length} ${arende.steps.length===1?'steg':'steg'} i tidslinjen</span>
+      <span>Senast: ${fmtDate(lastStep.date)}, ${INSTANCE_NAMES[lastStep.instance]||lastStep.instance}</span>
+    </div>
+  </a>`;
+}
+
+let activeFilter = {status:'alla', typ:'alla'};
+
+function computeTypeCounts(){
+  const counts = {};
+  ARENDEN.forEach(a=>{ counts[a.initiativ_typ] = (counts[a.initiativ_typ]||0) + 1; });
+  return counts;
+}
+
+function viewHome(){
+  const total = ARENDEN.length;
+  const quoteCount = ARENDEN.reduce((sum,a)=>sum+a.steps.reduce((s,st)=>{
+    let c = st.quote?1:0;
+    c += (st.reservations||[]).length;
+    c += (st.protocol_anteckning||[]).length;
+    return s+c;
+  },0),0);
+
+  const filtered = ARENDEN.filter(a =>
+    (activeFilter.status==='alla' || a.status===activeFilter.status) &&
+    (activeFilter.typ==='alla' || a.initiativ_typ===activeFilter.typ)
+  );
+
+  const typeCounts = computeTypeCounts();
+  const typeOrder = ['motion','interpellation','initiativarende','styrelseforslag','enkel_fraga','medborgarforslag'];
+  const typeButtons = typeOrder.filter(t=>typeCounts[t]).map(t=>{
+    const meta = INITIATIVE_TYPE_META[t];
+    return `<button data-t="${t}" class="${activeFilter.typ===t?'active':''}" onclick="setFilter('typ','${t}')">
+      <span class="swatch" style="background:${meta.color}"></span>${meta.label} <span class="count">${typeCounts[t]}</span>
+    </button>`;
+  }).join('');
+
+  return `
+  <div class="hero">
+    <h1>Varje politiskt ärende, spårat från motion till beslut — styrkt med ordagrant citat.</h1>
+    <p class="lede">Faktagranskaren följer ärenden genom Alingsås kommuns beslutsprocess — inte bara motioner, utan alla initiativtyper: interpellationer, initiativärenden och nämndens/kommunstyrelsens egna förslag. Varje citat nedan är maskinellt verifierat mot det justerade protokollet, ordagrant.</p>
+    <div class="method-strip">
+      <div class="cell"><span class="num">${total}</span><span class="label">Bevakade ärenden</span></div>
+      <div class="cell"><span class="num">${quoteCount}</span><span class="label">Verifierade citat</span></div>
+      <div class="cell"><span class="num">100%</span><span class="label">Ordagrant styrkta mot original</span></div>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-group-label">Partier</span>
+    <div class="filters">
+      ${Object.keys(PARTY_NAMES).map(code=>{
+        const color = PARTY_COLOR[code];
+        return `<button onclick="navigate('/parti/${code}')"><span class="swatch" style="background:${color}"></span>${code.toUpperCase()}</button>`;
+      }).join('')}
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-group-label">Status</span>
+    <div class="filters">
+      <button data-f="alla" class="${activeFilter.status==='alla'?'active':''}" onclick="setFilter('status','alla')">Alla ärenden</button>
+      <button data-f="pågående" class="${activeFilter.status==='pågående'?'active':''}" onclick="setFilter('status','pågående')">Pågående</button>
+      <button data-f="avgjort" class="${activeFilter.status==='avgjort'?'active':''}" onclick="setFilter('status','avgjort')">Avgjorda</button>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-group-label">Initiativtyp</span>
+    <div class="filters">
+      <button data-t="alla" class="${activeFilter.typ==='alla'?'active':''}" onclick="setFilter('typ','alla')">Alla typer</button>
+      ${typeButtons}
+    </div>
+    <div class="filter-note">Motion, interpellation och initiativärende kan väckas av vilken ledamot som helst — i praktiken oppositionens huvudverktyg för att granska majoriteten. Styrelseförslag kommer istället direkt från nämnd/kommunstyrelse och utgör merparten av en vanlig dagordning. Filtrera för att se dem separat.</div>
+  </div>
+
+  <div class="arende-list">
+    ${filtered.length ? filtered.map(renderCard).join('') : '<div class="empty-note">Inga ärenden matchar filtret.</div>'}
+  </div>`;
+}
+
+function viewArende(id){
+  const arende = ARENDEN.find(a=>a.id===id);
+  if(!arende) return `<div class="empty-note">Ärendet kunde inte hittas.</div>`;
+  const stampClass = arende.status === 'avgjort' ? 'avgjort' : 'pagaende';
+  const stampLabel = arende.status === 'avgjort' ? 'Avgjort' : 'Pågående';
+  const initiatorsHtml = arende.initiators.length
+    ? arende.initiators.map(partyPill).join('')
+    : `<span class="no-initiators">Förvaltningens eget förslag — inget enskilt parti</span>`;
+  return `
+  <a class="back-link" onclick="navigate('/')">← Alla ärenden</a>
+  <div class="detail-head">
+    <div class="eyebrow-row" style="margin-bottom:6px;">
+      <span class="eyebrow">${CATEGORY_NAMES[arende.category]||arende.category}</span>
+      ${typeTag(arende.initiativ_typ)}
+    </div>
+    <h1>${arende.title}</h1>
+    <div class="detail-meta">
+      ${initiatorsHtml}
+      <span class="stamp ${stampClass}">${stampLabel}</span>
+    </div>
+  </div>
+  <div class="timeline">
+    ${arende.steps.map(renderStep).join('')}
+  </div>`;
+}
+
+function viewParti(kod){
+  const name = PARTY_NAMES[kod];
+  if(!name){
+    return `<a class="back-link" onclick="navigate('/')">← Alla ärenden</a><div class="empty-note">Okänd partikod "${kod}".</div>`;
+  }
+  const color = PARTY_COLOR[kod];
+
+  const initiated = ARENDEN.filter(a => a.initiators.some(i=>i.party===kod));
+
+  const reservationEntries = [];
+  const anteckningEntries = [];
+  const votingEntries = [];
+  ARENDEN.forEach(a=>{
+    a.steps.forEach(step=>{
+      (step.reservations||[]).forEach(r=>{
+        if(r.parties.includes(kod)) reservationEntries.push({arende:a, step, item:r});
+      });
+      (step.protocol_anteckning||[]).forEach(x=>{
+        if(x.parties.includes(kod)) anteckningEntries.push({arende:a, step, item:x});
+      });
+      if(step.voting && step.voting.recorded && step.voting.by_party && step.voting.by_party[kod]){
+        votingEntries.push({arende:a, step, vote: step.voting.by_party[kod]});
+      }
+    });
+  });
+
+  const hasNothing = !initiated.length && !reservationEntries.length && !anteckningEntries.length && !votingEntries.length;
+
+  let html = `
+  <a class="back-link" onclick="navigate('/')">← Alla ärenden</a>
+  <div class="detail-head">
+    <div class="eyebrow-row" style="margin-bottom:6px;">
+      <span class="type-tag" style="color:${color}"><span class="swatch"></span>Parti</span>
+    </div>
+    <h1>${name} <span style="color:var(--ink-faint); font-size:0.6em;">(${kod.toUpperCase()})</span></h1>
+    <p style="color:var(--ink-soft); max-width:56ch; margin-top:6px;">Allt registrerat för ${name} i testdatan: väckta ärenden, reservationer och protokollsanteckningar. Samma verifieringsmetod som för alla andra partier.</p>
+  </div>`;
+
+  if(hasNothing){
+    html += `<div class="empty-note">Inget registrerat för ${name} i den här testdatan ännu — det säger inget om partiets faktiska aktivitet, bara att inget av de nio granskade ärendena råkar beröra dem.</div>`;
+    return html;
+  }
+
+  if(initiated.length){
+    html += `<h3 style="font-family:'Fraunces',serif; font-size:1.15rem; margin:28px 0 12px;">Väckta ärenden (${initiated.length})</h3><div class="arende-list">`;
+    html += initiated.map(renderCard).join('');
+    html += `</div>`;
+  }
+
+  if(reservationEntries.length){
+    html += `<h3 style="font-family:'Fraunces',serif; font-size:1.15rem; margin:28px 0 12px;">Reservationer (${reservationEntries.length})</h3>`;
+    reservationEntries.forEach(e=>{
+      html += `<div class="aside-block reservation">
+        <span class="tag">${e.arende.title} — ${INSTANCE_NAMES[e.step.instance]||e.step.instance}, ${fmtDate(e.step.date)}</span>
+        <q>${e.item.quote}</q><br>
+        <a href="#/arende/${e.arende.id}" class="ui" style="font-size:0.76rem; text-decoration:underline;">Visa ärendet →</a>
+      </div>`;
+    });
+  }
+
+  if(anteckningEntries.length){
+    html += `<h3 style="font-family:'Fraunces',serif; font-size:1.15rem; margin:28px 0 12px;">Protokollsanteckningar (${anteckningEntries.length})</h3>`;
+    anteckningEntries.forEach(e=>{
+      html += `<div class="aside-block anteckning">
+        <span class="tag">${e.arende.title} — ${INSTANCE_NAMES[e.step.instance]||e.step.instance}, ${fmtDate(e.step.date)}</span>
+        <q>${e.item.quote}</q><br>
+        <a href="#/arende/${e.arende.id}" class="ui" style="font-size:0.76rem; text-decoration:underline;">Visa ärendet →</a>
+      </div>`;
+    });
+  }
+
+  return html;
+}
+
+function viewMetod(){
+  return `
+  <div class="hero" style="border-bottom:none; padding-bottom:0;">
+    <h1>Hur verifieringen fungerar</h1>
+    <p class="lede">Faktagranskaren bygger på principen "sten kan inte hackas": en helt statisk publik yta utan skrivbar server. All bearbetning sker i en isolerad pipeline som körs veckovis.</p>
+  </div>
+  <div style="max-width:64ch; font-size:1rem; color:var(--ink-soft);">
+    <p><strong style="color:var(--ink)">1. Källa → pipeline → publikt.</strong> Protokoll hämtas från kommunens öppna sammanträdesportal. En AI-modell strukturerar rådata till kandidatposter med citat, beslut, initiativtyp och röstutfall.</p>
+    <p><strong style="color:var(--ink)">2. Verbatimgrinden.</strong> Varje citat kontrolleras i ren kod — inte av AI:n själv — mot den faktiska, extraherade protokolltexten. Whitespace normaliseras, men texten måste vara exakt likadan. Klarar citatet inte grinden publiceras det aldrig, oavsett vad AI:n påstår.</p>
+    <p><strong style="color:var(--ink)">3. Dubbel oberoende AI-granskning.</strong> En andra, oberoende modell kontrollerar extraktionen innan publicering. Vid oenighet går ärendet till manuell granskning.</p>
+    <p><strong style="color:var(--ink)">4. Källarkivering.</strong> Varje protokoll som citeras skickas samtidigt till Wayback Machine. Om originalet senare ändras eller tas bort finns beviset kvar.</p>
+    <p><strong style="color:var(--ink)">5. Git som databas.</strong> All data lever som versionerade filer, aldrig i en dold databas. Hela historiken är offentlig och granskbar.</p>
+    <p><strong style="color:var(--ink)">6. Alla initiativtyper, inte bara motioner.</strong> Motion, interpellation, enkel fråga, medborgarförslag, initiativärende och nämndens/kommunstyrelsens egna förslag bevakas med identisk metod. En tjänst som bara visade motioner skulle osynliggöra merparten av majoritetens faktiska beslutsfattande.</p>
+  </div>`;
+}
+
+function viewOm(){
+  return `
+  <div class="hero" style="border-bottom:none; padding-bottom:0;">
+    <h1>Om Faktagranskaren</h1>
+    <p class="lede">En oberoende, källspårad tjänst som följer politiska ärenden i Alingsås kommun genom hela deras resa — från motion, interpellation eller initiativärende till beslut.</p>
+  </div>
+  <div style="max-width:64ch; font-size:1rem; color:var(--ink-soft);">
+    <p><strong style="color:var(--ink)">Neutralitetslöfte.</strong> Identisk metod och samma verifieringsgrindar tillämpas för alla partier och alla initiativtyper — motioner lika noggrant som styrelseförslag, oavsett vem som bygger eller driftar tjänsten.</p>
+    <p><strong style="color:var(--ink)">Inga fristående uttalanden.</strong> Endast citat kopplade till ett formellt ärende på en instans dagordning publiceras. Inga lösryckta citat från insändare eller pressutspel.</p>
+    <p><strong style="color:var(--ink)">Rättelser.</strong> Fel rättas synligt, aldrig i tysthet.</p>
+    <p>Skapad av <strong style="color:var(--ink)">Tankesmedjan Mjörninstitutet</strong>, byggd på samma öppna arkitekturmall som övriga civic-tech-projekt från institutet.</p>
+  </div>`;
+}
+
+function parseRoute(){
+  const hash = location.hash.replace(/^#/, '') || '/';
+  return hash;
+}
+function render(){
+  const route = parseRoute();
+  const app = document.getElementById('app');
+  document.querySelectorAll('nav.site a').forEach(a=>a.classList.remove('active'));
+
+  if(route.startsWith('/arende/')){
+    const id = route.split('/arende/')[1];
+    app.innerHTML = viewArende(id);
+  } else if(route.startsWith('/parti/')){
+    const kod = route.split('/parti/')[1];
+    app.innerHTML = viewParti(kod);
+  } else if(route === '/metod'){
+    app.innerHTML = viewMetod();
+    document.querySelector('nav.site a[data-route="/metod"]').classList.add('active');
+  } else if(route === '/om'){
+    app.innerHTML = viewOm();
+    document.querySelector('nav.site a[data-route="/om"]').classList.add('active');
+  } else {
+    app.innerHTML = viewHome();
+    document.querySelector('nav.site a[data-route="/"]').classList.add('active');
+  }
+  window.scrollTo({top:0});
+}
+function navigate(path){
+  location.hash = path;
+}
+function setFilter(axis, value){
+  activeFilter[axis] = value;
+  render();
+}
+window.addEventListener('hashchange', render);
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+[
+  {
+    "arende": {
+      "title": "Förslag på nytt hälso- och sjukvårdsavtal med tillhörande överenskommelser",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.484 KS",
+      "steps": [
+        {
+          "step_id": "hsavtal-von-yttrande",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "namndyttrande",
+          "date": "2026-02-18",
+          "quote": "Vård- och omsorgsnämnden beslutade att föreslå att kommunfullmäktige ska anta nytt hälso- och sjukvårdsavtal med tillhörande överenskommelser.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§7 VON 2026-02-18"
+          }
+        },
+        {
+          "step_id": "hsavtal-ks-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2026-03-16",
+          "quote": "Kommunstyrelsen har den 16 mars 2026, § 34 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§34 KS 2026-03-16"
+          }
+        },
+        {
+          "step_id": "hsavtal-kf-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2026-03-25",
+          "quote": "1. Kommunfullmäktige beslutar att, för Alingsås kommuns del, ingå Hälso- och sjukvårdsavtal – avtal som reglerar hälso- och sjukvårdsansvaret mellan Västra Götalandsregionen och kommunerna i Västra Götaland",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§69 KF 2026-03-25"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "hsavtal-von-yttrande",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden beslutade att föreslå att kommunfullmäktige ska anta nytt hälso- och sjukvårdsavtal med tillhörande överenskommelser.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "hsavtal-ks-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 16 mars 2026, § 34 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "hsavtal-kf-beslut",
+        "field": "quote",
+        "quote": "1. Kommunfullmäktige beslutar att, för Alingsås kommuns del, ingå Hälso- och sjukvårdsavtal – avtal som reglerar hälso- och sjukvårdsansvaret mellan Västra Götalandsregionen och kommunerna i Västra Götaland",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
