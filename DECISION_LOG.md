@@ -410,3 +410,10 @@ utvecklingsartefakter från mina tidigare sessioner (`data/live/`,
 kvarlevan) som inte hör hemma i en "skarp" produktionsrepo. Ofarligt för
 funktionen (fixen ovan neutraliserar redan den mest missvisande effekten),
 men värt en städ-commit senare för tydlighetens skull.
+
+**Uppföljning samma dag:** verifieringskörning #2 (`workflow_dispatch`)
+bekräftar fixen — `run-pipeline summary` visar nu korrekt "Inga nya
+poster till manuell granskning denna körning" istället för att peka på
+2026-07-20-kvarlevan. GitHub Actions-schemaläggningen är därmed fullt
+verifierad i skarp drift: repo, secrets, manuell körning, och den
+schemalagda cron-körningen (0 6 * * 1, måndagar) redo att ta vid.
