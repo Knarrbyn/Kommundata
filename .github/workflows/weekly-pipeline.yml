@@ -64,4 +64,44 @@ jobs:
       # redan kört ovan, som en del av run-weekly-pipeline.mjs) kände
       # ANNU INTE till denna commits SHA när det satte PENDING-markörerna.
       # Nu när commit precis skett, fyll i de riktiga arkivlänkarna i en
-      # liten
+      # liten uppföljande commit.
+      - name: Fyll i arkivlänkar mot den nyss skapade commit-SHA:n
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          node scripts/fill-archive-urls.mjs
+          git push
+
+      # Netlify (primär hosting, spec §6) är redan kopplat direkt mot detta
+      # repo via Netlifys egen GitHub-integration och deployar automatiskt
+      # vid varje push till standardgrenen — inget extra steg behövs här.
+      #
+      # GitHub Pages som varm reserv (spec §2 punkt 5: "tre parallella
+      # deploys"). Aktiveras genom att slå på Pages i repots Settings
+      # (Source: GitHub Actions) — då används stegen nedan. Kommenterade ut
+      # tills dess, så workflowen inte fallerar på en inte-aktiverad
+      # inställning.
+      #
+      # - name: Ladda upp dist/ som Pages-artefakt
+      #   if: steps.diff.outputs.changed == 'true'
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: dist
+      # - name: Deploya till GitHub Pages
+      #   if: steps.diff.outputs.changed == 'true'
+      #   uses: actions/deploy-pages@v4
+
+      - name: Sammanfattning
+        if: always()
+        run: |
+          echo "### Pipeline-körning $(date -u +%Y-%m-%d)" >> "$GITHUB_STEP_SUMMARY"
+          if [ -d data/needs_review ]; then
+            LATEST_REVIEW=$(ls -t data/needs_review/*.json 2>/dev/null | head -1)
+            if [ -n "$LATEST_REVIEW" ]; then
+              COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$LATEST_REVIEW','utf-8')).length)")
+              echo "- Poster till manuell granskning denna körning: $COUNT ($LATEST_REVIEW)" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
