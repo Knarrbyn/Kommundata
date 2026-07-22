@@ -1,0 +1,127 @@
+[
+  {
+    "arende": {
+      "title": "Årsredovisning 2017 för Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2018.106 KS",
+      "steps": [
+        {
+          "step_id": "kf-54-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2018-03-28",
+          "quote": "1. Årsredovisning för 2017 för Alingsås kommun godkänns. 2. Nämndernas underskott 2017 skrivs av. 3. De nämnder som redovisar underskott ska senast i samband med kommunens vårbokslut återkomma med en plan till kommunstyrelsen för hur de avser förhindra att underskottet 2017 belastar det ekonomiska resultatet år 2018.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "l"
+              ],
+              "quote": "Anita Brodén (L) lämnar följande protokollsanteckning: I kölvattnet av ABC-hanteringen har kommunens dialog med enskilda och samverkanspartner brustit. Kommunstyrelsen bär ansvar för att dialog återupprättas."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§54 KOMMUNFULLMAKTIGE 2018-03-28",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2018-03-28/protocol/protokoll-kf-28-marspdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-54-beslut",
+        "field": "quote",
+        "quote": "1. Årsredovisning för 2017 för Alingsås kommun godkänns. 2. Nämndernas underskott 2017 skrivs av. 3. De nämnder som redovisar underskott ska senast i samband med kommunens vårbokslut återkomma med en plan till kommunstyrelsen för hur de avser förhindra att underskottet 2017 belastar det ekonomiska resultatet år 2018.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kf-54-beslut",
+        "field": "protocol_anteckning[l]",
+        "quote": "Anita Brodén (L) lämnar följande protokollsanteckning: I kölvattnet av ABC-hanteringen har kommunens dialog med enskilda och samverkanspartner brustit. Kommunstyrelsen bär ansvar för att dialog återupprättas.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Tillsynsavgifter för vissa receptfria läkemedel, folköl, tobak och e-cigaretter",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2018.056 KS",
+      "steps": [
+        {
+          "step_id": "kf-57-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2018-03-28",
+          "quote": "Tillsynsavgifter för vissa receptbelagda läkemedel, folköl, tobak och e-cigaretter godkänns. Tillsynsavgiften tas ut enligt följande: - En produkt: 2 000 kr - Två produkter: 3 000 kr - Tre produkter: 4 000 kr - Fyra produkter: 5 000 kr - Avgift om fler än ett besök per år: 2 000 kr. Avgifterna träder i kraft den 1 maj 2018.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§57 KOMMUNFULLMAKTIGE 2018-03-28",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2018-03-28/protocol/protokoll-kf-28-marspdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-57-beslut",
+        "field": "quote",
+        "quote": "Tillsynsavgifter för vissa receptbelagda läkemedel, folköl, tobak och e-cigaretter godkänns. Tillsynsavgiften tas ut enligt följande: - En produkt: 2 000 kr - Två produkter: 3 000 kr - Tre produkter: 4 000 kr - Fyra produkter: 5 000 kr - Avgift om fler än ett besök per år: 2 000 kr. Avgifterna träder i kraft den 1 maj 2018.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (59 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Samrådsunderlag avseende verksamhetsinriktning 2017-2019 samt budget 2019 för GR",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2018.083 KS",
+      "steps": [
+        {
+          "step_id": "kf-62-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2018-03-28",
+          "quote": "Göteborgsregionens kommunalförbund (GR) förslag till verksamhetsinriktning 2017-2019 och budget för 2019 godkänns med följande tillägg: GR ska utreda möjligheten att stötta medlemskommunerna för ökad lokal livsmedelsproduktion. En kartläggning av jordbruksmark är nödvändig.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§62 KOMMUNFULLMAKTIGE 2018-03-28",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2018-03-28/protocol/protokoll-kf-28-marspdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-62-beslut",
+        "field": "quote",
+        "quote": "Göteborgsregionens kommunalförbund (GR) förslag till verksamhetsinriktning 2017-2019 och budget för 2019 godkänns med följande tillägg: GR ska utreda möjligheten att stötta medlemskommunerna för ökad lokal livsmedelsproduktion. En kartläggning av jordbruksmark är nödvändig.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]
