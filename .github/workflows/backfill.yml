@@ -1,0 +1,88 @@
+name: Backfill historik (manuell, en omgång i taget)
+
+# MEDVETET ingen cron-schemaläggning — backfill körs bara när någon
+# uttryckligen trigger det, en avgränsad omgång åt gången, med ett
+# inbyggt kostnadstak. Se scripts/run-backfill.mjs och DECISION_LOG.md.
+on:
+  workflow_dispatch:
+    inputs:
+      committee:
+        description: "Instans-slug (t.ex. kommunfullmaktige, kommunstyrelsen, vard-och-omsorgsnamnden)"
+        required: true
+        type: string
+      start_date:
+        description: "Startdatum (ÅÅÅÅ-MM-DD)"
+        required: true
+        type: string
+      end_date:
+        description: "Slutdatum (ÅÅÅÅ-MM-DD)"
+        required: true
+        type: string
+      max_meetings:
+        description: "Max antal möten att bearbeta DENNA körning (kostnadstak)"
+        required: false
+        default: "10"
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  run-backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checka ut repot
+        uses: actions/checkout@v4
+
+      - name: Sätt upp Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Installera beroenden
+        run: npm ci
+
+      - name: Kör backfill för denna omgång
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VERIFY_API_KEY: ${{ secrets.VERIFY_API_KEY }}
+          VERIFY_API_URL: ${{ secrets.VERIFY_API_URL }}
+          VERIFY_MODEL: ${{ secrets.VERIFY_MODEL }}
+        run: |
+          node --experimental-strip-types scripts/run-backfill.mjs \
+            "${{ inputs.committee }}" \
+            "${{ inputs.start_date }}" \
+            "${{ inputs.end_date }}" \
+            "${{ inputs.max_meetings }}"
+
+      - name: Committa och pusha resultatet av denna omgång
+        run: |
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add data/ dist/
+            git commit -m "Backfill: ${{ inputs.committee }} ${{ inputs.start_date }}–${{ inputs.end_date }} (denna omgång)"
+            git push
+          else
+            echo "Inget att committa denna omgång (t.ex. redan bearbetat, eller inget hittades i intervallet)."
+          fi
+
+      - name: Fyll i arkivlänkar mot den nyss skapade commit-SHA:n
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          node scripts/fill-archive-urls.mjs || echo "(inget att fylla i — inga PENDING-markörer denna gång)"
+          git push || echo "(inget nytt att pusha)"
+
+      - name: Spegla till GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Ladda upp dist/ som Pages-artefakt
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploya till GitHub Pages
+        uses: actions/deploy-pages@v4
