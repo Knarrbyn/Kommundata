@@ -350,3 +350,63 @@ litas på helt.
 blockerar trafik från GitHub Actions' IP-intervall på samma sätt som den
 (förväntat) blockerar sandboxens. Kan bara verifieras genom en faktisk
 körning i CI.
+
+## 2026-07-22 — Första skarpa driftsättningen: repo, secrets, och en lyckad körning
+
+**Repo:** `Knarrbyn/Kommundata`, publikt, skapat och pushat av mig via en
+fine-grained personal access token (`Contents: Read/write`,
+`Actions: Read/write`, `Metadata: Read-only`, scopad till bara detta repo,
+kort giltighetstid). Token raderad ur lokal git-config direkt efter varje
+push (`git remote set-url` tillbaka till en URL utan credentials).
+
+**Ett verkligt GitHub-platsbegränsning hittad:** fine-grained PATs kan inte
+skapa ELLER uppdatera filer under `.github/workflows/` — GitHub kräver den
+äldre "classic"-tokens `workflow`-scope, som fine-grained tokens saknar
+helt (bekräftat: ingen sådan behörighet finns ens att välja i UI:t).
+Löst genom att workflow-filen istället laddas upp manuellt av ägaren via
+GitHub:s webbgränssnitt (`/upload/main/.github/workflows`), utanför
+token-vägen. **Lärdom, redan tillämpad andra gången:** manuell copy-paste
+i GitHub:s lilla textruta trunkerade filen första försöket (68 av 107
+rader kom med, ingen felindikation från GitHub) — bytte till att ladda
+upp filen som en riktig fil (drag-and-drop) istället för att klistra text,
+vilket är immunt mot den typen av trunkering. Verifierat byte-för-byte
+efteråt via `contents`-API:et båda gångerna — värt att alltid göra efter
+en manuell UI-åtgärd av det här slaget, inte bara lita på att UI:t sa
+"Commit changes" utan fel.
+
+**Secret:** `ANTHROPIC_API_KEY` satt av ägaren direkt i GitHub:s
+webbgränssnitt (rekommenderad, säkrare väg — värdet gick aldrig genom
+chatten). En första secret döptes av misstag "KommunGitHub" (bara namnet,
+inte värdet, var fel) — GitHub tillåter inte namnbyte på secrets, löst
+genom att skapa en till med korrekt namn `ANTHROPIC_API_KEY`.
+
+**Första skarpa körningen (`workflow_dispatch`, run #1, 2026-07-22):**
+`success`, 16s total. Full logg granskad tillsammans med ägaren:
+- Alla 9 bevakade instanser genomsökta, INGEN `✗ FEL vid fetch`-rad —
+  bekräftar att **nätverksåtkomsten till sammantradesportal.alingsas.se
+  fungerar från GitHub Actions**, till skillnad från utvecklingssandboxen
+  (som är domänbegränsad). Den öppna risken i förra postens "Öppen risk,
+  inte undersökt"-stycke är därmed löst, bekräftat i skarp drift, inte
+  bara antaget.
+- Verify-skip-varningen (`VERIFY_API_KEY saknas...`) syntes tydligt i
+  loggen, precis som avsett.
+- Genuint noll nya justerade protokoll denna vecka — rimligt, inte ett
+  fel.
+- **Ett verkligt fynd i `Sammanfattning`-steget:** `GITHUB_STEP_SUMMARY`
+  visade en needs_review-fil daterad 2026-07-20 (två dagar gammal, en
+  kvarleva från mina egna manuella smoke-tester som råkade följa med i
+  det allra första repo-pushet) som om den hörde till DEN HÄR körningen.
+  Orsak: `ls -t data/needs_review/*.json | head -1` plockar den SENAST
+  ÄNDRADE filen oavsett ålder, inte filer skapade av just den aktuella
+  körningen. Fixat: ett nytt steg `Markera starttid` sätter en
+  tidsstämpelfil precis innan pipelinen körs, och sammanfattningen
+  filtrerar nu med `find ... -newer` mot den markören — bara genuint nya
+  needs_review-filer räknas. Uppladdad och verifierad (123 rader,
+  byte-för-byte kontrollerad via API:et).
+
+**Kvarstående städning, inte gjord än:** repot innehåller fortfarande
+utvecklingsartefakter från mina tidigare sessioner (`data/live/`,
+`source-texts-live/`, `run-live-extract.mjs`, den gamla needs_review-
+kvarlevan) som inte hör hemma i en "skarp" produktionsrepo. Ofarligt för
+funktionen (fixen ovan neutraliserar redan den mest missvisande effekten),
+men värt en städ-commit senare för tydlighetens skull.
