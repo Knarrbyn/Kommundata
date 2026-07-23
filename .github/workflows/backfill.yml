@@ -41,6 +41,13 @@ jobs:
       - name: Checka ut repot
         uses: actions/checkout@v4
 
+      - name: Checka ut arkiv-repot
+        uses: actions/checkout@v4
+        with:
+          repository: Knarrbyn/Kommundata-arkiv
+          token: ${{ secrets.ARCHIVE_REPO_TOKEN }}
+          path: archive-repo
+
       - name: Sätt upp Node 22
         uses: actions/setup-node@v4
         with:
@@ -75,9 +82,26 @@ jobs:
             echo "Inget att committa denna omgång (t.ex. redan bearbetat, eller inget hittades i intervallet)."
           fi
 
-      - name: Fyll i arkivlänkar mot den nyss skapade commit-SHA:n
+      - name: Committa och pusha till arkiv-repot
+        id: archive_commit
+        run: |
+          cd archive-repo
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Rå-dokument från backfill: ${{ inputs.committee }} ${{ inputs.start_date }}–${{ inputs.end_date }}"
+            git push
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          else
+            echo "(inget nytt i arkiv-repot denna omgång)"
+            echo "sha=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fyll i arkivlänkar mot de nyss skapade commit-SHA:erna
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
+          ARCHIVE_REPO_SHA: ${{ steps.archive_commit.outputs.sha }}
         run: |
           git config user.name "faktagranskaren-bot"
           git config user.email "actions@users.noreply.github.com"
