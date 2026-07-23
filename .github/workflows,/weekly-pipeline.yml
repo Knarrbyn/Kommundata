@@ -1,0 +1,180 @@
+name: Veckovis pipeline-körning
+
+# Spec §5, §6 (teknikval): "GitHub Actions, cron: '0 6 * * 1'" (måndagar).
+# `workflow_dispatch` finns också, så en manuell körning går att trigga
+# från Actions-fliken utan att vänta till nästa måndag — praktiskt för
+# felsökning eller för att testa efter en kodändring.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+# Behövs för att workflowen ska få pusha commits tillbaka till repot
+# (publicerad data + statisk sajt) med det inbyggda GITHUB_TOKEN, utan
+# en separat personal access token.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checka ut repot
+        uses: actions/checkout@v4
+
+      # "Kallt" arkiv-repo för rå-dokument (protokoll-PDF:er + bilagor),
+      # tillagt 2026-07-23 (se DECISION_LOG.md) — checkas ut som en
+      # underkatalog (archive-repo/) i samma jobb, med en egen token
+      # eftersom det inbyggda GITHUB_TOKEN bara har behörighet till det
+      # repo workflowen själv körs i.
+      - name: DIAGNOSTIK — kolla om ARCHIVE_REPO_TOKEN faktiskt är satt (tas bort efter felsökning)
+        env:
+          TOKEN_CHECK: ${{ secrets.ARCHIVE_REPO_TOKEN }}
+        run: |
+          mkdir -p data/diag
+          if [ -z "$TOKEN_CHECK" ]; then
+            echo "ARCHIVE_REPO_TOKEN är TOM eller helt osatt." > data/diag/archive-token-check.txt
+          else
+            echo "ARCHIVE_REPO_TOKEN är satt, längd=${#TOKEN_CHECK} tecken (bör vara ~93 för en github_pat_...-token)." > data/diag/archive-token-check.txt
+          fi
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/diag/archive-token-check.txt
+          git commit -m "Diagnostik: kolla ARCHIVE_REPO_TOKEN" || echo "(inget att committa)"
+          git push || echo "(inget att pusha)"
+
+      - name: Checka ut arkiv-repot
+        uses: actions/checkout@v4
+        with:
+          repository: Knarrbyn/Kommundata-arkiv
+          token: ${{ secrets.ARCHIVE_REPO_TOKEN }}
+          path: archive-repo
+
+      - name: Sätt upp Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Installera beroenden
+        run: npm ci
+
+      - name: Markera starttid (för att skilja denna körnings needs_review-filer från ev. äldre kvarlevor)
+        id: start_marker
+        run: |
+          mkdir -p /tmp
+          touch /tmp/run-start-marker
+
+      - name: Kör hela pipelinen (fetch → download → extract → gates → verify → archive → link → publish → build)
+        id: pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Frivilliga — se scripts/run-weekly-pipeline.mjs och
+          # DECISION_LOG.md för vad som händer om dessa saknas (verify
+          # hoppas då över helt, git-arkivet är alltid primärt oavsett).
+          VERIFY_API_KEY: ${{ secrets.VERIFY_API_KEY }}
+          VERIFY_API_URL: ${{ secrets.VERIFY_API_URL }}
+          VERIFY_MODEL: ${{ secrets.VERIFY_MODEL }}
+        run: node --experimental-strip-types scripts/run-weekly-pipeline.mjs
+
+      - name: Kontrollera om något faktiskt ändrades
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Committa och pusha ny data + byggd sajt
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ dist/
+          git commit -m "Veckovis pipeline-körning $(date -u +%Y-%m-%d)"
+          git push
+
+      # Arkiv-repots EGEN commit — separat repo, separat historik, separat
+      # commit-SHA. Måste committas och pushas INNAN "Fyll i arkivlänkar"
+      # nedan, eftersom det steget behöver känna till just den här SHA:n
+      # för att kunna bygga korrekta permalänkar mot arkiv-repot.
+      - name: Committa och pusha till arkiv-repot
+        if: steps.diff.outputs.changed == 'true'
+        id: archive_commit
+        run: |
+          cd archive-repo
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Rå-dokument från veckovis körning $(date -u +%Y-%m-%d)"
+            git push
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          else
+            echo "(inget nytt i arkiv-repot denna gång — inga dokument laddades ner)"
+            echo "sha=" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Sekvensproblemet beskrivet i src/archive.ts: archive-steget (som
+      # redan kört ovan, som en del av run-weekly-pipeline.mjs) kände
+      # ANNU INTE till denna commits SHA när det satte PENDING-markörerna.
+      # Nu när commit precis skett, fyll i de riktiga arkivlänkarna i en
+      # liten uppföljande commit.
+      - name: Fyll i arkivlänkar mot de nyss skapade commit-SHA:erna
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ARCHIVE_REPO_SHA: ${{ steps.archive_commit.outputs.sha }}
+        run: |
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          node scripts/fill-archive-urls.mjs
+          git push
+
+      # Netlify (primär hosting, spec §6) är redan kopplat direkt mot detta
+      # repo via Netlifys egen GitHub-integration och deployar automatiskt
+      # vid varje push till standardgrenen — inget extra steg behövs här.
+      #
+      # GitHub Pages som varm, helt gratis reserv (spec §2 punkt 5: "tre
+      # parallella deploys"). Aktiverad 2026-07-22 efter att Netlifys nya
+      # kreditbaserade prismodell (sep 2025) gjorde gratisnivåns
+      # bandbreddstak mindre generöst än tidigare antaget — se
+      # DECISION_LOG.md för resonemanget. Körs UTAN `if: changed`-villkor
+      # (till skillnad från commit-stegen ovan): Pages ska alltid spegla
+      # den redan committade `dist/`-mappen exakt som den ser ut efter
+      # checkout, oavsett om just DEN HÄR körningen hittade ny data eller
+      # inte — annars skulle Pages-sajten aldrig hinna ikapp Netlify vid
+      # första aktiveringen, eftersom "inget nytt att publicera" är det
+      # vanliga utfallet en given vecka.
+      - name: Konfigurera Pages
+        uses: actions/configure-pages@v5
+      - name: Ladda upp dist/ som Pages-artefakt
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploya till GitHub Pages
+        uses: actions/deploy-pages@v4
+
+      - name: Sammanfattning
+        if: always()
+        run: |
+          echo "### Pipeline-körning $(date -u +%Y-%m-%d)" >> "$GITHUB_STEP_SUMMARY"
+          if [ -d data/needs_review ] && [ -f /tmp/run-start-marker ]; then
+            # Bara filer NYARE än markören (satt precis innan pipelinen
+            # kördes) räknas — annars kan en gammal kvarleva från en
+            # tidigare körning felaktigt rapporteras som om den hörde till
+            # just nu (se DECISION_LOG.md, fyndet från körning #1
+            # 2026-07-22: en två dagar gammal fil från manuella
+            # smoke-tester råkade committas med i det första repo-pushet
+            # och visades felaktigt som "denna körning" i sammanfattningen).
+            NEW_REVIEWS=$(find data/needs_review -name "*.json" -newer /tmp/run-start-marker 2>/dev/null)
+            if [ -n "$NEW_REVIEWS" ]; then
+              COUNT=$(echo "$NEW_REVIEWS" | wc -l)
+              echo "- Poster till manuell granskning DENNA körning: $COUNT" >> "$GITHUB_STEP_SUMMARY"
+              echo "$NEW_REVIEWS" | while read -r f; do echo "  - \`$f\`" >> "$GITHUB_STEP_SUMMARY"; done
+            else
+              echo "- Inga nya poster till manuell granskning denna körning." >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
