@@ -1,0 +1,773 @@
+[
+  {
+    "arende": {
+      "title": "Svar på interpellation till vård- och omsorgsnämndens ordförande gällande kommunens LSS-verksamhet och arbete med barnkonventionen - Amanda Andersson (MP)",
+      "initiativ_typ": "interpellation",
+      "initiators": [
+        {
+          "name": "Amanda Andersson",
+          "party": "mp"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.157 KS",
+      "steps": [
+        {
+          "step_id": "interpellation-stalld-72",
+          "instance": "kommunfullmaktige",
+          "type": "interpellation_stalld",
+          "date": "2025-02-26",
+          "quote": "Amanda Andersson (MP) har till kommunfullmäktige den 26 februari 2025, § 8 lämnat en interpellation till vård- och omsorgsnämndens ordförande gällande kommunens LSS-verksamhet och arbete",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§72 KOMMUNFULLMAKTIGE 2025-03-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-03-26/protocol/protokoll-kf-2025-03-26pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "interpellation-svarad-72",
+          "instance": "kommunfullmaktige",
+          "type": "interpellation_svarad",
+          "date": "2025-03-26",
+          "quote": "Vård- och omsorgsnämnden ordförande Eva-Lotta Pamp (M) har i skrivelse den 24 mars lämnat sitt interpellationssvar.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§72 KOMMUNFULLMAKTIGE 2025-03-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-03-26/protocol/protokoll-kf-2025-03-26pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "interpellation-stalld-72",
+        "field": "quote",
+        "quote": "Amanda Andersson (MP) har till kommunfullmäktige den 26 februari 2025, § 8 lämnat en interpellation till vård- och omsorgsnämndens ordförande gällande kommunens LSS-verksamhet och arbete",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "interpellation-svarad-72",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden ordförande Eva-Lotta Pamp (M) har i skrivelse den 24 mars lämnat sitt interpellationssvar.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Upphävande av kvalitetsstrategi för Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.493 KS",
+      "steps": [
+        {
+          "step_id": "kf-103-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2025-05-07",
+          "quote": "Kommunfullmäktige beslutar att upphäva Kvalitetsstrategi för Alingsås kommun.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "I tjänsteskrivelsen i ärendet står det \"…kvalitetsstrategins principer och förhållningssätt kommer fortsätta efterföljas vid ett upphävande.\" Centerpartiet ställde under Kommunstyrelsens sammanträde 2025-04-07 frågor kring detta och ville särskilt få svar på att detta även gäller följande stycke:"
+            }
+          ],
+          "source": {
+            "protocol_ref": "§103 KOMMUNFULLMAKTIGE 2025-05-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-05-07/protocol/protokoll-kf-2025-05-07pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-103-beslut",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutar att upphäva Kvalitetsstrategi för Alingsås kommun.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-103-beslut",
+        "field": "protocol_anteckning[c]",
+        "quote": "I tjänsteskrivelsen i ärendet står det \"…kvalitetsstrategins principer och förhållningssätt kommer fortsätta efterföljas vid ett upphävande.\" Centerpartiet ställde under Kommunstyrelsens sammanträde 2025-04-07 frågor kring detta och ville särskilt få svar på att detta även gäller följande stycke:",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Sotningstaxa 2025",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2025.176 KS",
+      "steps": [
+        {
+          "step_id": "kf-104-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2025-05-07",
+          "quote": "1. Sotningstaxa 2025 fastställs och börjar gälla i samband med avtalsstart för det nya avtalet gällande sotningstjänster. 2. Kommunstyrelsen får för varje kalenderår (avgiftsår) besluta om att justera taxans avgifter uppåt maximalt med Prisindex för kommunal verksamhet (PKV) per oktober månad året före avgiftsåret.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§104 KOMMUNFULLMAKTIGE 2025-05-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-05-07/protocol/protokoll-kf-2025-05-07pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-104-beslut",
+        "field": "quote",
+        "quote": "1. Sotningstaxa 2025 fastställs och börjar gälla i samband med avtalsstart för det nya avtalet gällande sotningstjänster. 2. Kommunstyrelsen får för varje kalenderår (avgiftsår) besluta om att justera taxans avgifter uppåt maximalt med Prisindex för kommunal verksamhet (PKV) per oktober månad året före avgiftsåret.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande att anordna ett funkis-fullmäktige - Sanna Dabolins (V) och Marcus Wallin (V)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Sanna Dabolins",
+          "party": "v"
+        },
+        {
+          "name": "Marcus Wallin",
+          "party": "v"
+        }
+      ],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2024.510 KS",
+      "steps": [
+        {
+          "step_id": "kf-105-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2024-12-11",
+          "quote": "Sanna Dabolins (V) och Marcus Wallin (V) har inkommit med en motion att anordna ett funkis-fullmäktige den 11 december 2024.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§105 KOMMUNFULLMAKTIGE 2025-05-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-05-07/protocol/protokoll-kf-2025-05-07pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-105-remiss",
+          "instance": "kommunfullmaktige",
+          "type": "beredning",
+          "date": "2024-12-11",
+          "quote": "Kommunfullmäktige beslutade den 11 december 2024, § 190 att lämna motionen vidare till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§105 KOMMUNFULLMAKTIGE 2025-05-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-05-07/protocol/protokoll-kf-2025-05-07pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-105-ks-yttrande",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2025-04-04",
+          "quote": "Kommunstyrelsen har den 4 april 2025, § 63 behandlat ärendet och föreslagit att motionen ska anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§105 KOMMUNFULLMAKTIGE 2025-05-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-05-07/protocol/protokoll-kf-2025-05-07pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-105-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2025-05-07",
+          "quote": "Med 38 ja-röster och 10 nej-röster finner ordföranden att kommunfullmäktige beslutar att bifalla kommunstyrelsens förslag till beslut.",
+          "decision": "besvarad",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till kommunstyrelsens förslag. Nej-röst för bifall till motionen.",
+            "result": {
+              "ja": 38,
+              "nej": 10,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Vi socialdemokrater anser att vänsterpartiets motion om att anordna ett funkis-fullmäktige lyfter flera viktiga demokratiska perspektiv. Vi känner oss trygga med att rådet för mänskliga rättigheter, där representation från funktionshinderrörelsen finns med, har fått tycka till om förslaget."
+            },
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "När vi i Vänsterpartiet föreslog ett Funkisfullmäktige i Alingsås, gjorde vi det utifrån en grundläggande demokratisk princip: att alla människor, oavsett funktionsförmåga, ska ha möjlighet att påverka den politik som formar deras liv."
+            },
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "I tjänsteskrivelsen står det att \"unga och vuxna med intellektuell funktionsnedsättning bör integreras mer i de befintliga strukturerna i kommunen\". Att elever i anpassad grundskola och anpassad gymnasieskola inte inbjudits att vara en del av ungdomsfullmäktige i vår kommun är anmärkningsvärt"
+            }
+          ],
+          "source": {
+            "protocol_ref": "§105 KOMMUNFULLMAKTIGE 2025-05-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-05-07/protocol/protokoll-kf-2025-05-07pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-105-motion-inlamnad",
+        "field": "quote",
+        "quote": "Sanna Dabolins (V) och Marcus Wallin (V) har inkommit med en motion att anordna ett funkis-fullmäktige den 11 december 2024.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-105-remiss",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutade den 11 december 2024, § 190 att lämna motionen vidare till kommunstyrelsen för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-105-ks-yttrande",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 4 april 2025, § 63 behandlat ärendet och föreslagit att motionen ska anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-105-beslut",
+        "field": "quote",
+        "quote": "Med 38 ja-röster och 10 nej-röster finner ordföranden att kommunfullmäktige beslutar att bifalla kommunstyrelsens förslag till beslut.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-105-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Vi socialdemokrater anser att vänsterpartiets motion om att anordna ett funkis-fullmäktige lyfter flera viktiga demokratiska perspektiv. Vi känner oss trygga med att rådet för mänskliga rättigheter, där representation från funktionshinderrörelsen finns med, har fått tycka till om förslaget.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-105-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "När vi i Vänsterpartiet föreslog ett Funkisfullmäktige i Alingsås, gjorde vi det utifrån en grundläggande demokratisk princip: att alla människor, oavsett funktionsförmåga, ska ha möjlighet att påverka den politik som formar deras liv.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-105-beslut",
+        "field": "protocol_anteckning[c]",
+        "quote": "I tjänsteskrivelsen står det att \"unga och vuxna med intellektuell funktionsnedsättning bör integreras mer i de befintliga strukturerna i kommunen\". Att elever i anpassad grundskola och anpassad gymnasieskola inte inbjudits att vara en del av ungdomsfullmäktige i vår kommun är anmärkningsvärt",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Taxa för exploateringsavgift",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2025.253 KS",
+      "steps": [
+        {
+          "step_id": "ks-121-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2025-06-16",
+          "quote": "Kommunstyrelsen har den 16 juni 2025, § 121 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§163 KOMMUNFULLMAKTIGE 2025-09-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-09-03/protocol/protokoll-kommunfullmaktige-2025-09-03pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-163-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2025-09-03",
+          "quote": "1. Taxa för exploateringsenheten godkänns och börjar gälla från och med den 1 januari 2026. 2. Kommunstyrelsen får för varje kalenderår (avgiftsår) besluta om att justera taxans avgifter uppåt maximalt med Prisindex för kommunal verksamhet (PKV) per oktober månad året före avgiftsåret.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§163 KOMMUNFULLMAKTIGE 2025-09-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-09-03/protocol/protokoll-kommunfullmaktige-2025-09-03pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-121-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 16 juni 2025, § 121 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-163-beslut",
+        "field": "quote",
+        "quote": "1. Taxa för exploateringsenheten godkänns och börjar gälla från och med den 1 januari 2026. 2. Kommunstyrelsen får för varje kalenderår (avgiftsår) besluta om att justera taxans avgifter uppåt maximalt med Prisindex för kommunal verksamhet (PKV) per oktober månad året före avgiftsåret.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande införande av allmänpolitiska debatter i kommunfullmäktige - Heidi Hankanen Ängberg (C), Annika Qarlsson (C), Ingbritt Johansson (C), Ali Said (C) och Theresa Montebelli (C)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        },
+        {
+          "name": "Annika Qarlsson",
+          "party": "c"
+        },
+        {
+          "name": "Ingbritt Johansson",
+          "party": "c"
+        },
+        {
+          "name": "Ali Said",
+          "party": "c"
+        },
+        {
+          "name": "Theresa Montebelli",
+          "party": "c"
+        }
+      ],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2025.122 KS",
+      "steps": [
+        {
+          "step_id": "kf-9-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2025-02-26",
+          "quote": "Kommunfullmäktige beslutade den 26 februari 2025, § 9 att lämna motionen vidare till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§168 KOMMUNFULLMAKTIGE 2025-09-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-09-03/protocol/protokoll-kommunfullmaktige-2025-09-03pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-139-namndyttrande",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2025-08-18",
+          "quote": "Kommunstyrelsen har den 18 augusti 2025, § 139 behandlat ärendet och föreslagit att motionen ska anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§168 KOMMUNFULLMAKTIGE 2025-09-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-09-03/protocol/protokoll-kommunfullmaktige-2025-09-03pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-168-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2025-09-03",
+          "quote": "Ärendet återremitteras för att svaret på motionen ska förtydligas avseende fullmäktiges arbetsordning samt befogenheterna för kommunfullmäktiges presidium vad gäller allmänpolitiska debatter.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Enligt Kommunallagen är det Kommunfullmäktige som beslutar om sin arbetsordning och därigenom även presidiets arbetsuppgifter. I arbetsordning för Kommunfullmäktige i Alingsås kommun ges presidiet inte rätten att själva besluta om införandet av allmänpolitiska debatter om de \"så önskar\", som angavs i svaret på vår motion."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§168 KOMMUNFULLMAKTIGE 2025-09-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-09-03/protocol/protokoll-kommunfullmaktige-2025-09-03pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-9-motion-inlamnad",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutade den 26 februari 2025, § 9 att lämna motionen vidare till kommunstyrelsen för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-139-namndyttrande",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 18 augusti 2025, § 139 behandlat ärendet och föreslagit att motionen ska anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-168-beslut",
+        "field": "quote",
+        "quote": "Ärendet återremitteras för att svaret på motionen ska förtydligas avseende fullmäktiges arbetsordning samt befogenheterna för kommunfullmäktiges presidium vad gäller allmänpolitiska debatter.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-168-beslut",
+        "field": "protocol_anteckning[c]",
+        "quote": "Enligt Kommunallagen är det Kommunfullmäktige som beslutar om sin arbetsordning och därigenom även presidiets arbetsuppgifter. I arbetsordning för Kommunfullmäktige i Alingsås kommun ges presidiet inte rätten att själva besluta om införandet av allmänpolitiska debatter om de \"så önskar\", som angavs i svaret på vår motion.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande att införa digitala nycklar i hemtjänsten - Mats Bjelkemyr (SD)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Mats Bjelkemyr",
+          "party": "sd"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.268 KS",
+      "steps": [
+        {
+          "step_id": "kf-111-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2025-05-07",
+          "quote": "Mats Bjelkemyr (SD) har till kommunfullmäktige den 7 maj 2025 lämnat in en motion om att införa digitala nycklar i hemtjänsten.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§244 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-52-yttrande",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "namndyttrande",
+          "date": "2025-09-22",
+          "quote": "Vård- och omsorgsnämnden har behandlat ärendet den 22 september, § 52 och anser att motionen är besvarad med hänvisning till pågående arbete inom ramen för \"Digitala hjälpmedel i samverkan\" och de interna förberedelserna som nu inleds.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§244 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-197-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2025-11-03",
+          "quote": "Kommunstyrelsen har den 3 november 2025, § 197 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§244 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-244-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2025-12-10",
+          "quote": "Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§244 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-111-motion-inlamnad",
+        "field": "quote",
+        "quote": "Mats Bjelkemyr (SD) har till kommunfullmäktige den 7 maj 2025 lämnat in en motion om att införa digitala nycklar i hemtjänsten.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "von-52-yttrande",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden har behandlat ärendet den 22 september, § 52 och anser att motionen är besvarad med hänvisning till pågående arbete inom ramen för \"Digitala hjälpmedel i samverkan\" och de interna förberedelserna som nu inleds.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-197-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 3 november 2025, § 197 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-244-beslut",
+        "field": "quote",
+        "quote": "Motionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande individuella planer inom LSS - Annika Qarlsson (C) och Heidi Hankanen Ängberg (C)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Annika Qarlsson",
+          "party": "c"
+        },
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.316 KS",
+      "steps": [
+        {
+          "step_id": "kf-148-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2025-06-11",
+          "quote": "Annika Qarlsson (C) och Heidi Hankanen Ängberg (C) har till kommunfullmäktige den 11 juni 2025 lämnat in en motion om individuella planer inom LSS.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§247 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-53-yttrande",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "namndyttrande",
+          "date": "2025-09-22",
+          "quote": "Vård- och omsorgsnämnden har behandlat ärendet den 22 september 2025, § 53 med förslag att motionens första och tredje att-sats anses besvarade och att motionens andra att-sats tillstryks.",
+          "decision": "delvis",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§247 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-198-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2025-11-03",
+          "quote": "Kommunstyrelsen har den 3 november 2025, § 198 behandlat ärendet och föreslagit att motionens första och tredje att-sats ska anses besvarad och att motionens andra att-sats ska bifallas.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§247 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-247-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2025-12-10",
+          "quote": "1. Motionens första att-sats anses besvarad. 2. Motionens andra att-sats bifalls. 3. Motionens tredje att-sats anses besvarad.",
+          "decision": "delvis",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§247 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-148-motion-inlamnad",
+        "field": "quote",
+        "quote": "Annika Qarlsson (C) och Heidi Hankanen Ängberg (C) har till kommunfullmäktige den 11 juni 2025 lämnat in en motion om individuella planer inom LSS.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "von-53-yttrande",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden har behandlat ärendet den 22 september 2025, § 53 med förslag att motionens första och tredje att-sats anses besvarade och att motionens andra att-sats tillstryks.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-198-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 3 november 2025, § 198 behandlat ärendet och föreslagit att motionens första och tredje att-sats ska anses besvarad och att motionens andra att-sats ska bifallas.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-247-beslut",
+        "field": "quote",
+        "quote": "1. Motionens första att-sats anses besvarad. 2. Motionens andra att-sats bifalls. 3. Motionens tredje att-sats anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Fråga till vård- och omsorgsnämndens ordförande gällande lokal till Centrums träffpunkt - Heidi Hankanen Ängberg (C)",
+      "initiativ_typ": "enkel_fraga",
+      "initiators": [
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.582 KS",
+      "steps": [
+        {
+          "step_id": "kf-249-fraga-stalld",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_stalld",
+          "date": "2025-12-10",
+          "quote": "Frågan till vård- och omsorgsnämndens ordförande är: • Vad görs för att hitta lokal så att Centrums träffpunkt kan öppnas så snart som möjligt och finns det planer på att utöka antalet träffpunkter i kommunen framöver med tanke på att närhet och tillgänglighet är särskilt viktig för gruppen äldre?",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§249 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-249-fraga-svarad",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_svarad",
+          "date": "2025-12-10",
+          "quote": "Vård- och omsorgsnämndens ordförande Eva-Lotta Pamp (M) besvarar frågan muntligt vid dagens sammanträde.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§249 KOMMUNFULLMAKTIGE 2025-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2025-12-10/protocol/protokoll-kf-2025-12-10pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-249-fraga-stalld",
+        "field": "quote",
+        "quote": "Frågan till vård- och omsorgsnämndens ordförande är: • Vad görs för att hitta lokal så att Centrums träffpunkt kan öppnas så snart som möjligt och finns det planer på att utöka antalet träffpunkter i kommunen framöver med tanke på att närhet och tillgänglighet är särskilt viktig för gruppen äldre?",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (49 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kf-249-fraga-svarad",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämndens ordförande Eva-Lotta Pamp (M) besvarar frågan muntligt vid dagens sammanträde.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
