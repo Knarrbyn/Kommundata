@@ -184,5 +184,70 @@
     "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-05-18/protocol/protokoll-skapad-ten-2026-05-20-145942pdf?downloadMode=open",
     "relativePath": "data/raw/tekniska-namnden/2026-05-18/protokoll.pdf",
     "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-05-13/protocol/protokoll-kun-2026-05-13pdf?downloadMode=open",
+    "relativePath": "data/raw/kultur-och-utbildningsnamnden/2026-05-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-05-13/protocol/protokoll-sn-2026-05-13pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2026-05-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/overformyndarnamnden/mote-2026-05-07/protocol/protokoll-skapad-ofn-2026-05-07-120333pdf?downloadMode=open",
+    "relativePath": "data/raw/overformyndarnamnden/2026-05-07/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-05-06/protocol/protokoll-kf-2026-05-06pdf?downloadMode=open",
+    "relativePath": "data/raw/kommunfullmaktige/2026-05-06/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-04-21/protocol/protokoll-skapad-bun-2026-04-25-114145pdf?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2026-04-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-04-21/protocol/protokoll-skapad-bmn-2026-04-29-100705pdf?downloadMode=open",
+    "relativePath": "data/raw/bygg-och-miljonamnden/2026-04-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/overformyndarnamnden/mote-2026-04-16/protocol/protokoll-skapad-ofn-2026-04-20-135959pdf?downloadMode=open",
+    "relativePath": "data/raw/overformyndarnamnden/2026-04-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-04-14/protocol/protokoll-sn-2026-04-14pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2026-04-14/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-03-25/protocol/protokoll-skapad-bmn-2026-03-30-123501pdf?downloadMode=open",
+    "relativePath": "data/raw/bygg-och-miljonamnden/2026-03-25/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-03-24/protocol/protokoll-von-2026-03-24pdf?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2026-03-24/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-03-23/protocol/protokoll-skapad-ten-2026-03-27-132135pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2026-03-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-03-17/protocol/protokoll-sn-2026-03-17pdf",
+    "relativePath": "data/raw/socialnamnden/2026-03-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-03-17/protocol/protokoll-skapad-bun-2026-03-20-131749pdf?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2026-03-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
   }
 ]

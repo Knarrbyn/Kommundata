@@ -1,0 +1,445 @@
+[
+  {
+    "arende": {
+      "title": "Årsredovisning 2025 för Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2026.019 KS",
+      "steps": [
+        {
+          "step_id": "ars2025-ks-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2026-04-13",
+          "quote": "Kommunstyrelsen har den 13 april 2026, § 27 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§85 KOMMUNFULLMAKTIGE 2026-05-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-05-06/protocol/protokoll-kf-2026-05-06pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ars2025-kf-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2026-05-06",
+          "quote": "Årsredovisning 2025 för Alingsås kommun godkänns.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Miljöpartiet noterar att kommunens mål att bli \"Sveriges mest effektiva kommun\" ges ett alltför stort utrymme i styrningen av kommunens verksamhet. Ett markant fokus på effektivitet riskerar att perspektivet flyttas från innehåll och hur verksamheten faktiskt utförs till dess kostnader."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§85 KOMMUNFULLMAKTIGE 2026-05-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-05-06/protocol/protokoll-kf-2026-05-06pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ars2025-ks-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 13 april 2026, § 27 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ars2025-kf-beslut",
+        "field": "quote",
+        "quote": "Årsredovisning 2025 för Alingsås kommun godkänns.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ars2025-kf-beslut",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Miljöpartiet noterar att kommunens mål att bli \"Sveriges mest effektiva kommun\" ges ett alltför stort utrymme i styrningen av kommunens verksamhet. Ett markant fokus på effektivitet riskerar att perspektivet flyttas från innehåll och hur verksamheten faktiskt utförs till dess kostnader.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Redovisning av obesvarade motioner 2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.031 KS",
+      "steps": [
+        {
+          "step_id": "obesv-ks-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2026-04-13",
+          "quote": "Kommunstyrelsen har den 13 april 2026, § 57 behandlat ärendet och godkänt redovisningen med följande ändringar: ärende 2, 3, 5 och 7 utgår då de redan behandlas i kommunfullmäktige och ärende 9 ändras till beredning i kommunfullmäktige den 6 maj 2026.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§90 KOMMUNFULLMAKTIGE 2026-05-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-05-06/protocol/protokoll-kf-2026-05-06pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "obesv-kf-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2026-05-06",
+          "quote": "Redovisningen godkänns.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§90 KOMMUNFULLMAKTIGE 2026-05-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-05-06/protocol/protokoll-kf-2026-05-06pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "obesv-ks-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 13 april 2026, § 57 behandlat ärendet och godkänt redovisningen med följande ändringar: ärende 2, 3, 5 och 7 utgår då de redan behandlas i kommunfullmäktige och ärende 9 ändras till beredning i kommunfullmäktige den 6 maj 2026.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "obesv-kf-beslut",
+        "field": "quote",
+        "quote": "Redovisningen godkänns.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Nämndinitiativ: Införa ett riktat ekonomiskt stöd",
+      "initiativ_typ": "initiativarende",
+      "initiators": [
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": null,
+      "steps": [
+        {
+          "step_id": "s31-initiativ",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "initiativarende_vackt",
+          "date": "2026-04-21",
+          "quote": "Ge förvaltning i uppdrag att utreda möjligheten att införa ett riktat ekonomiskt stöd till mindre skolenheter i syfte att säkerställa förutsättningarna att erbjuda alla våra elever en likvärdig utbildning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 BARN-OCH-UNGDOMSNAMNDEN 2026-04-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-04-21/protocol/protokoll-skapad-bun-2026-04-25-114145pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "s31-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2026-04-21",
+          "quote": "Initiativärende från Heidi Hankanen Ängberg (C) avslås.",
+          "decision": "avslag",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till förslag från Heidi Hankanen Ängberg. Nej-röst för avslag till förslag Heidi Hankanen Ängberg.",
+            "result": {
+              "ja": 4,
+              "nej": 9,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "m",
+                "kd"
+              ],
+              "quote": "Moderaterna vill framhålla att frågan om mindre skolenheters förutsättningar redan är omhändertagen inom ramen för nämndens pågående arbete. Nämnden har tidigare gett förvaltningen i uppdrag att genomlysa och utveckla resursfördelningsmodellen, inklusive barn- och elevpeng samt socioekonomisk omfördelning, i syfte att skapa en långsiktig och likvärdig resursfördelning."
+            },
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Socialdemokraterna motsätter sig initiativärendet eftersom förvaltningen redan fått det uppdraget enligt text i genomlysningen \"För att skapa en mer hållbar, långsiktig och effektiv resursfördelning kommer barn- och ungdomsförvaltningen att utreda barn- och ungdomsnämndens resursfördelningsmodell.\""
+            },
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Förvaltningen har tidigare fått i uppdrag att presentera ett förslag till resursfördelningsmodell som stödjer ett effektivt och långsiktigt användande av resurserna. Detta uppdrag behöver enligt Centerpartiet kompletteras med en utredningen av möjligheten att införa ett riktat ekonomiskt stöd till mindre skolenheter i syfte att säkerställa förutsättningarna att erbjuda alla våra elever en likvärdig utbildning."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§31 BARN-OCH-UNGDOMSNAMNDEN 2026-04-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-04-21/protocol/protokoll-skapad-bun-2026-04-25-114145pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "s31-initiativ",
+        "field": "quote",
+        "quote": "Ge förvaltning i uppdrag att utreda möjligheten att införa ett riktat ekonomiskt stöd till mindre skolenheter i syfte att säkerställa förutsättningarna att erbjuda alla våra elever en likvärdig utbildning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "s31-beslut",
+        "field": "quote",
+        "quote": "Initiativärende från Heidi Hankanen Ängberg (C) avslås.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "s31-beslut",
+        "field": "protocol_anteckning[m+kd]",
+        "quote": "Moderaterna vill framhålla att frågan om mindre skolenheters förutsättningar redan är omhändertagen inom ramen för nämndens pågående arbete. Nämnden har tidigare gett förvaltningen i uppdrag att genomlysa och utveckla resursfördelningsmodellen, inklusive barn- och elevpeng samt socioekonomisk omfördelning, i syfte att skapa en långsiktig och likvärdig resursfördelning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "s31-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Socialdemokraterna motsätter sig initiativärendet eftersom förvaltningen redan fått det uppdraget enligt text i genomlysningen \"För att skapa en mer hållbar, långsiktig och effektiv resursfördelning kommer barn- och ungdomsförvaltningen att utreda barn- och ungdomsnämndens resursfördelningsmodell.\"",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "s31-beslut",
+        "field": "protocol_anteckning[c]",
+        "quote": "Förvaltningen har tidigare fått i uppdrag att presentera ett förslag till resursfördelningsmodell som stödjer ett effektivt och långsiktigt användande av resurserna. Detta uppdrag behöver enligt Centerpartiet kompletteras med en utredningen av möjligheten att införa ett riktat ekonomiskt stöd till mindre skolenheter i syfte att säkerställa förutsättningarna att erbjuda alla våra elever en likvärdig utbildning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Anmälda initiativärenden",
+      "initiativ_typ": "initiativarende",
+      "initiators": [
+        {
+          "name": "Leif Hansson",
+          "party": "s"
+        },
+        {
+          "name": "Oscar Allard",
+          "party": "s"
+        },
+        {
+          "name": "Ulf Unosson",
+          "party": "s"
+        },
+        {
+          "name": "Lena Karlsson",
+          "party": "s"
+        },
+        {
+          "name": "Luzaan Eisa",
+          "party": "s"
+        },
+        {
+          "name": "Anders Hjälm",
+          "party": "v"
+        },
+        {
+          "name": "Ingbritt Johansson",
+          "party": "c"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "pågående",
+      "diarienummer": null,
+      "steps": [
+        {
+          "step_id": "sn-27-vackt",
+          "instance": "socialnamnden",
+          "type": "initiativarende_vackt",
+          "date": "2026-04-14",
+          "quote": "i den mån Kvinnojouren Olivia eller annan aktör i en framtid erhåller tillstånd av IVO att bedriva skyddat boende kommer vi, undertecknade partier, att verka för att bidraget höjs till en nivå som är rimlig med tanke på den omfattning som Kvinnojouren Olivia eller annan aktör kommer att bedriva skyddat boende på i Alingsås.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Vi i Miljöpartiet ställer oss bakom nämndinitiativet."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§27 SOCIALNAMNDEN 2026-04-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-04-14/protocol/protokoll-sn-2026-04-14pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "sn-27-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2026-04-14",
+          "quote": "Initiativärendet tas emot och listas till kommande sammanträde i socialnämnden.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§27 SOCIALNAMNDEN 2026-04-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-04-14/protocol/protokoll-sn-2026-04-14pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-27-vackt",
+        "field": "quote",
+        "quote": "i den mån Kvinnojouren Olivia eller annan aktör i en framtid erhåller tillstånd av IVO att bedriva skyddat boende kommer vi, undertecknade partier, att verka för att bidraget höjs till en nivå som är rimlig med tanke på den omfattning som Kvinnojouren Olivia eller annan aktör kommer att bedriva skyddat boende på i Alingsås.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (54 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "sn-27-vackt",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Vi i Miljöpartiet ställer oss bakom nämndinitiativet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "sn-27-beslut",
+        "field": "quote",
+        "quote": "Initiativärendet tas emot och listas till kommande sammanträde i socialnämnden.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Revidering av vård- och omsorgsnämndens dokumenthanteringsplan",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.010 VON",
+      "steps": [
+        {
+          "step_id": "von-21-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2026-03-24",
+          "quote": "1. Den reviderade dokumenthanteringsplanen antas. 2. Den antagna versionen ersätter tidigare version som antogs den 16 december 2025, § 89/2025 VON. 3. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för de handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§21 VARD-OCH-OMSORGSNAMNDEN 2026-03-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-03-24/protocol/protokoll-von-2026-03-24pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-21-beslut",
+        "field": "quote",
+        "quote": "1. Den reviderade dokumenthanteringsplanen antas. 2. Den antagna versionen ersätter tidigare version som antogs den 16 december 2025, § 89/2025 VON. 3. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för de handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Skolenheter Ingareds skola",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2026.035 BUN",
+      "steps": [
+        {
+          "step_id": "bun-20-beredning",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beredning",
+          "date": "2026-03-03",
+          "quote": "Barn- och ungdomsnämndens arbetsutskott har den 3 mars 2026, §15 behandlat ärendet och föreslagit att: Ny skolenhet \"Ingaredsskolan årskurs 7–9\" inrättas från läsår 2027/2028.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§20 BARN-OCH-UNGDOMSNAMNDEN 2026-03-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-03-17/protocol/protokoll-skapad-bun-2026-03-20-131749pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "bun-20-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2026-03-17",
+          "quote": "Ny skolenhet \"Ingaredsskolan årskurs 7–9\" inrättas från läsår 2027/2028.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§20 BARN-OCH-UNGDOMSNAMNDEN 2026-03-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-03-17/protocol/protokoll-skapad-bun-2026-03-20-131749pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-20-beredning",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämndens arbetsutskott har den 3 mars 2026, §15 behandlat ärendet och föreslagit att: Ny skolenhet \"Ingaredsskolan årskurs 7–9\" inrättas från läsår 2027/2028.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "bun-20-beslut",
+        "field": "quote",
+        "quote": "Ny skolenhet \"Ingaredsskolan årskurs 7–9\" inrättas från läsår 2027/2028.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]
