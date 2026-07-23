@@ -1,0 +1,235 @@
+[
+  {
+    "arende": {
+      "title": "Förtydligande parkering för förtroendevalda",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2026.275 KS",
+      "steps": [
+        {
+          "step_id": "ks-119-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2026-06-15",
+          "quote": "Förtydligande kring vad som gäller för parkering för förtroendevalda antas.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [
+            {
+              "parties": [
+                "l"
+              ],
+              "quote": "Förslaget till \"Förtydligande parkering för förtroendevalda\" är enligt min mening felaktigt. Förslaget till beslut borde ha avslagits, alternativt att KSAU hade föreslagit en tydligt formulerad tolkning av gällande regelverk."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§119 KOMMUNSTYRELSEN 2026-06-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-06-15/protocol/protokoll-ks-2026-06-15pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-119-beslut",
+        "field": "quote",
+        "quote": "Förtydligande kring vad som gäller för parkering för förtroendevalda antas.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-119-beslut",
+        "field": "reservation[l]",
+        "quote": "Förslaget till \"Förtydligande parkering för förtroendevalda\" är enligt min mening felaktigt. Förslaget till beslut borde ha avslagits, alternativt att KSAU hade föreslagit en tydligt formulerad tolkning av gällande regelverk.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Riktlinjer för arvode och ersättning inom överförmyndarsamverkan – revidering med anledning av ny lagstiftning",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.030 ÖN",
+      "steps": [
+        {
+          "step_id": "32-beslut",
+          "instance": "overformyndarnamnden",
+          "type": "beslut",
+          "date": "2026-06-11",
+          "quote": "Överförmyndarnämnden beslutar att\n1. nuvarande riktlinjer för arvode och ersättning till gode män, förvaltare och förordnade förmyndare fortsatt ska tillämpas under perioden 1 juli 2026–31 december 2026",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§32 OVERFORMYNDARNAMNDEN 2026-06-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/overformyndarnamnden/mote-2026-06-11/protocol/protokoll-skapad-ofn-2026-06-12-125113pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "32-beslut",
+        "field": "quote",
+        "quote": "Överförmyndarnämnden beslutar att\n1. nuvarande riktlinjer för arvode och ersättning till gode män, förvaltare och förordnade förmyndare fortsatt ska tillämpas under perioden 1 juli 2026–31 december 2026",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Införande av allmänpolitiska debatter i kommunfullmäktige",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2026.225 KS",
+      "steps": [
+        {
+          "step_id": "ks-97-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2026-06-01",
+          "quote": "1. Rutin för allmänpolitisk debatt godkänns.\n2. Allmänpolitiska debatter införs i kommunfullmäktige inför mandatperioden 2027–2030.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "l"
+              ],
+              "quote": "En allmänpolitisk debatt är, efter mönster i riksdagen, per definition en debatt där ledamöterna har möjlighet att debattera frågor över hela det politiska fältet."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§97 KOMMUNSTYRELSEN 2026-06-01",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-06-01/protocol/protokoll-ks-2026-06-01pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-97-beslut",
+        "field": "quote",
+        "quote": "1. Rutin för allmänpolitisk debatt godkänns.\n2. Allmänpolitiska debatter införs i kommunfullmäktige inför mandatperioden 2027–2030.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-97-beslut",
+        "field": "protocol_anteckning[l]",
+        "quote": "En allmänpolitisk debatt är, efter mönster i riksdagen, per definition en debatt där ledamöterna har möjlighet att debattera frågor över hela det politiska fältet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande stärkt föreningsliv i Alingsås genom anslutning till Bidragsportalen - Anders Julin (S) med flera",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Anders Julin",
+          "party": "s"
+        },
+        {
+          "name": "Alexander Wikhall",
+          "party": "s"
+        },
+        {
+          "name": "Sebastian Aronsson",
+          "party": "s"
+        }
+      ],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2026.126 KS",
+      "steps": [
+        {
+          "step_id": "ks-100-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2026-02-25",
+          "quote": "Anders Julin (S), Alexander Wikhall (S) och Sebastian Aronsson (S) har till kommunfullmäktige den 25 februari 2026 lämnat en motion gällande stärkt föreningsliv i Alingsås kommun genom anslutning till Bidragsportalen.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§100 KOMMUNSTYRELSEN 2026-06-01",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-06-01/protocol/protokoll-ks-2026-06-01pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-100-namndyttrande",
+          "instance": "kultur_och_utbildningsnamnden",
+          "type": "namndyttrande",
+          "date": "2026-04-22",
+          "quote": "Kultur- och utbildningsnämnden har behandlat ärendet den 22 april 2026, § 48 och nämnden tillstyrker motionen. Kultur- och utbildningsförvaltningen ser inget behov av vidare utredning och föreslår att utredningen anses genomförd och att motionen tillstyrks.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§100 KOMMUNSTYRELSEN 2026-06-01",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-06-01/protocol/protokoll-ks-2026-06-01pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-100-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2026-06-01",
+          "quote": "Förslag till beslut i kommunfullmäktige\nMotionen bifalls.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§100 KOMMUNSTYRELSEN 2026-06-01",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-06-01/protocol/protokoll-ks-2026-06-01pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-100-motion-inlamnad",
+        "field": "quote",
+        "quote": "Anders Julin (S), Alexander Wikhall (S) och Sebastian Aronsson (S) har till kommunfullmäktige den 25 februari 2026 lämnat en motion gällande stärkt föreningsliv i Alingsås kommun genom anslutning till Bidragsportalen.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-100-namndyttrande",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden har behandlat ärendet den 22 april 2026, § 48 och nämnden tillstyrker motionen. Kultur- och utbildningsförvaltningen ser inget behov av vidare utredning och föreslår att utredningen anses genomförd och att motionen tillstyrks.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-100-beslut",
+        "field": "quote",
+        "quote": "Förslag till beslut i kommunfullmäktige\nMotionen bifalls.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]

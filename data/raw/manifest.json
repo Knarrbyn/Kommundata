@@ -114,5 +114,75 @@
   {
     "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-05-18/protocol/protokoll-skapad-ten-2026-05-20-145942pdf?downloadMode=open",
     "relativePath": "data/raw/tekniska-namnden/2026-05-18/protokoll.pdf"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-07-07/protocol/protokoll-skapad-bmn-2026-07-10-134612pdf?downloadMode=open",
+    "relativePath": "data/raw/bygg-och-miljonamnden/2026-07-07/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-06-17/protocol/protokoll-kun-2026-06-17pdf?downloadMode=open",
+    "relativePath": "data/raw/kultur-och-utbildningsnamnden/2026-06-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-06-16/protocol/protokoll-sn-2026-06-16pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2026-06-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-06-16/protocol/protokoll-skapad-bun-2026-06-23-074915pdf?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2026-06-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-06-16/protocol/protokoll-skapad-bmn-2026-06-23-082826pdf?downloadMode=open",
+    "relativePath": "data/raw/bygg-och-miljonamnden/2026-06-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-06-15/protocol/protokoll-ks-2026-06-15pdf?downloadMode=open",
+    "relativePath": "data/raw/kommunstyrelsen/2026-06-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-06-15/protocol/protokoll-skapad-ten-2026-06-18-101403pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2026-06-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-06-11/protocol/protokoll-von-2026-06-11pdf?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2026-06-11/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/overformyndarnamnden/mote-2026-06-11/protocol/protokoll-skapad-ofn-2026-06-12-125113pdf?downloadMode=open",
+    "relativePath": "data/raw/overformyndarnamnden/2026-06-11/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-06-01/protocol/protokoll-ks-2026-06-01pdf?downloadMode=open",
+    "relativePath": "data/raw/kommunstyrelsen/2026-06-01/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-05-26/protocol/protokoll-skapad-bun-2026-06-01-094617pdf?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2026-05-26/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-05-19/protocol/protokoll-skapad-bmn-2026-05-25-110203pdf?downloadMode=open",
+    "relativePath": "data/raw/bygg-och-miljonamnden/2026-05-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-05-18/protocol/protokoll-von-2026-05-18pdf?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2026-05-18/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-05-18/protocol/protokoll-skapad-ten-2026-05-20-145942pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2026-05-18/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
   }
 ]

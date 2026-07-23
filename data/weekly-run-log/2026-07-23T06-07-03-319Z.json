@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-07-23T06-07-03-319Z",
+  "committeesChecked": [
+    "kommunfullmaktige",
+    "kommunstyrelsen",
+    "vard-och-omsorgsnamnden",
+    "tekniska-namnden",
+    "kultur-och-utbildningsnamnden",
+    "socialnamnden",
+    "barn-och-ungdomsnamnden",
+    "bygg-och-miljonamnden",
+    "overformyndarnamnden",
+    "samhallsbyggnadsnamnden"
+  ],
+  "perCommitteeResults": [
+    {
+      "slug": "kommunfullmaktige",
+      "foundCount": 87,
+      "error": null
+    },
+    {
+      "slug": "kommunstyrelsen",
+      "foundCount": 122,
+      "error": null
+    },
+    {
+      "slug": "vard-och-omsorgsnamnden",
+      "foundCount": 97,
+      "error": null
+    },
+    {
+      "slug": "tekniska-namnden",
+      "foundCount": 39,
+      "error": null
+    },
+    {
+      "slug": "kultur-och-utbildningsnamnden",
+      "foundCount": 66,
+      "error": null
+    },
+    {
+      "slug": "socialnamnden",
+      "foundCount": 94,
+      "error": null
+    },
+    {
+      "slug": "barn-och-ungdomsnamnden",
+      "foundCount": 84,
+      "error": null
+    },
+    {
+      "slug": "bygg-och-miljonamnden",
+      "foundCount": 41,
+      "error": null
+    },
+    {
+      "slug": "overformyndarnamnden",
+      "foundCount": 64,
+      "error": null
+    },
+    {
+      "slug": "samhallsbyggnadsnamnden",
+      "foundCount": 63,
+      "error": null
+    }
+  ],
+  "totalNewMeetingsFound": 757,
+  "cappedAtThisRun": true,
+  "maxPerRun": 15,
+  "meetingsThisRun": [
+    "bygg-och-miljonamnden 2026-07-07",
+    "kultur-och-utbildningsnamnden 2026-06-17",
+    "socialnamnden 2026-06-16",
+    "barn-och-ungdomsnamnden 2026-06-16",
+    "bygg-och-miljonamnden 2026-06-16",
+    "kommunstyrelsen 2026-06-15",
+    "tekniska-namnden 2026-06-15",
+    "vard-och-omsorgsnamnden 2026-06-11",
+    "overformyndarnamnden 2026-06-11",
+    "kommunfullmaktige 2026-06-10",
+    "kommunstyrelsen 2026-06-01",
+    "barn-och-ungdomsnamnden 2026-05-26",
+    "bygg-och-miljonamnden 2026-05-19",
+    "vard-och-omsorgsnamnden 2026-05-18",
+    "tekniska-namnden 2026-05-18"
+  ]
+}
