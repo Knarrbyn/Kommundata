@@ -29,6 +29,16 @@ jobs:
       # underkatalog (archive-repo/) i samma jobb, med en egen token
       # eftersom det inbyggda GITHUB_TOKEN bara har behörighet till det
       # repo workflowen själv körs i.
+      - name: DIAGNOSTIK — kolla om ARCHIVE_REPO_TOKEN faktiskt är satt (tas bort efter felsökning)
+        env:
+          TOKEN_CHECK: ${{ secrets.ARCHIVE_REPO_TOKEN }}
+        run: |
+          if [ -z "$TOKEN_CHECK" ]; then
+            echo "ARCHIVE_REPO_TOKEN är TOM eller helt osatt."
+          else
+            echo "ARCHIVE_REPO_TOKEN är satt, längd=${#TOKEN_CHECK} tecken (bör vara ~93 för en github_pat_...-token)."
+          fi
+
       - name: Checka ut arkiv-repot
         uses: actions/checkout@v4
         with:
