@@ -1,1 +1,1 @@
-ARCHIVE_REPO_TOKEN är TOM eller helt osatt.
+ARCHIVE_REPO_TOKEN är satt, längd=93 tecken (bör vara ~93 för en github_pat_...-token).
