@@ -33,11 +33,17 @@ jobs:
         env:
           TOKEN_CHECK: ${{ secrets.ARCHIVE_REPO_TOKEN }}
         run: |
+          mkdir -p data/diag
           if [ -z "$TOKEN_CHECK" ]; then
-            echo "ARCHIVE_REPO_TOKEN är TOM eller helt osatt."
+            echo "ARCHIVE_REPO_TOKEN är TOM eller helt osatt." > data/diag/archive-token-check.txt
           else
-            echo "ARCHIVE_REPO_TOKEN är satt, längd=${#TOKEN_CHECK} tecken (bör vara ~93 för en github_pat_...-token)."
+            echo "ARCHIVE_REPO_TOKEN är satt, längd=${#TOKEN_CHECK} tecken (bör vara ~93 för en github_pat_...-token)." > data/diag/archive-token-check.txt
           fi
+          git config user.name "faktagranskaren-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/diag/archive-token-check.txt
+          git commit -m "Diagnostik: kolla ARCHIVE_REPO_TOKEN" || echo "(inget att committa)"
+          git push || echo "(inget att pusha)"
 
       - name: Checka ut arkiv-repot
         uses: actions/checkout@v4
