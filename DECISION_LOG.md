@@ -839,3 +839,50 @@ nätverksbegränsning. **INTE verifierat i skarp drift ännu** — kräver att
 fine-grained-PAT-begränsning som tidigare) och att en skarp körning
 faktiskt bevisar att båda repona får rätt innehåll och att arkivlänkarna
 pekar rätt.
+
+## 2026-07-23 — Kallt arkiv-repo bekräftat fungerande i skarp drift
+
+Efter flera felsökningsvarv (empty repo utan main-gren, en secret som
+aldrig faktiskt sparades trots upprepade försök) fungerar nu hela
+tvårepo-uppdelningen end-to-end.
+
+**Grundorsaker till de tre misslyckade försöken, i tur och ordning:**
+1. `Kommundata-arkiv` var helt tomt (0 commits, ingen `main`-gren) —
+   `actions/checkout` hade inget att checka ut. Löst genom att skapa en
+   första commit (README.md) direkt via API.
+2. `ARCHIVE_REPO_TOKEN` sparades aldrig faktiskt i GitHub trots att
+   ägaren trodde det — bekräftat genom ett tillfälligt diagnossteg som
+   skrev resultatet till en committad fil (`data/diag/archive-token-check.txt`,
+   eftersom vanlig logg-läsning visat sig opålitlig både via UI och API
+   under hela den här sessionen). Diagnosen visade "TOM eller helt osatt"
+   två gånger i rad — även efter att ägaren trodde sig ha sparat den.
+   Löst genom att gå igenom "New repository secret"-flödet extra
+   noggrant, med skärmbildsbekräftelse i två steg (formulär ifyllt →
+   "Repository secret added"-bekräftelse).
+
+**Skarp verifiering, körning `29983122161` (2026-07-23):**
+- Samtliga steg lyckades, inklusive de två nya (checkout + commit/push
+  av arkiv-repot).
+- `Kommundata-arkiv`: 397 filer, 233,64 MB riktiga dokument (bekräftat
+  via git-trädet — API:ts `size`-fält visade missvisande "0 KB", troligen
+  en cache-fördröjning i GitHub:s egen statistik, inte verkligheten).
+- `Kommundata` (huvudrepot): `data/raw/` oförändrat på 423 filer/254 MB
+  (den GAMLA datan från innan uppdelningen — inga NYA filer tillkom,
+  vilket bevisar att uppdelningen fungerar: framtida tillväxt går till
+  arkiv-repot, inte huvudrepot).
+- `data/published/arenden.json`: 232 ärenden, 352 arkivlänkar totalt,
+  **noll kvarvarande PENDING-markörer**. 212 pekar korrekt mot de gamla
+  commit:arna i huvudrepot (fortsatt giltiga), 140 pekar korrekt mot nya,
+  riktiga commit-pinnade länkar i `Kommundata-arkiv`.
+
+**Städat:** det tillfälliga diagnossteget borttaget ur
+`weekly-pipeline.yml` (syftet uppfyllt). `data/diag/`-filen lämnas kvar i
+huvudrepots historik som spårbar dokumentation av felsökningen, men
+skapas inte längre av någon aktiv kod.
+
+**Kvarstående, medvetet inte gjort:** de 249 MB gamla dokument som redan
+låg i huvudrepot INNAN uppdelningen ligger kvar där (se tidigare post om
+varför en retroaktiv flytt/historikomskrivning avråddes — skulle bryta
+212 redan publicerade arkivlänkar). Tillväxtproblemet är löst framåt;
+den redan existerande storleken är en engångskostnad, inte ett växande
+problem längre.
