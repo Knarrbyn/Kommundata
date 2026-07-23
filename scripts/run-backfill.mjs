@@ -32,7 +32,7 @@
  */
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { COMMITTEES, BASE_URL, SEEN_FILE } from "../src/config.ts";
+import { COMMITTEES, BASE_URL, SEEN_FILE, ARCHIVE_REPO, ARCHIVE_LOCAL_DIR } from "../src/config.ts";
 import { extractMeetingRefs, extractProtocolPdfUrl, loadSeen, markSeen } from "../src/fetch.ts";
 import { downloadMeetingFiles } from "../src/download.ts";
 import { extractPdfText, buildExtractionPrompt, parseExtractionResponse, stampPdfUrl } from "../src/extract.ts";
@@ -219,6 +219,8 @@ async function main() {
     writeFile: (p, data) => writeFile(p, data),
   };
 
+  const ARCHIVE_BASE_DIR = `${ARCHIVE_LOCAL_DIR}/data/raw`;
+
   for (const ref of batch) {
     console.error(`--- ${ref.date} ---`);
     try {
@@ -230,8 +232,9 @@ async function main() {
       }
       const meeting = { ...ref, protocolPdfUrl };
 
-      const downloaded = await downloadMeetingFiles(meeting, meetingHtml, downloadDeps);
-      manifest.push({ pdfUrl: protocolPdfUrl, relativePath: downloaded.protocolPath });
+      const downloaded = await downloadMeetingFiles(meeting, meetingHtml, downloadDeps, ARCHIVE_BASE_DIR);
+      const protocolRelativePath = downloaded.protocolPath.replace(`${ARCHIVE_LOCAL_DIR}/`, "");
+      manifest.push({ pdfUrl: protocolPdfUrl, relativePath: protocolRelativePath, repo: ARCHIVE_REPO });
 
       const protocolBytes = await readFile(downloaded.protocolPath);
       const sourceText = await extractPdfText(new Uint8Array(protocolBytes));
@@ -287,7 +290,13 @@ async function main() {
 
   const rawFiles = [];
   for (const m of manifest) {
-    rawFiles.push({ pdfUrl: m.pdfUrl, relativePath: m.relativePath, bytes: new Uint8Array(await readFile(m.relativePath)) });
+    const localDiskPath = `${ARCHIVE_LOCAL_DIR}/${m.relativePath}`;
+    rawFiles.push({
+      pdfUrl: m.pdfUrl,
+      relativePath: m.relativePath,
+      bytes: new Uint8Array(await readFile(localDiskPath)),
+      repo: m.repo,
+    });
   }
   const { arenden: archivedArenden } = archiveArendenWithGit(allToPublish, rawFiles);
 

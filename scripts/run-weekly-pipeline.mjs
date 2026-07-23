@@ -27,7 +27,7 @@
  */
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { COMMITTEES, BASE_URL, SEEN_FILE } from "../src/config.ts";
+import { COMMITTEES, BASE_URL, SEEN_FILE, ARCHIVE_REPO, ARCHIVE_LOCAL_DIR } from "../src/config.ts";
 import { loadSeen, fetchNewMeetingsForCommittee, markSeen } from "../src/fetch.ts";
 import { downloadMeetingFiles } from "../src/download.ts";
 import { extractPdfText, buildExtractionPrompt, parseExtractionResponse, stampPdfUrl } from "../src/extract.ts";
@@ -188,13 +188,20 @@ async function main() {
     writeFile: (p, data) => writeFile(p, data),
   };
 
+  const ARCHIVE_BASE_DIR = `${ARCHIVE_LOCAL_DIR}/data/raw`;
+
   for (const meeting of cappedMeetings) {
     console.error(`--- ${meeting.committeeSlug} ${meeting.date} ---`);
     try {
       const meetingUrl = `${BASE_URL}/committees/${meeting.committeeSlug}/mote-${meeting.date}`;
       const meetingHtml = await fetchText(meetingUrl);
-      const downloaded = await downloadMeetingFiles(meeting, meetingHtml, downloadDeps);
-      manifest.push({ pdfUrl: meeting.protocolPdfUrl, relativePath: downloaded.protocolPath });
+      const downloaded = await downloadMeetingFiles(meeting, meetingHtml, downloadDeps, ARCHIVE_BASE_DIR);
+      // manifest/rawFiles-sökvägar sparas RELATIVT ARKIV-REPOTS EGEN ROT
+      // (utan "archive-repo/"-prefixet, som bara är namnet på den lokala
+      // checkout-katalogen under DEN HÄR körningen) — det är den sökvägen
+      // som faktiskt ska synas i den slutgiltiga GitHub-permalänken.
+      const protocolRelativePath = downloaded.protocolPath.replace(`${ARCHIVE_LOCAL_DIR}/`, "");
+      manifest.push({ pdfUrl: meeting.protocolPdfUrl, relativePath: protocolRelativePath, repo: ARCHIVE_REPO });
 
       const protocolBytes = await readFile(downloaded.protocolPath);
       const sourceText = await extractPdfText(new Uint8Array(protocolBytes));
@@ -255,7 +262,9 @@ async function main() {
   await writeFile(`data/needs_review/${runTimestamp}.json`, JSON.stringify(allNeedsReview, null, 2));
   console.error(`\n${allNeedsReview.length} poster totalt till needs_review (se data/needs_review/${runTimestamp}.json).`);
 
-  // Arkiv: git-primärt, offline (se DECISION_LOG.md 2026-07-20).
+  // Arkiv: git-primärt, offline (se DECISION_LOG.md 2026-07-20 och 2026-07-23).
+  // manifest.json stannar kvar i HUVUDrepot (litet, bara ett index) — bara
+  // själva dokumenten flyttades till arkiv-repot.
   await mkdir("data/raw", { recursive: true });
   const existingManifestRaw = await readFile("data/raw/manifest.json", "utf-8").catch(() => "[]");
   const fullManifest = [...JSON.parse(existingManifestRaw), ...manifest];
@@ -263,7 +272,17 @@ async function main() {
 
   const rawFiles = [];
   for (const m of manifest) {
-    rawFiles.push({ pdfUrl: m.pdfUrl, relativePath: m.relativePath, bytes: new Uint8Array(await readFile(m.relativePath)) });
+    // m.relativePath är relativt ARKIV-repots rot (utan "archive-repo/"-
+    // prefixet) — men filen ligger fortfarande fysiskt kvar under den
+    // lokala checkout-katalogen just nu, så läsningen måste lägga
+    // tillbaka prefixet.
+    const localDiskPath = `${ARCHIVE_LOCAL_DIR}/${m.relativePath}`;
+    rawFiles.push({
+      pdfUrl: m.pdfUrl,
+      relativePath: m.relativePath,
+      bytes: new Uint8Array(await readFile(localDiskPath)),
+      repo: m.repo,
+    });
   }
   const { arenden: archivedArenden } = archiveArendenWithGit(allToPublish, rawFiles);
   console.error(`Git-arkiv: ${rawFiles.length} rå-filer PENDING-markerade (fylls i efter commit av fill-archive-urls.mjs).`);

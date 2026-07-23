@@ -60,13 +60,35 @@ export function computeFileHash(bytes: Uint8Array): string {
  * äldre `"archive_url": "TODO"` — det får ALDRIG nå produktion, se
  * DECISION_LOG.md). Byggmallen (templates/site.html) känner igen detta
  * prefix och döljer arkivlänken snyggt istället för att visa den trasig.
+ *
+ * UTÖKAD 2026-07-23 (se DECISION_LOG.md, "kallt arkiv-repo"): markören
+ * innehåller nu VILKET repo filen faktiskt hör hemma i, inte bara
+ * sökvägen. Nödvändigt sedan rå-dokument flyttades till ett separat
+ * "kallt" repo (`Kommundata-arkiv`) för att hålla huvudrepot smått —
+ * `scripts/fill-archive-urls.mjs` måste veta vilken av de TVÅ repornas
+ * commit-SHA som ska användas för varje markör, eftersom de får olika
+ * SHA:er (två separata commits i två separata repon, samma körning).
  */
-export function buildPendingGitArchiveMarker(relativePath: string): string {
-  return `git-pending:${relativePath}`;
+export function buildPendingGitArchiveMarker(relativePath: string, repo: string): string {
+  return `git-pending:${repo}:${relativePath}`;
 }
 
 export function isPendingGitArchiveMarker(archiveUrl: string | null | undefined): boolean {
   return typeof archiveUrl === "string" && archiveUrl.startsWith("git-pending:");
+}
+
+/**
+ * Plockar isär en PENDING-markör i dess beståndsdelar. Returnerar `null`
+ * om strängen inte är en giltig markör.
+ */
+export function parsePendingGitArchiveMarker(
+  archiveUrl: string
+): { repo: string; relativePath: string } | null {
+  if (!isPendingGitArchiveMarker(archiveUrl)) return null;
+  const rest = archiveUrl.slice("git-pending:".length);
+  const sepIndex = rest.indexOf(":");
+  if (sepIndex === -1) return null; // gammalt format utan repo — se fill-archive-urls.mjs för bakåtkompatibel hantering
+  return { repo: rest.slice(0, sepIndex), relativePath: rest.slice(sepIndex + 1) };
 }
 
 /**
@@ -77,6 +99,7 @@ export function isPendingGitArchiveMarker(archiveUrl: string | null | undefined)
 export function buildGitArchiveUrl(ctx: GitArchiveContext, commitSha: string): string {
   return `https://github.com/${ctx.githubRepo}/blob/${commitSha}/${ctx.relativePath}`;
 }
+
 
 /* ============ Sekundärt, frivilligt arkiv: Wayback Machine / SPN2 ============
  * Allt nedan är OFÖRÄNDRAT sedan den ursprungliga versionen, men nu
@@ -252,9 +275,15 @@ export async function archiveUrl(
 export interface RawFileEntry {
   /** Måste matcha exakt den pdf_url som står i step.source.pdf_url */
   pdfUrl: string;
-  /** Sökväg relativt repo-roten där filen faktiskt sparats på disk/committas, t.ex. "data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf" */
+  /** Sökväg relativt DET REPO:t filen faktiskt ligger i (se `repo`), t.ex. "data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf" */
   relativePath: string;
   bytes: Uint8Array;
+  /**
+   * Vilket GitHub-repo (`ägare/repo`) filen faktiskt committas till.
+   * Tillagt 2026-07-23 (se DECISION_LOG.md): rå-dokument flyttades till
+   * ett separat "kallt" arkiv-repo för att hålla huvudrepot smått.
+   */
+  repo: string;
 }
 
 export interface ArchiveResult {
@@ -278,18 +307,18 @@ export function archiveArendenWithGit(
   rawFiles: RawFileEntry[]
 ): ArchiveResult {
   const fileHashes: Record<string, string> = {};
-  const urlToPath = new Map<string, string>();
+  const urlToFile = new Map<string, { relativePath: string; repo: string }>();
   for (const f of rawFiles) {
-    urlToPath.set(f.pdfUrl, f.relativePath);
+    urlToFile.set(f.pdfUrl, { relativePath: f.relativePath, repo: f.repo });
     fileHashes[f.relativePath] = computeFileHash(f.bytes);
   }
 
   for (const arende of arenden) {
     for (const step of arende.steps) {
       const source = step.source as { protocol_ref: string; pdf_url?: string; archive_url?: string };
-      const relativePath = source.pdf_url ? urlToPath.get(source.pdf_url) : undefined;
-      if (relativePath) {
-        source.archive_url = buildPendingGitArchiveMarker(relativePath);
+      const file = source.pdf_url ? urlToFile.get(source.pdf_url) : undefined;
+      if (file) {
+        source.archive_url = buildPendingGitArchiveMarker(file.relativePath, file.repo);
       }
     }
   }

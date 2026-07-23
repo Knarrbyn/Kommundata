@@ -9,6 +9,7 @@ import {
   computeFileHash,
   buildPendingGitArchiveMarker,
   isPendingGitArchiveMarker,
+  parsePendingGitArchiveMarker,
   buildGitArchiveUrl,
   archiveArendenWithGit,
   type ArchiveDeps,
@@ -171,13 +172,23 @@ test("computeFileHash: olika innehåll ger olika hash", () => {
   assert.notEqual(a, b);
 });
 
-test("buildPendingGitArchiveMarker / isPendingGitArchiveMarker: rund-trip och igenkänning", () => {
-  const marker = buildPendingGitArchiveMarker("data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf");
-  assert.equal(marker, "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf");
+test("buildPendingGitArchiveMarker / isPendingGitArchiveMarker / parsePendingGitArchiveMarker: rund-trip och igenkänning", () => {
+  const marker = buildPendingGitArchiveMarker(
+    "data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+    "Knarrbyn/Kommundata-arkiv"
+  );
+  assert.equal(marker, "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf");
   assert.equal(isPendingGitArchiveMarker(marker), true);
   assert.equal(isPendingGitArchiveMarker("https://github.com/x/y/blob/abc123/data/raw/foo.pdf"), false);
   assert.equal(isPendingGitArchiveMarker(null), false);
   assert.equal(isPendingGitArchiveMarker(undefined), false);
+
+  const parsed = parsePendingGitArchiveMarker(marker);
+  assert.deepEqual(parsed, {
+    repo: "Knarrbyn/Kommundata-arkiv",
+    relativePath: "data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+  });
+  assert.equal(parsePendingGitArchiveMarker("https://github.com/x/y/blob/abc/foo.pdf"), null);
 });
 
 test("buildGitArchiveUrl: bygger en commit-pinnad GitHub-permalänk", () => {
@@ -212,22 +223,35 @@ function makeMinimalArende(pdfUrl: string): CandidateArende {
   };
 }
 
-test("archiveArendenWithGit: sätter PENDING-markör på steg vars pdf_url matchar en känd rå-fil", () => {
+test("archiveArendenWithGit: sätter en repo-medveten PENDING-markör på steg vars pdf_url matchar en känd rå-fil", () => {
   const arende = makeMinimalArende("https://sammantradesportal.alingsas.se/.../protokoll.pdf");
   const bytes = new TextEncoder().encode("fejk-pdf-innehåll");
   const { arenden, fileHashes } = archiveArendenWithGit([arende], [
-    { pdfUrl: "https://sammantradesportal.alingsas.se/.../protokoll.pdf", relativePath: "data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf", bytes },
+    {
+      pdfUrl: "https://sammantradesportal.alingsas.se/.../protokoll.pdf",
+      relativePath: "data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf",
+      bytes,
+      repo: "Knarrbyn/Kommundata-arkiv",
+    },
   ]);
 
   const source = arenden[0].steps[0].source as { archive_url?: string };
-  assert.equal(source.archive_url, "git-pending:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf");
+  assert.equal(
+    source.archive_url,
+    "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf"
+  );
   assert.equal(fileHashes["data/raw/kommunfullmaktige/2026-03-25/protokoll.pdf"], computeFileHash(bytes));
 });
 
 test("archiveArendenWithGit: steg vars pdf_url INTE matchar någon känd rå-fil lämnas orörda (hellre ingen länk än fel länk)", () => {
   const arende = makeMinimalArende("https://sammantradesportal.alingsas.se/okand-url.pdf");
   const { arenden } = archiveArendenWithGit([arende], [
-    { pdfUrl: "https://sammantradesportal.alingsas.se/annan-url.pdf", relativePath: "data/raw/x/protokoll.pdf", bytes: new Uint8Array() },
+    {
+      pdfUrl: "https://sammantradesportal.alingsas.se/annan-url.pdf",
+      relativePath: "data/raw/x/protokoll.pdf",
+      bytes: new Uint8Array(),
+      repo: "Knarrbyn/Kommundata-arkiv",
+    },
   ]);
 
   const source = arenden[0].steps[0].source as { archive_url?: string };

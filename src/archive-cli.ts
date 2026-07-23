@@ -54,10 +54,17 @@ async function loadRawFiles(rawDir: string): Promise<RawFileEntry[]> {
   }
 
   const entries: RawFileEntry[] = [];
+  // OBS (2026-07-23): det här manuella CLI-verktyget är INTE uppdaterat
+  // för tvårepo-uppdelningen (se DECISION_LOG.md) — det förutsätter
+  // fortfarande att rå-filer ligger i HUVUDrepot, inte det separata
+  // "kalla" arkiv-repot. Bra för snabb enstaka-mötes-felsökning lokalt,
+  // men skarp drift går numera via scripts/run-weekly-pipeline.mjs /
+  // scripts/run-backfill.mjs, som båda är uppdaterade.
+  const repo = process.env.GITHUB_REPOSITORY || "OKÄNT_REPO_SÄTT_GITHUB_REPOSITORY";
   for (const m of manifest) {
     try {
       const bytes = await readFile(m.relativePath);
-      entries.push({ pdfUrl: m.pdfUrl, relativePath: m.relativePath, bytes: new Uint8Array(bytes) });
+      entries.push({ pdfUrl: m.pdfUrl, relativePath: m.relativePath, bytes: new Uint8Array(bytes), repo });
     } catch (e) {
       console.error(`  ⚠ Kunde inte läsa ${m.relativePath}: ${(e as Error).message}`);
     }

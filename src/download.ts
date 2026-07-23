@@ -74,11 +74,18 @@ function sanitizeFilename(slug: string): string {
 
 /**
  * Bygger den lokala mappstrukturen för ett mötes nedladdade filer:
- *   data/raw/{slug}/{datum}/protokoll.pdf
- *   data/raw/{slug}/{datum}/bilagor/{filnamn}.pdf
+ *   {baseDir}/{slug}/{datum}/protokoll.pdf
+ *   {baseDir}/{slug}/{datum}/bilagor/{filnamn}.pdf
+ *
+ * `baseDir` är konfigurerbar (tillagt 2026-07-23, se DECISION_LOG.md) —
+ * i skarp drift pekas den mot en checkout av det separata "kalla"
+ * arkiv-repot (`Kommundata-arkiv`) istället för `data/raw` i huvudrepot,
+ * för att hålla huvudrepot smått och snabbt att klona/checka ut vid
+ * varje pipeline-körning. Default är oförändrat `data/raw`, så befintlig
+ * kod/tester som inte bryr sig om detta fortsätter fungera exakt som förut.
  */
-export function localPathsFor(meeting: MeetingWithProtocol) {
-  const dir = `data/raw/${meeting.committeeSlug}/${meeting.date}`;
+export function localPathsFor(meeting: MeetingWithProtocol, baseDir: string = "data/raw") {
+  const dir = `${baseDir}/${meeting.committeeSlug}/${meeting.date}`;
   return {
     dir,
     protocolPath: `${dir}/protokoll.pdf`,
@@ -100,9 +107,10 @@ export interface DownloadDeps {
 export async function downloadMeetingFiles(
   meeting: MeetingWithProtocol,
   meetingHtml: string,
-  deps: DownloadDeps
+  deps: DownloadDeps,
+  baseDir: string = "data/raw"
 ): Promise<DownloadedMeeting> {
-  const paths = localPathsFor(meeting);
+  const paths = localPathsFor(meeting, baseDir);
   await deps.ensureDir(paths.dir);
   await deps.ensureDir(paths.bilagaDir);
 

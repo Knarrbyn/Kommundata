@@ -64,3 +64,16 @@ export const BASE_URL = "https://sammantradesportal.alingsas.se";
 
 /** Sökväg till filen som håller reda på redan bearbetade protokoll (per instans). */
 export const SEEN_FILE = "data/seen.json";
+
+/**
+ * "Kallt" arkiv-repo för rå-dokument (protokoll-PDF:er + kallelsebilagor).
+ * Tillagt 2026-07-23 (se DECISION_LOG.md) — separat repo istället för att
+ * committa allt till huvudrepot, för att hålla huvudrepot (som checkas ut
+ * vid VARJE pipeline-körning, veckovis för alltid) smått och snabbt.
+ * Kräver en egen secret (`ARCHIVE_REPO_TOKEN`) i workflow-filerna, eftersom
+ * GitHub Actions inbyggda token bara har behörighet till sitt eget repo.
+ */
+export const ARCHIVE_REPO = "Knarrbyn/Kommundata-arkiv";
+
+/** Lokal checkout-katalog för arkiv-repot under en pipeline-körning (se workflow-filerna). */
+export const ARCHIVE_LOCAL_DIR = "archive-repo";

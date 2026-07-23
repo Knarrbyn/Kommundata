@@ -777,3 +777,65 @@ till nu, med den nya nyast-först-sorteringen, för att bekräfta att den
 faktiskt hämtar in de senaste mötena (t.ex. 2026-05-06 och 2026-06-10 för
 kommunfullmäktige, som vi VET existerar men som ännu inte finns i
 `data/published/arenden.json`).
+
+## 2026-07-23 — Kallt arkiv-repo för rå-dokument (kostnadsfråga från ägaren)
+
+Bakgrund: en fråga om lagringsutrymme avslöjade att rå-dokument (protokoll
++ kallelsebilagor) redan tagit 249 MB i 423 filer efter bara ~15–18
+riktiga möten — extrapolerat skulle en fullständig täckning av
+mandatperioden 2022–2026 sannolikt nå flera GB, och hela den kända
+bakloggen (757 möten) sannolikt över 10 GB (GitHub:s egen rekommenderade
+maxgräns för själva git-databasen). Ägaren frågade separat om historiska
+dokument kunde rensas inför en ny mandatperiod — avrådde från faktisk
+radering (skulle bryta alla redan publicerade arkivlänkar, som pekar mot
+specifika commit-SHA:er) till förmån för denna lösning: nya dokument
+skrivs framöver till ett SEPARAT "kallt" repo istället för att växa
+huvudrepot, som checkas ut vid VARJE pipeline-körning för alltid framöver.
+
+**Nytt repo:** `Knarrbyn/Kommundata-arkiv`, publikt, skapat av ägaren.
+Ny secret `ARCHIVE_REPO_TOKEN` i `Kommundata` (samma PAT-värde som
+`faktagranskaren-push`, med utökad behörighet till båda repona).
+
+**Kodändringar:**
+- `src/config.ts`: `ARCHIVE_REPO` ("Knarrbyn/Kommundata-arkiv") och
+  `ARCHIVE_LOCAL_DIR` ("archive-repo", namnet på den lokala
+  checkout-underkatalogen i CI).
+- `src/download.ts`: `localPathsFor`/`downloadMeetingFiles` tar nu en
+  valfri `baseDir`-parameter (default oförändrat `data/raw`, så
+  befintliga anrop/tester fortsätter fungera exakt som förut).
+- `src/archive.ts`: PENDING-markören utökad till att innehålla VILKET
+  repo filen hör hemma i (`git-pending:{repo}:{relativePath}`, tidigare
+  bara `git-pending:{relativePath}`) — nödvändigt eftersom huvudrepot och
+  arkiv-repot får OLIKA commit-SHA:er i samma körning, två separata
+  commits i två separata repon. Ny `parsePendingGitArchiveMarker`.
+  `RawFileEntry` har nu ett obligatoriskt `repo`-fält.
+- `scripts/run-weekly-pipeline.mjs` och `scripts/run-backfill.mjs`:
+  laddar nu ner till `archive-repo/data/raw/...` (arkiv-repots lokala
+  checkout) istället för `data/raw/...` i huvudrepot. `manifest.json`
+  stannar kvar i huvudrepot (litet index, inga stora filer).
+- `scripts/fill-archive-urls.mjs` omskriven: känner nu till BÅDA
+  repornas commit-SHA:er (huvudrepots egen, plus arkiv-repots via en ny
+  `ARCHIVE_REPO_SHA`-miljövariabel som workflow-filen sätter EFTER att
+  arkiv-repot redan committats och pushats). Bakåtkompatibel med det
+  gamla, repo-lösa markörformatet (tolkas som huvudrepot).
+- `.github/workflows/weekly-pipeline.yml` och `backfill.yml`: ny
+  `actions/checkout`-steg för arkiv-repot (med `ARCHIVE_REPO_TOKEN`,
+  `path: archive-repo`), nytt commit+push-steg för arkiv-repot SEPARAT
+  från huvudrepots commit, innan "Fyll i arkivlänkar"-steget (som nu tar
+  emot arkiv-repots SHA via steg-output).
+- `.gitignore`: `archive-repo/` tillagd, så huvudrepots egna
+  `git status`-kontroller inte förvirras av den nästlade checkout:en.
+- `src/archive-cli.ts` (det äldre, manuella enstaka-möte-verktyget) FICK
+  medvetet INTE samma uppdatering — det är fortfarande huvudrepo-
+  orienterat, dokumenterat i koden. Skarp drift går via
+  `run-weekly-pipeline.mjs`/`run-backfill.mjs`, som båda är uppdaterade.
+
+**Verifierat lokalt:** 121/121 tester gröna (uppdaterade tester för det
+nya markörformatet + `parsePendingGitArchiveMarker`). Alla tre skript
+(`run-weekly-pipeline.mjs`, `run-backfill.mjs`, `fill-archive-urls.mjs`)
+laddar och kör felfritt fram till sandboxens förväntade
+nätverksbegränsning. **INTE verifierat i skarp drift ännu** — kräver att
+ägaren laddar upp de två workflow-filerna manuellt (samma
+fine-grained-PAT-begränsning som tidigare) och att en skarp körning
+faktiskt bevisar att båda repona får rätt innehåll och att arkivlänkarna
+pekar rätt.
