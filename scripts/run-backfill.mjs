@@ -35,7 +35,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { COMMITTEES, BASE_URL, SEEN_FILE, ARCHIVE_REPO, ARCHIVE_LOCAL_DIR } from "../src/config.ts";
 import { extractMeetingRefs, extractProtocolPdfUrl, loadSeen, markSeen } from "../src/fetch.ts";
 import { downloadMeetingFiles } from "../src/download.ts";
-import { extractPdfText, buildExtractionPrompt, parseExtractionResponse, stampPdfUrl } from "../src/extract.ts";
+import { extractPdfText, buildExtractionPrompt, parseExtractionResponse, stampPdfUrl, normalizeInstanceSlugs } from "../src/extract.ts";
 import { runGates } from "../src/gates.ts";
 import { buildVerificationPrompt, parseVerificationResponse, reconcile } from "../src/verify.ts";
 import { archiveArendenWithGit } from "../src/archive.ts";
@@ -127,7 +127,7 @@ async function main() {
 
   console.error(`Backfill: ${committee.name} (${committeeSlug}), ${startDate} till ${endDate}, max ${maxPerRun} möten denna körning.`);
 
-  const seen = await loadSeen(SEEN_FILE, (p) => readFile(p, "utf-8"));
+  let seen = await loadSeen(SEEN_FILE, (p) => readFile(p, "utf-8"));
 
   // Hämta EN sida för instansen — sidmenyn på varje mötessida innehåller
   // redan hela historiken (bekräftat till 2009), så en enda hämtning
@@ -254,6 +254,7 @@ async function main() {
         console.error(`  ⚠ Extraktionsfel (${extractResult.errors.length}), fortsätter med giltiga poster.`);
       }
       stampPdfUrl(extractResult.arenden, protocolPdfUrl);
+      normalizeInstanceSlugs(extractResult.arenden);
       console.error(`  ${extractResult.arenden.length} kandidatärenden.`);
 
       const { ready, needsReview } = runGates(extractResult.arenden, sourceText);
@@ -274,7 +275,7 @@ async function main() {
       }
 
       allToPublish.push(...toPublishThisMeeting);
-      markSeen(seen, committeeSlug, ref.date);
+      seen = markSeen(seen, committeeSlug, ref.date);
     } catch (e) {
       console.error(`  ✗ FEL, hoppar över ${ref.date}: ${e.message}`);
     }

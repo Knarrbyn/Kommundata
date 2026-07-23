@@ -886,3 +886,68 @@ varför en retroaktiv flytt/historikomskrivning avråddes — skulle bryta
 212 redan publicerade arkivlänkar). Tillväxtproblemet är löst framåt;
 den redan existerande storleken är en engångskostnad, inte ett växande
 problem längre.
+
+## 2026-07-23 — Två kritiska fynd under städning av 21 gamla 2018-ärenden
+
+Ägaren hittade en 2018-motion (S) som verkade "aldrig avslutad" och bad
+om en förklaring, vilket ledde till att de 21 ärendena från den tidigare
+felaktiga sorteringskörningen (se tidigare post) skulle tas bort. Under
+det arbetet hittades två separata, allvarligare buggar:
+
+**1. KRITISK: `markSeen()` gjorde ingenting i skarp drift, i ALLA
+körningar hittills.** `markSeen()` är en REN funktion som returnerar ett
+NYTT objekt istället för att mutera `seen` på plats — men anropen i både
+`run-weekly-pipeline.mjs` och `run-backfill.mjs` fångade aldrig
+returvärdet (`markSeen(seen, ...)` istället för
+`seen = markSeen(seen, ...)`). Resultat: `data/seen.json` har varit
+BOKSTAVLIGEN TOMT (`{}`) genom samtliga skarpa körningar hittills, trots
+232 publicerade ärenden. Konsekvens: varje körning har i praktiken
+betraktat HELA historiken som "ny" varje gång — sorteringen (nyast-först)
+plus länknings-deduplikationen (paragraf-korsreferens) har hittills
+dolt de praktiska symptomen (inga synliga dubbletter publicerades, eftersom
+`linkArende` korrekt känner igen redan publicerade ärenden oavsett
+`seen.json`), men varje körning har i onödan gjort om
+fetch/download/extract-arbetet (och betalat LLM-kostnaden) för möten som
+redan borde räknats som klara. **Fixat:** båda anropen fångar nu
+returvärdet, `const seen` → `let seen`.
+
+**2. Instansnamn med understreck istället för bindestreck, INTE bara
+historiskt.** Utöver den tidigare kända mall-buggen (redan fixad i
+`templates/site.html`) visade det sig att LLM A ibland — även i skarpa
+körningar från 2025–2026, inte bara gammal data — skriver
+`step.instance` med understreck (`vard_och_omsorgsnamnden`,
+`tekniska_namnden`) istället för bindestreck
+(`vard-och-omsorgsnamnden`, `tekniska-namnden`) som `config.ts` och de
+riktiga URL:erna använder. Detta gjorde att dessa ärenden osynliggjordes
+på sina `/namnd/[slug]`-sidor och gav en falskt uppblåst `seen.json` (elva
+"instanser" istället för tio, med dubbletter). **Fixat:** ny funktion
+`normalizeInstanceSlugs()` i `extract.ts` (samma mönster som
+`stampPdfUrl` — ren kod, deterministisk, körs EFTER LLM A:s svar), inkopplad
+i båda orkestreringsskripten. Ett nytt regressionstest bevisar det.
+
+**Genomförd datastädning (engångsjobb, inte del av den normala pipelinen):**
+- 21 ärenden med steg före 2022-01-01 borttagna ur `data/published/arenden.json`
+  (232 → 211 ärenden) — kvar för alltid i git-historiken, bara inte
+  längre synliga på den live sajten.
+- `data/seen.json` byggd om FRÅN GRUNDEN utifrån vad som faktiskt är kvar
+  publicerat (eftersom den tidigare varit tom hela tiden) — nu 9 instanser,
+  korrekt bindestreck-formaterade, INKLUDERAR INTE de borttagna 2018-mötena
+  (så en framtida, medveten backfill kan bearbeta dem på nytt i rätt
+  kronologiskt sammanhang, tillsammans med deras faktiska utfall från
+  mellanåren).
+- Alla 5 kvarvarande understreck-instanser (2025–2026-data) normaliserade
+  till bindestreck.
+- `dist/index.html` + `dist/api/arenden.json` ombyggda med den städade,
+  normaliserade datan (211 ärenden).
+- `data/publish/data_hash.txt`, `last-published.json`, `changelog.json`
+  uppdaterade konsekvent via de riktiga `preparePublish`/`renderSite`-
+  funktionerna, inte manuellt hopskrivna.
+
+122/122 tester gröna (upp från 121).
+
+**Kvarstående, medvetet inte utrett vidare nu:** hur många FLER
+`seen.json`-relaterade "onödiga omkörningar" som redan hunnit kosta
+LLM-anrop i onödan går inte att räkna ut i efterhand — bara att det nu är
+löst framåt. Ingen indikation hittills på att buggen orsakat felaktigt
+DUBBELPUBLICERADE ärenden (länknings-deduplikationen har skyddat mot det),
+bara onödig omarbetning.

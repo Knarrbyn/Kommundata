@@ -274,5 +274,13 @@
       "a-2026-0199"
     ],
     "updated_arenden": []
+  },
+  {
+    "run_id": "cleanup-2018-2026-07-23T06-49-58-827Z",
+    "timestamp": "2026-07-23T06:49:58.848Z",
+    "data_hash": "f854af3fca16556a3e3e6abf129e1fed19988a56a4f1159c74dd6549ae2caaee",
+    "arende_count": 211,
+    "new_arenden": [],
+    "updated_arenden": []
   }
 ]

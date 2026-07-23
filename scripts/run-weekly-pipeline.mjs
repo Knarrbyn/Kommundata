@@ -30,7 +30,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { COMMITTEES, BASE_URL, SEEN_FILE, ARCHIVE_REPO, ARCHIVE_LOCAL_DIR } from "../src/config.ts";
 import { loadSeen, fetchNewMeetingsForCommittee, markSeen } from "../src/fetch.ts";
 import { downloadMeetingFiles } from "../src/download.ts";
-import { extractPdfText, buildExtractionPrompt, parseExtractionResponse, stampPdfUrl } from "../src/extract.ts";
+import { extractPdfText, buildExtractionPrompt, parseExtractionResponse, stampPdfUrl, normalizeInstanceSlugs } from "../src/extract.ts";
 import { runGates } from "../src/gates.ts";
 import { buildVerificationPrompt, parseVerificationResponse, reconcile } from "../src/verify.ts";
 import { archiveArendenWithGit } from "../src/archive.ts";
@@ -91,7 +91,7 @@ async function main() {
     );
   }
 
-  const seen = await loadSeen(SEEN_FILE, (p) => readFile(p, "utf-8"));
+  let seen = await loadSeen(SEEN_FILE, (p) => readFile(p, "utf-8"));
   const confirmedCommittees = COMMITTEES.filter((c) => c.confirmed);
 
   // KOSTNADSTAK (tillagt 2026-07-22, se DECISION_LOG.md): innan
@@ -222,6 +222,7 @@ async function main() {
         extractResult.errors.forEach((e) => console.error(`    - ${e}`));
       }
       stampPdfUrl(extractResult.arenden, meeting.protocolPdfUrl);
+      normalizeInstanceSlugs(extractResult.arenden);
       console.error(`  ${extractResult.arenden.length} kandidatärenden extraherade.`);
 
       const { ready, needsReview } = runGates(extractResult.arenden, sourceText);
@@ -251,7 +252,12 @@ async function main() {
       }
 
       allToPublish.push(...toPublishThisMeeting);
-      markSeen(seen, meeting.committeeSlug, meeting.date);
+      // KRITISK BUGGFIX (2026-07-23, se DECISION_LOG.md): markSeen() är
+      // en REN funktion som RETURNERAR ett nytt objekt istället för att
+      // mutera `seen` på plats. Ett tidigare anrop utan att fånga
+      // returvärdet gjorde ingenting alls — seen.json förblev tomt
+      // genom ALLA tidigare körningar, trots hundratals bearbetade möten.
+      seen = markSeen(seen, meeting.committeeSlug, meeting.date);
     } catch (e) {
       console.error(`  ✗ FEL vid bearbetning av detta möte, hoppar över: ${e.message}`);
     }

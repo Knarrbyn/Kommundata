@@ -280,3 +280,23 @@ export function stampPdfUrl(arenden: CandidateArende[], pdfUrl: string): Candida
   }
   return arenden;
 }
+
+/**
+ * Normaliserar `step.instance` till bindestreck-formen som `config.ts`,
+ * de riktiga URL-sökvägarna, och `templates/site.html`s `INSTANCE_NAMES`
+ * använder konsekvent (t.ex. "vard-och-omsorgsnamnden", INTE
+ * "vard_och_omsorgsnamnden"). Tillagt 2026-07-23 (se DECISION_LOG.md) —
+ * upptäckt att LLM A ibland (inkonsekvent, även i skarpa körningar från
+ * 2025–2026, inte bara äldre data) skriver instansnamnet med understreck
+ * istället för bindestreck, vilket tyst gjorde att `/namnd/[slug]`-sidan
+ * och `seen.json`-uppdateringen inte matchade rätt instans. Ren kod,
+ * deterministisk, körs EFTER LLM A:s svar — precis som `stampPdfUrl`.
+ */
+export function normalizeInstanceSlugs(arenden: CandidateArende[]): CandidateArende[] {
+  for (const arende of arenden) {
+    for (const step of arende.steps) {
+      step.instance = step.instance.replace(/_/g, "-");
+    }
+  }
+  return arenden;
+}

@@ -7,6 +7,8 @@ import {
   extractPdfText,
   buildExtractionPrompt,
   parseExtractionResponse,
+  stampPdfUrl,
+  normalizeInstanceSlugs,
 } from "../src/extract.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -302,4 +304,24 @@ test("integration: ett parsat citat är en riktig substräng av källtexten (sam
   // Samma normaliseringsregel som verbatim-gate.js (R2): whitespace kollapsas, sedan substrängmatchning.
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
   assert.ok(normalize(sourceText).includes(normalize(quote)), "citatet ska klara verbatimgrinden");
+});
+
+test("normalizeInstanceSlugs: konverterar understreck till bindestreck (kritiskt fynd 2026-07-23, se DECISION_LOG.md)", () => {
+  const arenden = [
+    {
+      title: "Test",
+      initiativ_typ: "styrelseforslag",
+      initiators: [],
+      category: "övrigt",
+      status: "avgjort",
+      diarienummer: null,
+      steps: [
+        { step_id: "s1", instance: "vard_och_omsorgsnamnden", type: "beslut", date: "2026-01-01", quote: "x", source: { protocol_ref: "§1" } },
+        { step_id: "s2", instance: "kommunfullmaktige", type: "beslut", date: "2026-01-01", quote: "x", source: { protocol_ref: "§2" } },
+      ],
+    },
+  ];
+  normalizeInstanceSlugs(arenden);
+  assert.equal(arenden[0].steps[0].instance, "vard-och-omsorgsnamnden");
+  assert.equal(arenden[0].steps[1].instance, "kommunfullmaktige", "redan korrekt formaterade instanser ska lämnas orörda");
 });
