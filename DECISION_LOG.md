@@ -1012,3 +1012,13 @@ diagnostikfil (liknande `data/backfill-log/`) så framtida liknande fel
 går att felsöka utan Actions-UI eller loggnedladdning — som visat sig
 opålitlig att komma åt både för ägaren och för Claude (nätverksblockerad
 domän vid nedladdning via API).
+
+## 2026-07-24 — Överförmyndarnämnden borttagen ur bevakningen
+
+   Ägarbeslut: överförmyndarnämnden bedöms ha låg politisk relevans för tjänstens syfte
+   och tas bort ur `COMMITTEES` i `src/config.ts`. Tekniskt sammanträffande: en
+   backfill-körning (#17) mot nämnden misslyckades samma dag (troligen saknat
+   `seedMeetingUrl` i kombination med en tom listsida) — men beslutet är produktmässigt,
+   inte en kapitulation inför buggen. De 3 möten som redan hunnit bearbetas och ligger i
+   `data/published/arenden.json`/`data/seen.json` lämnas orörda; städas vid nästa
+   dubblettstädning om det behövs.
