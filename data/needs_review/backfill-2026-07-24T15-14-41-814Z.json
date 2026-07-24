@@ -1,0 +1,483 @@
+[
+  {
+    "arende": {
+      "title": "Remissvar ansökan om godkännande för utökning av befintlig fristående gymnasieskola eller nyetablering av fristående gymnasieskola",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2022.071 KUN",
+      "steps": [
+        {
+          "step_id": "kun-39-au-beredning",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beredning",
+          "date": "2022-04-06",
+          "quote": "Kultur- och utbildningsnämndens arbetsutskott har den 6 april § 29 behandlat ärendet och beslutade då att föreslå kultur- och utbildningsnämnden att ta förvaltningens skrivelse som sin egen med undantag av meningen \"Denna valfrihet kan innebära en ökad segregering för olika grupper i samhället och minskad likvärdighet\".",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§39 KULTUR-OCH-UTBILDNINGSNAMNDEN 2022-04-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2022-04-19/protocol/protokoll-skapad-kun-2022-04-20-092257pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kun-39-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2022-04-19",
+          "quote": "Kultur- och utbildningsnämnden tar förvaltningens skrivelse som sin egen med undantag av meningen \"Denna valfrihet kan innebära en ökad segregering för olika grupper i samhället och minskad likvärdighet\" och översänder till Skolinspektionen som svar på ansökningar",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§39 KULTUR-OCH-UTBILDNINGSNAMNDEN 2022-04-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2022-04-19/protocol/protokoll-skapad-kun-2022-04-20-092257pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-39-au-beredning",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämndens arbetsutskott har den 6 april § 29 behandlat ärendet och beslutade då att föreslå kultur- och utbildningsnämnden att ta förvaltningens skrivelse som sin egen med undantag av meningen \"Denna valfrihet kan innebära en ökad segregering för olika grupper i samhället och minskad likvärdighet\".",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (46 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kun-39-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden tar förvaltningens skrivelse som sin egen med undantag av meningen \"Denna valfrihet kan innebära en ökad segregering för olika grupper i samhället och minskad likvärdighet\" och översänder till Skolinspektionen som svar på ansökningar",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Samverkansavtal om naturbruksutbildning mellan Västra Götalandsregionen och kommunerna i Västra Götaland 2023-2026, se även dnr 2022.022 KUN",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2022.155 KUN",
+      "steps": [
+        {
+          "step_id": "kun-83-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2022-09-21",
+          "quote": "Kultur- och utbildningsnämnden godkänner samverkansavtal om naturbruksutbildning 2023-2026 och uppdrar åt förvaltningschefen att underteckna avtalet.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§83 KULTUR-OCH-UTBILDNINGSNAMNDEN 2022-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2022-09-21/protocol/protokoll-skapad-kun-2022-09-22-151758pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-83-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden godkänner samverkansavtal om naturbruksutbildning 2023-2026 och uppdrar åt förvaltningschefen att underteckna avtalet.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Uppdrag till förvaltningen redovisning av Mötesplats Unga 2020-2022",
+      "initiativ_typ": "initiativarende",
+      "initiators": [
+        {
+          "name": "Anne Gunnevik",
+          "party": "l"
+        },
+        {
+          "name": "Rebecka Gustin",
+          "party": "s"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2023.062 KUN",
+      "steps": [
+        {
+          "step_id": "kun-26-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2023-03-15",
+          "quote": "Kultur- och utbildningsnämnden ger förvaltningen i uppdrag att till nämndens sammanträde i april 2023 återkomma med en redogörelse över Mötesplats ungas verksamhet åren 2020-2022",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§26 KULTUR-OCH-UTBILDNINGSNAMNDEN 2023-03-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2023-03-15/protocol/protokoll-skapad-kun-2023-03-16-151057pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-26-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden ger förvaltningen i uppdrag att till nämndens sammanträde i april 2023 återkomma med en redogörelse över Mötesplats ungas verksamhet åren 2020-2022",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Tillfällig stängning av Nolhaga Parkbad",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.050 KUN",
+      "steps": [
+        {
+          "step_id": "kun-29-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2024-03-13",
+          "quote": "Kultur- och utbildningsnämnden beslutar att stänga Nolhaga Parkbad i två veckor mellan 17–30 juni.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§29 KULTUR-OCH-UTBILDNINGSNAMNDEN 2024-03-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2024-03-13/protocol/protokoll-skapad-kun-2024-03-14-082508pdf-74044?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-29-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden beslutar att stänga Nolhaga Parkbad i två veckor mellan 17–30 juni.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Val av representanter till Programråden",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2022.312 KUN",
+      "steps": [
+        {
+          "step_id": "kun-84-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2024-09-23",
+          "quote": "Katarina Ekenger utses som representant för barn- och fritidsprogrammet fram till den 31 december 2026. Emelie César utses som representant för naturvetenskapsprogrammet fram till den 31 december 2026. Beslut om representant för bygg- och anläggningsprogrammet bordläggs till Kultur- och utbildningsnämndens sammanträde den 20 november 2024.",
+          "decision": "delvis",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§84 KULTUR-OCH-UTBILDNINGSNAMNDEN 2024-09-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2024-09-23/protocol/protokoll-kun-23-september-2024pdf-10931?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-84-beslut",
+        "field": "quote",
+        "quote": "Katarina Ekenger utses som representant för barn- och fritidsprogrammet fram till den 31 december 2026. Emelie César utses som representant för naturvetenskapsprogrammet fram till den 31 december 2026. Beslut om representant för bygg- och anläggningsprogrammet bordläggs till Kultur- och utbildningsnämndens sammanträde den 20 november 2024.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Val till kultur- och utbildningsnämndens arbetsutskott",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2022.313 KUN",
+      "steps": [
+        {
+          "step_id": "kun-au-2025-03-05",
+          "instance": "kultur-och-utbildningsnamndens-arbetsutskott",
+          "type": "beredning",
+          "date": "2025-03-05",
+          "quote": "Kultur- och utbildningsnämndens arbetsutskott har den 5 mars 2025, § 21 hänskjutit ärendet till kultur- och utbildningsnämndens sammanträde.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§24 KULTUR-OCH-UTBILDNINGSNAMNDEN 2025-03-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2025-03-12/protocol/protokoll-kun-2025-03-12pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kun-2025-03-12",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2025-03-12",
+          "quote": "Malin Sultan (S) utses till vice ordförande i kultur- och utbildningsnämndens arbetsutskott fram till den 31 december 2026. Alexander Wikhall (S) utses till ledamot i kultur- och utbildningsnämndens arbetsutskott fram till den 31 december 2026. Gabriel Ryberg (S) utses till personlig ersättare för Alexander Wikhall (S) i kultur- och utbildningsnämndens arbetsutskott fram till den 31 december 2026.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§24 KULTUR-OCH-UTBILDNINGSNAMNDEN 2025-03-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2025-03-12/protocol/protokoll-kun-2025-03-12pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-au-2025-03-05",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämndens arbetsutskott har den 5 mars 2025, § 21 hänskjutit ärendet till kultur- och utbildningsnämndens sammanträde.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kun-2025-03-12",
+        "field": "quote",
+        "quote": "Malin Sultan (S) utses till vice ordförande i kultur- och utbildningsnämndens arbetsutskott fram till den 31 december 2026. Alexander Wikhall (S) utses till ledamot i kultur- och utbildningsnämndens arbetsutskott fram till den 31 december 2026. Gabriel Ryberg (S) utses till personlig ersättare för Alexander Wikhall (S) i kultur- och utbildningsnämndens arbetsutskott fram till den 31 december 2026.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (57 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Lokalförsörjningsplan 2026-2030",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2025.143 KUN",
+      "steps": [
+        {
+          "step_id": "kun-63-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2025-06-18",
+          "quote": "Kultur- och utbildningsnämnden antar upprättad lokalförsörjningsplan för perioden 2026-2030.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§63 KULTUR-OCH-UTBILDNINGSNAMNDEN 2025-06-18",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2025-06-18/protocol/protokoll-kun-2025-06-18pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-63-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden antar upprättad lokalförsörjningsplan för perioden 2026-2030.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Skolchef för skolformer inom kultur- och utbildningsnämnden",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2025.122 KUN",
+      "steps": [
+        {
+          "step_id": "kun-64-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2025-06-18",
+          "quote": "Utbildningschef Linda Anderssons uppdrag som skolchef upphör att gälla från och med den 31 augusti 2025. Kultur- och utbildningsnämnden utser Nicklas Kosterlind Faritzson till skolchef för gymnasieskolan, anpassad gymnasieskola och kommunal vuxenutbildning från och med den 1 september 2025 tills vidare.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§64 KULTUR-OCH-UTBILDNINGSNAMNDEN 2025-06-18",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2025-06-18/protocol/protokoll-kun-2025-06-18pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-64-beslut",
+        "field": "quote",
+        "quote": "Utbildningschef Linda Anderssons uppdrag som skolchef upphör att gälla från och med den 31 augusti 2025. Kultur- och utbildningsnämnden utser Nicklas Kosterlind Faritzson till skolchef för gymnasieskolan, anpassad gymnasieskola och kommunal vuxenutbildning från och med den 1 september 2025 tills vidare.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Uppdrag till förvaltningen om att utreda möjligheterna att driva fordon- och transportprogrammet samt frisörprogrammet i Alingsås kommuns regi",
+      "initiativ_typ": "initiativarende",
+      "initiators": [
+        {
+          "name": "Anne Gunnevik",
+          "party": "l"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2024.049 KUN",
+      "steps": [
+        {
+          "step_id": "s25-initiativ",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "initiativarende_vackt",
+          "date": "2026-02-27",
+          "quote": "Med anledning av skrivelsen har nämndens ordförande Anne Gunnevik (L) den 27 februari 2026 gett förvaltningen i uppdrag att skyndsamt utreda möjligheten att driva Fordons – och transportprogrammet och Hantverksprogrammet inriktning Frisör i Alingsås kommuns regi.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§25 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-03-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-03-11/protocol/protokoll-kun-2026-03-13-03pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "s25-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2026-03-11",
+          "quote": "Kultur- och utbildningsnämnden ställer sig positiv till att kommunen arbetar för att ta över yrkesgymnasiet i syfte att driva verksamheten i egen regi. Nämnden ger därför förvaltningschefen i uppdrag att fortsätta utredningsarbetet i dialog med kommunledningen.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§25 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-03-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-03-11/protocol/protokoll-kun-2026-03-13-03pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "s25-initiativ",
+        "field": "quote",
+        "quote": "Med anledning av skrivelsen har nämndens ordförande Anne Gunnevik (L) den 27 februari 2026 gett förvaltningen i uppdrag att skyndsamt utreda möjligheten att driva Fordons – och transportprogrammet och Hantverksprogrammet inriktning Frisör i Alingsås kommuns regi.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "s25-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden ställer sig positiv till att kommunen arbetar för att ta över yrkesgymnasiet i syfte att driva verksamheten i egen regi. Nämnden ger därför förvaltningschefen i uppdrag att fortsätta utredningsarbetet i dialog med kommunledningen.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Riktlinje för klagomålshantering inom utbildningsverksamheten",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2026.022 KUN",
+      "steps": [
+        {
+          "step_id": "s31-beredning",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beredning",
+          "date": "2026-02-20",
+          "quote": "Förvaltningen har tagit fram ett förslag till reviderad riktlinje för klagomålshantering som innehåller följande ändringar: Dokumentet byter namn från rutin till riktlinje, i enlighet med kommuns dokumentstruktur",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-03-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-03-11/protocol/protokoll-kun-2026-03-13-03pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "s31-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2026-03-11",
+          "quote": "Kultur- och utbildningsnämnden godkänner revidering av riktlinjer för klagomålshantering.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-03-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-03-11/protocol/protokoll-kun-2026-03-13-03pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "s31-beredning",
+        "field": "quote",
+        "quote": "Förvaltningen har tagit fram ett förslag till reviderad riktlinje för klagomålshantering som innehåller följande ändringar: Dokumentet byter namn från rutin till riktlinje, i enlighet med kommuns dokumentstruktur",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "s31-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden godkänner revidering av riktlinjer för klagomålshantering.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
