@@ -1004,5 +1004,175 @@
     "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf",
     "relativePath": "data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
     "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-03/protocol/protokoll-ten-2023-01-03-justeradpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-01-03/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-23/protocol/protokoll-ten-2023-01-23-justeratpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-01-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-02-20/protocol/protokoll-ten-2023-02-20-justeratpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-02-20/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-08-28/protocol/protokoll-ten-2023-08-28-justeratpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-08-28/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-10-23/protocol/protokoll-ten-2023-10-23-ss64pdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-10-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-12-18/protocol/protokoll-ten-2023-12-18-justeradpdf",
+    "relativePath": "data/raw/tekniska-namnden/2023-12-18/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-01-22/protocol/protokoll-ten-2024-01-22-justeradpdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-01-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-02-21/protocol/protokoll-ten-2024-02-21-justeratpdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-02-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-03-18/protocol/protokoll-ten-2024-03-18-justeradpdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-03-18/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-04-22/protocol/protokoll-skapad-ten-2024-04-26-151038pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-04-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-05-13/protocol/protokoll-skapad-ten-2024-05-13-190419pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-05-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-09-23/protocol/protokoll-skapad-ten-2024-09-26-165929pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-09-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-10-07/protocol/protokoll-ten-2024-10-07-ss-56pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-10-07/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-10-21/protocol/protokoll-skapad-ten-2024-10-23-140720pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-10-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-11-18/protocol/protokoll-skapad-ten-2024-11-21-102702pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-11-18/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-12-16/protocol/protokoll-skapad-ten-2024-12-17-144336pdf",
+    "relativePath": "data/raw/tekniska-namnden/2024-12-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-01-20/protocol/protokoll-skapad-ten-2025-01-21-071548pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-01-20/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-02-19/protocol/protokoll-skapad-ten-2025-02-21-105553pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-02-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-03-17/protocol/protokoll-skapad-ten-2025-03-24-093808pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-03-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-04-22/protocol/protokoll-ten-2025-04-25pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-04-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-05-19/protocol/protokoll-skapad-ten-2025-05-26-150817pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-05-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-06-16/protocol/protokoll-skapad-ten-2025-06-23-101613pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-06-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-08-25/protocol/protokoll-skapad-ten-2025-08-29-133652pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-08-25/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-09-22/protocol/protokoll-skapad-ten-2025-09-25-094653pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-09-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-10-20/protocol/protokoll-skapad-ten-2025-10-20-ssss51-52pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-10-20/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2025-11-17/protocol/protokoll-skapad-ten-2025-11-19-150849pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2025-11-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-01-19/protocol/protokoll-skapad-ten-2026-01-23-105143pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2026-01-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-02-17/protocol/protokoll-skapad-ten-2026-02-19-105039pdf?downloadMode=open",
+    "relativePath": "data/raw/tekniska-namnden/2026-02-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
   }
 ]
