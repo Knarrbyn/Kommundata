@@ -971,3 +971,44 @@ hitta KOMMUNSTYRELSENS egen möteshistorik.
 vilken instans käll-DOKUMENTET faktiskt tillhör. Verifierat lokalt: gav
 tidigare `.../kommunfullmaktige/mote-2026-03-25` (fel), ger nu
 `.../kommunstyrelsen/mote-2026-06-15` (rätt). 122/122 tester gröna.
+
+## 2026-07-24 — Fixat: extractProtocolPdfUrl klippte av protokoll-URL:er med numeriskt pdf-suffix
+
+Backfill av tekniska nämnden och vård- och omsorgsnämnden fastnade tyst:
+efter en första lyckad omgång (som bearbetade de senaste mötena) gav varje
+efterföljande omgång 0 nya bearbetade möten — trots att workflow-jobbet
+rapporterade "success" i alla steg och `needs_review` var tom.
+
+**Orsak:** samma buggklass som redan fixades i `download.ts`
+(`extractAgendaBilagaLinks`, se pipeline-README "Liveresultat" 2026-07-20),
+men fixen applicerades då bara på bilaga-länkar — inte på
+`extractProtocolPdfUrl` i `fetch.ts`. Vissa protokoll-PDF:er har ett
+numeriskt suffix mellan filnamnet och frågetecknet, t.ex.
+`.../protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open`
+(bekräftat mot en riktig mötessida: tekniska nämnden 2024-08-26, hämtad
+via web_fetch). Den gamla regexen (`pdf(?:\?downloadMode=open)?`) matchade
+icke-girigt och klippte av URL:en direkt efter första bokstavliga "pdf" —
+gav en trasig (404) nedladdningslänk.
+
+**Varför det var osynligt så länge:** `run-backfill.mjs` behandlar
+"protokoll-URL hittades inte" som normalfallet "protokollet är inte
+justerat än" — medvetet tyst, ingen loggning, INTE markerad `seen`
+(mötet ska ju försökas igen). Ett fetch-fel längre ner (404 vid faktisk
+nedladdning) fångas dessutom av ett per-möte try/catch som bara loggar
+till `console.error` — det vill säga till GitHub Actions egen,
+icke-committade jobblogg. Ingen av dessa två tysta vägar syns i någon fil
+som går att läsa via GitHubs contents-API, vilket gjorde felsökningen
+svår utan direkt tillgång till Actions-loggarna (som i sin tur är
+blockerade av nätverksinställningarna i utvecklingssandboxen — se separat
+öppen fråga nedan).
+
+**Fixat:** `/protocol/[^"'\s)>]+?pdf(?:-\d+)?(?:\?downloadMode=open)?` i
+`src/fetch.ts`, samma suffix-mönster som redan fanns i `download.ts`.
+
+**Öppen fråga att titta på senare:** `run-backfill.mjs`:s per-möte
+try/catch (`catch (e) { console.error(...) }`) loggar fortfarande bara
+till den icke-committade Actions-loggen. Bör skriva till en committad
+diagnostikfil (liknande `data/backfill-log/`) så framtida liknande fel
+går att felsöka utan Actions-UI eller loggnedladdning — som visat sig
+opålitlig att komma åt både för ägaren och för Claude (nätverksblockerad
+domän vid nedladdning via API).
