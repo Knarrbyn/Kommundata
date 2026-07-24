@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-24T02-36-14-545Z",
+  "committee": "kommunstyrelsen",
+  "startDate": "2022-01-01",
+  "endDate": "2026-07-23",
+  "maxPerRun": 150,
+  "totalRefsOnListingPage": 0,
+  "inRangeCount": 0,
+  "alreadySeenCount": 7,
+  "remainingBeforeThisRun": 0,
+  "batchThisRun": [],
+  "warning": "INGA möten alls hittades på listsidan — misstänk att listsidan (/committees/{slug}, utan ett specifikt möte) INTE har samma fullständiga årsmeny som en enskild mötessida. Se DECISION_LOG.md, posten om detta antagande. Prova att peka om koden mot en känd mötes-URL istället för listsidan."
+}
