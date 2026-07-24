@@ -1,0 +1,224 @@
+[
+  {
+    "arende": {
+      "title": "Ökat inflytande inom äldreomsorg och funktionsstöd",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.037 VON",
+      "steps": [
+        {
+          "step_id": "von-2022-02-21-14-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2022-02-21",
+          "quote": "Vård och omsorgsnämnden beslutar att avsluta uppdraget, som gavs till förvaltningen 2020-10-26, § 72, 2020.294 VON, att se över möjligheterna att ge äldre och personer med stöd enligt LSS ett ökat självbestämmande gällande deras boende.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§14 VARD-OCH-OMSORGSNAMNDEN 2022-02-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-02-21/protocol/protokoll-skapad-von-2022-02-21-215508pdf-10765?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-2022-02-21-14-beslut",
+        "field": "quote",
+        "quote": "Vård och omsorgsnämnden beslutar att avsluta uppdraget, som gavs till förvaltningen 2020-10-26, § 72, 2020.294 VON, att se över möjligheterna att ge äldre och personer med stöd enligt LSS ett ökat självbestämmande gällande deras boende.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Antal platser på LSS-boende, LOU",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.017 VON",
+      "steps": [
+        {
+          "step_id": "von-2022-02-21-15-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2022-02-21",
+          "quote": "Vård och omsorgsnämnden beslutar att avsluta uppdraget som gavs 2020-10-26 Dnr: 2020.297 VON § 75, att ta fram ett förslag på ett upphandlingsunderlag för boende med särskild service enligt LSS (BMSS) enligt LOU (lag om offentlig upphandling) och presentera på vård och omsorgsnämnden i december 2020 då behovet inte längre kvarstår.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§15 VARD-OCH-OMSORGSNAMNDEN 2022-02-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-02-21/protocol/protokoll-skapad-von-2022-02-21-215508pdf-10765?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-2022-02-21-15-beslut",
+        "field": "quote",
+        "quote": "Vård och omsorgsnämnden beslutar att avsluta uppdraget som gavs 2020-10-26 Dnr: 2020.297 VON § 75, att ta fram ett förslag på ett upphandlingsunderlag för boende med särskild service enligt LSS (BMSS) enligt LOU (lag om offentlig upphandling) och presentera på vård och omsorgsnämnden i december 2020 då behovet inte längre kvarstår.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (51 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Uppdrag återrapportering av avvikelser",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.055 VON",
+      "steps": [
+        {
+          "step_id": "von-23-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2022-03-29",
+          "quote": "Vård- och omsorgsnämnden har tagit del av redovisningen och strategin för 2022 Vård- och omsorgsnämnden ger vård- och omsorgsförvaltningen i uppdrag att fortsatt följa utvecklingen och redovisa till nämnden i samband med delårsrapporten.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§23 VARD-OCH-OMSORGSNAMNDEN 2022-03-29",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-03-29/protocol/protokoll-skapad-von-2022-04-04-081257pdf-97032?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-23-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden har tagit del av redovisningen och strategin för 2022 Vård- och omsorgsnämnden ger vård- och omsorgsförvaltningen i uppdrag att fortsatt följa utvecklingen och redovisa till nämnden i samband med delårsrapporten.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Granskning av ekonomistyrningen inom vård- och omsorgsnämnden",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.254 VON",
+      "steps": [
+        {
+          "step_id": "von-25-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2022-03-29",
+          "quote": "Vård- och omsorgsförvaltningens yttrande antas som vård- och omsorgsnämndens eget yttrande och expedieras till kommunrevisionen. Vård- och omsorgsnämnden ger vård- och omsorgsförvaltningen i uppdrag att se över möjligheterna att följa upp resultaten på verksamhetsnivå i enlighet med rekommendationerna från KPMG.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§25 VARD-OCH-OMSORGSNAMNDEN 2022-03-29",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-03-29/protocol/protokoll-skapad-von-2022-04-04-081257pdf-97032?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-25-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsförvaltningens yttrande antas som vård- och omsorgsnämndens eget yttrande och expedieras till kommunrevisionen. Vård- och omsorgsnämnden ger vård- och omsorgsförvaltningen i uppdrag att se över möjligheterna att följa upp resultaten på verksamhetsnivå i enlighet med rekommendationerna från KPMG.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Rapport nattfasta 2022",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.132 VON",
+      "steps": [
+        {
+          "step_id": "von-51-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2022-06-21",
+          "quote": "Vård- och omsorgsnämnden antar rapporten \"Måltids- och nattfasta registrering Äldreboende i Alingsås\". 2. Vård- och omsorgsnämnden ger förvaltningen i uppdrag att säkerställa att nattfastan på särskilt boende inte överstiger elva timmar, i enlighet med Socialstyrelsens rekommendationer.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§51 VARD-OCH-OMSORGSNAMNDEN 2022-06-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-06-21/protocol/protokoll-skapad-von-2022-06-23-100428pdf-93016?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-51-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden antar rapporten \"Måltids- och nattfasta registrering Äldreboende i Alingsås\". 2. Vård- och omsorgsnämnden ger förvaltningen i uppdrag att säkerställa att nattfastan på särskilt boende inte överstiger elva timmar, i enlighet med Socialstyrelsens rekommendationer.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Plan för uppföljning av privata utförare 2023",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2022.305 VON",
+      "steps": [
+        {
+          "step_id": "von-103-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2022-12-19",
+          "quote": "Vård- och omsorgsnämnden godkänner \"Plan för uppföljning av privata utförare\" för 2023.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§103 VARD-OCH-OMSORGSNAMNDEN 2022-12-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-103-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden godkänner \"Plan för uppföljning av privata utförare\" för 2023.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]

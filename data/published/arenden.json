@@ -34493,5 +34493,1864 @@
       }
     ],
     "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.005 VON",
+    "id": "a-2022-0034",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Delegationsordning för vård- och omsorgsnämnden antas. 2. 1. 3-10 basbelopp delegeras till avdelningschef myndighetsavdelningen. 3. 2. Över 10 basbelopp delegeras till förvaltningschef.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-01-25/protocol/protokoll-skapad-von-2022-01-31-130645pdf-72204?downloadMode=open",
+          "protocol_ref": "§2 VARD-OCH-OMSORGSNAMNDEN 2022-01-25"
+        },
+        "step_id": "von-2022-01-25-s2-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av delegationsordningen 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.071 VON",
+    "id": "a-2022-0035",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden noterar rapporteringen till IVO för kvartal 4 2021 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-01-25/protocol/protokoll-skapad-von-2022-01-31-130645pdf-72204?downloadMode=open",
+          "protocol_ref": "§3 VARD-OCH-OMSORGSNAMNDEN 2022-01-25"
+        },
+        "step_id": "von-2022-01-25-s3-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut SoL 2021"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.072 VON",
+    "id": "a-2022-0036",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden noterar rapporteringen till IVO för kvartal fyra 2021 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-01-25/protocol/protokoll-skapad-von-2022-01-31-130645pdf-72204?downloadMode=open",
+          "protocol_ref": "§4 VARD-OCH-OMSORGSNAMNDEN 2022-01-25"
+        },
+        "step_id": "von-2022-01-25-s4-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut LSS 2021"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.001 VON",
+    "id": "a-2022-0037",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Johan Borre entledigas som dataskyddsombud för vård- och omsorgsnämnden från och med 1 februari 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-01-25/protocol/protokoll-skapad-von-2022-01-31-130645pdf-72204?downloadMode=open",
+          "protocol_ref": "§5 VARD-OCH-OMSORGSNAMNDEN 2022-01-25"
+        },
+        "step_id": "von-2022-01-25-s5-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Entledigande av dataskyddsombud"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.008 VON",
+    "id": "a-2022-0038",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden flyttar sammanträdet för nämnden den 19 maj kl. 14.00 till den 18 maj kl. 14.00.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-01-25/protocol/protokoll-skapad-von-2022-01-31-130645pdf-72204?downloadMode=open",
+          "protocol_ref": "§6 VARD-OCH-OMSORGSNAMNDEN 2022-01-25"
+        },
+        "step_id": "von-2022-01-25-s6-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ändring av sammanträdestid"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2021.037 VON",
+    "id": "a-2022-0039",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Paragrafen är justerad",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-01-25/protocol/protokoll-skapad-von-2022-01-31-130645pdf-72204?downloadMode=open",
+          "protocol_ref": "§7 VARD-OCH-OMSORGSNAMNDEN 2022-01-25"
+        },
+        "step_id": "von-2022-01-25-s7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Anmälan av delegationsbeslut 2021"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.025 VON",
+    "id": "a-2022-0040",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2022-02-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden beslutar att fastställa färdtjänsttaxan till 60 kronor per vuxen och 45 kronor per ungdom i egenavgift för enkel resa inom Alingsås kommun.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-02-21/protocol/protokoll-skapad-von-2022-02-21-215508pdf-10765?downloadMode=open",
+          "protocol_ref": "§10 VARD-OCH-OMSORGSNAMNDEN 2022-02-21"
+        },
+        "step_id": "von-2022-02-21-10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av färdtjänsttaxan och färdtjänstområdet"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.024 VON",
+    "id": "a-2022-0041",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-02-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden beslutar att anta riktlinje för färdtjänst och riksfärdtjänst, enligt bilaga.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-02-21/protocol/protokoll-skapad-von-2022-02-21-215508pdf-10765?downloadMode=open",
+          "protocol_ref": "§11 VARD-OCH-OMSORGSNAMNDEN 2022-02-21"
+        },
+        "step_id": "von-2022-02-21-11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förslag till ny riktlinje för färdtjänst och riksfärdtjänst"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.084 VON",
+    "id": "a-2022-0042",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-02-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård - och omsorgsnämnden noterar vård-och omsorgsförvaltningens redovisning av avsteg från biståndsriktlinjerna under perioden 2021-11-01 till 2021-12-31",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-02-21/protocol/protokoll-skapad-von-2022-02-21-215508pdf-10765?downloadMode=open",
+          "protocol_ref": "§12 VARD-OCH-OMSORGSNAMNDEN 2022-02-21"
+        },
+        "step_id": "von-2022-02-21-12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Återredovisning av avsteg från biståndsriktlinjer 2021"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.036 VON",
+    "id": "a-2022-0043",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-02-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden beslutar att avsluta uppdraget som gavs 2021-01-25, § 2 2021.003 VON i Vård- och omsorgsnämndens budget 2022 att genomlysa riktlinjerna för beslut enligt LSS.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-02-21/protocol/protokoll-skapad-von-2022-02-21-215508pdf-10765?downloadMode=open",
+          "protocol_ref": "§13 VARD-OCH-OMSORGSNAMNDEN 2022-02-21"
+        },
+        "step_id": "von-2022-02-21-13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppdrag att genomlysa riktlinjerna enligt LSS"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.026 VON",
+    "id": "a-2022-0044",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-02-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämndens årsredovisning 2021 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-02-21/protocol/protokoll-skapad-von-2022-02-21-215508pdf-10765?downloadMode=open",
+          "protocol_ref": "§16 VARD-OCH-OMSORGSNAMNDEN 2022-02-21"
+        },
+        "step_id": "von-2022-02-21-16-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Årsredovisning 2021"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.053 VON",
+    "id": "a-2022-0045",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-29",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner informationen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-03-29/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-03-29/protocol/protokoll-skapad-von-2022-04-04-081257pdf-97032?downloadMode=open",
+          "protocol_ref": "§21 VARD-OCH-OMSORGSNAMNDEN 2022-03-29"
+        },
+        "step_id": "von-21-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kritiska verksamhetsfaktorer 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.048 VON",
+    "id": "a-2022-0046",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-29",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner patientsäkerhetsberättelsen för 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-03-29/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-03-29/protocol/protokoll-skapad-von-2022-04-04-081257pdf-97032?downloadMode=open",
+          "protocol_ref": "§22 VARD-OCH-OMSORGSNAMNDEN 2022-03-29"
+        },
+        "step_id": "von-22-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Patientsäkerhetsberättelsen 2021"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.039 VON",
+    "id": "a-2022-0047",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-29",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Nämnden föreslås att göra ett tillägg i tillämpningsanvisningarna kring det nya betalningssättet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-03-29/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-03-29/protocol/protokoll-skapad-von-2022-04-04-081257pdf-97032?downloadMode=open",
+          "protocol_ref": "§24 VARD-OCH-OMSORGSNAMNDEN 2022-03-29"
+        },
+        "step_id": "von-24-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppdatering av tillämpningsanvisningar 2022 - avgifter och ersättningar för personer inom verksamhetsområde funktionsstöd"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.057 VON",
+    "id": "a-2022-0048",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Maria Stern",
+        "party": "v"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-29",
+        "decision": null,
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Maria Stern (V) har lämnat in ett förslag till vård och omsorgsnämnden angående hälsosamma scheman.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-03-29/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-03-29/protocol/protokoll-skapad-von-2022-04-04-081257pdf-97032?downloadMode=open",
+          "protocol_ref": "§26 VARD-OCH-OMSORGSNAMNDEN 2022-03-29"
+        },
+        "step_id": "von-26-vackt",
+        "type": "initiativarende_vackt",
+        "voting": null
+      },
+      {
+        "date": "2022-03-29",
+        "decision": "delvis",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "v"
+            ],
+            "quote": "Sedan Alingsås kommun, under våren 2021, införde så kallade hälsoscheman för bland annat nattpersonal, har det debatterats flera gånger. Hälsoscheman innebär att arbetstiden per pass förkortas, utan att heltidsmåttet förändras."
+          }
+        ],
+        "quote": "Vård och omsorgsnämnden beslutar att ge förvaltningen i uppdrag att ge nämnden information om hur arbetet för vård- och omsorgspersonalen organiseras och hur schemaläggningen planeras. Redovisas för nämnden på sammanträdet i maj.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-03-29/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-03-29/protocol/protokoll-skapad-von-2022-04-04-081257pdf-97032?downloadMode=open",
+          "protocol_ref": "§26 VARD-OCH-OMSORGSNAMNDEN 2022-03-29"
+        },
+        "step_id": "von-26-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Yrkande angående Hälsoscheman från Västerpartiet"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.065 VON",
+    "id": "a-2022-0049",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-26",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden noterar rapporteringen till IVO för kvartal 1 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-04-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-04-26/protocol/protokoll-skapad-von-2022-04-29-091714pdf-50318?downloadMode=open",
+          "protocol_ref": "§29 VARD-OCH-OMSORGSNAMNDEN 2022-04-26"
+        },
+        "step_id": "von-2022-04-26-29-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut SoL 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.066 VON",
+    "id": "a-2022-0050",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-26",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden noterar rapportering till IVO för kvartal 1 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-04-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-04-26/protocol/protokoll-skapad-von-2022-04-29-091714pdf-50318?downloadMode=open",
+          "protocol_ref": "§30 VARD-OCH-OMSORGSNAMNDEN 2022-04-26"
+        },
+        "step_id": "von-2022-04-26-30-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut LSS 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.068 VON",
+    "id": "a-2022-0051",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-26",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden beslutar att avsluta uppdraget som gavs 2020-11-30 § 85 2020.296 VON, att genomföra en LOU-upphandling av ett nytt vårdboende för äldre i Alingsås kommun.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-04-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-04-26/protocol/protokoll-skapad-von-2022-04-29-091714pdf-50318?downloadMode=open",
+          "protocol_ref": "§31 VARD-OCH-OMSORGSNAMNDEN 2022-04-26"
+        },
+        "step_id": "von-2022-04-26-31-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppdrag av upphandling av äldreboendeplatser"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.067 VON",
+    "id": "a-2022-0052",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-26",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden ger förvaltningen i uppdrag att beställa en förstudie för ombyggnad av äldreboendet Ängabogården och en nybyggnad av ett äldreboende inom fastigheten Ängaboskolan 3.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-04-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-04-26/protocol/protokoll-skapad-von-2022-04-29-091714pdf-50318?downloadMode=open",
+          "protocol_ref": "§32 VARD-OCH-OMSORGSNAMNDEN 2022-04-26"
+        },
+        "step_id": "von-2022-04-26-32-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förstudie Ängabogården"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.090 VON",
+    "id": "a-2022-0053",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-26",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden flyttar sammanträdet för nämnden den 14 juni kl. 14.00 till den 21 juni kl. 14.00.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-04-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-04-26/protocol/protokoll-skapad-von-2022-04-29-091714pdf-50318?downloadMode=open",
+          "protocol_ref": "§33 VARD-OCH-OMSORGSNAMNDEN 2022-04-26"
+        },
+        "step_id": "von-2022-04-26-33-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ändring av sammanträdestid"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.092 VON",
+    "id": "a-2022-0054",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-26",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden fastställer den ekonomiska månadsuppföljningen per mars 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-04-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-04-26/protocol/protokoll-skapad-von-2022-04-29-091714pdf-50318?downloadMode=open",
+          "protocol_ref": "§34 VARD-OCH-OMSORGSNAMNDEN 2022-04-26"
+        },
+        "step_id": "von-2022-04-26-34-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Månadsuppföljning 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.069 VON",
+    "id": "a-2022-0055",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-26",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden beslutar att Måltidsprogrammet med uppdateringar samt förslag på uppföljning och kvalitetssäkring godkännes.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-04-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-04-26/protocol/protokoll-skapad-von-2022-04-29-091714pdf-50318?downloadMode=open",
+          "protocol_ref": "§35 VARD-OCH-OMSORGSNAMNDEN 2022-04-26"
+        },
+        "step_id": "von-2022-04-26-35-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Måltidsprogram för hemtjänst"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.100 VON",
+    "id": "a-2022-0056",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2022-05-18",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden beslutar att medge vård- och omsorgsförvaltningen att teckna ett tilläggsavtal på 12 år för sprinklerinstallation vid äldreboendet Hemsjögården.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-05-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-05-18/protocol/protokoll-skapad-von-2022-05-19-104213pdf-93604?downloadMode=open",
+          "protocol_ref": "§43 VARD-OCH-OMSORGSNAMNDEN 2022-05-18"
+        },
+        "step_id": "von-43-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Tilläggsavtal för Hemsjögården"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.092 VON",
+    "id": "a-2022-0057",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-05-18",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden fastställer den fördjupade månadsuppföljningen per april 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-05-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-05-18/protocol/protokoll-skapad-von-2022-05-19-104213pdf-93604?downloadMode=open",
+          "protocol_ref": "§48 VARD-OCH-OMSORGSNAMNDEN 2022-05-18"
+        },
+        "step_id": "von-48-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Månadsuppföljning 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.171 VON",
+    "id": "a-2022-0058",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden godkänner rapporten och beslutar att statistiken framgent återrapporteras i samband med vård- och omsorgsnämndens Månadsuppföljningar 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-06-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-06-21/protocol/protokoll-skapad-von-2022-06-23-100428pdf-93016?downloadMode=open",
+          "protocol_ref": "§52 VARD-OCH-OMSORGSNAMNDEN 2022-06-21"
+        },
+        "step_id": "von-52-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Månadsstatistik korttidsboende"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.092 VON",
+    "id": "a-2022-0059",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden fastställer den fördjupade månadsuppföljningen per maj 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-06-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-06-21/protocol/protokoll-skapad-von-2022-06-23-100428pdf-93016?downloadMode=open",
+          "protocol_ref": "§53 VARD-OCH-OMSORGSNAMNDEN 2022-06-21"
+        },
+        "step_id": "von-53-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Månadsuppföljning 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.134 VON",
+    "id": "a-2022-0060",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden ger förvaltningen i uppdrag att tillse att nuvarande avtal om driftentreprenad på Ginstgården förlängs.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-06-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-06-21/protocol/protokoll-skapad-von-2022-06-23-100428pdf-93016?downloadMode=open",
+          "protocol_ref": "§54 VARD-OCH-OMSORGSNAMNDEN 2022-06-21"
+        },
+        "step_id": "von-54-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förlängning av avtal om driftsentreprenad enligt LOU på Ginstgården"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.138 VON",
+    "id": "a-2022-0061",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-21",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden flyttar arbetsutskottets sammanträde den 18 oktober 2022 kl. 08.30 till den 13 oktober 2022 kl. 08.30.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-06-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-06-21/protocol/protokoll-skapad-von-2022-06-23-100428pdf-93016?downloadMode=open",
+          "protocol_ref": "§56 VARD-OCH-OMSORGSNAMNDEN 2022-06-21"
+        },
+        "step_id": "von-56-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ändring av sammanträdestid"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.065 VON",
+    "id": "a-2022-0062",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-30",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden noterar rapporteringen till IVO för kvartal 2 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§59 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "sol-beslut-von-2022-08-30",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut SoL 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.066 VON",
+    "id": "a-2022-0063",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-30",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden noterar rapporteringen till IVO för kvartal två 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§60 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "lss-beslut-von-2022-08-30",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut LSS 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.199 VON",
+    "id": "a-2022-0064",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-30",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner Plan för uppföljning av privata utförare för 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§61 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "privata-utforare-beslut-von-2022-08-30",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning av privata utförare"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.193 VON",
+    "id": "a-2022-0065",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Gunilla Gomer",
+        "party": "sd"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-26",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Den 26 januari 2022, § 9 motionerade Gunilla Gomer (SD) om att berörd nämnd ska få i uppdrag att utreda och verkställa ett krav på utdrag ur belastningsregistret för alla anställda inom äldreomsorgen",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§62 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "belastningsregister-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2022-06-15",
+        "decision": "delvis",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Kommunfullmäktige beslutade den 15 juni 2022, § 14, i enlighet med kommunstyrelsens förslag, att: Motionen bifalls i den del som rör utredning för utökad registerkontroll inför nyanställning. Motionen avslås i övrigt.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§62 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "belastningsregister-kf-beslut",
+        "type": "beslut",
+        "voting": null
+      },
+      {
+        "date": "2022-08-30",
+        "decision": null,
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsförvaltningen bedömer att utredningen ska omfatta alla nyanställda under vård- och omsorgsnämnden och inte begränsas till äldreomsorgen, eftersom förvaltningen också har brukarnära insatser inom funktionsstödsverksamheten, hälso- och sjukvården och myndighetsutövningen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§62 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "belastningsregister-namndyttrande-von",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2022-08-30",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden ger förvaltningen i uppdrag att utreda utökad registerkontroll inför samtliga nyanställningar på vård- och omsorgsförvaltningen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§62 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "belastningsregister-von-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Remiss - Motion Begära utdrag ur belastningsregistret vid nyanställning inom äldreomsorgen"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.081 VON",
+    "id": "a-2022-0066",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-30",
+        "decision": "avstyrker",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsförvaltningen gör bedömningen att avtalet inte ger önskad tydlighet kring kommunens respektive VGR primärvårdsansvar. I avtalsförslaget finns ett antal skrivningar som innebär en förskjutning av arbetsuppgifter och ansvar, vilket troligtvis medför både kostnadsökningar och utmaningar när det gäller bemanning och kompetens för kommunen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§63 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "halso-sjukvårdsavtal-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2022-08-30",
+        "decision": "avslag",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Alingsås kommun avstår att underteckna det reviderade hälso-och sjukvårdsavtalet med tillhörande överenskommelser.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§63 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "halso-sjukvårdsavtal-von-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Hälso- och sjukvårdsavtal"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.231 VON",
+    "id": "a-2022-0067",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-30",
+        "decision": "tillstyrker",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Förvaltningen bedömer att kommunen bör anta Färdplan - länsgemensam strategi för en god och nära vård. Den innehåller de områden som kommun och region gemensamt prioriterar att kraftsamla kring.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§64 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "fardplan-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2022-08-30",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Alingsås kommun antar Färdplan – länsgemensam strategi för god och nära vård.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§64 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "fardplan-von-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Färdplan – länsgemensam strategi för god och nära vård"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": null,
+    "id": "a-2022-0068",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Eva-Lotta Pamp",
+        "party": "m"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-30",
+        "decision": null,
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ordförande Eva-Lotta Pamp (M) föreslår att vård- och omsorgsnämnden ger förvaltningen i uppdrag att utreda möjligheten att teckna avtal med lokala livsmedelsbutiker innan avtalet med Mathem löper ut.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§66 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "mathem-initiativ",
+        "type": "initiativarende_vackt",
+        "voting": null
+      },
+      {
+        "date": "2022-08-30",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden ger förvaltningen i uppdrag att utreda möjligheten att teckna avtal med lokala livsmedelsbutiker innan avtalet med Mathem löper ut.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-08-30/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-08-30/protocol/protokoll-skapad-von-2022-09-01-135710pdf-83993?downloadMode=open",
+          "protocol_ref": "§66 VARD-OCH-OMSORGSNAMNDEN 2022-08-30"
+        },
+        "step_id": "mathem-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Övrig fråga - Mathem"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.065 VON",
+    "id": "a-2022-0069",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-10-27",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård och omsorgsnämnden noterar rapporteringen till IVO för kvartal 3 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-10-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-10-27/protocol/protokoll-skapad-von-2022-10-31-105636pdf-31577?downloadMode=open",
+          "protocol_ref": "§79 VARD-OCH-OMSORGSNAMNDEN 2022-10-27"
+        },
+        "step_id": "sol-q3-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut SoL Q3 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.066 VON",
+    "id": "a-2022-0070",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-10-27",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden noterar rapporteringen till IVO för kvartal tre 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-10-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-10-27/protocol/protokoll-skapad-von-2022-10-31-105636pdf-31577?downloadMode=open",
+          "protocol_ref": "§80 VARD-OCH-OMSORGSNAMNDEN 2022-10-27"
+        },
+        "step_id": "lss-q3-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut LSS Q3 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.199 VON",
+    "id": "a-2022-0071",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-10-27",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner Plan för uppföljning av privata utförare för 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-10-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-10-27/protocol/protokoll-skapad-von-2022-10-31-105636pdf-31577?downloadMode=open",
+          "protocol_ref": "§81 VARD-OCH-OMSORGSNAMNDEN 2022-10-27"
+        },
+        "step_id": "privata-utforare-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning av privata utförare"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.274 VON",
+    "id": "a-2022-0072",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-01",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsförvaltningens systematiska kvalitetsgranskning för 2022 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-01/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-01/protocol/protokoll-skapad-von-2022-12-05-212714pdf-92429?downloadMode=open",
+          "protocol_ref": "§85 VARD-OCH-OMSORGSNAMNDEN 2022-12-01"
+        },
+        "step_id": "85-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Redovisning av genomförd systematisk kvalitetsgranskning"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.283 VON",
+    "id": "a-2022-0073",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-01",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden beslutar att från och med 2023-01-01 räkna upp assistansersättningen till privata aktörer i enlighet med Försäkringskassans schablonbelopp.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-01/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-01/protocol/protokoll-skapad-von-2022-12-05-212714pdf-92429?downloadMode=open",
+          "protocol_ref": "§86 VARD-OCH-OMSORGSNAMNDEN 2022-12-01"
+        },
+        "step_id": "86-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ersättning för personlig assistans 2023"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2022.280 VON",
+    "id": "a-2022-0074",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-01",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden beslutar höja färdtjänsttaxan med 9,53 procent från och med 2023-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-01/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-01/protocol/protokoll-skapad-von-2022-12-05-212714pdf-92429?downloadMode=open",
+          "protocol_ref": "§87 VARD-OCH-OMSORGSNAMNDEN 2022-12-01"
+        },
+        "step_id": "87-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Indexuppräkning färdtjänsttaxa"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.279 VON",
+    "id": "a-2022-0075",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-01",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden beslutar höja hemtjänstersättningen med 3,9 procent från och med 2023-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-01/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-01/protocol/protokoll-skapad-von-2022-12-05-212714pdf-92429?downloadMode=open",
+          "protocol_ref": "§88 VARD-OCH-OMSORGSNAMNDEN 2022-12-01"
+        },
+        "step_id": "88-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ersättning hemtjänst 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.271 VON",
+    "id": "a-2022-0076",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-01",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Avgifter inom äldreomsorgen räknas upp från och med den 1 januari 2023 enligt förvaltningens förslag som framgår i tjänsteskrivelse daterad den 10 november 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-01/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-01/protocol/protokoll-skapad-von-2022-12-05-212714pdf-92429?downloadMode=open",
+          "protocol_ref": "§89 VARD-OCH-OMSORGSNAMNDEN 2022-12-01"
+        },
+        "step_id": "89-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vård- och omsorgsnämndens taxor och avgifter 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.092 VON",
+    "id": "a-2022-0077",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-01",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden fastställer den fördjupade månadsuppföljningen per oktober 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-01/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-01/protocol/protokoll-skapad-von-2022-12-05-212714pdf-92429?downloadMode=open",
+          "protocol_ref": "§90 VARD-OCH-OMSORGSNAMNDEN 2022-12-01"
+        },
+        "step_id": "90-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Månadsuppföljning per oktober 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.282 VON",
+    "id": "a-2022-0078",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-01",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner datum och tider för vård- och omsorgsnämnden och vård- och omsorgsnämndens arbetsutskotts sammanträdesdagar under 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-01/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-01/protocol/protokoll-skapad-von-2022-12-05-212714pdf-92429?downloadMode=open",
+          "protocol_ref": "§91 VARD-OCH-OMSORGSNAMNDEN 2022-12-01"
+        },
+        "step_id": "91-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdesdagar vård- och omsorgsnämnden 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.292 VON",
+    "id": "a-2022-0079",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden antar Förfrågningsunderlag för bedrivande av hemtjänst och delegerad hälso- och sjukvårdsinsatser i Alingsås kommun enligt lag om valfrihetssystem (LOV) 2023-04-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§95 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-95-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förfrågningsunderlag för bedrivande av hemtjänst och delegerad hälso- och sjukvårdsinsats i Alingsås kommun enligt lag om valfrihetssystem (LOV)"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.296 VON",
+    "id": "a-2022-0080",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden antar reviderade kvalitetskrav för hemtjänst, kommunal primärvård (tidigare hemsjukvård) samt särskilt boende för äldre.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§96 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-96-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av kvalitetskrav 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.297 VON",
+    "id": "a-2022-0081",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden antar kvalitetskraven för funktionsstöd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§97 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-97-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kvalitetskrav Funktionsstöd"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.300 VON",
+    "id": "a-2022-0082",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden antar digital målbild för vård- och omsorgsnämnden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§98 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-98-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Digital målbild för vård- och omsorgsnämnden"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2022.323 VON",
+    "id": "a-2022-0083",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Tecknande av nytt hyresavtal för lokaler vid Malmgatan 10 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§99 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-99-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Nytt hyresavtal Hälso- och sjukvårdslokaler Malmgatan 10"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.301 VON",
+    "id": "a-2022-0084",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner informationen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§100 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-100-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vård- och omsorgsförvaltningens kritiska verksamhetsfaktorer 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.299 VON",
+    "id": "a-2022-0085",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "1. Vård- och omsorgsnämndens budget 2023-2025 antas. 2. Vård- och omsorgsförvaltningen får i uppdrag att med ökad ekonomistyrning ställa om vård- och omsorgsnämndens verksamhet till ett proaktivt och flexibelt arbetssätt",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§101 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-101-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vård- och omsorgsnämndens budget 2023-2025"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.302 VON",
+    "id": "a-2022-0086",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ledningssystem för systematiskt kvalitetsarbete, vård- och omsorgsnämnden antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§102 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-102-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av ledningssystem för systematiskt kvalitetsarbete"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.309 VON",
+    "id": "a-2022-0087",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-19",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningen av Översyn av diarieföring 2022-12-02 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2022-12-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2022-12-19/protocol/protokoll-skapad-von-2022-12-22-110200pdf-48556?downloadMode=open",
+          "protocol_ref": "§104 VARD-OCH-OMSORGSNAMNDEN 2022-12-19"
+        },
+        "step_id": "von-104-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Översyn av diarieföringen på vård- och omsorgsförvaltningen"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.023 VON",
+    "id": "a-2024-0144",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämndens årsredovisning 2023 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§11 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vård- och omsorgsnämndens årsredovisning för 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.086 VON",
+    "id": "a-2024-0145",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§12 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Implementering av Individens behov i centrum (IBIC) - dokumenterad uppföljning av projektplan 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.016 VON",
+    "id": "a-2024-0146",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Patientsäkerhetsberättelse 2023 fastställs.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§13 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vård- och omsorgsnämndens patientsäkerhetsberättelse 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.018 VON",
+    "id": "a-2024-0147",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "1. Kvalitetsberättelse 2023 antas. 2. Uppdraget från den 21 mars 2023 § 26 punkt 3 om att förvaltningen ska återrapportera utvecklingen av personalkontinuiteten vid två tillfällen under 2023 anses därmed slutfört.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§14 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vård- och omsorgsnämndens kvalitetsberättelse 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.265 VON",
+    "id": "a-2024-0148",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Marcus Wallin",
+        "party": "v"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "ingen rekommendation",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Förvaltningens bedömning är att arbetsgivaren kan ge personal inom äldreomsorg, kommunal primärvård och funktionsstödsverksamheter arbetsskor utan att medarbetaren förmånsbeskattas förutsatt att vissa villkor uppfylls.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§15 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-15-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2024-02-20",
+        "decision": "besvarad",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden noterar informationen i förvaltningens utredning av arbetsskor till personal inom vård- och omsorgsnämnden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§15 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-15-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Arbetsskor inom vård- och omsorgsnämnden"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.009 VON",
+    "id": "a-2024-0149",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "1. Slutrapport av handlingsplanerna för särskilt boende för äldre godkänns. 2. Vård- och omsorgsförvaltningen får i uppdrag att redovisa effekterna av handlingsplanerna och de identifierade åtgärderna. Redovisningen ska ske i samband med delårsbokslutet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§16 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-16-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Slutrapport av handlingsplanerna för särskilt boende för äldre"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.027 VON",
+    "id": "a-2024-0150",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "1. Den muntliga informationen godkänns. 2. Ärendet återremitteras till vård- och omsorgsförvaltningen för ytterligare beredning. Redovisning ska ske i maj 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§17 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-17-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Handlingsplan personlig assistans och stöd"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.010 VON",
+    "id": "a-2024-0151",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "1. Den reviderade dokumenthanteringsplanen antas. 2. Den reviderade dokumenthanteringsplanen börjar gälla den 1 mars 2024 och ersätter tidigare version som antogs den 19 december 2023, § 102/2023 VON.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§18 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av vård- och omsorgsnämndens dokumenthanteringsplan"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 VON",
+    "id": "a-2024-0152",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-20",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2024-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-02-20/protocol/protokoll-von-2024-02-20pdf-81183?downloadMode=open",
+          "protocol_ref": "§19 VARD-OCH-OMSORGSNAMNDEN 2024-02-20"
+        },
+        "step_id": "von-19-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Anmälan av delegationsbeslut 2024"
   }
 ]
