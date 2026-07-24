@@ -1,0 +1,730 @@
+[
+  {
+    "arende": {
+      "title": "Nämndinitiativ: Fri tillgång till menstruationskydd",
+      "initiativ_typ": "initiativarende",
+      "initiators": [
+        {
+          "name": "Patrik Eriksson",
+          "party": "v"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2021.449 BUN",
+      "steps": [
+        {
+          "step_id": "bun-2022-01-25-s15-vackt",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "initiativarende_vackt",
+          "date": "2022-01-25",
+          "quote": "Patrik Eriksson (Vänsterpartiet) har inför dagens sammanträde lämnat följande initiativ till nämnden: Vänsterpartiet tycker att det är angeläget, ur ett socioekonomiskt rättviseperspektiv och ur elevhälsoperspektiv, att alla flickor på våra grundskolor har fri tillgång till menstruationsskydd.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§15 BARN-OCH-UNGDOMSNAMNDEN 2022-01-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-01-25/protocol/protokoll-skapad-bun-2022-02-01-061134pdf-65010?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "bun-2022-01-25-s15-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2022-01-25",
+          "quote": "Nämnden ger förvaltningen i uppdrag att följa kultur- och utbildningsförvaltningens implementering av mensskydd i gymnasiet och se över hur det kan implementeras i våra skolor och ta fram en kostnad för genomförande och vad det skulle kosta per år. Detta ska presenteras till hösten.",
+          "decision": "avslag",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till Patrik Erikssons (V) förslag, Nej-röst för bifall till Kent Perciwalls (KD) m.fl. förslag",
+            "result": {
+              "ja": 6,
+              "nej": 7,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§15 BARN-OCH-UNGDOMSNAMNDEN 2022-01-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-01-25/protocol/protokoll-skapad-bun-2022-02-01-061134pdf-65010?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-2022-01-25-s15-vackt",
+        "field": "quote",
+        "quote": "Patrik Eriksson (Vänsterpartiet) har inför dagens sammanträde lämnat följande initiativ till nämnden: Vänsterpartiet tycker att det är angeläget, ur ett socioekonomiskt rättviseperspektiv och ur elevhälsoperspektiv, att alla flickor på våra grundskolor har fri tillgång till menstruationsskydd.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "bun-2022-01-25-s15-beslut",
+        "field": "quote",
+        "quote": "Nämnden ger förvaltningen i uppdrag att följa kultur- och utbildningsförvaltningens implementering av mensskydd i gymnasiet och se över hur det kan implementeras i våra skolor och ta fram en kostnad för genomförande och vad det skulle kosta per år. Detta ska presenteras till hösten.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Huvudmannens verksamhetsuppföljning läsåret för 20/21",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2022.046 BUN",
+      "steps": [
+        {
+          "step_id": "bun-29-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2022-03-22",
+          "quote": "Redovisningen godkänns. Tema \"Samverkan för barns och elevers hela dag genom hela utbildningen\", \"Hälsofrämjande och förebyggande barn- och elevhälsoarbete och särskilt stöd\" samt \"Likvärdig utbildning\" för fördjupningsdialoger fastställs.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§29 BARN-OCH-UNGDOMSNAMNDEN 2022-03-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-03-22/protocol/protokoll-skapad-bun-2022-03-24-135145pdf-11028?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-29-beslut",
+        "field": "quote",
+        "quote": "Redovisningen godkänns. Tema \"Samverkan för barns och elevers hela dag genom hela utbildningen\", \"Hälsofrämjande och förebyggande barn- och elevhälsoarbete och särskilt stöd\" samt \"Likvärdig utbildning\" för fördjupningsdialoger fastställs.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Granskning likvärdighet grundskolan",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2021.388 BUN",
+      "steps": [
+        {
+          "step_id": "bun-30-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2022-03-22",
+          "quote": "Barn- och ungdomsnämnden tar förvaltningens yttrande som sitt eget och översänder det till kommunrevisorerna. Barn och ungdomsnämnden ger barn- och ungdomsförvaltningen i uppdrag att analysera om tillgängliga resurser och resursfördelningsmodell utifrån den av nämnden beslutade skolstrukturen ger förutsättningar för likvärdig skola",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Ja för att bifalla arbetsutskottets förslag / Nej för att bifalla arbetsutskottets förslag med tilläggsyrkande",
+            "result": {
+              "ja": 7,
+              "nej": 6,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§30 BARN-OCH-UNGDOMSNAMNDEN 2022-03-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-03-22/protocol/protokoll-skapad-bun-2022-03-24-135145pdf-11028?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-30-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden tar förvaltningens yttrande som sitt eget och översänder det till kommunrevisorerna. Barn och ungdomsnämnden ger barn- och ungdomsförvaltningen i uppdrag att analysera om tillgängliga resurser och resursfördelningsmodell utifrån den av nämnden beslutade skolstrukturen ger förutsättningar för likvärdig skola",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Regler för skolskjuts",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2022.101 BUN",
+      "steps": [
+        {
+          "step_id": "bun-54-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2022-05-17",
+          "quote": "Regler för skolskjuts fastställs i enligt med förvaltningens förslag med med följande tillägg: \"Elever som vill åka med skolskjuts i mån av plats, ta med kamrater, åka på annan tur än den som anvisats (rubrik)",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§54 BARN-OCH-UNGDOMSNAMNDEN 2022-05-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-05-17/protocol/protokoll-skapad-bun-2022-05-23-102816pdf-82179?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-54-beslut",
+        "field": "quote",
+        "quote": "Regler för skolskjuts fastställs i enligt med förvaltningens förslag med med följande tillägg: \"Elever som vill åka med skolskjuts i mån av plats, ta med kamrater, åka på annan tur än den som anvisats (rubrik)",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Gemensam förstudie med Västtrafik inför eventuell upphandling av skoltrafik år 2025",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2022.011 BUN",
+      "steps": [
+        {
+          "step_id": "bun-63-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2022-06-14",
+          "quote": "Barn- och ungdomsnämnden tar del av förstudierapporten och lägger den till handlingarna. Barn- och ungdomsnämnden beslutar att ge Västtrafik i uppdrag att handla upp skoltrafiken åt kommunen, med trafikstart i augusti 2025.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§63 BARN-OCH-UNGDOMSNAMNDEN 2022-06-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-06-14/protocol/protokoll-skapad-bun-2022-06-15-091025pdf-84041?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-63-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden tar del av förstudierapporten och lägger den till handlingarna. Barn- och ungdomsnämnden beslutar att ge Västtrafik i uppdrag att handla upp skoltrafiken åt kommunen, med trafikstart i augusti 2025.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Nämndinitiativ: Fri tillgång till menstruationsskydd",
+      "initiativ_typ": "initiativarende",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2021.449 BUN",
+      "steps": [
+        {
+          "step_id": "bun-96-initiativ",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "initiativarende_vackt",
+          "date": "2022-01-25",
+          "quote": "Barn- och ungdomsnämnden gav barn- och ungdomsförvaltningen 220125 §15 i uppdrag att \"följa kultur- och utbildningsförvaltningens implementering av mensskydd i gymnasiet och se över hur det kan implementeras i våra skolor och ta fram en kostnad för genomförande och vad det skulle kosta per år.\"",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§96 BARN-OCH-UNGDOMSNAMNDEN 2022-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-10-25/protocol/protokoll-skapad-bun-2022-10-25-212843pdf-87767?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "bun-96-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2022-10-25",
+          "quote": "Redovisningen godkänns. Barn- och ungdomsnämnden ger förvaltningen i uppdrag att omhänderta frågan i beredningen av budget 2023.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§96 BARN-OCH-UNGDOMSNAMNDEN 2022-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-10-25/protocol/protokoll-skapad-bun-2022-10-25-212843pdf-87767?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-96-initiativ",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden gav barn- och ungdomsförvaltningen 220125 §15 i uppdrag att \"följa kultur- och utbildningsförvaltningens implementering av mensskydd i gymnasiet och se över hur det kan implementeras i våra skolor och ta fram en kostnad för genomförande och vad det skulle kosta per år.\"",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "bun-96-beslut",
+        "field": "quote",
+        "quote": "Redovisningen godkänns. Barn- och ungdomsnämnden ger förvaltningen i uppdrag att omhänderta frågan i beredningen av budget 2023.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förstudie förskola Ingared",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2020.326 BUN",
+      "steps": [
+        {
+          "step_id": "bun-111-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2022-11-22",
+          "quote": "Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem ta fram en förstudie för förskola i Ingared enligt förslag på placering. Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem ta fram en tillfällig paviljonglösning för förskola i Ingared enligt förslag på placering.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§111 BARN-OCH-UNGDOMSNAMNDEN 2022-11-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2022-11-22/protocol/protokoll-skapad-bun-2022-11-22-194252pdf-31922?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-111-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem ta fram en förstudie för förskola i Ingared enligt förslag på placering. Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem ta fram en tillfällig paviljonglösning för förskola i Ingared enligt förslag på placering.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Huvudmannens verksamhetsuppföljning",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2023.082 BUN",
+      "steps": [
+        {
+          "step_id": "bun-28-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2023-03-21",
+          "quote": "Redovisningen godkänns. Fortsatt utveckling utifrån strategierna \"Stärka rektors mandat och ansvar\", \" Stärka undervisningens kvalitet och tillgänglighet\" och \"Säkra kompetensförsörjning\".",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§28 BARN-OCH-UNGDOMSNAMNDEN 2023-03-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2023-03-21/protocol/protokoll-skapad-bun-2023-03-22-062526pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-28-beslut",
+        "field": "quote",
+        "quote": "Redovisningen godkänns. Fortsatt utveckling utifrån strategierna \"Stärka rektors mandat och ansvar\", \" Stärka undervisningens kvalitet och tillgänglighet\" och \"Säkra kompetensförsörjning\".",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Kompetensförsörjning: Personal och behörigheter",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2023.161 BUN",
+      "steps": [
+        {
+          "step_id": "bun-50-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2023-05-16",
+          "quote": "Ärendet återremitteras till Barn- och ungdomsförvaltningen.",
+          "decision": "ingen rekommendation",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Socialdemokraterna i Barn- och ungdomsnämnden inlämnade följande tilläggsyrkande till nämnden: - Att barn- och ungdomsnämnden ger förvaltningen i uppdrag att genomföra förstärkta insatser norra kommundelen i syfte att öka andelen behöriga personal samt göra det mer attraktivt att söka tjänster."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§50 BARN-OCH-UNGDOMSNAMNDEN 2023-05-16",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2023-05-16/protocol/protokoll-skapad-bun-2023-05-24-153047pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-50-beslut",
+        "field": "quote",
+        "quote": "Ärendet återremitteras till Barn- och ungdomsförvaltningen.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "bun-50-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Socialdemokraterna i Barn- och ungdomsnämnden inlämnade följande tilläggsyrkande till nämnden: - Att barn- och ungdomsnämnden ger förvaltningen i uppdrag att genomföra förstärkta insatser norra kommundelen i syfte att öka andelen behöriga personal samt göra det mer attraktivt att söka tjänster.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Budget 2024-2026 Barn-och ungdomsnämnden",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2023.466 BUN",
+      "steps": [
+        {
+          "step_id": "bun-91-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2023-12-12",
+          "quote": "Barn- och ungdomsnämnden fastställer följande delar i Budget 2024–2026:",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vänsterpartiet avstod från att rösta på BUN's budget 2024. Detta var inte för att den inte var genomtänkt eller bra med tanke på de medel BUN har till sitt förfogande, utan för att Vänsterpartiets budgetförslag i kommunfullmäktige, som hade gett 20 miljoner mer till BUN, inte gick igenom."
+            },
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Under läsåret 2022-2023 hade 59 elever i Alingsås grundskolor en frånvaro på 50-100% av undervisningstiden och utvecklingen har tyvärr gått åt fel håll under höstterminen 2023."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§91 BARN-OCH-UNGDOMSNAMNDEN 2023-12-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2023-12-12/protocol/j-protokoll-skapad-bun-2023-12-13-061047pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-91-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden fastställer följande delar i Budget 2024–2026:",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "bun-91-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "Vänsterpartiet avstod från att rösta på BUN's budget 2024. Detta var inte för att den inte var genomtänkt eller bra med tanke på de medel BUN har till sitt förfogande, utan för att Vänsterpartiets budgetförslag i kommunfullmäktige, som hade gett 20 miljoner mer till BUN, inte gick igenom.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "bun-91-beslut",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Under läsåret 2022-2023 hade 59 elever i Alingsås grundskolor en frånvaro på 50-100% av undervisningstiden och utvecklingen har tyvärr gått åt fel håll under höstterminen 2023.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Regler för förskola, fritidshem och pedagogisk omsorg",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2024.047 BUN",
+      "steps": [
+        {
+          "step_id": "bun-2024-02-20-13-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2024-02-20",
+          "quote": "Barn- och ungdomsnämndens antar de reviderade reglerna för förskola, fritidshem och pedagogisk omsorg med justering för att lydelse under \"1. Placering 1.1. Rätt till plats\" behålls i sin nuvarande formulering.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§13 BARN-OCH-UNGDOMSNAMNDEN 2024-02-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2024-02-20/protocol/protokoll-skapad-bun-2024-02-21-132746pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-2024-02-20-13-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämndens antar de reviderade reglerna för förskola, fritidshem och pedagogisk omsorg med justering för att lydelse under \"1. Placering 1.1. Rätt till plats\" behålls i sin nuvarande formulering.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Huvudmannens verksamhetsuppföljning 2022/2023",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2024.089 BUN",
+      "steps": [
+        {
+          "step_id": "bun-20-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2024-03-26",
+          "quote": "Redovisningen godkänns. Tema \"Stärka undervisningens kvalitet och tillgänglighet\" och \"Stärka förutsättningar för organisering och pedagogiskt ledarskap\" fastställs för fördjupningsdialoger.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§20 BARN-OCH-UNGDOMSNAMNDEN 2024-03-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2024-03-26/protocol/protokoll-skapad-bun-2024-03-28-122413pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-20-beslut",
+        "field": "quote",
+        "quote": "Redovisningen godkänns. Tema \"Stärka undervisningens kvalitet och tillgänglighet\" och \"Stärka förutsättningar för organisering och pedagogiskt ledarskap\" fastställs för fördjupningsdialoger.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Regelbunden tillsyn, Solkattens förskola, SKIB AB, 2024",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2024.382 BUN",
+      "steps": [
+        {
+          "step_id": "bun-86-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2024-12-17",
+          "quote": "Barn- och ungdomsnämnden godkänner tillsynsrapporten för Solkattens förskola. Barn- och ungdomsnämnden förelägger huvudmannen SKIB AB att vidta åtgärder att följa skollagens krav avseende att ägar- och ledningskretsen genom erfarenhet eller på annat sätt har förvärvat insikt i de föreskrifter som gäller för verksamheten",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§86 BARN-OCH-UNGDOMSNAMNDEN 2024-12-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2024-12-17/protocol/protokoll-skapad-bun-2024-12-19-145457pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-86-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden godkänner tillsynsrapporten för Solkattens förskola. Barn- och ungdomsnämnden förelägger huvudmannen SKIB AB att vidta åtgärder att följa skollagens krav avseende att ägar- och ledningskretsen genom erfarenhet eller på annat sätt har förvärvat insikt i de föreskrifter som gäller för verksamheten",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (43 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Nämndinitiativ: Ny ersättningsmodell för lokalkostnader till fristående verksamhet, Socialdemokraterna",
+      "initiativ_typ": "initiativarende",
+      "initiators": [
+        {
+          "name": "Socialdemokraterna",
+          "party": "s"
+        }
+      ],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2024.151 BUN",
+      "steps": [
+        {
+          "step_id": "bun-88-vackt",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "initiativarende_vackt",
+          "date": "2024-04-23",
+          "quote": "Barn- och ungdomsnämnden beslutade 24-04-23 §31 om att ge barn- och ungdomsförvaltningen i uppdrag att återkomma till nämnden med: förslag till beräkningsmodell för lokalkostnader som utgår ifrån att fristående verksamhet ska ersättas med deras faktiska lokalkostnader upp till ett tak av kommunens genomsnittliga lokalkostnader.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§88 BARN-OCH-UNGDOMSNAMNDEN 2024-12-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2024-12-17/protocol/protokoll-skapad-bun-2024-12-19-145457pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "bun-88-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2024-12-17",
+          "quote": "Barn- och ungdomsnämnden fattar beslut enligt förvaltningens bedömning.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§88 BARN-OCH-UNGDOMSNAMNDEN 2024-12-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2024-12-17/protocol/protokoll-skapad-bun-2024-12-19-145457pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-88-vackt",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden beslutade 24-04-23 §31 om att ge barn- och ungdomsförvaltningen i uppdrag att återkomma till nämnden med: förslag till beräkningsmodell för lokalkostnader som utgår ifrån att fristående verksamhet ska ersättas med deras faktiska lokalkostnader upp till ett tak av kommunens genomsnittliga lokalkostnader.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "bun-88-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden fattar beslut enligt förvaltningens bedömning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Framtida skolorganisation förskolor i centralorten",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2020.257 BUN",
+      "steps": [
+        {
+          "step_id": "bun-2026-02-17-s6-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2026-02-17",
+          "quote": "Ekskogens förskola omvandlas till skollokal från och med höstterminen 2027. Dygnet runt-verksamheten flyttas från Östlyckans förskola till Lindens förskola från och med höstterminen 2027. Nolängens förskola och Lövhyddans förskola avvecklas under 2028.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Barnkonsekvensanalysen som genomförts i ärendet och som enbart lyfter positiva konsekvenser av de föreslagna förändringarna är enligt Centerpartiet ofullständig."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vi i Vänsterpartiet tycker det är bra att man ser över förskoleorganisationen och stänger ner enheter där lokalerna inte längre är ändamålsenliga eller har passerat sin livslängd. Vi ser dock med viss oro på hur alla nya enheter är väldigt stora samtidigt som det är just små enheter som avvecklas."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§6 BARN-OCH-UNGDOMSNAMNDEN 2026-02-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-02-17/protocol/protokoll-skapad-bun-2026-02-23-080846pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-2026-02-17-s6-beslut",
+        "field": "quote",
+        "quote": "Ekskogens förskola omvandlas till skollokal från och med höstterminen 2027. Dygnet runt-verksamheten flyttas från Östlyckans förskola till Lindens förskola från och med höstterminen 2027. Nolängens förskola och Lövhyddans förskola avvecklas under 2028.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "bun-2026-02-17-s6-beslut",
+        "field": "reservation[c]",
+        "quote": "Barnkonsekvensanalysen som genomförts i ärendet och som enbart lyfter positiva konsekvenser av de föreslagna förändringarna är enligt Centerpartiet ofullständig.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "bun-2026-02-17-s6-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "Vi i Vänsterpartiet tycker det är bra att man ser över förskoleorganisationen och stänger ner enheter där lokalerna inte längre är ändamålsenliga eller har passerat sin livslängd. Vi ser dock med viss oro på hur alla nya enheter är väldigt stora samtidigt som det är just små enheter som avvecklas.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
