@@ -1,0 +1,835 @@
+[
+  {
+    "arende": {
+      "title": "Anmälan av delegationsbeslut 2022",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2022.018 VON",
+      "steps": [
+        {
+          "step_id": "s13-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-01-24",
+          "quote": "Anmälan ordförandebeslut Tillförordnad förvaltningschef 221222-230108 Nyanställda VoO dec 2022 VoO avgångar dec 2022",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§13 VARD-OCH-OMSORGSNAMNDEN 2023-01-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-01-24/protocol/protokoll-skapad-von-2023-01-31-112312pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "s13-beslut",
+        "field": "quote",
+        "quote": "Anmälan ordförandebeslut Tillförordnad förvaltningschef 221222-230108 Nyanställda VoO dec 2022 VoO avgångar dec 2022",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Granskning av äldreomsorgen",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.332 VON",
+      "steps": [
+        {
+          "step_id": "von-26-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-03-21",
+          "quote": "1. Vård- och omsorgsnämnden antar vård- och omsorgsförvaltningens yttrande som svar till kommunens revisorer. 2. Vård- och omsorgsförvaltningen får i uppdrag att skriva fram ett förslag till beslut om införande av IBIC och inkomma med ärendet till vård- och omsorgsnämndens sammanträde i april 2023.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§26 VARD-OCH-OMSORGSNAMNDEN 2023-03-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-03-21/protocol/protokoll-skapad-von-2023-03-22-124943pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-26-beslut",
+        "field": "quote",
+        "quote": "1. Vård- och omsorgsnämnden antar vård- och omsorgsförvaltningens yttrande som svar till kommunens revisorer. 2. Vård- och omsorgsförvaltningen får i uppdrag att skriva fram ett förslag till beslut om införande av IBIC och inkomma med ärendet till vård- och omsorgsnämndens sammanträde i april 2023.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Hemtjänst inköp online",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2023.105 VON",
+      "steps": [
+        {
+          "step_id": "von-36-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-04-27",
+          "quote": "Avtalet med MatHem avslutas med sex månaders uppsägningstid. Någon ny upphandling görs inte. Brukare med insatsen inköp, väljer själva sin onlinehandelsbutik, samt står själva för plock- och utkörningsavgift av varorna till leverantören.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§36 VARD-OCH-OMSORGSNAMNDEN 2023-04-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-04-27/protocol/protokoll-skapad-von-2023-05-03-122249pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-36-beslut",
+        "field": "quote",
+        "quote": "Avtalet med MatHem avslutas med sex månaders uppsägningstid. Någon ny upphandling görs inte. Brukare med insatsen inköp, väljer själva sin onlinehandelsbutik, samt står själva för plock- och utkörningsavgift av varorna till leverantören.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Dokumenthanteringsplan 2023",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.056 VON",
+      "steps": [
+        {
+          "step_id": "von-42-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-04-27",
+          "quote": "Vård- och omsorgsnämndens dokumenthanteringsplan antas. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§42 VARD-OCH-OMSORGSNAMNDEN 2023-04-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-04-27/protocol/protokoll-skapad-von-2023-05-03-122249pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-42-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämndens dokumenthanteringsplan antas. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Riktlinje för registerkontroll",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2022.193 VON",
+      "steps": [
+        {
+          "step_id": "von-43-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-04-27",
+          "quote": "Riktlinje för registerkontroll vid anställning på vård- och omsorgsförvaltningen antas. Riktlinjen börjar gälla från och med den 1 september 2023.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till förvaltningens förslag. Nej-röst för avslag till förvaltningens förslag.",
+            "result": {
+              "ja": 8,
+              "nej": 5,
+              "avstar": 0
+            }
+          },
+          "reservations": [
+            {
+              "parties": [
+                "s",
+                "v"
+              ],
+              "quote": "Birgit Börjesson (S), Bo Hallberg (S), Britt Andersson Näsman (S), Tobias Berglund (S) och Maria Stern (V) reserverar sig mot beslutet enligt nedan."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§43 VARD-OCH-OMSORGSNAMNDEN 2023-04-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-04-27/protocol/protokoll-skapad-von-2023-05-03-122249pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-43-beslut",
+        "field": "quote",
+        "quote": "Riktlinje för registerkontroll vid anställning på vård- och omsorgsförvaltningen antas. Riktlinjen börjar gälla från och med den 1 september 2023.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "von-43-beslut",
+        "field": "reservation[s+v]",
+        "quote": "Birgit Börjesson (S), Bo Hallberg (S), Britt Andersson Näsman (S), Tobias Berglund (S) och Maria Stern (V) reserverar sig mot beslutet enligt nedan.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Utförd tid i kommunal hemtjänst i relation till beviljad tid",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2023.235 VON",
+      "steps": [
+        {
+          "step_id": "von-98-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-12-19",
+          "quote": "1. Vård- och omsorgsnämnden godkänner redovisningen av uppdraget att mäta utförd tid i kommunal hemtjänst i relation till beviljad tid. 2. Uppdraget från den 21 februari 2023, § 21 punkt två om att mäta utförd tid i kommunal hemtjänst i relation till beviljad tid med rapportering vid två tillfällen under 2023 anses därmed slutfört.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§98 VARD-OCH-OMSORGSNAMNDEN 2023-12-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-12-19/protocol/protokoll-skapad-von-2023-12-20-133004pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-98-beslut",
+        "field": "quote",
+        "quote": "1. Vård- och omsorgsnämnden godkänner redovisningen av uppdraget att mäta utförd tid i kommunal hemtjänst i relation till beviljad tid. 2. Uppdraget från den 21 februari 2023, § 21 punkt två om att mäta utförd tid i kommunal hemtjänst i relation till beviljad tid med rapportering vid två tillfällen under 2023 anses därmed slutfört.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (54 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Revidering av vård- och omsorgsnämndens dokumenthanteringsplan",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.312 VON",
+      "steps": [
+        {
+          "step_id": "von-102-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-12-19",
+          "quote": "1. Den reviderade dokumenthanteringsplanen antas. 2. Den reviderade dokumenthanteringsplanen börjar gälla den 1 januari 2024 och ersätter tidigare version som antogs den 27 april 2023, § 42/2023 VON. 3. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§102 VARD-OCH-OMSORGSNAMNDEN 2023-12-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-12-19/protocol/protokoll-skapad-von-2023-12-20-133004pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-102-beslut",
+        "field": "quote",
+        "quote": "1. Den reviderade dokumenthanteringsplanen antas. 2. Den reviderade dokumenthanteringsplanen börjar gälla den 1 januari 2024 och ersätter tidigare version som antogs den 27 april 2023, § 42/2023 VON. 3. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Lednings- och kommunikationsplan för extra ordinär händelse eller samhällsstörning (handlingsplan och organisation för kris och beredskap)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.329 VON",
+      "steps": [
+        {
+          "step_id": "von-105-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2023-12-19",
+          "quote": "1. Lednings- och kommunikationsplan för extra ordinär händelse eller samhällsstörning för vård- och omsorgsnämnden godkänns. 2. Uppdraget från den 19 december 2022, § 101 om att säkerställa att förvaltningen har en ändamålsenlig handlingsplan och organisation för kris och beredskap anses därmed slutfört.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§105 VARD-OCH-OMSORGSNAMNDEN 2023-12-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2023-12-19/protocol/protokoll-skapad-von-2023-12-20-133004pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-105-beslut",
+        "field": "quote",
+        "quote": "1. Lednings- och kommunikationsplan för extra ordinär händelse eller samhällsstörning för vård- och omsorgsnämnden godkänns. 2. Uppdraget från den 19 december 2022, § 101 om att säkerställa att förvaltningen har en ändamålsenlig handlingsplan och organisation för kris och beredskap anses därmed slutfört.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Organisatorisk flytt av föreningsbidrag från vård- och omsorgsnämnden till kultur- och utbildningsnämnden",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.002 VON",
+      "steps": [
+        {
+          "step_id": "von-2024-01-30-6-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2024-01-30",
+          "quote": "Förslag till beslut i kommunfullmäktige 1. Samordning och beslutanderätt av vård- och omsorgsnämndens föreningsbidrag flyttas organisatoriskt till kultur- och utbildningsnämnden. 2. Riktlinje för \"Riktlinjer för Föreningsbidrag från Vård- och äldreomsorgsnämnden\" upphävs.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§6 VARD-OCH-OMSORGSNAMNDEN 2024-01-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-01-30/protocol/protokoll-von-2024-01-30pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-2024-01-30-6-beslut",
+        "field": "quote",
+        "quote": "Förslag till beslut i kommunfullmäktige 1. Samordning och beslutanderätt av vård- och omsorgsnämndens föreningsbidrag flyttas organisatoriskt till kultur- och utbildningsnämnden. 2. Riktlinje för \"Riktlinjer för Föreningsbidrag från Vård- och äldreomsorgsnämnden\" upphävs.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Handlingsplan personlig assistans och stöd",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2023.027 VON",
+      "steps": [
+        {
+          "step_id": "von-39-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2024-05-14",
+          "quote": "1. Handlingsplanerna på enhetsnivå inom avdelningen för personlig assistans och stöd godkänns. 2. Vård- och omsorgsförvaltningen får i vidare uppdrag att följa upp handlingsplanerna på enhetsnivå för avdelningen personlig assistans och stöd i syfte att säkerställa en effektiv och kostnadseffektiv verksamhet. Återrapportering i november 2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§39 VARD-OCH-OMSORGSNAMNDEN 2024-05-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-05-14/protocol/protokoll-von-2024-05-14pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-39-beslut",
+        "field": "quote",
+        "quote": "1. Handlingsplanerna på enhetsnivå inom avdelningen för personlig assistans och stöd godkänns. 2. Vård- och omsorgsförvaltningen får i vidare uppdrag att följa upp handlingsplanerna på enhetsnivå för avdelningen personlig assistans och stöd i syfte att säkerställa en effektiv och kostnadseffektiv verksamhet. Återrapportering i november 2024.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förfrågningsunderlag för bedrivande av hemtjänst och delegerad hälso- och sjukvårdsinsats i Alingsås kommun enligt lagen om valfrihetssystem (LOV)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2024.045 VON",
+      "steps": [
+        {
+          "step_id": "von-79-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2024-11-19",
+          "quote": "Förfrågningsunderlag för bedrivande av hemtjänst och delegerad hälso- och sjukvårdsinsats i Alingsås kommun enligt lag om valfrihetssystem (LOV), som gäller från och med 2025-04-01, antas.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§79 VARD-OCH-OMSORGSNAMNDEN 2024-11-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-11-19/protocol/protokoll-von-2024-11-19pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-79-beslut",
+        "field": "quote",
+        "quote": "Förfrågningsunderlag för bedrivande av hemtjänst och delegerad hälso- och sjukvårdsinsats i Alingsås kommun enligt lag om valfrihetssystem (LOV), som gäller från och med 2025-04-01, antas.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Återrapportering av handlingsplaner personlig assistans och stöd",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2024.245 VON",
+      "steps": [
+        {
+          "step_id": "von-80-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2024-11-19",
+          "quote": "1. Vård- och omsorgsnämnden godkänner återrapporteringen. Uppdraget från den 14 maj 2024, § 39 VON anses därmed avslutat.\n2. Vård- och omsorgsförvaltningen får i förnyat uppdrag att följa upp handlingsplanerna på enhetsnivå för avdelningen personlig assistans och stöd i syfte att säkerställa en effektiv och kostnadseffektiv verksamhet. Återrapportering ska ske i maj 2025.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§80 VARD-OCH-OMSORGSNAMNDEN 2024-11-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2024-11-19/protocol/protokoll-von-2024-11-19pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-80-beslut",
+        "field": "quote",
+        "quote": "1. Vård- och omsorgsnämnden godkänner återrapporteringen. Uppdraget från den 14 maj 2024, § 39 VON anses därmed avslutat.\n2. Vård- och omsorgsförvaltningen får i förnyat uppdrag att följa upp handlingsplanerna på enhetsnivå för avdelningen personlig assistans och stöd i syfte att säkerställa en effektiv och kostnadseffektiv verksamhet. Återrapportering ska ske i maj 2025.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (53 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Återrapportering av handlingsplaner särskilt boende för äldre samt ny handlingsplan särskilt boende 2025",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.012 VON",
+      "steps": [
+        {
+          "step_id": "s14-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2025-03-25",
+          "quote": "1. Återrapporteringen godkänns. Uppdraget från den 23 september 2024 § 61 VON anses därmed avslutat.\n2. Ny handlingsplan för särskilt boende 2025 godkänns.\n3. Vård- och omsorgsförvaltningen får i förnyat uppdrag att återrapportera effekterna utifrån ny övergripande handlingsplan för särskilt boende 2025. Återrapportering ska ske i oktober 2025.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§14 VARD-OCH-OMSORGSNAMNDEN 2025-03-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-03-25/protocol/protokoll-von-2025-03-25pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "s14-beslut",
+        "field": "quote",
+        "quote": "1. Återrapporteringen godkänns. Uppdraget från den 23 september 2024 § 61 VON anses därmed avslutat.\n2. Ny handlingsplan för särskilt boende 2025 godkänns.\n3. Vård- och omsorgsförvaltningen får i förnyat uppdrag att återrapportera effekterna utifrån ny övergripande handlingsplan för särskilt boende 2025. Återrapportering ska ske i oktober 2025.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (48 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Insatser utan behovsprövning",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.116 VON",
+      "steps": [
+        {
+          "step_id": "von-41-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2025-06-12",
+          "quote": "Från och med den 1 juli 2025 fortsätter vård- och omsorgsnämnden att tillhandahålla listade insatser i bilaga \"Insatser utan behovsprövning i verksamheter på Vård- och omsorgsförvaltningen i Alingsås kommun\" som insatser utan behovsprövning.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§41 VARD-OCH-OMSORGSNAMNDEN 2025-06-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-06-12/protocol/protokoll-von-2025-06-12pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-41-beslut",
+        "field": "quote",
+        "quote": "Från och med den 1 juli 2025 fortsätter vård- och omsorgsnämnden att tillhandahålla listade insatser i bilaga \"Insatser utan behovsprövning i verksamheter på Vård- och omsorgsförvaltningen i Alingsås kommun\" som insatser utan behovsprövning.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Återrapportering och revidering av måltidsprogram, hemtjänst",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.013 VON",
+      "steps": [
+        {
+          "step_id": "von-43-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2025-06-12",
+          "quote": "1. Måltidsprogrammet som antogs av vård- och omsorgsnämnden den 26 april 2022, § 35 upphör. 2. Hemtjänsten följer Nationella riktlinjer för måltider i äldreomsorgen samt förebygger undernäring genom Senior Alerts kvalitetsregister. 3. Avtal med företag som levererar matlådor följs upp årligen.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§43 VARD-OCH-OMSORGSNAMNDEN 2025-06-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-06-12/protocol/protokoll-von-2025-06-12pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-43-beslut",
+        "field": "quote",
+        "quote": "1. Måltidsprogrammet som antogs av vård- och omsorgsnämnden den 26 april 2022, § 35 upphör. 2. Hemtjänsten följer Nationella riktlinjer för måltider i äldreomsorgen samt förebygger undernäring genom Senior Alerts kvalitetsregister. 3. Avtal med företag som levererar matlådor följs upp årligen.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande att införa digitala nycklar i hemtjänsten - Mats Bjelkemyr (SD)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Mats Bjelkemyr",
+          "party": "sd"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.127 VON",
+      "steps": [
+        {
+          "step_id": "von-52-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2025-05-07",
+          "quote": "Mats Bjelkemyr (SD) har till kommunfullmäktige den 7 maj 2025, §111 lämnat en motion att förstärka tryggheten för de äldre i Alingsås genom nyckelfri hemtjänst.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 VARD-OCH-OMSORGSNAMNDEN 2025-09-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-09-22/protocol/protokoll-von-2025-09-22pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-52-namndyttrande",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "namndyttrande",
+          "date": "2025-09-22",
+          "quote": "Förvaltningen har tagit ställning till att införa digitala lås inom hemtjänsten. I november 2024 ingick vård- och omsorgsförvaltningen ett samverkansavtal \"Digitala hjälpmedel i samverkan\", med VästKom och Västra Götalandsregionen. Digitala lås inom hemtjänsten är ett av fokusområdena i samverkansavtalet.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 VARD-OCH-OMSORGSNAMNDEN 2025-09-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-09-22/protocol/protokoll-von-2025-09-22pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-52-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2025-09-22",
+          "quote": "Motionen anses besvarad med hänvisning till pågående arbete inom ramen för \"Digitala hjälpmedel i samverkan\" och de interna förberedelser som nu inleds.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 VARD-OCH-OMSORGSNAMNDEN 2025-09-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-09-22/protocol/protokoll-von-2025-09-22pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-52-motion-inlamnad",
+        "field": "quote",
+        "quote": "Mats Bjelkemyr (SD) har till kommunfullmäktige den 7 maj 2025, §111 lämnat en motion att förstärka tryggheten för de äldre i Alingsås genom nyckelfri hemtjänst.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "von-52-namndyttrande",
+        "field": "quote",
+        "quote": "Förvaltningen har tagit ställning till att införa digitala lås inom hemtjänsten. I november 2024 ingick vård- och omsorgsförvaltningen ett samverkansavtal \"Digitala hjälpmedel i samverkan\", med VästKom och Västra Götalandsregionen. Digitala lås inom hemtjänsten är ett av fokusområdena i samverkansavtalet.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "von-52-beslut",
+        "field": "quote",
+        "quote": "Motionen anses besvarad med hänvisning till pågående arbete inom ramen för \"Digitala hjälpmedel i samverkan\" och de interna förberedelser som nu inleds.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Återrapportering av handlingsplaner särskild boendeform för äldre personer",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.208 VON",
+      "steps": [
+        {
+          "step_id": "von-59-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2025-10-16",
+          "quote": "1. Återrapporteringen godkänns. Uppdraget från den 25 mars 2025 § 14 VON anses därmed avslutat. 2. Titeln på handlingsplan för särskilt boende 2025 ändras till handlingsplan för särskild boendeform för äldre personer. 3. Vård- och omsorgsförvaltningen får i förnyat uppdrag att återrapportera effekterna utifrån handlingsplan för särskild boendeform för äldre personer.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§59 VARD-OCH-OMSORGSNAMNDEN 2025-10-16",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-10-16/protocol/protokoll-von-2025-10-16pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-59-beslut",
+        "field": "quote",
+        "quote": "1. Återrapporteringen godkänns. Uppdraget från den 25 mars 2025 § 14 VON anses därmed avslutat. 2. Titeln på handlingsplan för särskilt boende 2025 ändras till handlingsplan för särskild boendeform för äldre personer. 3. Vård- och omsorgsförvaltningen får i förnyat uppdrag att återrapportera effekterna utifrån handlingsplan för särskild boendeform för äldre personer.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (51 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Vård- och omsorgsnämndens budget 2026–2028",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2025.031 VON",
+      "steps": [
+        {
+          "step_id": "budget-beredning-au",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2025-12-03",
+          "quote": "Arbetsutskottet har den 3 december 2025, § 69 behandlat ärendet och föreslagit att vård- och omsorgsnämndens budget 2026–2028 antas med redaktionella ändringar.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§85 VARD-OCH-OMSORGSNAMNDEN 2025-12-16",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-12-16/protocol/protokoll-von-2025-12-16pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "budget-beslut-von",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2025-12-16",
+          "quote": "1. Vård och omsorgsnämndens budget 2026 – 2028 antas. 2. Vård- och omsorgsförvaltningen får i uppdrag att skyndsamt tillskapa en ny träffpunkt i hjärtat av centrala Alingsås samt utreda den framtida lokalförsörjningen för träffpunkterna i Alingsås kommun",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Angående beslut om nämndbudget för 2026-2028. Vänsterpartiets förslag till budget gav Vård- och omsorgsnämnden mer pengar att fördela. Vi i Vänsterpartiet anser dessutom att det övergripande målet att bli \"Sveriges mest effektiva kommun\" medför en allvarlig risk."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§85 VARD-OCH-OMSORGSNAMNDEN 2025-12-16",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-12-16/protocol/protokoll-von-2025-12-16pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "budget-beredning-au",
+        "field": "quote",
+        "quote": "Arbetsutskottet har den 3 december 2025, § 69 behandlat ärendet och föreslagit att vård- och omsorgsnämndens budget 2026–2028 antas med redaktionella ändringar.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "budget-beslut-von",
+        "field": "quote",
+        "quote": "1. Vård och omsorgsnämndens budget 2026 – 2028 antas. 2. Vård- och omsorgsförvaltningen får i uppdrag att skyndsamt tillskapa en ny träffpunkt i hjärtat av centrala Alingsås samt utreda den framtida lokalförsörjningen för träffpunkterna i Alingsås kommun",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "budget-beslut-von",
+        "field": "protocol_anteckning[v]",
+        "quote": "Angående beslut om nämndbudget för 2026-2028. Vänsterpartiets förslag till budget gav Vård- och omsorgsnämnden mer pengar att fördela. Vi i Vänsterpartiet anser dessutom att det övergripande målet att bli \"Sveriges mest effektiva kommun\" medför en allvarlig risk.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Revidering av vård- och omsorgsnämndens dokumenthanteringsplan",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2025.232 VON",
+      "steps": [
+        {
+          "step_id": "dokplan-beredning-au",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2025-12-03",
+          "quote": "Arbetsutskottet har den 3 december 2025, § 74 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§89 VARD-OCH-OMSORGSNAMNDEN 2025-12-16",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-12-16/protocol/protokoll-von-2025-12-16pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "dokplan-beslut-von",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2025-12-16",
+          "quote": "1. Den reviderade dokumenthanteringsplanen antas och börjar gälla från och med den 1 januari 2026. 2. Den antagna versionen ersätter tidigare version som antogs den 20 maj 2025, § 29/2025 VON. 3. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§89 VARD-OCH-OMSORGSNAMNDEN 2025-12-16",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2025-12-16/protocol/protokoll-von-2025-12-16pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "dokplan-beredning-au",
+        "field": "quote",
+        "quote": "Arbetsutskottet har den 3 december 2025, § 74 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "dokplan-beslut-von",
+        "field": "quote",
+        "quote": "1. Den reviderade dokumenthanteringsplanen antas och börjar gälla från och med den 1 januari 2026. 2. Den antagna versionen ersätter tidigare version som antogs den 20 maj 2025, § 29/2025 VON. 3. Kommunstyrelsens senaste dokumenthanteringsplan tillämpas på vård- och omsorgsnämnden för handlingar som inte beskrivs i vård- och omsorgsnämndens dokumenthanteringsplan.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (50 ord) — se spec §4.2 R2"
+      }
+    ]
+  }
+]
