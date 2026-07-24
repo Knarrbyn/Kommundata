@@ -946,5 +946,13 @@
       "a-2026-0300"
     ],
     "updated_arenden": []
+  },
+  {
+    "run_id": "backfill-2026-07-24T11-12-31-152Z",
+    "timestamp": "2026-07-24T11:12:31.225Z",
+    "data_hash": "d13f7e2c12902d001f372db29ddaf47236520c81c6c0daa1c243cdbd34ec72cf",
+    "arende_count": 822,
+    "new_arenden": [],
+    "updated_arenden": []
   }
 ]
