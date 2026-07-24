@@ -87,7 +87,16 @@ export function extractMeetingRefs(committeeSlug: string, html: string): Meeting
 export function extractProtocolPdfUrl(committeeSlug: string, date: string, html: string): string | null {
   const pattern = new RegExp(
     `(?:${escapeRegex(BASE_URL)})?/committees/${escapeRegex(committeeSlug)}/mote-${escapeRegex(date)}` +
-      `/protocol/[^"'\\s)>]+?pdf(?:\\?downloadMode=open)?`,
+      // VIKTIGT FYND (2026-07-24, se DECISION_LOG.md): samma bugg som redan
+      // fixades i download.ts extractAgendaBilagaLinks — vissa protokoll-PDF:er
+      // har ett numeriskt suffix mellan "pdf" och frågetecknet, t.ex.
+      // ".../protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open"
+      // (bekräftat mot en riktig mötessida, tekniska nämnden 2024-08-26). Utan
+      // "(?:-\\d+)?" här klipptes URL:en av mitt i filnamnet, vilket gav en 404
+      // vid nedladdning — men eftersom fetch-felet fångas tyst i
+      // run-backfill.mjs (console.error, inte i någon committad fil) såg det
+      // ut som att protokollet "inte fanns", och mötet hoppades över för gott.
+      `/protocol/[^"'\\s)>]+?pdf(?:-\\d+)?(?:\\?downloadMode=open)?`,
     "i"
   );
   const match = pattern.exec(html);
