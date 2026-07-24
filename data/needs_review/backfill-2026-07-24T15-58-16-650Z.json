@@ -1,0 +1,613 @@
+[
+  {
+    "arende": {
+      "title": "Budget - Bygg- och miljönämnden",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2023.007 BMN",
+      "steps": [
+        {
+          "step_id": "bmu-10-beslut",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2023-01-24",
+          "quote": "Bygg- och miljönämnden beslutar anta budget för Bygg- och miljönämnden 2023-2025 med följande ändring: Målvärdet för 2023 i nämndens mål 2, \"Handläggningstid för bygglovsbeslut ska minskas\", ändras från 50 dagar till 80 dagar.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§10 BYGG-OCH-MILJONAMNDEN 2023-01-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2023-01-24/protocol/protokoll-bmn-2023-01-24-justerad-rattadpdf-93486?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bmu-10-beslut",
+        "field": "quote",
+        "quote": "Bygg- och miljönämnden beslutar anta budget för Bygg- och miljönämnden 2023-2025 med följande ändring: Målvärdet för 2023 i nämndens mål 2, \"Handläggningstid för bygglovsbeslut ska minskas\", ändras från 50 dagar till 80 dagar.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Centrum 1:1, allmänna platser, lekplats (2023-0392)",
+      "initiativ_typ": "initiativarende",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.106 BMN",
+      "steps": [
+        {
+          "step_id": "centrum-beslut-bmn-2023-09-26",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2023-09-26",
+          "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs fastighetsägaren till fastigheten CENTRUM 1:1, Alingsås Kommun org.nr 16212000–1553 en sanktionsavgift på totalt 10 268 kr för att tagit byggnader på lekplatsen i bruk innan byggnadsnämnden har utfärdat ett slutbesked.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§98 BYGG-OCH-MILJONAMNDEN 2023-09-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2023-09-26/protocol/protokoll-skapad-bmn-2023-10-10-101905pdf-67686?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "centrum-beslut-bmn-2023-09-26",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs fastighetsägaren till fastigheten CENTRUM 1:1, Alingsås Kommun org.nr 16212000–1553 en sanktionsavgift på totalt 10 268 kr för att tagit byggnader på lekplatsen i bruk innan byggnadsnämnden har utfärdat ett slutbesked.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Grundläggande granskning 2023",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.100 BMN",
+      "steps": [
+        {
+          "step_id": "beslut-bmn-2023-10-24",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2023-10-24",
+          "quote": "Revisionsenkäten godkänns och översänds till revisorerna med följande ändring: Ordet \"gängkriminalitet\" ersätts med \"organiserad brottslighet\" på sidan 10 under punkt 1.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§106 BYGG-OCH-MILJONAMNDEN 2023-10-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2023-10-24/protocol/protokoll-bmn-2023-10-24-ss106-grundlaggande-granskning-2023pdf-38539?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beslut-bmn-2023-10-24",
+        "field": "quote",
+        "quote": "Revisionsenkäten godkänns och översänds till revisorerna med följande ändring: Ordet \"gängkriminalitet\" ersätts med \"organiserad brottslighet\" på sidan 10 under punkt 1.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Holmängen 1:48, olovlig tillbyggnad fritidshus (2023-0420)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.127 BMN",
+      "steps": [
+        {
+          "step_id": "holmangen-olovlig-beslut-bmn-2023-11-21",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2023-11-21",
+          "quote": "Med stöd av 11 kap 20 § plan- och bygglagen, PBL, föreläggs fastighetsägare på Holmängen 1:48 att senast 6 månader efter beslutet har vunnit laga kraft att riva attefallstillbyggnaden med byggnadsarea på 15 kvm och återställa enligt gällande LOV 2020-000870.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§137 BYGG-OCH-MILJONAMNDEN 2023-11-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2023-11-21/protocol/protokoll-bmn-2023-11-21-ssss129-141ssss145-146-gdprpdf-47669?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "holmangen-olovlig-beslut-bmn-2023-11-21",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap 20 § plan- och bygglagen, PBL, föreläggs fastighetsägare på Holmängen 1:48 att senast 6 månader efter beslutet har vunnit laga kraft att riva attefallstillbyggnaden med byggnadsarea på 15 kvm och återställa enligt gällande LOV 2020-000870.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Tuvebo 1:5, olovliga åtgärder på enbostadshus (2022-0430)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.131 BMN",
+      "steps": [
+        {
+          "step_id": "tuvebo-sanktion-beslut-bmn-2023-11-21",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2023-11-21",
+          "quote": "Med stöd av 11 kap. 51 § och 60 § plan- och bygglagen (2010:900) påförs ägare till fastigheten TUVEBO 1:5 (SÅGGATAN 2B) en solidarisk byggsanktionsavgift om 19 503 kr för att rivning av del av byggnad har påbörjats innan byggnadsnämnden har gett ett startbesked.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§140 BYGG-OCH-MILJONAMNDEN 2023-11-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2023-11-21/protocol/protokoll-bmn-2023-11-21-ssss129-141ssss145-146-gdprpdf-47669?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "tuvebo-sanktion-beslut-bmn-2023-11-21",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 51 § och 60 § plan- och bygglagen (2010:900) påförs ägare till fastigheten TUVEBO 1:5 (SÅGGATAN 2B) en solidarisk byggsanktionsavgift om 19 503 kr för att rivning av del av byggnad har påbörjats innan byggnadsnämnden har gett ett startbesked.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Gasellen 3, olovlig komplementbyggnad (2022-0564)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.145 BMN",
+      "steps": [
+        {
+          "step_id": "gasellen-beslut",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2023-12-19",
+          "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs AnteFast Kullingsberg AB, org. nr. 16559111–1843 i egenskap av den som, när överträdelsen begicks, var ägare till fastigheten samt den som begick överträdelsen - en byggsanktionsavgift på 16 668 kronor",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§127 BYGG-OCH-MILJONAMNDEN 2023-12-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2023-12-19/protocol/protokoll-bmn-2023-12-19gdprpdf-51792?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "gasellen-beslut",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs AnteFast Kullingsberg AB, org. nr. 16559111–1843 i egenskap av den som, när överträdelsen begicks, var ägare till fastigheten samt den som begick överträdelsen - en byggsanktionsavgift på 16 668 kronor",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Riktlinjer för handläggning och tillsyn inom område tobak, tobaksfria nikotinprodukter, e-cigaretter och påfyllningsbehållare samt vissa receptfria läkemedel",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.163 BMN",
+      "steps": [
+        {
+          "step_id": "bm-2024-01-23-s6-beslut",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2024-01-23",
+          "quote": "Riktlinjer för handläggning och tillsyn inom område tobak, tobaksfria nikotinprodukter, e-cigaretter och receptfria läkemedel godkänns.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§6 BYGG-OCH-MILJONAMNDEN 2024-01-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-01-23/protocol/protokoll-bmn-2024-01-23-gdprpdf-40547?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bm-2024-01-23-s6-beslut",
+        "field": "quote",
+        "quote": "Riktlinjer för handläggning och tillsyn inom område tobak, tobaksfria nikotinprodukter, e-cigaretter och receptfria läkemedel godkänns.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Freja 4, olovlig altan (2021-0744)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.164 BMN",
+      "steps": [
+        {
+          "step_id": "bm-2024-01-23-s9-beslut",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2024-01-23",
+          "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs xx, i egenskap av bostadsrättsinnehavare under tiden som byggnationen pågick, en sanktionsavgift på totalt 26 250 kr för att den bygglovspliktiga åtgärden nybyggnad av altan har påbörjats innan byggnadsnämnden har gett ett startbesked.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§9 BYGG-OCH-MILJONAMNDEN 2024-01-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-01-23/protocol/protokoll-bmn-2024-01-23-gdprpdf-40547?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bm-2024-01-23-s9-beslut",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs xx, i egenskap av bostadsrättsinnehavare under tiden som byggnationen pågick, en sanktionsavgift på totalt 26 250 kr för att den bygglovspliktiga åtgärden nybyggnad av altan har påbörjats innan byggnadsnämnden har gett ett startbesked.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Mjönäs 1:28, Tillsyn olovlig åtgärd till enbostadshus (2023-26)",
+      "initiativ_typ": "initiativarende",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.004 BMN",
+      "steps": [
+        {
+          "step_id": "mjonas-beslut",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2024-02-20",
+          "quote": "Med stöd av 11 kap. 20 och 37 §§ plan- och bygglagen (2010:900), PBL, föreläggs XX i egenskap av fastighetsägare på fastigheten Mjönäs 1:28 att senast 9 månader efter att detta beslut har vunnit laga kraft att återställa marknivån runt bostadshuset likt relationsritningarna på LOV 2021–000593 daterade 2023-03-16.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "kd",
+                "m",
+                "l"
+              ],
+              "quote": "Vi vill informera fastighetsägaren om möjligheten att ansöka om ändring av detaljplan på egen bekostnad."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§20 BYGG-OCH-MILJONAMNDEN 2024-02-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-02-20/protocol/protokoll-bmn-2024-02-20gdprpdf-83833?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "mjonas-beslut",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 20 och 37 §§ plan- och bygglagen (2010:900), PBL, föreläggs XX i egenskap av fastighetsägare på fastigheten Mjönäs 1:28 att senast 9 månader efter att detta beslut har vunnit laga kraft att återställa marknivån runt bostadshuset likt relationsritningarna på LOV 2021–000593 daterade 2023-03-16.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (48 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "mjonas-beslut",
+        "field": "protocol_anteckning[kd+m+l]",
+        "quote": "Vi vill informera fastighetsägaren om möjligheten att ansöka om ändring av detaljplan på egen bekostnad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Farkosten 11, rättelseföreläggande olovligt borttagande av träd (2023-0042)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "avgjort",
+      "diarienummer": "2023.171 BMN",
+      "steps": [
+        {
+          "step_id": "beredning-au-25",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beredning",
+          "date": "2024-03-12",
+          "quote": "Arbetsutskottet har behandlat ärendet under sitt sammanträde 12 mars, § 21.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§25 BYGG-OCH-MILJONAMNDEN 2024-03-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-03-19/protocol/protokoll-bmn-2024-03-19-justerad-gdprpdf-39960?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "beslut-bmn-25",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2024-03-19",
+          "quote": "Med stöd av 11 kap. 20 § Plan- och bygglagen (2010:900) föreläggs Alingsåshem lokaler AB, org nr 556048–9162, i egenskap av fastighetsägare att senast 2024-12-03 återplantera tre pelaraspar (Populus tremula 'Erecta') i enlighet med de skyddade trädens placering i DP 208.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§25 BYGG-OCH-MILJONAMNDEN 2024-03-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-03-19/protocol/protokoll-bmn-2024-03-19-justerad-gdprpdf-39960?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beredning-au-25",
+        "field": "quote",
+        "quote": "Arbetsutskottet har behandlat ärendet under sitt sammanträde 12 mars, § 21.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "beslut-bmn-25",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 20 § Plan- och bygglagen (2010:900) föreläggs Alingsåshem lokaler AB, org nr 556048–9162, i egenskap av fastighetsägare att senast 2024-12-03 återplantera tre pelaraspar (Populus tremula 'Erecta') i enlighet med de skyddade trädens placering i DP 208.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Kronan 6, olovlig åtgärd byggnad, rättelseföreläggande (2019-0307)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.165 BMN",
+      "steps": [
+        {
+          "step_id": "beredning-au-27",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beredning",
+          "date": "2024-03-12",
+          "quote": "Arbetsutskottet har behandlat ärendet under sitt sammanträde 12 mars, § 23.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§27 BYGG-OCH-MILJONAMNDEN 2024-03-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-03-19/protocol/protokoll-bmn-2024-03-19-justerad-gdprpdf-39960?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "beslut-bmn-27",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2024-03-19",
+          "quote": "Med stöd av 11 kap. 20 § plan- och bygglagen (2010:900), PBL, föreläggs AnteFast Kronan Ab, org nr. 16559049-5619 i egenskap av fastighetsägare att senast 8 månader efter att detta beslut har vunnit laga kraft ta bort fönsterna och återställa dem så att sidhängda fönster med fast mittpost som stämmer överens med Alingsås kommuns riktlinjer för kulturmiljön.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Arbetsutskottets förslag (8 månader) mot David Skoogs ändringsyrkande (12 månader)",
+            "result": {
+              "ja": 8,
+              "nej": 5,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§27 BYGG-OCH-MILJONAMNDEN 2024-03-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-03-19/protocol/protokoll-bmn-2024-03-19-justerad-gdprpdf-39960?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beredning-au-27",
+        "field": "quote",
+        "quote": "Arbetsutskottet har behandlat ärendet under sitt sammanträde 12 mars, § 23.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "beslut-bmn-27",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 20 § plan- och bygglagen (2010:900), PBL, föreläggs AnteFast Kronan Ab, org nr. 16559049-5619 i egenskap av fastighetsägare att senast 8 månader efter att detta beslut har vunnit laga kraft ta bort fönsterna och återställa dem så att sidhängda fönster med fast mittpost som stämmer överens med Alingsås kommuns riktlinjer för kulturmiljön.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (57 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Tangon 1, Sanktionsavgift, krav på underhåll av enbostadshus samt komplementbyggnad (2021-0425)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.089 BMN",
+      "steps": [
+        {
+          "step_id": "92-beslut-bmn-2024-10-22",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2024-10-22",
+          "quote": "Med stöd av 11 kap 51 § PBL, påförs fastighetsägaren på fastigheten TANGON 1 (HAMBOGATAN 2) en sanktionsavgift på totalt 7 322 kr för att fasadändring av enbostadshus har påbörjats utan startbesked. Vid en halvering av sanktionsavgiften blir den totala summan 3 661 kr.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§92 BYGG-OCH-MILJONAMNDEN 2024-10-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2024-10-22/protocol/protokoll-skapad-bmn-2024-11-27-125232pdf-21914?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "92-beslut-bmn-2024-10-22",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap 51 § PBL, påförs fastighetsägaren på fastigheten TANGON 1 (HAMBOGATAN 2) en sanktionsavgift på totalt 7 322 kr för att fasadändring av enbostadshus har påbörjats utan startbesked. Vid en halvering av sanktionsavgiften blir den totala summan 3 661 kr.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Taxa – Alkohol och tobaksområdet",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "pågående",
+      "diarienummer": "2025.044 BMN",
+      "steps": [
+        {
+          "step_id": "beredning-au-56",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beredning",
+          "date": "2025-06-10",
+          "quote": "Arbetsutskottet har behandlat ärendet under sitt sammanträde 10 juni, § 46 och föreslog att Taxa för alkohol, tobak, tobaksliknande produkter, receptfria läkemedel samt folköl godkänns.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§56 BYGG-OCH-MILJONAMNDEN 2025-06-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2025-06-17/protocol/protokoll-skapad-bmn-2025-06-23-130914pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "beslut-bmn-56",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2025-06-17",
+          "quote": "Taxa för alkohol, tobak, tobaksliknande produkter, receptfria läkemedel samt folköl godkänns.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Bifall till tilläggsförslaget (ja) eller avslag av tilläggsförslaget (nej)",
+            "result": {
+              "ja": 6,
+              "nej": 7,
+              "avstar": 0
+            }
+          },
+          "reservations": [
+            {
+              "parties": [
+                "kd",
+                "m",
+                "l"
+              ],
+              "quote": "Vi inom den politiska ledningen för Bygg- och miljönämnden reserverar oss mot nämndens beslut att avslå tilläggsyrkandet om att sätta prövnings- och tillsynsavgiften för gårdsförsäljning till 0 kronor. Vi anser att en sänkt avgift fram till och med den 31 december 2026 hade varit fördelaktigt för etableringen av nya företag inom kommunen. Därför avser vi att fortsätta att arbeta med frågan."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "kd",
+                "m",
+                "l"
+              ],
+              "quote": "Vi inom den politiska ledningen för Bygg- och miljönämnden reserverar oss mot nämndens beslut att avslå tilläggsyrkandet om att sätta prövnings- och tillsynsavgiften för gårdsförsäljning till 0 kronor. Vi anser att en sänkt avgift fram till och med den 31 december 2026 hade varit fördelaktigt för etableringen av nya företag inom kommunen. Därför avser vi att fortsätta att arbeta med frågan."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§56 BYGG-OCH-MILJONAMNDEN 2025-06-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2025-06-17/protocol/protokoll-skapad-bmn-2025-06-23-130914pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beredning-au-56",
+        "field": "quote",
+        "quote": "Arbetsutskottet har behandlat ärendet under sitt sammanträde 10 juni, § 46 och föreslog att Taxa för alkohol, tobak, tobaksliknande produkter, receptfria läkemedel samt folköl godkänns.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "beslut-bmn-56",
+        "field": "quote",
+        "quote": "Taxa för alkohol, tobak, tobaksliknande produkter, receptfria läkemedel samt folköl godkänns.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "beslut-bmn-56",
+        "field": "reservation[kd+m+l]",
+        "quote": "Vi inom den politiska ledningen för Bygg- och miljönämnden reserverar oss mot nämndens beslut att avslå tilläggsyrkandet om att sätta prövnings- och tillsynsavgiften för gårdsförsäljning till 0 kronor. Vi anser att en sänkt avgift fram till och med den 31 december 2026 hade varit fördelaktigt för etableringen av nya företag inom kommunen. Därför avser vi att fortsätta att arbeta med frågan.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "beslut-bmn-56",
+        "field": "protocol_anteckning[kd+m+l]",
+        "quote": "Vi inom den politiska ledningen för Bygg- och miljönämnden reserverar oss mot nämndens beslut att avslå tilläggsyrkandet om att sätta prövnings- och tillsynsavgiften för gårdsförsäljning till 0 kronor. Vi anser att en sänkt avgift fram till och med den 31 december 2026 hade varit fördelaktigt för etableringen av nya företag inom kommunen. Därför avser vi att fortsätta att arbeta med frågan.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]
