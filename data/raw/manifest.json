@@ -1979,5 +1979,225 @@
     "pdfUrl": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-02-18/protocol/protokoll-skapad-bmn-2026-02-25-082021pdf?downloadMode=open",
     "relativePath": "data/raw/bygg-och-miljonamnden/2026-02-18/protokoll.pdf",
     "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-01-25/protocol/protokoll-sn-2022-01-25pdf-55386?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-01-25/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-02-15/protocol/protokoll-sn-2022-02-15pdf-71974?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-02-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-04-19/protocol/protokoll-sn-2022-04-19-pdf-71639?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-04-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-05-17/protocol/protokoll-sn-2022-05-17pdf-96075?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-05-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-22/protocol/protokoll-sn-2022-06-22pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-06-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-08-23/protocol/protokoll-sn-2022-08-23-pdf-45421?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-08-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-09-20/protocol/protokoll-sn-2022-09-20pdf-64850?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-09-20/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-10-25/protocol/protokoll-sn-2022-10-25pdf-23731?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-10-25/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-11-22/protocol/protokoll-sn-2022-11-22pdf-10868?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-11-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-01-02/protocol/protokoll-sn-2023-01-02pdf-53386?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-01-02/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-01-24/protocol/protokoll-sn-2023-01-24pdf-76837?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-01-24/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-02-14/protocol/protokoll-sn-2023-02-14pdf-43567?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-02-14/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-03-21/protocol/protokoll-sn-2023-03-21pdf-17457?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-03-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-04-18/protocol/protokoll-sn-2023-04-18pdf-77026?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-04-18/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-05-16/protocol/protokoll-sn-2023-05-16pdf-43756?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-05-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-06-13/protocol/protokoll-sn-2023-06-13pdf-45619?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-06-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-08-22/protocol/protokoll-sn-2023-08-22pdf-14211?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-08-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-09-19/protocol/protokoll-sn-2023-09-19pdf-26669?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-09-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-10-24/protocol/protokoll-sn-2023-10-24pdf-76521?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-10-24/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-11-14/protocol/protokoll-sn-2023-11-14pdf-43251?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-11-14/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-12-12/protocol/protokoll-sn-2023-12-12pdf-62680?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2023-12-12/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-01-23/protocol/protokoll-sn-2024-01-23pdf-76420?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-01-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-02-13/protocol/protokoll-sn-2024-02-13pdf-52861?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-02-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-03-19/protocol/protokoll-sn-2024-03-19pdf-29309?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-03-19/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-04-16/protocol/protokoll-sn-2024-04-16pdf-11237?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-04-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-05-14/protocol/protokoll-sn-2024-05-14pdf-88373?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-05-14/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-06-11/protocol/protokoll-sn-2024-06-11pdf-37536?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-06-11/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-09-17/protocol/protokoll-sn-2024-09-17pdf-47247?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-09-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-10-22/protocol/protokoll-sn-2024-10-22pdf-46269?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-10-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-11-13/protocol/protokoll-sn-2024-11-13pdf-65698?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-11-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-12-10/protocol/protokoll-sn-2024-12-10pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2024-12-10/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-02-11/protocol/protokoll-sn-2025-02-11pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2025-02-11/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-03-18/protocol/protokoll-sn-2025-03-18pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2025-03-18/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-04-15/protocol/protokoll-sn-2025-04-15pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2025-04-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-05-13/protocol/protokoll-sn-2025-05-13pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2025-05-13/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-09-16/protocol/protokoll-sn-2025-09-16pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2025-09-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-10-21/protocol/protokoll-sn-2025-10-21pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2025-10-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-01-20/protocol/protokoll-sn-2026-01-20pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2026-01-20/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-02-10/protocol/protokoll-sn-2026-02-10pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2026-02-10/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-03-17/protocol/protokoll-sn-2026-03-17pdf-98823?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2026-03-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
   }
 ]

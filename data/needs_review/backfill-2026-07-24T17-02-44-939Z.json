@@ -1,0 +1,582 @@
+[
+  {
+    "arende": {
+      "title": "Ekonomisk uppföljning februari 2022",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2022.027 SN",
+      "steps": [
+        {
+          "step_id": "sn-19-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2022-03-22",
+          "quote": "Socialnämnden fastställer månadsuppföljningen per februari 2022 och fastställer helårsprognosen till +/- 0 kr.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§19 SOCIALNAMNDEN 2022-03-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-19-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden fastställer månadsuppföljningen per februari 2022 och fastställer helårsprognosen till +/- 0 kr.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förordnande enligt lag med särskilda bestämmelser om vård av unga (LVU) och lag om vård av missbrukare i vissa fall (LVM)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.021 SN",
+      "steps": [
+        {
+          "step_id": "sn-26-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2022-03-22",
+          "quote": "Socialnämnden förordnar ordförande Thorsten Larsson (M), vice ordförande Lars-Ivan Gustafsson (S) och ledamöterna Ingbritt Johansson (C), Ann-Lie Tulokas Olsson (KD) samt Ulf Unosson (S) rätten att fatta beslut i brådskande fall enligt 6, 6a, 9, 11, 27 §§ och 31 d § 2 st LVU samt 13 § LVM.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§26 SOCIALNAMNDEN 2022-03-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-26-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden förordnar ordförande Thorsten Larsson (M), vice ordförande Lars-Ivan Gustafsson (S) och ledamöterna Ingbritt Johansson (C), Ann-Lie Tulokas Olsson (KD) samt Ulf Unosson (S) rätten att fatta beslut i brådskande fall enligt 6, 6a, 9, 11, 27 §§ och 31 d § 2 st LVU samt 13 § LVM.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (49 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förlängning av samverkansavtal mellan Västra hälso- och sjukvårdsnämnden och Alingsås kommun om ungdomsmottagning 2023",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.049 SN",
+      "steps": [
+        {
+          "step_id": "beredning-socialforvaltningen",
+          "instance": "socialnamnden",
+          "type": "beredning",
+          "date": "2022-06-15",
+          "quote": "Socialförvaltningen har i skrivelse den 2022-06-15 lämnat följande yttrande:",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§50 SOCIALNAMNDEN 2022-06-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-22/protocol/protokoll-sn-2022-06-22pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "beslut-socialnamnden",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2022-06-22",
+          "quote": "Socialnämnden godkänner förlängning av \"Avtal mellan Alingsås kommun, Socialnämnden och Västra Götalands läns landsting genom Västra hälso- och sjukvårdsnämnden avseende samverkan vid ungdomsmottagningen i Alingsås kommun 2021 - 2022\" i 12 månader, till och med den 31 december 2023.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§50 SOCIALNAMNDEN 2022-06-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-22/protocol/protokoll-sn-2022-06-22pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beredning-socialforvaltningen",
+        "field": "quote",
+        "quote": "Socialförvaltningen har i skrivelse den 2022-06-15 lämnat följande yttrande:",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "beslut-socialnamnden",
+        "field": "quote",
+        "quote": "Socialnämnden godkänner förlängning av \"Avtal mellan Alingsås kommun, Socialnämnden och Västra Götalands läns landsting genom Västra hälso- och sjukvårdsnämnden avseende samverkan vid ungdomsmottagningen i Alingsås kommun 2021 - 2022\" i 12 månader, till och med den 31 december 2023.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Motion om förebyggande arbete mot mäns våld mot kvinnor - Martin Lindberg (V)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Martin Lindberg",
+          "party": "v"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "pågående",
+      "diarienummer": "2022.045 SN",
+      "steps": [
+        {
+          "step_id": "kf-100-remiss",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2022-04-27",
+          "quote": "Kommunfullmäktige beslutade, KF 2022-04-27, § 100, att lämna motionen till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§53 SOCIALNAMNDEN 2022-08-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-08-23/protocol/protokoll-sn-2022-08-23-pdf-45421?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ksau-105-remiss",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2022-05-25",
+          "quote": "Kommunstyrelsens arbetsutskott beslutade, KSAU 2022-05-25, § 105, att remittera motionen till socialnämnden för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§53 SOCIALNAMNDEN 2022-08-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-08-23/protocol/protokoll-sn-2022-08-23-pdf-45421?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "sn-53-yttrande",
+          "instance": "socialnamnden",
+          "type": "namndyttrande",
+          "date": "2022-08-23",
+          "quote": "Socialförvaltningen tillstyrker Martin Lindbergs (v) motion om förebyggande arbete mot mäns våld mot kvinnor under förutsättning att medel tillförs. För att socialförvaltningen ska kunna utföra ett kommunövergripande arbete krävs en resursutökning.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§53 SOCIALNAMNDEN 2022-08-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-08-23/protocol/protokoll-sn-2022-08-23-pdf-45421?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-100-remiss",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutade, KF 2022-04-27, § 100, att lämna motionen till kommunstyrelsen för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ksau-105-remiss",
+        "field": "quote",
+        "quote": "Kommunstyrelsens arbetsutskott beslutade, KSAU 2022-05-25, § 105, att remittera motionen till socialnämnden för beredning.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "sn-53-yttrande",
+        "field": "quote",
+        "quote": "Socialförvaltningen tillstyrker Martin Lindbergs (v) motion om förebyggande arbete mot mäns våld mot kvinnor under förutsättning att medel tillförs. För att socialförvaltningen ska kunna utföra ett kommunövergripande arbete krävs en resursutökning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förordnande enligt lag med särskilda bestämmelser om vård av unga (LVU) och lag om vård av missbrukare i vissa fall (LVM)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2022.079 SN",
+      "steps": [
+        {
+          "step_id": "sn-2023-01-02-§3-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2023-01-02",
+          "quote": "Socialnämnden förordnar ordförande Kent Perciwall (KD), vice ordförande Leif Hansson (S) och ledamöterna Ulf Unosson (S), Oscar Allard (S) samt Björn Dahlin (M) rätten att fatta beslut i brådskande fall enligt 6, 6a, 9, 11, 27 §§, 31 d § 2 st, 43 § 1 st 1 p och 43 § 1 st 2 p LVU samt 13 § LVM.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§3 SOCIALNAMNDEN 2023-01-02",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-01-02/protocol/protokoll-sn-2023-01-02pdf-53386?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-2023-01-02-§3-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden förordnar ordförande Kent Perciwall (KD), vice ordförande Leif Hansson (S) och ledamöterna Ulf Unosson (S), Oscar Allard (S) samt Björn Dahlin (M) rätten att fatta beslut i brådskande fall enligt 6, 6a, 9, 11, 27 §§, 31 d § 2 st, 43 § 1 st 1 p och 43 § 1 st 2 p LVU samt 13 § LVM.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (60 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Samverkansavtal - Barn Ungdom Samverkan, BUS 2023-2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2023.002 SN",
+      "steps": [
+        {
+          "step_id": "sn-2023-01-24-s6-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2023-01-24",
+          "quote": "Socialnämnden ger ordförande Kent Perciwall i uppdrag att underteckna BUS-samverkansöverenskommelse för 2023-01-01 - 2026-12-31",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§6 SOCIALNAMNDEN 2023-01-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-01-24/protocol/protokoll-sn-2023-01-24pdf-76837?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-2023-01-24-s6-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden ger ordförande Kent Perciwall i uppdrag att underteckna BUS-samverkansöverenskommelse för 2023-01-01 - 2026-12-31",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Samverkansavtal ungdomsmottagningen i Västra Götaland",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2023.074 SN",
+      "steps": [
+        {
+          "step_id": "sn-61-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2023-12-12",
+          "quote": "Socialnämnden förlänger samverkansavtalet med Delregional nämnd västra, \"Samverkansavtal om ungdomsmottagningen Alingsås kommun\", till och med den 31 december 2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§61 SOCIALNAMNDEN 2023-12-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-12-12/protocol/protokoll-sn-2023-12-12pdf-62680?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-61-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden förlänger samverkansavtalet med Delregional nämnd västra, \"Samverkansavtal om ungdomsmottagningen Alingsås kommun\", till och med den 31 december 2024.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förordnande av ledamöter och tjänstemän - Lag om placering av barn i skyddat boende",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2024.030 SN",
+      "steps": [
+        {
+          "step_id": "sn-2024-03-19-12-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2024-03-19",
+          "quote": "Socialnämnden förordnar ordförande Kent Perciwall (KD), vice ordförande Leif Hansson (S) och ledamöterna Ulf Unosson (S), Oscar Allard (S) samt Björn Dahlin (M) rätten att fatta beslut i brådskande fall enligt 4 kap. 1 och 8 §§, 5 kap. 1 och 4 §§ samt 8 kap. 7 § lag om placering av barn i skyddat boende (2024:79)",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§12 SOCIALNAMNDEN 2024-03-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-03-19/protocol/protokoll-sn-2024-03-19pdf-29309?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-2024-03-19-12-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden förordnar ordförande Kent Perciwall (KD), vice ordförande Leif Hansson (S) och ledamöterna Ulf Unosson (S), Oscar Allard (S) samt Björn Dahlin (M) rätten att fatta beslut i brådskande fall enligt 4 kap. 1 och 8 §§, 5 kap. 1 och 4 §§ samt 8 kap. 7 § lag om placering av barn i skyddat boende (2024:79)",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (57 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förordnande enligt lag med särskilda bestämmelser om vård av unga (LVU) och lag om placering av barn i skyddat boende (LBS)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2024.116 SN",
+      "steps": [
+        {
+          "step_id": "sn-59-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2024-12-10",
+          "quote": "Socialnämnden godkänner att föreslagna namngivna tjänstepersoner får förordnande att fatta beslut enligt 43 § första stycket andra punkten lag med särskilda bestämmelser om vård av unga (LVU) och enligt 8 kap. 7 § lag om placering av barn i skyddat boende (LBS). Förordnandet gäller från och med den 1 januari 2025.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§59 SOCIALNAMNDEN 2024-12-10",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-12-10/protocol/protokoll-sn-2024-12-10pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-59-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden godkänner att föreslagna namngivna tjänstepersoner får förordnande att fatta beslut enligt 43 § första stycket andra punkten lag med särskilda bestämmelser om vård av unga (LVU) och enligt 8 kap. 7 § lag om placering av barn i skyddat boende (LBS). Förordnandet gäller från och med den 1 januari 2025.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (51 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förlängning av lokalt samverkansavtal Familjens hus - Familjecentralsliknande verksamhet i Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2025.161 SN",
+      "steps": [
+        {
+          "step_id": "sn-63-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2025-12-09",
+          "quote": "Socialnämnden bedömer att lokala samverkansavtalet Familjens hus ska förlängas och ger socialförvaltningschef i uppdrag att underteckna samverkansavtalet med Närhälsan Sollebrunn barnavårdscentral, Barnmorskemottagningen Alingsås, och Öppna förskolan Sollebrunn barn- och ungdomsförvaltningen.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§63 SOCIALNAMNDEN 2025-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-63-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden bedömer att lokala samverkansavtalet Familjens hus ska förlängas och ger socialförvaltningschef i uppdrag att underteckna samverkansavtalet med Närhälsan Sollebrunn barnavårdscentral, Barnmorskemottagningen Alingsås, och Öppna förskolan Sollebrunn barn- och ungdomsförvaltningen.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förordnande enligt lag med särskilda bestämmelser om vård av unga (LVU och lag om placering av barn i skyddat boende (LBSB)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.147 SN",
+      "steps": [
+        {
+          "step_id": "sn-65-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2025-12-09",
+          "quote": "Socialnämnden godkänner att föreslagna namngivna tjänstepersoner får förordnande att fatta beslut enligt 43 § första stycket andra punkten lag med särskilda bestämmelser om vård av unga (LVU) och enligt 8 kap. 7 § lag om placering av barn i skyddat boende (LBSB). Förordnandet gäller från och med den 1 januari 2026.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§65 SOCIALNAMNDEN 2025-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-65-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden godkänner att föreslagna namngivna tjänstepersoner får förordnande att fatta beslut enligt 43 § första stycket andra punkten lag med särskilda bestämmelser om vård av unga (LVU) och enligt 8 kap. 7 § lag om placering av barn i skyddat boende (LBSB). Förordnandet gäller från och med den 1 januari 2026.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (51 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Sammanträdestider för Socialnämnden år 2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2025.124 SN",
+      "steps": [
+        {
+          "step_id": "sn-69-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2025-12-09",
+          "quote": "Socialnämnden godkänner datum och tider för socialnämndens och socialnämndens arbetsutskotts sammanträden under 2026 med de ändringarna att socialnämnden sammanträder 20 januari, den 21 september istället för den 22 september och att arbetsutskottets sammanträde den 16 december 2026 är även för allmänna ärenden.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§69 SOCIALNAMNDEN 2025-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-69-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden godkänner datum och tider för socialnämndens och socialnämndens arbetsutskotts sammanträden under 2026 med de ändringarna att socialnämnden sammanträder 20 januari, den 21 september istället för den 22 september och att arbetsutskottets sammanträde den 16 december 2026 är även för allmänna ärenden.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Föreningsbidrag kvinnojour och tjejjour",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2025.159 SN",
+      "steps": [
+        {
+          "step_id": "namndyttrande-foreningsbidrag",
+          "instance": "socialnamnden",
+          "type": "namndyttrande",
+          "date": "2026-01-08",
+          "quote": "Socialförvaltningen anser att det mest lämpliga alternativet är att organisera föreningsbidrag under kultur- och utbildningsnämnden. Nämnden har redan etablerade strukturer, relevant kompetens och administrativa rutiner som snabb kan anpassas vid behov.",
+          "decision": "ingen rekommendation",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§3 SOCIALNAMNDEN 2026-01-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-01-20/protocol/protokoll-sn-2026-01-20pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "beslut-foreningsbidrag",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2026-01-20",
+          "quote": "Socialnämnden beslutar att: 1. Redovisningen godkänns. 2. Socialförvaltningen får i uppdrag att ta fram riktlinjer för att hantera föreningsbidrag till kvinno- och tjejjourer som verkar inom Alingsås kommun. 3. Socialnämnden föreslår kommunfullmäktige att reglementet för socialnämnden revideras för att möjliggöra för socialnämnden att hantera föreningsbidrag för kvinno- och tjejjourer.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§3 SOCIALNAMNDEN 2026-01-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-01-20/protocol/protokoll-sn-2026-01-20pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "namndyttrande-foreningsbidrag",
+        "field": "quote",
+        "quote": "Socialförvaltningen anser att det mest lämpliga alternativet är att organisera föreningsbidrag under kultur- och utbildningsnämnden. Nämnden har redan etablerade strukturer, relevant kompetens och administrativa rutiner som snabb kan anpassas vid behov.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "beslut-foreningsbidrag",
+        "field": "quote",
+        "quote": "Socialnämnden beslutar att: 1. Redovisningen godkänns. 2. Socialförvaltningen får i uppdrag att ta fram riktlinjer för att hantera föreningsbidrag till kvinno- och tjejjourer som verkar inom Alingsås kommun. 3. Socialnämnden föreslår kommunfullmäktige att reglementet för socialnämnden revideras för att möjliggöra för socialnämnden att hantera föreningsbidrag för kvinno- och tjejjourer.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (49 ord) — se spec §4.2 R2"
+      }
+    ]
+  }
+]

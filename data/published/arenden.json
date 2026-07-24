@@ -61785,5 +61785,4350 @@
       }
     ],
     "title": "Meddelanden 2026"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2021.087 SN",
+    "id": "a-2022-0271",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner uppföljning av socialnämndens arbete 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-01-25/protocol/protokoll-sn-2022-01-25pdf-55386?downloadMode=open",
+          "protocol_ref": "§6 SOCIALNAMNDEN 2022-01-25"
+        },
+        "step_id": "sn-2022-01-25-6-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljning av socialnämndens arbete 2021"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.051 SN",
+    "id": "a-2022-0272",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-01-25",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Johan Borre entledigas som dataskyddsombud för socialnämnden från och med 1 februari 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-01-25/protocol/protokoll-sn-2022-01-25pdf-55386?downloadMode=open",
+          "protocol_ref": "§7 SOCIALNAMNDEN 2022-01-25"
+        },
+        "step_id": "sn-2022-01-25-7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Utnämning av dataskyddsombud och entledigande av nuvarande dataskyddsombud"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.003 SN",
+    "id": "a-2022-0273",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-02-15",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens årsbokslut 2021 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-02-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-02-15/protocol/protokoll-sn-2022-02-15pdf-71974?downloadMode=open",
+          "protocol_ref": "§10 SOCIALNAMNDEN 2022-02-15"
+        },
+        "step_id": "sn-2022-02-15-10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens årsbokslut 2021"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.090 SN",
+    "id": "a-2022-0274",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-02-15",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden ger ordföranden i uppdrag att på nämndens vägnar underteckna samverkansavtal rörande Mini-Maria verksamhet 2022-2023 mellan socialnämnden och Västra Götalandsregionen genom Västra hälso- och sjukvårdsnämnden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-02-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-02-15/protocol/protokoll-sn-2022-02-15pdf-71974?downloadMode=open",
+          "protocol_ref": "§11 SOCIALNAMNDEN 2022-02-15"
+        },
+        "step_id": "sn-2022-02-15-11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Samverkansavtal mellan socialförvaltningen och Västra Götalandsregionen - Mini-Maria"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.023 SN",
+    "id": "a-2022-0275",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-02-15",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar att det inte fanns något att rapportera till IVO för kvartal 4 2021 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-02-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-02-15/protocol/protokoll-sn-2022-02-15pdf-71974?downloadMode=open",
+          "protocol_ref": "§12 SOCIALNAMNDEN 2022-02-15"
+        },
+        "step_id": "sn-2022-02-15-12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2021"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.011 SN",
+    "id": "a-2022-0276",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner Kvalitetsberättelse 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§18 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kvalitetsberättelse för Socialförvaltningen 2021"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.013 SN",
+    "id": "a-2022-0277",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att Vägledande riktlinjer för socialpsykiatri och beroendeproblematik ska upphöra från och med den 1 april 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§20 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-20-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Upphörande av Vägledande riktlinjer för Socialpsykiatri ochBeroendeproblematik - Avdelning Vuxna"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.014 SN",
+    "id": "a-2022-0278",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden antar Riktlinjer social förtur och socialt kontrakt, från och med den 1 april 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§21 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-21-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer för sociala förturer och socialt kontrakt"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.009 SN",
+    "id": "a-2022-0279",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner de reviderade riktlinjerna för ekonomiskt bistånd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§22 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-22-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer för ekonomiskt bistånd"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.019 SN",
+    "id": "a-2022-0280",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden antar reviderad Riktlinje för hantering av personuppgifter inom socialnämndens verksamhet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§23 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-23-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer för hantering av personuppgifter inom socialnämndens verksamhet"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2022.012 SN",
+    "id": "a-2022-0281",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-03-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att Vägledande riktlinjer kring ekonomi för ensamkommande barn och ungdomar som anvisats till Alingsås kommun upphör med omedelbar verkan.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§24 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-24-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Upphörande av vägledande riktlinjer för ensamkommande barns ekonomi"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.071 SN",
+    "id": "a-2021-0002",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Stina Karlsson",
+        "party": "v"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-09-08",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Stina Karlsson (V) har till kommunfullmäktige den 8 september 2021, § 154, lämnat en motion till kommunfullmäktige om utökat stöd för kvinnojouren Olivia.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§27 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "kf-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2021-10-06",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens arbetsutskott beslutade den 6 oktober 2021, § 178, att remittera motionen till socialnämnden",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§27 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "ksau-remiss",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2021-12-14",
+        "decision": "avstyrker",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "vilken behandlades 14 december 2021, § 71 med förslaget att motionen avstyrks. I socialnämndens svar på motionen framgår inte om en utökning av avtalstiden är möjlig eller önskvärd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§27 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-yttrande-2021",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2021-10-06",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens arbetsutskott beslutade därmed att motionen skulle återemitteras till socialnämnden, för att utreda om en förlängning bättre tillgodoser kvinnojouren Olivias behov samt om de andra avtalsparterna är positiva till avtalsförändringen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§27 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "ksau-ateremiss",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2022-03-22",
+        "decision": "avstyrker",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Förslag till beslut i kommunfullmäktige Motion om utökad avtalsperiod för Kvinnojouren Olivia avstyrks.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-03-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-03-22/protocol/protokoll-sn-2022-03-22pdf-92350?downloadMode=open",
+          "protocol_ref": "§27 SOCIALNAMNDEN 2022-03-22"
+        },
+        "step_id": "sn-yttrande-2022",
+        "type": "namndyttrande",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Motion om utökat stöd för kvinnojouren Olivia - Stina Karlsson (V)"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.027 SN",
+    "id": "a-2022-0282",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per mars 2022",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-04-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-04-19/protocol/protokoll-sn-2022-04-19-pdf-71639?downloadMode=open",
+          "protocol_ref": "§31 SOCIALNAMNDEN 2022-04-19"
+        },
+        "step_id": "sn-2022-04-19-31-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.030 SN",
+    "id": "a-2022-0283",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-04-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner brandskyddsrapport 2021",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-04-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-04-19/protocol/protokoll-sn-2022-04-19-pdf-71639?downloadMode=open",
+          "protocol_ref": "§32 SOCIALNAMNDEN 2022-04-19"
+        },
+        "step_id": "sn-2022-04-19-32-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Brandskyddsrapport 2021"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.035 SN",
+    "id": "a-2022-0284",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-05-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer den fördjupade ekonomiska månadsuppföljningen per april 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-05-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-05-17/protocol/protokoll-sn-2022-05-17pdf-96075?downloadMode=open",
+          "protocol_ref": "§35 SOCIALNAMNDEN 2022-05-17"
+        },
+        "step_id": "sn-35-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Fördjupad månadsuppföljning per april 2022"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2022.034 SN",
+    "id": "a-2022-0285",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-05-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Lokalförsörjningsplan för socialnämnden 2022-2027 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-05-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-05-17/protocol/protokoll-sn-2022-05-17pdf-96075?downloadMode=open",
+          "protocol_ref": "§36 SOCIALNAMNDEN 2022-05-17"
+        },
+        "step_id": "sn-36-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lokalförsörjningsplan för Socialnämnden 2022-2027"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.016 SN",
+    "id": "a-2022-0286",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-05-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Verksamhetsberättelse 2021 och handlingsplan 2022 för Krisstöd godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-05-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-05-17/protocol/protokoll-sn-2022-05-17pdf-96075?downloadMode=open",
+          "protocol_ref": "§37 SOCIALNAMNDEN 2022-05-17"
+        },
+        "step_id": "sn-37-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Verksamhetsberättelse 2021 och handlingsplan 2022 för Krisstöd"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.029 SN",
+    "id": "a-2022-0287",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-05-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 1 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-05-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-05-17/protocol/protokoll-sn-2022-05-17pdf-96075?downloadMode=open",
+          "protocol_ref": "§38 SOCIALNAMNDEN 2022-05-17"
+        },
+        "step_id": "sn-38-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2019.105 SN",
+    "id": "a-2022-0288",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-05-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden har tagit del av Socialförvaltningens FSG protokoll daterat 2022-03-16, som antecknas i nämndens protokoll.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-05-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-05-17/protocol/protokoll-sn-2022-05-17pdf-96075?downloadMode=open",
+          "protocol_ref": "§40 SOCIALNAMNDEN 2022-05-17"
+        },
+        "step_id": "sn-40-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Redovisning FSG-protokoll"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.027 SN",
+    "id": "a-2022-0289",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per maj 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§42 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-42-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.038 SN",
+    "id": "a-2022-0290",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer Riktlinjer för styrande och stödjande dokument och dokumenthantering.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§43 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-43-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer för styrande och stödjande dokument och dokumenthantering för Socialförvaltningen"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.032 SN",
+    "id": "a-2022-0291",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer Plan för uppföljning av privata utförare.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§44 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-44-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning av privata utförare"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.040 SN",
+    "id": "a-2022-0292",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer socialförvaltningens lednings- och kommunikationsplan för samhällsstörningar och extraordinära händelser.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§45 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-45-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lednings- och kommunikationsplan för samhällsstörningar och extraordinära händelser för Socialförvaltningen"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.036 SN",
+    "id": "a-2022-0293",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner en förlängning av samverkansavtalet med Västra hälso- och sjukvårdsnämnden avseende spädbarnsverksamheten i Alingsås, under perioden 1 januari 2023 – 31 december 2023, under förutsättning att Västra hälso-och sjukvårdsnämnden fattar likalydande beslut.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§46 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-46-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Avtal mellan Västra hälso- och sjukvårdsnämnden och Alingsås kommun avseende samverkan vid Spädbarnsmottagning 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.051 SN",
+    "id": "a-2022-0294",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Malin Ericsson, Göteborgsregionens kommunalförbund, utses till socialnämndens dataskyddsombud enligt EU:s dataskyddsförordning och enligt Brottsdatalagen (2018:1177). Johan Bergström, kvarstår som socialnämndens Dataskyddsombud enligt EU:s Dataskyddsförordning samt enligt Brottsdatalagen (2018:1177).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§47 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-47-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Utnämning av dataskyddsombud och entledigande av nuvarande dataskyddsombud"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2021.065 SN",
+    "id": "a-2022-0295",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att sammanträdet tisdagen den 15 november senareläggs till tisdagen den 22 november, kl. 14.00 och att utökat SNAU tidigareläggs till den 8 november, kl. 9.00 samt att ett konstituerande sammanträde äger rum den 2 januari 2023, kl. 14.00.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§48 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-48-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider för Socialnämnden år 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2019.105 SN",
+    "id": "a-2022-0296",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-06-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden har tagit del av Socialförvaltningens FSG protokoll daterat 2022-04-13, som antecknas i nämndens protokoll.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-06-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-06-14/protocol/protokoll-sn-2022-06-14-pdf-57797?downloadMode=open",
+          "protocol_ref": "§49 SOCIALNAMNDEN 2022-06-14"
+        },
+        "step_id": "sn-49-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Redovisning FSG-protokoll"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.027 SN",
+    "id": "a-2022-0297",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-23",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per juli 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-08-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-08-23/protocol/protokoll-sn-2022-08-23-pdf-45421?downloadMode=open",
+          "protocol_ref": "§52 SOCIALNAMNDEN 2022-08-23"
+        },
+        "step_id": "sn-52-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.029 SN",
+    "id": "a-2022-0298",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-23",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 2 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-08-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-08-23/protocol/protokoll-sn-2022-08-23-pdf-45421?downloadMode=open",
+          "protocol_ref": "§54 SOCIALNAMNDEN 2022-08-23"
+        },
+        "step_id": "sn-54-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2019.105 SN",
+    "id": "a-2022-0299",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-08-23",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden har tagit del av Socialförvaltningens FSG protokoll daterat 2022-06-08, som antecknas i nämndens protokoll.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-08-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-08-23/protocol/protokoll-sn-2022-08-23-pdf-45421?downloadMode=open",
+          "protocol_ref": "§55 SOCIALNAMNDEN 2022-08-23"
+        },
+        "step_id": "sn-55-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Anmälan"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.056 SN",
+    "id": "a-2022-0300",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-09-20",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens delårsbokslut 2022 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-09-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-09-20/protocol/protokoll-sn-2022-09-20pdf-64850?downloadMode=open",
+          "protocol_ref": "§57 SOCIALNAMNDEN 2022-09-20"
+        },
+        "step_id": "sn-57-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens delårsbokslut 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.058 SN",
+    "id": "a-2022-0301",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-09-20",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner svaren i den enkät som vid 2022 års granskning sänts ut av KPMG och att svaren inklusive bilagor enligt förteckning överlämnas till revisionen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-09-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-09-20/protocol/protokoll-sn-2022-09-20pdf-64850?downloadMode=open",
+          "protocol_ref": "§58 SOCIALNAMNDEN 2022-09-20"
+        },
+        "step_id": "sn-58-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Grundläggande granskning 2022"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.027 SN",
+    "id": "a-2022-0302",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-10-25",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per september 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-10-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-10-25/protocol/protokoll-sn-2022-10-25pdf-23731?downloadMode=open",
+          "protocol_ref": "§62 SOCIALNAMNDEN 2022-10-25"
+        },
+        "step_id": "sn-62-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.068 SN",
+    "id": "a-2022-0303",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-10-25",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner datum och tider för socialnämnden och socialnämndens arbetsutskotts sammanträden under 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-10-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-10-25/protocol/protokoll-sn-2022-10-25pdf-23731?downloadMode=open",
+          "protocol_ref": "§63 SOCIALNAMNDEN 2022-10-25"
+        },
+        "step_id": "sn-63-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider för Socialnämnden år 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.071 SN",
+    "id": "a-2022-0304",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-11-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner rapporten Årskontroll av dataskyddsarbetet 2022 som socialnämndens svar och överlämnar den till dataskyddsombuden (DSO), Göteborgsregionen (GR).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-11-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-11-22/protocol/protokoll-sn-2022-11-22pdf-10868?downloadMode=open",
+          "protocol_ref": "§67 SOCIALNAMNDEN 2022-11-22"
+        },
+        "step_id": "sn-67-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Efterlevnadskontroll rörande dataskyddsombudens förutsättningar utifrån nuvarande samverkansavtal"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.027 SN",
+    "id": "a-2022-0305",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-11-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per oktober 2022.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-11-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-11-22/protocol/protokoll-sn-2022-11-22pdf-10868?downloadMode=open",
+          "protocol_ref": "§68 SOCIALNAMNDEN 2022-11-22"
+        },
+        "step_id": "sn-68-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.029 SN",
+    "id": "a-2022-0306",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-11-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 3 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-11-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-11-22/protocol/protokoll-sn-2022-11-22pdf-10868?downloadMode=open",
+          "protocol_ref": "§69 SOCIALNAMNDEN 2022-11-22"
+        },
+        "step_id": "sn-69-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.077 SN",
+    "id": "a-2022-0307",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderad delegationsordning gäller från och med 2023-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+          "protocol_ref": "§72 SOCIALNAMNDEN 2022-12-13"
+        },
+        "step_id": "sn-72-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.078 SN",
+    "id": "a-2022-0308",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner att föreslagna namngivna tjänstepersoner, från och med den 1 januari 2023, får förordnande att fatta beslut enligt 43 § första stycket andra punkten lag med särskilda bestämmelser om vård av unga (LVU).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+          "protocol_ref": "§73 SOCIALNAMNDEN 2022-12-13"
+        },
+        "step_id": "sn-73-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förordnande enligt 43 § lag med särskilda bestämmelser om vård av unga (LVU)"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.027 SN",
+    "id": "a-2022-0309",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per november 2022",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+          "protocol_ref": "§74 SOCIALNAMNDEN 2022-12-13"
+        },
+        "step_id": "sn-74-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2022"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.054 SN",
+    "id": "a-2022-0310",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer Socialnämndens taxor och avgifter 2023 att gälla från och med 2023-02-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+          "protocol_ref": "§75 SOCIALNAMNDEN 2022-12-13"
+        },
+        "step_id": "sn-75-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Taxor och avgifter inom Socialnämndens verksamheter 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.076 SN",
+    "id": "a-2022-0311",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer föreslagna riktlinjer avseende ekonomiska styrprinciper för socialförvaltningen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+          "protocol_ref": "§76 SOCIALNAMNDEN 2022-12-13"
+        },
+        "step_id": "sn-76-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomiska styrprinciper socialnämnden 2023"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2022.083 SN",
+    "id": "a-2022-0312",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialförvaltningens förslag till yttrande antas och skickas till kommunens revisorer som socialnämndens svar på missivet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+          "protocol_ref": "§77 SOCIALNAMNDEN 2022-12-13"
+        },
+        "step_id": "sn-77-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Granskning av kommunens mål och arbete för hållbar utveckling utifrån Agenda 2030"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2022.053 SN",
+    "id": "a-2022-0313",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2022-12-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens budget 2023-2025 antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2022-12-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2022-12-13/protocol/protokoll-sn-2022-12-13pdf-66902?downloadMode=open",
+          "protocol_ref": "§78 SOCIALNAMNDEN 2022-12-13"
+        },
+        "step_id": "sn-78-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens budget 2023-2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.088 SN",
+    "id": "a-2023-0356",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-02",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden väljer föreslagna ledamöter och ersättare till socialnämndens arbetsutskott för mandatperioden 2023-2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-01-02/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-01-02/protocol/protokoll-sn-2023-01-02pdf-53386?downloadMode=open",
+          "protocol_ref": "§2 SOCIALNAMNDEN 2023-01-02"
+        },
+        "step_id": "sn-2023-01-02-§2-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Val av ledamöter till arbetsutskottet 2023-2026"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.090 SN",
+    "id": "a-2023-0357",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-24",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner uppföljning av socialnämndens arbete 2022",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-01-24/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-01-24/protocol/protokoll-sn-2023-01-24pdf-76837?downloadMode=open",
+          "protocol_ref": "§5 SOCIALNAMNDEN 2023-01-24"
+        },
+        "step_id": "sn-2023-01-24-s5-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljning av socialnämndens arbete 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.008 SN",
+    "id": "a-2023-0358",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-24",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden ger Kent Perciwall i uppdrag att i egenskap av socialnämndens ordförande fördela arbetsmiljöuppgifter till förvaltningschef Karin Alvermalm.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-01-24/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-01-24/protocol/protokoll-sn-2023-01-24pdf-76837?downloadMode=open",
+          "protocol_ref": "§7 SOCIALNAMNDEN 2023-01-24"
+        },
+        "step_id": "sn-2023-01-24-s7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Fördelning av arbetsmiljöuppgifter från nämnd till förvaltningschef"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2022.029 SN",
+    "id": "a-2023-0359",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 4 2022 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-02-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-02-14/protocol/protokoll-sn-2023-02-14pdf-43567?downloadMode=open",
+          "protocol_ref": "§12 SOCIALNAMNDEN 2023-02-14"
+        },
+        "step_id": "sn-2023-02-14-12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.012 SN",
+    "id": "a-2023-0360",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden ger ordförande Kent Perciwall i uppdrag att underteckna överenskommelsen med Samordningsförbundet Insjöriket för perioden 230101 – 231231.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-02-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-02-14/protocol/protokoll-sn-2023-02-14pdf-43567?downloadMode=open",
+          "protocol_ref": "§13 SOCIALNAMNDEN 2023-02-14"
+        },
+        "step_id": "sn-2023-02-14-13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Överenskommelse om prioriterade insatser 2023 mellan Samordningsförbundet Insjöriket och socialförvaltningen avseende ACTivera"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.003 SN",
+    "id": "a-2023-0361",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens årsbokslut 2022 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-02-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-02-14/protocol/protokoll-sn-2023-02-14pdf-43567?downloadMode=open",
+          "protocol_ref": "§14 SOCIALNAMNDEN 2023-02-14"
+        },
+        "step_id": "sn-2023-02-14-14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens årsbokslut 2022"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.016 SN",
+    "id": "a-2023-0362",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-03-21",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per februari 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "M"
+            ],
+            "quote": "Eftersom inga andra värden redovisats kring ekonomin än en prognos för helåret (som jämför med budgeten) anser jag mig inte fått nog information innan mötet för att kunna godkänna den ekonomiska rapporten."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-03-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-03-21/protocol/protokoll-sn-2023-03-21pdf-17457?downloadMode=open",
+          "protocol_ref": "§19 SOCIALNAMNDEN 2023-03-21"
+        },
+        "step_id": "sn-2023-03-21-19-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.055 SN",
+    "id": "a-2023-0363",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-03-21",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner brandskyddsrapport 2022",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-03-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-03-21/protocol/protokoll-sn-2023-03-21pdf-17457?downloadMode=open",
+          "protocol_ref": "§20 SOCIALNAMNDEN 2023-03-21"
+        },
+        "step_id": "sn-2023-03-21-20-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Brandskyddsrapport 2022"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.017 SN",
+    "id": "a-2023-0364",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-03-21",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner Kvalitetsberättelse 2022",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-03-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-03-21/protocol/protokoll-sn-2023-03-21pdf-17457?downloadMode=open",
+          "protocol_ref": "§21 SOCIALNAMNDEN 2023-03-21"
+        },
+        "step_id": "sn-2023-03-21-21-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kvalitetsberättelse för Socialförvaltningen 2022"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.020 SN",
+    "id": "a-2023-0365",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-03-21",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer Plan för uppföljning av privata utförare",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-03-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-03-21/protocol/protokoll-sn-2023-03-21pdf-17457?downloadMode=open",
+          "protocol_ref": "§22 SOCIALNAMNDEN 2023-03-21"
+        },
+        "step_id": "sn-2023-03-21-22-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning av privata utförare"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.016 SN",
+    "id": "a-2023-0366",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-18",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per mars 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Då den ekonomiska redovisningen inte innehåller annan sifferinformation om det ekonomiska läget än en helårsprognos visavi budgeten samt tresvårtydda grafer anser jag inte att nämnden har fått tillräcklig information och insikt i förvaltningens ekonomi för att godkänna rapporten."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-04-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-04-18/protocol/protokoll-sn-2023-04-18pdf-77026?downloadMode=open",
+          "protocol_ref": "§28 SOCIALNAMNDEN 2023-04-18"
+        },
+        "step_id": "sn-28-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.021 SN",
+    "id": "a-2023-0367",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-18",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att riktlinjen Återrapportering av delegationsbeslut ska upphöra från och med den 1 maj 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-04-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-04-18/protocol/protokoll-sn-2023-04-18pdf-77026?downloadMode=open",
+          "protocol_ref": "§29 SOCIALNAMNDEN 2023-04-18"
+        },
+        "step_id": "sn-29-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Upphörande av riktlinje vid återrapportering av delegationsbeslut till socialnämnden"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.047 SN",
+    "id": "a-2023-0368",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "V"
+            ],
+            "quote": "Lennart Arvidsson (V) lämnar följande protokollsanteckning: \"Av tjänsteskrivelsen angående fördjupad månadsuppföljning för april månad framgår att förvaltningen bedömer att budgeten kommer att hållas på årsbasis. Detta sker bland annat genom att ökade kostnader balanseras via buffertmedel samt minskade personalkostnader."
+          }
+        ],
+        "quote": "Socialnämnden godkänner den fördjupade månadsuppföljningen per april 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "M"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-05-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-05-16/protocol/protokoll-sn-2023-05-16pdf-43756?downloadMode=open",
+          "protocol_ref": "§32 SOCIALNAMNDEN 2023-05-16"
+        },
+        "step_id": "sn-32-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Fördjupad månadsuppföljning per april 2023"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.037 SN",
+    "id": "a-2023-0369",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner lokalförsörjningsplan för socialnämnden 2023-2028.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-05-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-05-16/protocol/protokoll-sn-2023-05-16pdf-43756?downloadMode=open",
+          "protocol_ref": "§33 SOCIALNAMNDEN 2023-05-16"
+        },
+        "step_id": "sn-33-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lokalförsörjningsplan för Socialnämnden 2023-2028"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.040 SN",
+    "id": "a-2023-0370",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Verksamhetsberättelse 2022 och handlingsplan 2023 för Krisstöd godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-05-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-05-16/protocol/protokoll-sn-2023-05-16pdf-43756?downloadMode=open",
+          "protocol_ref": "§34 SOCIALNAMNDEN 2023-05-16"
+        },
+        "step_id": "sn-34-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Verksamhetsberättelse 2022 och handlingsplan 2023 för Krisstöd"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.039 SN",
+    "id": "a-2023-0371",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 1 2023 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-05-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-05-16/protocol/protokoll-sn-2023-05-16pdf-43756?downloadMode=open",
+          "protocol_ref": "§35 SOCIALNAMNDEN 2023-05-16"
+        },
+        "step_id": "sn-35-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2022.059 SN",
+    "id": "a-2023-0372",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att anta revidering av dokumenthanteringsplanen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-05-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-05-16/protocol/protokoll-sn-2023-05-16pdf-43756?downloadMode=open",
+          "protocol_ref": "§36 SOCIALNAMNDEN 2023-05-16"
+        },
+        "step_id": "sn-36-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av socialnämndens dokumenthanteringsplan"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.016 SN",
+    "id": "a-2023-0373",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-06-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner den fördjupade månadsuppföljningen per maj 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-06-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-06-13/protocol/protokoll-sn-2023-06-13pdf-45619?downloadMode=open",
+          "protocol_ref": "§39 SOCIALNAMNDEN 2023-06-13"
+        },
+        "step_id": "beslut-sn-2023-06-13",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.039 SN",
+    "id": "a-2023-0374",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-08-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 2 2023 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-08-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-08-22/protocol/protokoll-sn-2023-08-22pdf-14211?downloadMode=open",
+          "protocol_ref": "§42 SOCIALNAMNDEN 2023-08-22"
+        },
+        "step_id": "sn-42-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.016 SN",
+    "id": "a-2023-0375",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-08-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per juli 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-08-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-08-22/protocol/protokoll-sn-2023-08-22pdf-14211?downloadMode=open",
+          "protocol_ref": "§43 SOCIALNAMNDEN 2023-08-22"
+        },
+        "step_id": "sn-43-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.073 SN",
+    "id": "a-2023-0376",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-09-12",
+        "decision": null,
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialförvaltningen har den 12 september 2023 lämnat följande yttrande: Socialnämndens budget 2023-2025 har följts upp i delårsbokslutet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-09-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-09-19/protocol/protokoll-sn-2023-09-19pdf-26669?downloadMode=open",
+          "protocol_ref": "§46 SOCIALNAMNDEN 2023-09-19"
+        },
+        "step_id": "sn-46-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2023-09-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens delårsbokslut 2023 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-09-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-09-19/protocol/protokoll-sn-2023-09-19pdf-26669?downloadMode=open",
+          "protocol_ref": "§46 SOCIALNAMNDEN 2023-09-19"
+        },
+        "step_id": "sn-46-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens delårsbokslut 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.071 SN",
+    "id": "a-2023-0377",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-09-05",
+        "decision": null,
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialförvaltningen har den 5 september 2023 lämnat följande yttrande: 2023 års grundläggande granskning genomförs av KPMG på uppdrag av de förtroendevalda revisorerna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-09-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-09-19/protocol/protokoll-sn-2023-09-19pdf-26669?downloadMode=open",
+          "protocol_ref": "§47 SOCIALNAMNDEN 2023-09-19"
+        },
+        "step_id": "sn-47-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2023-09-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner svaren i den enkät som vid 2023 års granskning sänts ut av KPMG och att svaren inklusive bilagor enligt förteckning överlämnas till revisionen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-09-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-09-19/protocol/protokoll-sn-2023-09-19pdf-26669?downloadMode=open",
+          "protocol_ref": "§47 SOCIALNAMNDEN 2023-09-19"
+        },
+        "step_id": "sn-47-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Grundläggande granskning 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.016 SN",
+    "id": "a-2023-0378",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-10-24",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per september 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "M"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-10-24/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-10-24/protocol/protokoll-sn-2023-10-24pdf-76521?downloadMode=open",
+          "protocol_ref": "§51 SOCIALNAMNDEN 2023-10-24"
+        },
+        "step_id": "sn-51-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.077 SN",
+    "id": "a-2023-0379",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-10-24",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner datum och tider för socialnämnden och socialnämndens arbetsutskotts sammanträden under 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-10-24/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-10-24/protocol/protokoll-sn-2023-10-24pdf-76521?downloadMode=open",
+          "protocol_ref": "§52 SOCIALNAMNDEN 2023-10-24"
+        },
+        "step_id": "sn-52-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider för Socialnämnden år 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.016 SN",
+    "id": "a-2023-0380",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per oktober 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-11-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-11-14/protocol/protokoll-sn-2023-11-14pdf-43251?downloadMode=open",
+          "protocol_ref": "§55 SOCIALNAMNDEN 2023-11-14"
+        },
+        "step_id": "sn-55-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.076 SN",
+    "id": "a-2023-0381",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-11-14",
+        "decision": "tillstyrker",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialförvaltningen gör bedömningen att detta arbete utifrån ACTivera som nu kan ske på plats i kommunen behöver prövas och ges förutsättningar att utvecklas inom ramen för samverkan med samordningsförbundet och därmed behöver beslutet om utträde upphävas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-11-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-11-14/protocol/protokoll-sn-2023-11-14pdf-43251?downloadMode=open",
+          "protocol_ref": "§56 SOCIALNAMNDEN 2023-11-14"
+        },
+        "step_id": "sn-56-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      }
+    ],
+    "title": "Förnyelse av medlemskap i Samordningsförbundet Insjöriket"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.039 SN",
+    "id": "a-2023-0382",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 3 2023 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-11-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-11-14/protocol/protokoll-sn-2023-11-14pdf-43251?downloadMode=open",
+          "protocol_ref": "§57 SOCIALNAMNDEN 2023-11-14"
+        },
+        "step_id": "sn-57-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.016 SN",
+    "id": "a-2023-0383",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-12",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per november 2023.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-12-12/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-12-12/protocol/protokoll-sn-2023-12-12pdf-62680?downloadMode=open",
+          "protocol_ref": "§60 SOCIALNAMNDEN 2023-12-12"
+        },
+        "step_id": "sn-60-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.094 SN",
+    "id": "a-2023-0384",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-12",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer Plan för uppföljning av privata utförare.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-12-12/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-12-12/protocol/protokoll-sn-2023-12-12pdf-62680?downloadMode=open",
+          "protocol_ref": "§62 SOCIALNAMNDEN 2023-12-12"
+        },
+        "step_id": "sn-62-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning av privata utförare"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.092 SN",
+    "id": "a-2023-0385",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-12",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "v"
+            ],
+            "quote": "Lennart Arvidsson (V) och Åsa Svedjenäs (V) lämnar följande protokollsanteckning: \"Sverige befinner sig i en situation med en ökad polarisering och utanförskap i samhället. Detta leder till en ökning av våld och övrig kriminalitet i samhället."
+          },
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Gunnel Adler (MP) lämnar följande protokollsanteckning: \"Miljöpartiet de gröna har i sin kommunala budget föreslagit två miljoner mer till socialnämnden jämfört med den budget som antogs av kommunfullmäktige."
+          }
+        ],
+        "quote": "Socialnämnden antar Socialnämndens budget 2024-2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-12-12/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-12-12/protocol/protokoll-sn-2023-12-12pdf-62680?downloadMode=open",
+          "protocol_ref": "§63 SOCIALNAMNDEN 2023-12-12"
+        },
+        "step_id": "sn-63-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens budget 2024-2026"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.075 SN",
+    "id": "a-2023-0386",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-12",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderad delegationsordning gäller från och med 2024-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-12-12/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-12-12/protocol/protokoll-sn-2023-12-12pdf-62680?downloadMode=open",
+          "protocol_ref": "§64 SOCIALNAMNDEN 2023-12-12"
+        },
+        "step_id": "sn-64-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.088 SN",
+    "id": "a-2023-0387",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-12",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner att föreslagna namngivna tjänstepersoner, från och med den 1 januari 2024, får förordnande att fatta beslut enligt 43 § första stycket andra punkten lag med särskilda bestämmelser om vård av unga (LVU).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2023-12-12/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2023-12-12/protocol/protokoll-sn-2023-12-12pdf-62680?downloadMode=open",
+          "protocol_ref": "§65 SOCIALNAMNDEN 2023-12-12"
+        },
+        "step_id": "sn-65-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förordnande enligt 43 § lag med särskilda bestämmelser om vård av unga (LVU)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.100 SN",
+    "id": "a-2024-0350",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-01-23",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner uppföljning av socialnämndens arbete 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-01-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-01-23/protocol/protokoll-sn-2024-01-23pdf-76420?downloadMode=open",
+          "protocol_ref": "§2 SOCIALNAMNDEN 2024-01-23"
+        },
+        "step_id": "sn-2024-01-23-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljning av socialnämndens arbete 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.018 SN",
+    "id": "a-2024-0351",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per januari 2024.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-02-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-02-13/protocol/protokoll-sn-2024-02-13pdf-52861?downloadMode=open",
+          "protocol_ref": "§5 SOCIALNAMNDEN 2024-02-13"
+        },
+        "step_id": "sn-2024-02-13-5-beslut",
+        "type": "beslut",
+        "voting": {
+          "question": "Ja - röst för bifall till Leif Hanssons förslag. Nej - röst för bifall till Björn Dahlins förslag.",
+          "recorded": true,
+          "result": {
+            "avstar": 1,
+            "ja": 8,
+            "nej": 4
+          }
+        }
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.039 SN",
+    "id": "a-2024-0352",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 4 2023 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-02-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-02-13/protocol/protokoll-sn-2024-02-13pdf-52861?downloadMode=open",
+          "protocol_ref": "§6 SOCIALNAMNDEN 2024-02-13"
+        },
+        "step_id": "sn-2024-02-13-6-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.004 SN",
+    "id": "a-2024-0353",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens årsbokslut 2023 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-02-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-02-13/protocol/protokoll-sn-2024-02-13pdf-52861?downloadMode=open",
+          "protocol_ref": "§7 SOCIALNAMNDEN 2024-02-13"
+        },
+        "step_id": "sn-2024-02-13-7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens årsbokslut 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.018 SN",
+    "id": "a-2024-0354",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-03-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per februari 2024.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-03-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-03-19/protocol/protokoll-sn-2024-03-19pdf-29309?downloadMode=open",
+          "protocol_ref": "§10 SOCIALNAMNDEN 2024-03-19"
+        },
+        "step_id": "sn-2024-03-19-10-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.075 SN",
+    "id": "a-2024-0355",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-03-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderad delegationsordning gäller från och med 2024-04-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-03-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-03-19/protocol/protokoll-sn-2024-03-19pdf-29309?downloadMode=open",
+          "protocol_ref": "§11 SOCIALNAMNDEN 2024-03-19"
+        },
+        "step_id": "sn-2024-03-19-11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning 2024"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2023.097 SN",
+    "id": "a-2024-0356",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-03-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att översända remissvaret över betänkandet För barn och unga i samhällsvård SOU 2023:66 till regeringskansliet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-03-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-03-19/protocol/protokoll-sn-2024-03-19pdf-29309?downloadMode=open",
+          "protocol_ref": "§13 SOCIALNAMNDEN 2024-03-19"
+        },
+        "step_id": "sn-2024-03-19-13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Remiss av SOU 2023:66 Barn och unga i samhällsvård"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.003 SN",
+    "id": "a-2024-0357",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-03-19",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner Kvalitetsberättelse 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-03-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-03-19/protocol/protokoll-sn-2024-03-19pdf-29309?downloadMode=open",
+          "protocol_ref": "§14 SOCIALNAMNDEN 2024-03-19"
+        },
+        "step_id": "sn-2024-03-19-14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kvalitetsberättelse för Socialförvaltningen 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.018 SN",
+    "id": "a-2024-0358",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-04-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per mars 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-04-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-04-16/protocol/protokoll-sn-2024-04-16pdf-11237?downloadMode=open",
+          "protocol_ref": "§18 SOCIALNAMNDEN 2024-04-16"
+        },
+        "step_id": "sn-2024-04-16-18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.035 SN",
+    "id": "a-2024-0359",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-04-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner brandskyddsrapport 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-04-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-04-16/protocol/protokoll-sn-2024-04-16pdf-11237?downloadMode=open",
+          "protocol_ref": "§19 SOCIALNAMNDEN 2024-04-16"
+        },
+        "step_id": "sn-2024-04-16-19-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Brandskyddsrapport 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.077 SN",
+    "id": "a-2024-0360",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-05-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att ställa in socialnämndens sammanträde den 27 augusti 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-05-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-05-14/protocol/protokoll-sn-2024-05-14pdf-88373?downloadMode=open",
+          "protocol_ref": "§22 SOCIALNAMNDEN 2024-05-14"
+        },
+        "step_id": "sn-22-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider för Socialnämnden år 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.063 SN",
+    "id": "a-2024-0361",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-05-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner den fördjupade månadsuppföljningen per april 2024. Socialnämnden ger förvaltningen i uppdrag att ta fram en handlingsplan för att säkerställa de långsiktiga ekonomiska förutsättningarna för nämnden att bedriva verksamhet inom tilldelad budgetram.",
+        "reservations": [
+          {
+            "parties": [
+              "M"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet att godkänna månadsuppföljningen per april 2024."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-05-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-05-14/protocol/protokoll-sn-2024-05-14pdf-88373?downloadMode=open",
+          "protocol_ref": "§23 SOCIALNAMNDEN 2024-05-14"
+        },
+        "step_id": "sn-23-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Fördjupad månadsuppföljning per april 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.055 SN",
+    "id": "a-2024-0362",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-05-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner lokalförsörjningsplan för socialnämnden 2024-2029.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-05-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-05-14/protocol/protokoll-sn-2024-05-14pdf-88373?downloadMode=open",
+          "protocol_ref": "§24 SOCIALNAMNDEN 2024-05-14"
+        },
+        "step_id": "sn-24-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lokalförsörjningsplan för Socialnämnden 2024-2029"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.064 SN",
+    "id": "a-2024-0363",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-05-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner verksamhetsberättelse för krisstöd 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-05-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-05-14/protocol/protokoll-sn-2024-05-14pdf-88373?downloadMode=open",
+          "protocol_ref": "§25 SOCIALNAMNDEN 2024-05-14"
+        },
+        "step_id": "sn-25-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Verksamhetsberättelse för krisstöd 2023"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.027 SN",
+    "id": "a-2024-0364",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-05-14",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 1 2024 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-05-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-05-14/protocol/protokoll-sn-2024-05-14pdf-88373?downloadMode=open",
+          "protocol_ref": "§26 SOCIALNAMNDEN 2024-05-14"
+        },
+        "step_id": "sn-26-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.018 SN",
+    "id": "a-2024-0365",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-06-11",
+        "decision": "delvis",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per maj 2024. Socialnämnden beslutar att återremittera den ekonomiska handlingsplanen för ytterligare beredning. I beredningen ska förvaltningen föreslå alternativa besparingar. Handlingsplanen ska återredovisas för socialnämnden senast 2024-08-28.",
+        "reservations": [
+          {
+            "parties": [
+              "m"
+            ],
+            "quote": "Björn Dahlin (M) reserverar sig mot beslutet att godkänna månadsuppföljningen per maj 2024."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-06-11/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-06-11/protocol/protokoll-sn-2024-06-11pdf-37536?downloadMode=open",
+          "protocol_ref": "§32 SOCIALNAMNDEN 2024-06-11"
+        },
+        "step_id": "sn-2024-06-11-32-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.096 SN",
+    "id": "a-2024-0366",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-06-11",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att Riktlinjer för styrande och stödjande dokument och dokumenthantering upphör.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-06-11/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-06-11/protocol/protokoll-sn-2024-06-11pdf-37536?downloadMode=open",
+          "protocol_ref": "§33 SOCIALNAMNDEN 2024-06-11"
+        },
+        "step_id": "sn-2024-06-11-33-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Upphörande av riktlinjer för styrande och stödjande dokument och dokumenthantering"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.069 SN",
+    "id": "a-2024-0367",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-06-11",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden antar genomlysningen för år 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-06-11/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-06-11/protocol/protokoll-sn-2024-06-11pdf-37536?downloadMode=open",
+          "protocol_ref": "§34 SOCIALNAMNDEN 2024-06-11"
+        },
+        "step_id": "sn-2024-06-11-34-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Genomlysning socialnämnden 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.102 SN",
+    "id": "a-2024-0368",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-09-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens delårsbokslut 2024 godkänns. Socialnämnden ger socialförvaltningen i uppdrag att genomföra föreslagna åtgärder.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-09-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-09-17/protocol/protokoll-sn-2024-09-17pdf-47247?downloadMode=open",
+          "protocol_ref": "§42 SOCIALNAMNDEN 2024-09-17"
+        },
+        "step_id": "sn-42-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens delårsbokslut 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.101 SN",
+    "id": "a-2024-0369",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-09-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner svaren i den enkät som vid 2024 års granskning sänts ut av KPMG och att svaren inklusive bilagor enligt förteckning överlämnas till revisionen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-09-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-09-17/protocol/protokoll-sn-2024-09-17pdf-47247?downloadMode=open",
+          "protocol_ref": "§43 SOCIALNAMNDEN 2024-09-17"
+        },
+        "step_id": "sn-43-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Grundläggande granskning 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.027 SN",
+    "id": "a-2024-0370",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-09-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 1 2024 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-09-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-09-17/protocol/protokoll-sn-2024-09-17pdf-47247?downloadMode=open",
+          "protocol_ref": "§44 SOCIALNAMNDEN 2024-09-17"
+        },
+        "step_id": "sn-44-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.018 SN",
+    "id": "a-2024-0371",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per september 2024",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-10-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-10-22/protocol/protokoll-sn-2024-10-22pdf-46269?downloadMode=open",
+          "protocol_ref": "§46 SOCIALNAMNDEN 2024-10-22"
+        },
+        "step_id": "sn-2024-10-22-46-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.075 SN",
+    "id": "a-2024-0372",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderad delegationsordning gäller från och med 2024-11-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-10-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-10-22/protocol/protokoll-sn-2024-10-22pdf-46269?downloadMode=open",
+          "protocol_ref": "§47 SOCIALNAMNDEN 2024-10-22"
+        },
+        "step_id": "sn-2024-10-22-47-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.108 SN",
+    "id": "a-2024-0373",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden ger ordförande i uppdrag att underteckna samverkansavtalet med operativa hälso- och sjukvårdsnämnden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-10-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-10-22/protocol/protokoll-sn-2024-10-22pdf-46269?downloadMode=open",
+          "protocol_ref": "§48 SOCIALNAMNDEN 2024-10-22"
+        },
+        "step_id": "sn-2024-10-22-48-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Samverkansavtal ungdomsmottagningen i Västra Götaland"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.107 SN",
+    "id": "a-2024-0374",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner datum och tider för socialnämnden och socialnämndens arbetsutskotts sammanträden under 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-10-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-10-22/protocol/protokoll-sn-2024-10-22pdf-46269?downloadMode=open",
+          "protocol_ref": "§49 SOCIALNAMNDEN 2024-10-22"
+        },
+        "step_id": "sn-2024-10-22-49-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider för Socialnämnden år 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.018 SN",
+    "id": "a-2024-0375",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-11-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per oktober 2024",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-11-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-11-13/protocol/protokoll-sn-2024-11-13pdf-65698?downloadMode=open",
+          "protocol_ref": "§52 SOCIALNAMNDEN 2024-11-13"
+        },
+        "step_id": "sn-52-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.027 SN",
+    "id": "a-2024-0376",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-11-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 3 2024 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-11-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-11-13/protocol/protokoll-sn-2024-11-13pdf-65698?downloadMode=open",
+          "protocol_ref": "§53 SOCIALNAMNDEN 2024-11-13"
+        },
+        "step_id": "sn-53-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.125 SN",
+    "id": "a-2024-0377",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-11-13",
+        "decision": "tillstyrker",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Avtalssamverkan mellan Alingsås kommun, Herrljunga kommun och Vårgårda kommun avseende familjerådgivning inom socialtjänsten godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-11-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-11-13/protocol/protokoll-sn-2024-11-13pdf-65698?downloadMode=open",
+          "protocol_ref": "§54 SOCIALNAMNDEN 2024-11-13"
+        },
+        "step_id": "sn-54-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      }
+    ],
+    "title": "Kommunal avtalssamverkan avseende familjerådgivning"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.018 SN",
+    "id": "a-2024-0378",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per november 2024",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-12-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-12-10/protocol/protokoll-sn-2024-12-10pdf?downloadMode=open",
+          "protocol_ref": "§56 SOCIALNAMNDEN 2024-12-10"
+        },
+        "step_id": "sn-56-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.085 SN",
+    "id": "a-2024-0379",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Om Miljöpartiets budgetförslag antagits i kommunfullmäktige hade vi haft åtta miljoner mer till socialnämnden. Denna summa skulle användas till att förstärka den förebyggande verksamheten såsom att satsa mer för att minska skolfrånvaron, att starta familjecentral i centrala Alingsås och spädbarnsgrupp till de familjer som har större behov av stöd."
+          }
+        ],
+        "quote": "1. Socialnämndens budget 2025-2027 antas. 2. Socialnämnden ger socialförvaltningen i uppdrag att upprätta en familjecentral i Alingsås tätort under 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-12-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-12-10/protocol/protokoll-sn-2024-12-10pdf?downloadMode=open",
+          "protocol_ref": "§57 SOCIALNAMNDEN 2024-12-10"
+        },
+        "step_id": "sn-57-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens budget 2025-2027"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.115 SN",
+    "id": "a-2024-0380",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderad delegationsordning gäller från och med 2025-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-12-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-12-10/protocol/protokoll-sn-2024-12-10pdf?downloadMode=open",
+          "protocol_ref": "§58 SOCIALNAMNDEN 2024-12-10"
+        },
+        "step_id": "sn-58-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.123 SN",
+    "id": "a-2024-0381",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Utredning skickas till arbetsmiljöverket efter nämndens godkännande.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-12-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-12-10/protocol/protokoll-sn-2024-12-10pdf?downloadMode=open",
+          "protocol_ref": "§60 SOCIALNAMNDEN 2024-12-10"
+        },
+        "step_id": "sn-60-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Inspektion om arbetsmiljön på Sidenvägen 7 F"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.048 SN",
+    "id": "a-2024-0382",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner förvaltningens förslag till yttrande samt att översända yttrandet kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2024-12-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2024-12-10/protocol/protokoll-sn-2024-12-10pdf?downloadMode=open",
+          "protocol_ref": "§61 SOCIALNAMNDEN 2024-12-10"
+        },
+        "step_id": "sn-61-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Granskning av kommunens arbete med integration och försörjningsstöd"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.006 SN",
+    "id": "a-2025-0508",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-02-11",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens årsbokslut 2024 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-02-11/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-02-11/protocol/protokoll-sn-2025-02-11pdf?downloadMode=open",
+          "protocol_ref": "§3 SOCIALNAMNDEN 2025-02-11"
+        },
+        "step_id": "sn-2025-02-11-3-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens årsbokslut 2024"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2024.106 SN",
+    "id": "a-2025-0509",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-02-11",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner förvaltningens förslag till yttrande samt att översända yttrandet kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-02-11/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-02-11/protocol/protokoll-sn-2025-02-11pdf?downloadMode=open",
+          "protocol_ref": "§4 SOCIALNAMNDEN 2025-02-11"
+        },
+        "step_id": "sn-2025-02-11-4-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Granskning av socialnämndens arbete med uppföljning av placerade barn och ungdomar"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.007 SN",
+    "id": "a-2025-0510",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-02-11",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner uppföljning av socialnämndens arbete 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-02-11/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-02-11/protocol/protokoll-sn-2025-02-11pdf?downloadMode=open",
+          "protocol_ref": "§5 SOCIALNAMNDEN 2025-02-11"
+        },
+        "step_id": "sn-2025-02-11-5-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljning av socialnämndens arbete 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2024.027 SN",
+    "id": "a-2025-0511",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-02-11",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 4 2024 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-02-11/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-02-11/protocol/protokoll-sn-2025-02-11pdf?downloadMode=open",
+          "protocol_ref": "§6 SOCIALNAMNDEN 2025-02-11"
+        },
+        "step_id": "sn-2025-02-11-6-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.032 SN",
+    "id": "a-2025-0512",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2025-03-18",
+        "decision": "tillstyrker",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens förslag till beslut i kommunfullmäktige\nKommunfullmäktige godkänner program om våldsförebyggande arbete.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-03-18/protocol/protokoll-sn-2025-03-18pdf?downloadMode=open",
+          "protocol_ref": "§12 SOCIALNAMNDEN 2025-03-18"
+        },
+        "step_id": "sn-12-beslut",
+        "type": "namndyttrande",
+        "voting": null
+      }
+    ],
+    "title": "Program om våldsförebyggande arbete för Alingsås kommun"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.015 SN",
+    "id": "a-2025-0513",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-03-18",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per februari 2025",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-03-18/protocol/protokoll-sn-2025-03-18pdf?downloadMode=open",
+          "protocol_ref": "§13 SOCIALNAMNDEN 2025-03-18"
+        },
+        "step_id": "sn-13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.010 SN",
+    "id": "a-2025-0514",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-03-18",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner Kvalitetsberättelse 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-03-18/protocol/protokoll-sn-2025-03-18pdf?downloadMode=open",
+          "protocol_ref": "§14 SOCIALNAMNDEN 2025-03-18"
+        },
+        "step_id": "sn-14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kvalitetsberättelse för Socialförvaltningen 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.107 SN",
+    "id": "a-2025-0515",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-03-18",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att flytta socialnämndens sammanträde från den 10e juni till den 17e juni.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-03-18/protocol/protokoll-sn-2025-03-18pdf?downloadMode=open",
+          "protocol_ref": "§15 SOCIALNAMNDEN 2025-03-18"
+        },
+        "step_id": "sn-15-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider för Socialnämnden år 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.015 SN",
+    "id": "a-2025-0516",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-04-15",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per mars 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-04-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-04-15/protocol/protokoll-sn-2025-04-15pdf?downloadMode=open",
+          "protocol_ref": "§17 SOCIALNAMNDEN 2025-04-15"
+        },
+        "step_id": "sn-17-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.024 SN",
+    "id": "a-2025-0517",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2025-04-15",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens förslag till beslut i kommunfullmäktige\n1. Socialnämndens taxor och avgifter 2025 antas under förutsättning att ny socialtjänstlag träder i kraft 2025-07-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-04-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-04-15/protocol/protokoll-sn-2025-04-15pdf?downloadMode=open",
+          "protocol_ref": "§18 SOCIALNAMNDEN 2025-04-15"
+        },
+        "step_id": "sn-18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Taxor och avgifter inom socialnämndens verksamheter 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.049 SN",
+    "id": "a-2025-0518",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-03-28",
+        "decision": null,
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Uppföljning av 2024 års brandskyddsarbete har gjorts och redovisas i bifogad rapport. Förvaltningens främsta utvecklingsområde är fortsatt utbildning i brandskydd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-04-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-04-15/protocol/protokoll-sn-2025-04-15pdf?downloadMode=open",
+          "protocol_ref": "§19 SOCIALNAMNDEN 2025-04-15"
+        },
+        "step_id": "sn-19-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2025-04-15",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner brandskyddsrapport 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-04-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-04-15/protocol/protokoll-sn-2025-04-15pdf?downloadMode=open",
+          "protocol_ref": "§19 SOCIALNAMNDEN 2025-04-15"
+        },
+        "step_id": "sn-19-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Brandskyddsrapport 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.036 SN",
+    "id": "a-2025-0519",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-05-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner den fördjupade månadsuppföljningen per april 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-05-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-05-13/protocol/protokoll-sn-2025-05-13pdf?downloadMode=open",
+          "protocol_ref": "§25 SOCIALNAMNDEN 2025-05-13"
+        },
+        "step_id": "sn-25-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Fördjupad månadsuppföljning per april 2025"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2025.037 SN",
+    "id": "a-2025-0520",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-05-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner lokalförsörjningsplan för socialnämnden 2025-2030.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-05-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-05-13/protocol/protokoll-sn-2025-05-13pdf?downloadMode=open",
+          "protocol_ref": "§26 SOCIALNAMNDEN 2025-05-13"
+        },
+        "step_id": "sn-26-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lokalförsörjningsplan för Socialnämnden 2025-2030"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.048 SN",
+    "id": "a-2025-0521",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-05-13",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 1 2025 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-05-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-05-13/protocol/protokoll-sn-2025-05-13pdf?downloadMode=open",
+          "protocol_ref": "§27 SOCIALNAMNDEN 2025-05-13"
+        },
+        "step_id": "sn-27-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.127 SN",
+    "id": "a-2025-0522",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-09-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner delårsbokslutet 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-09-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-09-16/protocol/protokoll-sn-2025-09-16pdf?downloadMode=open",
+          "protocol_ref": "§43 SOCIALNAMNDEN 2025-09-16"
+        },
+        "step_id": "sn-43-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens delårsbokslut 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.113 SN",
+    "id": "a-2025-0523",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-09-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner svaren i den enkät som vid 2025 års granskning sänts ut av KPMG/Azets och att svaren inklusive bilagor enligt förteckning överlämnas till revisionen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-09-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-09-16/protocol/protokoll-sn-2025-09-16pdf?downloadMode=open",
+          "protocol_ref": "§44 SOCIALNAMNDEN 2025-09-16"
+        },
+        "step_id": "sn-44-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Grundläggande granskning 2025"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.053 SN",
+    "id": "a-2025-0524",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-09-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderade riktlinjer för insatser utan individuell behovsprövning gäller från och med 2025-10-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-09-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-09-16/protocol/protokoll-sn-2025-09-16pdf?downloadMode=open",
+          "protocol_ref": "§45 SOCIALNAMNDEN 2025-09-16"
+        },
+        "step_id": "sn-45-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer - Insatser utan individuell behovsprövning"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.048 SN",
+    "id": "a-2025-0525",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-09-16",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 2 2025 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-09-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-09-16/protocol/protokoll-sn-2025-09-16pdf?downloadMode=open",
+          "protocol_ref": "§46 SOCIALNAMNDEN 2025-09-16"
+        },
+        "step_id": "sn-46-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.015 SN",
+    "id": "a-2025-0526",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-10-21",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per september 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-10-21/protocol/protokoll-sn-2025-10-21pdf?downloadMode=open",
+          "protocol_ref": "§49 SOCIALNAMNDEN 2025-10-21"
+        },
+        "step_id": "sn-2025-10-21-49-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.124 SN",
+    "id": "a-2025-0527",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-10-21",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner datum och tider för socialnämnden och socialnämndens arbetsutskotts sammanträden under 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-10-21/protocol/protokoll-sn-2025-10-21pdf?downloadMode=open",
+          "protocol_ref": "§50 SOCIALNAMNDEN 2025-10-21"
+        },
+        "step_id": "sn-2025-10-21-50-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider för Socialnämnden år 2026"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.100 SN",
+    "id": "a-2025-0528",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens budget 2026-2028 antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§58 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-58-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens budget 2026-2028"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.082 SN",
+    "id": "a-2025-0529",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer Plan för uppföljning av privata utförare 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§59 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-59-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning privata utförare 2026"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.015 SN",
+    "id": "a-2025-0530",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljningen per november 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§60 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-60-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2025"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.159 SN",
+    "id": "a-2025-0531",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "avslag",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att återremittera ärendet om föreningsbidrag kvinnojour- och tjejjour till förvaltningen för fördjupad utredning av ärendet med en översyn av om det är kultur- och utbildningsnämnden som ska ansvara för föreningsuppdraget eller annan nämnd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§61 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-61-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Föreningsbidrag kvinnojour och tjejjour"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.103 SN",
+    "id": "a-2025-0532",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Revidering av socialnämndens dokumenthanteringsplan godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§62 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-62-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av socialnämndens dokumenthanteringsplan"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2025.145 SN",
+    "id": "a-2025-0533",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderad delegationsordning gäller från och med 2026-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§64 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-64-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning 2026"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.156 SN",
+    "id": "a-2025-0534",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderade riktlinjer för insatser utan individuell behovsprövning gäller från och med 2026-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§66 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-66-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer - Insatser utan individuell behovsprövning 2026"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.123 SN",
+    "id": "a-2025-0535",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att riktlinjer boende – Mot egen bostad gäller från och med 2026-01-01. Socialnämnden beslutar att riktlinjer för social förtur och socialt kontrakt, 2025-06-17 § 35 dnr 2025.51 SN, upphör 2025-12-31.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§67 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-67-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer - Boende"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.148 SN",
+    "id": "a-2025-0536",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer Socialnämndens taxor och avgifter 2026, enligt bilaga, att gälla från och med 2026-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§68 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-68-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Taxor och avgifter inom socialnämndens verksamhet 2026"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.175 SN",
+    "id": "a-2025-0537",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden ger förvaltningschef i uppdrag att underteckna avtal avseende socialjour mellan Göteborgs stad och socialförvaltningen Alingsås 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§70 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-70-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Avtal avseende socialjour mellan Göteborgs stad och socialförvaltningen 2026"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.180 SN",
+    "id": "a-2025-0538",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Leif Hansson",
+        "party": "s"
+      },
+      {
+        "name": "Angelika Wais",
+        "party": "v"
+      },
+      {
+        "name": "Ingbritt Johansson",
+        "party": "c"
+      },
+      {
+        "name": "MP",
+        "party": "mp"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": null,
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialdemokraterna, Vänsterpartiet, Centerpartiet och Miljöpartiet har till dagens sammanträde inkommit till socialnämnden med förslag om Idéburet Offentligt Partnerskap (IOP) med kvinno- och tjejjouren Olivia.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§72 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-72-vackt",
+        "type": "initiativarende_vackt",
+        "voting": null
+      },
+      {
+        "date": "2025-12-09",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att initiativärendet får ställas och ger förvaltningen i uppdrag att till nästa nämndsammanträde den 20 januari 2026 utreda om det är möjligt att samverka med kvinno- och tjejjouren Olivia utifrån Idéburet Offentligt Partnerskap (IOP).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2025-12-09/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2025-12-09/protocol/protokoll-sn-2025-12-09pdf?downloadMode=open",
+          "protocol_ref": "§72 SOCIALNAMNDEN 2025-12-09"
+        },
+        "step_id": "sn-72-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Initiativ till socialnämnden om Idéburet Offentligt Partnerskap (IOP) med Kvinnojouren Olivia - Leif Hansson med flera (S), Angelika Wais (V), Ingbritt Johansson (C) och MP"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.180 SN",
+    "id": "a-2025-0539",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Leif Hansson",
+        "party": "s"
+      },
+      {
+        "name": "Angelika Wais",
+        "party": "v"
+      },
+      {
+        "name": "Ingbritt Johansson",
+        "party": "c"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2025-12-09",
+        "decision": null,
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "beslutade socialnämnden efter initiativärende från Socialdemokraterna, Vänsterpartiet och Centerpartiet att ge förvaltningen i uppdrag att till nästa nämndsammanträde den 20 januari 2026 utreda om det är möjligt att samverka med kvinno- och tjejjouren Olivia utifrån Idéburet Offentligt Partnerskap (IOP).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-01-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-01-20/protocol/protokoll-sn-2026-01-20pdf?downloadMode=open",
+          "protocol_ref": "§2 SOCIALNAMNDEN 2026-01-20"
+        },
+        "step_id": "initiativ-iop-vackt",
+        "type": "initiativarende_vackt",
+        "voting": null
+      },
+      {
+        "date": "2026-01-20",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att utredning av möjligheterna till att ingå IOP godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-01-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-01-20/protocol/protokoll-sn-2026-01-20pdf?downloadMode=open",
+          "protocol_ref": "§2 SOCIALNAMNDEN 2026-01-20"
+        },
+        "step_id": "beslut-iop-godkands",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Återrapportering av möjlighet till samverkan med kvinno- och tjejjouren Olivia utifrån Idéburet Offentligt Partnerskap (IOP)"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2025.179 SN",
+    "id": "a-2026-0359",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-02-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens årsbokslut 2025 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-02-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-02-10/protocol/protokoll-sn-2026-02-10pdf?downloadMode=open",
+          "protocol_ref": "§9 SOCIALNAMNDEN 2026-02-10"
+        },
+        "step_id": "sn-9-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens årsbokslut 2025"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2025.126 SN",
+    "id": "a-2026-0360",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-02-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden antar yttrandet som sitt eget och som svar på Granskning av kommunens styrning, ledning och uppföljning i relation till Agenda 2030.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-02-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-02-10/protocol/protokoll-sn-2026-02-10pdf?downloadMode=open",
+          "protocol_ref": "§10 SOCIALNAMNDEN 2026-02-10"
+        },
+        "step_id": "sn-10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Granskning av Agenda 2030"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2026.002 SN",
+    "id": "a-2026-0361",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-02-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner efter redaktionell ändring uppföljning av socialnämndens arbete 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-02-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-02-10/protocol/protokoll-sn-2026-02-10pdf?downloadMode=open",
+          "protocol_ref": "§11 SOCIALNAMNDEN 2026-02-10"
+        },
+        "step_id": "sn-11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljning av socialnämndens arbete 2025"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2025.048 SN",
+    "id": "a-2026-0362",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-02-10",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 4 2025 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-02-10/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-02-10/protocol/protokoll-sn-2026-02-10pdf?downloadMode=open",
+          "protocol_ref": "§12 SOCIALNAMNDEN 2026-02-10"
+        },
+        "step_id": "sn-12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2026.034 SN",
+    "id": "a-2026-0363",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner månadsuppföljning per februari 2026.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-03-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-03-17/protocol/protokoll-sn-2026-03-17pdf-98823?downloadMode=open",
+          "protocol_ref": "§15 SOCIALNAMNDEN 2026-03-17"
+        },
+        "step_id": "sn-15-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2026"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2026.017 SN",
+    "id": "a-2026-0364",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden antar efter redaktionell ändring Riktlinje för föreningsbidrag till ideella organisationers arbete för att stödja våldsutsatta.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-03-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-03-17/protocol/protokoll-sn-2026-03-17pdf-98823?downloadMode=open",
+          "protocol_ref": "§16 SOCIALNAMNDEN 2026-03-17"
+        },
+        "step_id": "sn-16-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinje för föreningsbidrag till ideella organisationers arbete för att stödja våldsutsatta"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2026.020 SN",
+    "id": "a-2026-0365",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner lokalförsörjningsplan för socialnämnden 2026-2030.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-03-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-03-17/protocol/protokoll-sn-2026-03-17pdf-98823?downloadMode=open",
+          "protocol_ref": "§17 SOCIALNAMNDEN 2026-03-17"
+        },
+        "step_id": "sn-17-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lokalförsörjningsplan för Socialnämnden 2026-2030"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2026.041 SN",
+    "id": "a-2026-0366",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-03-17",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att förvaltningen ska använda PRIIS med start den 30 mars 2026 trots att konsekvensbedömning enligt datakyddsförordningen inte är slutförd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2026-03-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-03-17/protocol/protokoll-sn-2026-03-17pdf-98823?downloadMode=open",
+          "protocol_ref": "§18 SOCIALNAMNDEN 2026-03-17"
+        },
+        "step_id": "sn-18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Gemensamt placeringsstöd och utförarregister för kommunerna - PRIIS"
   }
 ]
