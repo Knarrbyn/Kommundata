@@ -31412,5 +31412,3086 @@
       }
     ],
     "title": "Delegerade beslut 2026"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.017 TEN",
+    "id": "a-2023-0077",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-03",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att godkänna de föreslagna ledamöterna och ersättarna till arbetsutskottet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-03/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-03/protocol/protokoll-ten-2023-01-03-justeradpdf-87058?downloadMode=open",
+          "protocol_ref": "§2 TEKNISKA-NAMNDEN 2023-01-03"
+        },
+        "step_id": "ten-2023-01-03-s2-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Val till arbetsutskottet"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.012 TEN",
+    "id": "a-2023-0078",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-03",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Sammanträdesdagar för tekniska nämndens arbetsutskott och tekniska nämnden 2023 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-03/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-03/protocol/protokoll-ten-2023-01-03-justeradpdf-87058?downloadMode=open",
+          "protocol_ref": "§3 TEKNISKA-NAMNDEN 2023-01-03"
+        },
+        "step_id": "ten-2023-01-03-s3-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.013 TEN",
+    "id": "a-2023-0079",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-03",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Delegationsordningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-03/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-03/protocol/protokoll-ten-2023-01-03-justeradpdf-87058?downloadMode=open",
+          "protocol_ref": "§4 TEKNISKA-NAMNDEN 2023-01-03"
+        },
+        "step_id": "ten-2023-01-03-s4-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning Tekniska nämnden"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.014 TEN",
+    "id": "a-2023-0080",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-03",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner beslutsattestanter och deras ersättare, godkännare, kodintervall (ansvar i kombination med verksamhet), samt attestbelopp, enligt bifogad förteckning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-03/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-03/protocol/protokoll-ten-2023-01-03-justeradpdf-87058?downloadMode=open",
+          "protocol_ref": "§5 TEKNISKA-NAMNDEN 2023-01-03"
+        },
+        "step_id": "ten-2023-01-03-s5-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Attestlista 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.015 TEN",
+    "id": "a-2023-0081",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-03",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden antar lednings- och kommunikationsplan för samhällsstörningar och extraordinära händelser för tekniska nämnden",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-03/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-03/protocol/protokoll-ten-2023-01-03-justeradpdf-87058?downloadMode=open",
+          "protocol_ref": "§6 TEKNISKA-NAMNDEN 2023-01-03"
+        },
+        "step_id": "ten-2023-01-03-s6-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lednings- och kommunikationsplan för samhällsstörningar och extraordinära händelser Samhällsbyggnadsförvaltningen 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.016 TEN",
+    "id": "a-2023-0082",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-03",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att ge förvaltningschefen, Jonas Sjölin, uppgifter i det systematiska arbetsmiljöarbetet (gällande områdena Ekonomi, Utveckling, Avfall, VA, Gata, Trafik och Planering, Park och Natur) med rätt för att delegera arbetsmiljöuppgifter så långt ut i förvaltningen som är lämpligt.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-03/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-03/protocol/protokoll-ten-2023-01-03-justeradpdf-87058?downloadMode=open",
+          "protocol_ref": "§7 TEKNISKA-NAMNDEN 2023-01-03"
+        },
+        "step_id": "ten-2023-01-03-s7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppgiftsfördelning av arbetsmiljöuppgifter från tekniska nämnden till förvaltningschef"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.020 TEN",
+    "id": "a-2023-0083",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-23",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar anta budget för Tekniska nämnden 2023-2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-23/protocol/protokoll-ten-2023-01-23-justeratpdf-94996?downloadMode=open",
+          "protocol_ref": "§15 TEKNISKA-NAMNDEN 2023-01-23"
+        },
+        "step_id": "ten-2023-01-23-s15-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Budget - tekniska nämnden"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.049 TEN",
+    "id": "a-2023-0084",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-23",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnads förvaltningen har tagit del av rapporten och delar flera av de slutsatser som framkommer i rapporten.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-23/protocol/protokoll-ten-2023-01-23-justeratpdf-94996?downloadMode=open",
+          "protocol_ref": "§16 TEKNISKA-NAMNDEN 2023-01-23"
+        },
+        "step_id": "ten-2023-01-23-s16-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2023-01-23",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden antar samhällsbyggnadsförvaltningens yttrande som svar till revisorerna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-23/protocol/protokoll-ten-2023-01-23-justeratpdf-94996?downloadMode=open",
+          "protocol_ref": "§16 TEKNISKA-NAMNDEN 2023-01-23"
+        },
+        "step_id": "ten-2023-01-23-s16-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revisionsrapport, granskning av kommunens mål och arbete för hållbar utveckling utifrån Agenda 2030"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.029 TEN",
+    "id": "a-2023-0085",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-23",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att anta dokumenthanteringsplanen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-23/protocol/protokoll-ten-2023-01-23-justeratpdf-94996?downloadMode=open",
+          "protocol_ref": "§17 TEKNISKA-NAMNDEN 2023-01-23"
+        },
+        "step_id": "ten-2023-01-23-s17-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Dokumenthanteringsplan för tekniska nämnden"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.001 TEN",
+    "id": "a-2023-0086",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-01-23",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-01-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-01-23/protocol/protokoll-ten-2023-01-23-justeratpdf-94996?downloadMode=open",
+          "protocol_ref": "§18 TEKNISKA-NAMNDEN 2023-01-23"
+        },
+        "step_id": "ten-2023-01-23-s18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.046 TEN",
+    "id": "a-2023-0087",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner årsbokslutet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-02-20/protocol/protokoll-ten-2023-02-20-justeratpdf-18831?downloadMode=open",
+          "protocol_ref": "§9 TEKNISKA-NAMNDEN 2023-02-20"
+        },
+        "step_id": "ten-2023-02-20-s9-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bokslut - samhällsbyggnadsnämnden"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.079 TEN",
+    "id": "a-2023-0088",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Principer för vägbidrag för 2023 fastställs.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-02-20/protocol/protokoll-ten-2023-02-20-justeratpdf-18831?downloadMode=open",
+          "protocol_ref": "§10 TEKNISKA-NAMNDEN 2023-02-20"
+        },
+        "step_id": "ten-2023-02-20-s10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vägbidrag 2023"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.090 TEN",
+    "id": "a-2023-0089",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Arbete med systemhandling för ombyggnation av Nolhaga reningsverk återupptas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-02-20/protocol/protokoll-ten-2023-02-20-justeratpdf-18831?downloadMode=open",
+          "protocol_ref": "§11 TEKNISKA-NAMNDEN 2023-02-20"
+        },
+        "step_id": "ten-2023-02-20-s11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Återstart av systemhandling för ombyggnation av Nolhaga reningsverk"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.027 TEN",
+    "id": "a-2023-0090",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden utser Björn Albinsson (KD) till Alingsås kommuns representant i Göta älvs vattenvårdsförbund.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-02-20/protocol/protokoll-ten-2023-02-20-justeratpdf-18831?downloadMode=open",
+          "protocol_ref": "§12 TEKNISKA-NAMNDEN 2023-02-20"
+        },
+        "step_id": "ten-2023-02-20-s12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Representant till Göta älvs vattenvårdsförbund"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.017 TEN",
+    "id": "a-2023-0091",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att följande inkallelseordning skall gälla för ersättare i arbetsutskottet:",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-02-20/protocol/protokoll-ten-2023-02-20-justeratpdf-18831?downloadMode=open",
+          "protocol_ref": "§13 TEKNISKA-NAMNDEN 2023-02-20"
+        },
+        "step_id": "ten-2023-02-20-s13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Val till arbetsutskottet"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.001 TEN",
+    "id": "a-2023-0092",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-02-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-02-20/protocol/protokoll-ten-2023-02-20-justeratpdf-18831?downloadMode=open",
+          "protocol_ref": "§14 TEKNISKA-NAMNDEN 2023-02-20"
+        },
+        "step_id": "ten-2023-02-20-s14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.131 TEN",
+    "id": "a-2023-0093",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ekonomisk månadsuppföljning mars 2023 godkänns och förvaltningen uppdras att vid nämndsammanträdet i maj presentera en åtgärdsplan för att nå en ekonomi i balans.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§20 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-20-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomiuppföljning"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.111 TEN",
+    "id": "a-2023-0094",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden har tagit del av rapporten och delar i huvudsak de slutsatser som framkommer i rapporten. Tekniska nämnden har fått förbättrade förutsättningar att omhänderta dessa frågor när ärendena kring myndighetsutövning har renodlats och flyttats till en egen nämnd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§21 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-21-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsförvaltningens yttrande i tjänsteskrivelsen antas som Tekniska nämndens eget yttrande som svar på granskning av kommunens fastighetsunderhåll och hyressättning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§21 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-21-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revisionsrapport - Granskning av kommunens fastighetsunderhåll och hyressättning"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.015 TEN",
+    "id": "a-2023-0095",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att anta en gemensam lednings- och kommunikationsplan för samhällsstörningar och extraordinära händelser.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§22 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-22-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lednings- och kommunikationsplan för samhällsstörningar och extraordinära händelser Samhällsbyggnadsförvaltningen 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.126 TEN",
+    "id": "a-2023-0096",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Plan för uppföljning av privata utförare godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§23 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-23-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning av privata utförare"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.019 TEN",
+    "id": "a-2022-0033",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Leif Hansson",
+        "party": "s"
+      },
+      {
+        "name": "Camilla Stensson",
+        "party": "s"
+      },
+      {
+        "name": "Simon Waern",
+        "party": "s"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2022-09-07",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Leif Hansson (S), Camilla Stensson (S) och Simon Waern (S) har till kommunfullmäktige den 7 september 2022 lämnat en motion om att omvandla Savannen till stadspark.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§24 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-24-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2022-09-07",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Kommunfullmäktige beslutade den 7 september 2022, § 179, att lämna motionen till kommunstyrelsen förberedning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§24 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-24-kf-remiss",
+        "type": "beslut",
+        "voting": null
+      },
+      {
+        "date": "2022-10-05",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens arbetsutskott beslutade 5 oktober 2022, § 154, att motionen skulle remitteras till samhällsbyggnadsnämnden för beredning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§24 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-24-ksau-remiss",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2023-04-17",
+        "decision": "tillstyrker",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsförvaltningens park- och naturenhet anser att motionärernas förslag om omvandling av Savannen ligger i linje med hur man inom samhällsbyggnadsförvaltningen ser att platsen skulle kunna utvecklas i framtiden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§24 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-24-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2023-04-17",
+        "decision": "tillstyrker",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Förslag till beslut i kommunfullmäktige\nMotionen tillstyrks.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§24 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-24-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Motion gällande att omvandla Savannen till stadspark - Leif Hansson (S), Camilla Stensson (S) och Simon Waern (S)"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.084 TEN",
+    "id": "a-2023-0097",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner ett införande av en sommar- och en vintersäsong för uteserveringar i taxan.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§25 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-25-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Taxa för uteserveringar"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.140 TEN",
+    "id": "a-2023-0098",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att godkänna sommartorget och en begränsad del torghandel inom avgränsat område samt avstängning av allmän biltrafik under tidsperioden 19/6 - 4/9 enligt bifogad bilaga.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§26 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-26-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sommartorget 2023"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.128 TEN",
+    "id": "a-2023-0099",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ekhagegatans förlängning ges namnet Ekhagegatan. Den nya vägen inom ställverkets område ges namnet Ställverksgatan. Se bifogad karta för illustration.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§27 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-27-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Namnsättning inom Kavlås ängar"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.017 TEN",
+    "id": "a-2023-0100",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Om ledamot ej kan delta så kallas personlig ersättare in enligt följande:",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§28 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-28-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Justering av inkallelseordning till arbetsutskottet"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.001 TEN",
+    "id": "a-2023-0101",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-04-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-04-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-04-17/protocol/protokoll-ten-2023-04-17-justeratpdf-21976?downloadMode=open",
+          "protocol_ref": "§29 TEKNISKA-NAMNDEN 2023-04-17"
+        },
+        "step_id": "ten-29-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.131 TEN",
+    "id": "a-2023-0102",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-15",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Den fördjupade ekonomiska månadsuppföljningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§33 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-33-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Fördjupad månadsuppföljning"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.172 TEN",
+    "id": "a-2023-0103",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-15",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Handlingsplanen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§34 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-34-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk handlingsplan"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.076 TEN",
+    "id": "a-2023-0104",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-15",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Sammanfattningsvis anser Alingsås kommun att uppföljningen av trafikförsörjningsprogrammet utgör en tydlig sammanställning över såväl måluppfyllelse som besked om det pågående arbetet med strategier och utvecklingsområden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§35 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-35-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2023-05-15",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsförvaltningens yttrande antas och skickas som Tekniska nämndens svar till Göteborgsregionen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§35 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-35-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Årlig uppföljning trafikförsörjningsprogram"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.081 TEN",
+    "id": "a-2023-0105",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-05-15",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Förvaltningen ser överlag positivt på Västtrafiks förslag till utformning av seniorbiljetten.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§36 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-36-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2023-05-15",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsförvaltningens yttrande antas och skickas som Tekniska nämndens svar till Infrastruktur och kollektivtrafiknämnden.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§36 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-36-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Remiss utformning av seniorerbjudande Västtrafik"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.180 TEN",
+    "id": "a-2023-0106",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Amanda Andersson",
+        "party": "mp"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-02-22",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Amanda Andersson (MP) har till kommunfullmäktige 22 februari 2023, § 17, lämnat en motion om att inrätta en kemikalieplan.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§38 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-38-motion-inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2023-03-22",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens arbetsutskott beslutade 22 mars 2023, § 56, att remittera motionen till samhällsbyggnadsförvaltningen för beredning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§38 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-38-remiss",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2023-05-15",
+        "decision": "avstyrker",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsförvaltningen bedömer dock att framgång i kemikaliearbetet troligare uppnås genom en tydlig riktlinje, checklista eller vägledning, snarare än genom en handlingsplan.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§38 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-38-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2023-05-15",
+        "decision": "avslag",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Motionen avstyrks.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-05-15/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-05-15/protocol/protokoll-ten-2023-05-15-ssss32-3638-40pdf-53681?downloadMode=open",
+          "protocol_ref": "§38 TEKNISKA-NAMNDEN 2023-05-15"
+        },
+        "step_id": "ten-38-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion gällande att inrätta en kemikalieplan - Amanda Andersson (MP)"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.196 TEN",
+    "id": "a-2023-0107",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ny renhållningstaxa för 2024 godkänns. Förslag till beslut i kommunfullmäktige Ny renhållningstaxa fastställs och börjar gälla 1 januari 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§42 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-42-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Renhållningstaxa 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.194 TEN",
+    "id": "a-2023-0108",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "GIS-taxan antas. Förslag till beslut i kommunfullmäktige GIS-taxan fastställs och gäller från och med 2024-01-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§43 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-43-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "GIS-taxa 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.205 TEN",
+    "id": "a-2023-0109",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner undantaget från avgiftsfrihet. Förslag till beslut i kommunfullmäktige Undantaget godkänns och gäller som längst till och med 9 februari 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§44 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-44-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Undantag från avgiftsfrihet för särskilt värdefulla geodata"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.195 TEN",
+    "id": "a-2023-0110",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ny taxa för felparkeringsavgifter godkänns. Förslag till beslut i kommunfullmäktige Ny taxa för felparkeringsavgifter fastställs och börjar gälla den 1 oktober 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§45 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-45-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Felparkeringsavgifter - ändrad avgiftsnivå"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.086 TEN",
+    "id": "a-2023-0111",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Förslag till beslut i kommunfullmäktige Tekniska nämnden får besluta om den årliga indexuppräkningen av egenavgifter i färdtjänsttaxan.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§46 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-46-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegation från KF - indexuppräkning egenavgifter färdtjänst"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.167 TEN",
+    "id": "a-2023-0112",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att ställa ut förslaget till reviderade avfallsföreskrifter för Alingsås kommun.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§47 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-47-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av Alingsås kommuns avfallsföreskrifter"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.176 TEN",
+    "id": "a-2023-0113",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ny VA-taxa för 2024 godkänns. Den nya taxan innebär 16 % höjning av brukningsavgifterna och 5,9 % höjning av anläggningsavgifterna (enligt index).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§48 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-48-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "VA-taxa 2024"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": null,
+    "id": "a-2023-0114",
+    "initiativ_typ": "initiativarende",
+    "initiators": [
+      {
+        "name": "Ellinor Silverberg",
+        "party": "v"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-06-19",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ellinor Silverberg (V) väcker följande ärende: Vänsterpartiet har fått till sig önskemål från medborgare om förbättringar av handikappanpassning av lekplatser i kommunen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§52 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-52-vackt",
+        "type": "initiativarende_vackt",
+        "voting": null
+      },
+      {
+        "date": "2023-06-19",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Nämnden ger förvaltningen i uppdrag att undersöka tillgängligheten på kommunens lekplatser enligt texten ovan samt återkomma med svar på hur en förbättrad dialog med medborgarna kan ske inför upprustning av lekplatser.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-06-19/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-06-19/protocol/protokoll-ten-2023-06-19-justeratpdf-20802?downloadMode=open",
+          "protocol_ref": "§52 TEKNISKA-NAMNDEN 2023-06-19"
+        },
+        "step_id": "ten-52-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Extra ärende - Öka tillgängligheten på kommunens lekplatser - Ellinor Silverberg (V)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.199 TEN",
+    "id": "a-2023-0115",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-08-28",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Vattentjänstplanen på lämpligt sätt och i skälig omfattning samrådes med fastighetsägare och de myndigheter som kan antas ha ett väsentligt intresse av planen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-08-28/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-08-28/protocol/protokoll-ten-2023-08-28-justeratpdf-99220?downloadMode=open",
+          "protocol_ref": "§54 TEKNISKA-NAMNDEN 2023-08-28"
+        },
+        "step_id": "ten-2023-08-28-54-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vattentjänstplan samrådshandling"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.001 TEN",
+    "id": "a-2023-0116",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-08-28",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-08-28/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-08-28/protocol/protokoll-ten-2023-08-28-justeratpdf-99220?downloadMode=open",
+          "protocol_ref": "§55 TEKNISKA-NAMNDEN 2023-08-28"
+        },
+        "step_id": "ten-2023-08-28-55-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.002 TEN",
+    "id": "a-2023-0117",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-08-28",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "§ 56 2023.002 TEN\nMeddelanden 2023\nParagrafen är justerad",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-08-28/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-08-28/protocol/protokoll-ten-2023-08-28-justeratpdf-99220?downloadMode=open",
+          "protocol_ref": "§56 TEKNISKA-NAMNDEN 2023-08-28"
+        },
+        "step_id": "ten-2023-08-28-56-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Meddelanden 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.229 TEN",
+    "id": "a-2023-0118",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-10-16",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Arbetsutskottet har behandlat ärendet under sitt sammanträde 16 oktober, §41.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-10-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-10-23/protocol/protokoll-ten-2023-10-23-ss64pdf-13850?downloadMode=open",
+          "protocol_ref": "§64 TEKNISKA-NAMNDEN 2023-10-23"
+        },
+        "step_id": "ten-2023-10-23-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2023-10-23",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Revisionsenkäten godkänns och översänds till revisorerna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-10-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-10-23/protocol/protokoll-ten-2023-10-23-ss64pdf-13850?downloadMode=open",
+          "protocol_ref": "§64 TEKNISKA-NAMNDEN 2023-10-23"
+        },
+        "step_id": "ten-2023-10-23-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Grundläggande granskning 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.131 TEN",
+    "id": "a-2023-0119",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner månadsrapporten för oktober 2023.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf-84799?downloadMode=open",
+          "protocol_ref": "§74 TEKNISKA-NAMNDEN 2023-11-20"
+        },
+        "step_id": "ten-74-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomiuppföljning"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.263 TEN",
+    "id": "a-2023-0120",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Färdtjänsttaxan höjs med 7,58 procent enligt index från och med 1 januari 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf-84799?downloadMode=open",
+          "protocol_ref": "§75 TEKNISKA-NAMNDEN 2023-11-20"
+        },
+        "step_id": "ten-75-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Indexuppräkning färdtjänsttaxa"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.282 TEN",
+    "id": "a-2023-0121",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att godkänna en tillfällig flytt av torghandeln till norr om Stora Torget, på södra sidan Kungsgatan, under perioden 1/11 2023 – 21/2 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf-84799?downloadMode=open",
+          "protocol_ref": "§76 TEKNISKA-NAMNDEN 2023-11-20"
+        },
+        "step_id": "ten-76-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Tillfällig flytt av torghandel"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.267 TEN",
+    "id": "a-2023-0122",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Sammanträdesdagar för tekniska nämndens arbetsutskott och tekniska nämnden 2024 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf-84799?downloadMode=open",
+          "protocol_ref": "§77 TEKNISKA-NAMNDEN 2023-11-20"
+        },
+        "step_id": "ten-77-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider 2024"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.248 TEN",
+    "id": "a-2023-0123",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att ge samhällsbyggnadsförvaltningen i uppdrag att genomföra en undersökande process för Stora torget med utgångspunkt i varsamhet och småskaliga åtgärder.",
+        "reservations": [
+          {
+            "parties": [
+              "sd"
+            ],
+            "quote": "Boris Jernskiegg (SD) reserverar sig mot beslutet till förmån för eget förslag med motiveringen: I en tid då inflationen är hög och kommunen inte klarar sina ekonomiska mål föreslår förvaltningen en lyxrenovering av Stora torget."
+          },
+          {
+            "parties": [
+              "c"
+            ],
+            "quote": "Björn Källhult (C) reserverar sig mot förslaget till förmån för eget förslag."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf-84799?downloadMode=open",
+          "protocol_ref": "§78 TEKNISKA-NAMNDEN 2023-11-20"
+        },
+        "step_id": "ten-78-beslut",
+        "type": "beslut",
+        "voting": {
+          "question": "Ja-röst för bifall till arbetsutskottets förslag. Nej-röst för bifall till Boris Jernskieggs förslag.",
+          "recorded": true,
+          "result": {
+            "avstar": 0,
+            "ja": 7,
+            "nej": 2
+          }
+        }
+      }
+    ],
+    "title": "Projekt Stora torget – utformning"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.001 TEN",
+    "id": "a-2023-0124",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-20",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf-84799?downloadMode=open",
+          "protocol_ref": "§79 TEKNISKA-NAMNDEN 2023-11-20"
+        },
+        "step_id": "ten-79-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.002 TEN",
+    "id": "a-2023-0125",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-11-20",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "§189 2022.638 KS Alingsås kommuns policy för funktionshindersfrågor\n• §192 2022.397 KS svar på motion gällande att omvandla Savannen till stadspark\n• §182 2023.017 KS Delårsbokslut 2023 för Alingsås kommun\n• Synpunkt 21 oktober angående parkeringsplatser",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-11-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-11-20/protocol/protokoll-ten-2023-11-20-justeratpdf-84799?downloadMode=open",
+          "protocol_ref": "§80 TEKNISKA-NAMNDEN 2023-11-20"
+        },
+        "step_id": "ten-80-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Meddelanden 2023"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.265 TEN",
+    "id": "a-2023-0126",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner beslutsattestanter och deras ersättare, godkännare, kodintervall (ansvar i kombination med verksamhet), samt attestbelopp, enligt bifogad förteckning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-12-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-12-18/protocol/protokoll-ten-2023-12-18-justeradpdf-81066?downloadMode=open",
+          "protocol_ref": "§83 TEKNISKA-NAMNDEN 2023-12-18"
+        },
+        "step_id": "ten-83-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Attestlista 2024"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.292 TEN",
+    "id": "a-2023-0127",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ny tilläggstaxa för 2024 godkänns. Förslag till beslut i kommunfullmäktige Ny tilläggstaxa fastställs och börjar gälla 1 mars 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-12-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-12-18/protocol/protokoll-ten-2023-12-18-justeradpdf-81066?downloadMode=open",
+          "protocol_ref": "§84 TEKNISKA-NAMNDEN 2023-12-18"
+        },
+        "step_id": "ten-84-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Tilläggstaxa avfall 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.274 TEN",
+    "id": "a-2023-0128",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att fortsätta med seniorerbjudandet med samma utformning som tidigare avtal. Beslutet omfattar därmed att seniorerbjudandet gäller för alla kommuninvånare som är 65 år eller äldre, samt att biljetten är giltig dygnet runt.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-12-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-12-18/protocol/protokoll-ten-2023-12-18-justeradpdf-81066?downloadMode=open",
+          "protocol_ref": "§85 TEKNISKA-NAMNDEN 2023-12-18"
+        },
+        "step_id": "ten-85-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Seniorkort Västtrafik"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.276 TEN",
+    "id": "a-2023-0129",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Den nya vägen ges namnet Torparestigen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-12-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-12-18/protocol/protokoll-ten-2023-12-18-justeradpdf-81066?downloadMode=open",
+          "protocol_ref": "§86 TEKNISKA-NAMNDEN 2023-12-18"
+        },
+        "step_id": "ten-86-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Namnsättning av gata vid Hultebacka/Norsesund"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.277 TEN",
+    "id": "a-2023-0130",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Den nya vägen ges namnet Kärrbohöjdsvägen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-12-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-12-18/protocol/protokoll-ten-2023-12-18-justeradpdf-81066?downloadMode=open",
+          "protocol_ref": "§87 TEKNISKA-NAMNDEN 2023-12-18"
+        },
+        "step_id": "ten-87-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Namnsättning av gata vid Hemsjö-Kärret/Kärrbogärde"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.278 TEN",
+    "id": "a-2023-0131",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2023-12-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Den nya rondellen ges namnet Viktoriarondellen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2023-12-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2023-12-18/protocol/protokoll-ten-2023-12-18-justeradpdf-81066?downloadMode=open",
+          "protocol_ref": "§88 TEKNISKA-NAMNDEN 2023-12-18"
+        },
+        "step_id": "ten-88-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Namnsättning av rondell vid Viktoriagatan/Västra Ringgatan"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2023.318 TEN",
+    "id": "a-2024-0099",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-01-22",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Egenavgiften för en RIAK-biljett höjs till 101 kr för alla färdtjänstresenärer, oavsett ålder, i enlighet med Riksfärdtjänst Sverige AB:s riktlinjer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-01-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-01-22/protocol/protokoll-ten-2024-01-22-justeradpdf-99265?downloadMode=open",
+          "protocol_ref": "§2 TEKNISKA-NAMNDEN 2024-01-22"
+        },
+        "step_id": "ten-2024-01-22-s2-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Egenavgift för resa i annan kommun (RIAK)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.306 TEN",
+    "id": "a-2024-0100",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-01-22",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner Revideringen av riktlinjer för stadsnära odling på allmän plats i Alingsås kommun",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-01-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-01-22/protocol/protokoll-ten-2024-01-22-justeradpdf-99265?downloadMode=open",
+          "protocol_ref": "§3 TEKNISKA-NAMNDEN 2024-01-22"
+        },
+        "step_id": "ten-2024-01-22-s3-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer för stadsnära odling på allmän plats i Alingsås kommun"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2023.131 TEN",
+    "id": "a-2024-0101",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Årsbokslut 2023 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-02-21/protocol/protokoll-ten-2024-02-21-justeratpdf-20260?downloadMode=open",
+          "protocol_ref": "§7 TEKNISKA-NAMNDEN 2024-02-21"
+        },
+        "step_id": "ten-2024-02-21-s7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Årsbokslut 2023"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.331 TEN",
+    "id": "a-2024-0102",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Plan för uppföljning av privata utförare 2024 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-02-21/protocol/protokoll-ten-2024-02-21-justeratpdf-20260?downloadMode=open",
+          "protocol_ref": "§8 TEKNISKA-NAMNDEN 2024-02-21"
+        },
+        "step_id": "ten-2024-02-21-s8-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för uppföljning av privata utförare"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.199 TEN",
+    "id": "a-2024-0103",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-02-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Vattentjänstplanen medför inte betydande miljöpåverkan och förslag till vattentjänstplan godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-02-21/protocol/protokoll-ten-2024-02-21-justeratpdf-20260?downloadMode=open",
+          "protocol_ref": "§9 TEKNISKA-NAMNDEN 2024-02-21"
+        },
+        "step_id": "ten-2024-02-21-s9-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vattentjänstplan (se 2023.198 TEN)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.016 TEN",
+    "id": "a-2024-0104",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden beslutar att anta Alingsås stadsmiljöprogram.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-02-21/protocol/protokoll-ten-2024-02-21-justeratpdf-20260?downloadMode=open",
+          "protocol_ref": "§10 TEKNISKA-NAMNDEN 2024-02-21"
+        },
+        "step_id": "ten-2024-02-21-s10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Stadsmiljöprogrammet"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0105",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-02-21/protocol/protokoll-ten-2024-02-21-justeratpdf-20260?downloadMode=open",
+          "protocol_ref": "§11 TEKNISKA-NAMNDEN 2024-02-21"
+        },
+        "step_id": "ten-2024-02-21-s11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.002 TEN",
+    "id": "a-2024-0106",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-02-21",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "§ 236 2023.395 KS Revidering av Alingsås kommuns avfallsföreskrifter",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-02-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-02-21/protocol/protokoll-ten-2024-02-21-justeratpdf-20260?downloadMode=open",
+          "protocol_ref": "§12 TEKNISKA-NAMNDEN 2024-02-21"
+        },
+        "step_id": "ten-2024-02-21-s12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Meddelanden 2024"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.082 TEN",
+    "id": "a-2024-0107",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-03-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden antar prioriteringskriterierna för cykelvägar på landsbygd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-03-18/protocol/protokoll-ten-2024-03-18-justeradpdf-63545?downloadMode=open",
+          "protocol_ref": "§14 TEKNISKA-NAMNDEN 2024-03-18"
+        },
+        "step_id": "ten-2024-03-18-14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Cykelplan"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.042 TEN",
+    "id": "a-2024-0108",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-03-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Förslaget att utvidga verksamhetsområde Kavlås ängar i enlighet med kartbilaga 1 och fastighetslista bilaga 2 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-03-18/protocol/protokoll-ten-2024-03-18-justeradpdf-63545?downloadMode=open",
+          "protocol_ref": "§15 TEKNISKA-NAMNDEN 2024-03-18"
+        },
+        "step_id": "ten-2024-03-18-15-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kavlås ängar- Utvidgning av verksamhetsområde för allmän dricksvatten-, spillvatten- och dagvattenanläggning"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.026 TEN",
+    "id": "a-2024-0109",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-03-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden utser Björn Albinson (KD) till Alingsås kommuns representant i Göta älvs vattenvårdsförbund för hela mandatperioden, till och med 2026-12-31.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-03-18/protocol/protokoll-ten-2024-03-18-justeradpdf-63545?downloadMode=open",
+          "protocol_ref": "§16 TEKNISKA-NAMNDEN 2024-03-18"
+        },
+        "step_id": "ten-2024-03-18-16-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Representant till Göta älvs vattenvårdsförbund"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0110",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-03-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-03-18/protocol/protokoll-ten-2024-03-18-justeradpdf-63545?downloadMode=open",
+          "protocol_ref": "§17 TEKNISKA-NAMNDEN 2024-03-18"
+        },
+        "step_id": "ten-2024-03-18-17-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": null,
+    "id": "a-2024-0111",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-03-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Nämnden ger förvaltningen i uppdrag att uppdatera riktlinjer för färdtjänst.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-03-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-03-18/protocol/protokoll-ten-2024-03-18-justeradpdf-63545?downloadMode=open",
+          "protocol_ref": "§19 TEKNISKA-NAMNDEN 2024-03-18"
+        },
+        "step_id": "ten-2024-03-18-19-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Extra ärende - Riktlinjer för färdtjänst"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.059 TEN",
+    "id": "a-2024-0112",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-04-22",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden godkänner månadsrapporten för mars 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-04-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-04-22/protocol/protokoll-skapad-ten-2024-04-26-151038pdf-51964?downloadMode=open",
+          "protocol_ref": "§21 TEKNISKA-NAMNDEN 2024-04-22"
+        },
+        "step_id": "ten-2024-04-22-21-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomiuppföljining"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.041 TEN",
+    "id": "a-2024-0113",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-04-22",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "Boris Jernskiegg"
+            ],
+            "quote": "Att omvandla Konduktörsgatan till cykelgata är ett förvaltningsprojekt som jag i allra högsta grad ogillar."
+          },
+          {
+            "parties": [
+              "Björn Källhult"
+            ],
+            "quote": "Nyttan av omvandling känns onödig då p-platser minskar och det finns bra alternativa färdvägar...t.ex v. Långgatan."
+          }
+        ],
+        "quote": "Tekniska nämnden beslutar att anta en lokal trafikföreskrift för Cykelgata längs Konduktörsgatan.",
+        "reservations": [
+          {
+            "parties": [
+              "Boris Jernskiegg"
+            ],
+            "quote": "Härmed reserverar jag mig mot beslutet att ändra den lokala trafikföreskriften för Konduktörsgatan och projektet med att omvandla Konduktörsgatan till cykelgata. Att göra detta på prov, eller på riktigt, är slöseri med skattemedel och inte i enlighet med min uppfattning om vare sig trafiksäkerhet eller sparsamhet med invånarnas pengar."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-04-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-04-22/protocol/protokoll-skapad-ten-2024-04-26-151038pdf-51964?downloadMode=open",
+          "protocol_ref": "§22 TEKNISKA-NAMNDEN 2024-04-22"
+        },
+        "step_id": "ten-2024-04-22-22-beslut",
+        "type": "beslut",
+        "voting": {
+          "question": "Ja-röst för bifall till arbetsutskottets förslag. Nej-röst för bifall till Boris Jernskieggs förslag.",
+          "recorded": true,
+          "result": {
+            "avstar": 0,
+            "ja": 7,
+            "nej": 2
+          }
+        }
+      }
+    ],
+    "title": "Cykelgata Konduktörsgatan"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0114",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-04-22",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-04-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-04-22/protocol/protokoll-skapad-ten-2024-04-26-151038pdf-51964?downloadMode=open",
+          "protocol_ref": "§23 TEKNISKA-NAMNDEN 2024-04-22"
+        },
+        "step_id": "ten-2024-04-22-23-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2023.080 TEN",
+    "id": "a-2024-0115",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-05-13",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Förslag att färdigställa projektering av systemhandling för Nolhaga reningsverk för att därefter genomföra ombyggnation av Nolhaga reningsverk godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-05-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-05-13/protocol/protokoll-skapad-ten-2024-05-13-190419pdf-57950?downloadMode=open",
+          "protocol_ref": "§27 TEKNISKA-NAMNDEN 2024-05-13"
+        },
+        "step_id": "ten-2024-05-13-27-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Utredning av Alingsås kommuns framtida avloppsförsörjning (se 2022.435 SBN)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.091 TEN",
+    "id": "a-2024-0116",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-05-13",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Alingsås kommuns parkeringsnorm för bostäder och verksamheter antas",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-05-13/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-05-13/protocol/protokoll-skapad-ten-2024-05-13-190419pdf-57950?downloadMode=open",
+          "protocol_ref": "§28 TEKNISKA-NAMNDEN 2024-05-13"
+        },
+        "step_id": "ten-2024-05-13-28-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Revidering av parkeringsnorm"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.111 TEN",
+    "id": "a-2024-0117",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-06-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "VA-taxa för 2025 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf-57363?downloadMode=open",
+          "protocol_ref": "§34 TEKNISKA-NAMNDEN 2024-06-17"
+        },
+        "step_id": "ten-2024-06-17-34-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "VA-taxa 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.100 TEN",
+    "id": "a-2024-0118",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-06-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Taxa för upplåtelse av offentlig plats i Alingsås kommun godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf-57363?downloadMode=open",
+          "protocol_ref": "§35 TEKNISKA-NAMNDEN 2024-06-17"
+        },
+        "step_id": "ten-2024-06-17-35-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ändring av Taxa för upplåtelse av offentlig plats Alingsås kommun 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.065 TEN",
+    "id": "a-2024-0119",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-06-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Taxa för handläggning av trafikanordningsplaner och grävtillstånd i Alingsås kommun vid utnyttjande av kommunal gatumiljö godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf-57363?downloadMode=open",
+          "protocol_ref": "§36 TEKNISKA-NAMNDEN 2024-06-17"
+        },
+        "step_id": "ten-2024-06-17-36-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Taxa - Trafikanordningsplaner och grävtillstånd 2025"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.119 TEN",
+    "id": "a-2024-0120",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-06-17",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet utgår.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf-57363?downloadMode=open",
+          "protocol_ref": "§37 TEKNISKA-NAMNDEN 2024-06-17"
+        },
+        "step_id": "ten-2024-06-17-37-utgar",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av lokala trafikföreskrifter för tättbebyggt område"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.118 TEN",
+    "id": "a-2024-0121",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-06-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Plan för hantering av samhällsstörningar och extraordinära händelser SBF 2024 godkänns (planen träder i kraft först när den godkänts i både TEN och BMN).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf-57363?downloadMode=open",
+          "protocol_ref": "§38 TEKNISKA-NAMNDEN 2024-06-17"
+        },
+        "step_id": "ten-2024-06-17-38-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Plan för hantering av samhällsstörningar och extraordinära händelser SBF 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0122",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-06-17",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf-57363?downloadMode=open",
+          "protocol_ref": "§39 TEKNISKA-NAMNDEN 2024-06-17"
+        },
+        "step_id": "ten-2024-06-17-39-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.002 TEN",
+    "id": "a-2024-0123",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-06-17",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "§103 2024.211 KS Uppföljning av Alingsås kommuns Riktlinjer för tjänsteresor år 2022-2023",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-06-17/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-06-17/protocol/protokoll-skapad-ten-2024-06-24-104142pdf-57363?downloadMode=open",
+          "protocol_ref": "§40 TEKNISKA-NAMNDEN 2024-06-17"
+        },
+        "step_id": "ten-2024-06-17-40-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Meddelanden 2024"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.013 TEN",
+    "id": "a-2023-0132",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Heidi Hankanen Ängberg",
+        "party": "c"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2023-12-13",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Heidi Hankanen Ängberg (C) har till kommunfullmäktige den 13 december 2023, § 242 lämnat en motion om att utreda möjligheten till att göra kommunala tillköp av busstrafik mellan tätort och landsbygd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open",
+          "protocol_ref": "§42 TEKNISKA-NAMNDEN 2024-08-26"
+        },
+        "step_id": "motion_inlamnad",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2024-08-26",
+        "decision": "avstyrker",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Förvaltningens samlade bedömning är att motionen avstyrks, i och med det nya avtal som startar i juni 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open",
+          "protocol_ref": "§42 TEKNISKA-NAMNDEN 2024-08-26"
+        },
+        "step_id": "namndyttrande_ten",
+        "type": "namndyttrande",
+        "voting": null
+      }
+    ],
+    "title": "Motion gällande ökning av antalet bussturer mellan tätort och landsbygd - Heidi Hankanen Ängberg (C)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2023.332 TEN",
+    "id": "a-2024-0124",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-08-26",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Den reviderade delegationsordningen godkänns och träder i kraft 1 september 2024.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open",
+          "protocol_ref": "§43 TEKNISKA-NAMNDEN 2024-08-26"
+        },
+        "step_id": "beslut_ten",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning Tekniska nämnden"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.147 TEN",
+    "id": "a-2024-0125",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-08-26",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Genomlysning 2024 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open",
+          "protocol_ref": "§44 TEKNISKA-NAMNDEN 2024-08-26"
+        },
+        "step_id": "beslut_ten",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Genomlysning samhällsbyggnadsförvaltningen"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.112 TEN",
+    "id": "a-2024-0126",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-08-26",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "GIS-taxa 2025 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open",
+          "protocol_ref": "§45 TEKNISKA-NAMNDEN 2024-08-26"
+        },
+        "step_id": "beslut_ten",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "GIS-taxa 2025"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.158 TEN",
+    "id": "a-2024-0127",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-08-26",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ny renhållningstaxa för 2025 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open",
+          "protocol_ref": "§46 TEKNISKA-NAMNDEN 2024-08-26"
+        },
+        "step_id": "beslut_ten",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Renhållningstaxa 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0128",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-08-26",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-08-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-08-26/protocol/protokoll-skapad-ten-2024-08-29-132809pdf-60508?downloadMode=open",
+          "protocol_ref": "§47 TEKNISKA-NAMNDEN 2024-08-26"
+        },
+        "step_id": "beslut_ten",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2023.079 TEN",
+    "id": "a-2024-0129",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-09-23",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "De nya principerna för kommunalt vägbidrag godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-09-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-09-23/protocol/protokoll-skapad-ten-2024-09-26-165929pdf-31361?downloadMode=open",
+          "protocol_ref": "§52 TEKNISKA-NAMNDEN 2024-09-23"
+        },
+        "step_id": "ten-2024-09-23-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ny utbetalningsprincip för kommunalt vägbidrag"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.170 TEN",
+    "id": "a-2024-0130",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-10-07",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "-"
+            ],
+            "quote": "Boris Jernskiegg (obunden) lämnar följande protokollsanteckning: Kommunen har beslutat om ett nytt kommunhus i Kabom, vilken i detta nu håller på att byggas om för att tillgodose det kommunala behovet av lokaler."
+          }
+        ],
+        "quote": "Investeringsbudget på 2 500 miljoner kronor (2,5 miljarder kronor) för ombyggnationen av Nolhaga reningsverk godkänns. Budgeten omfattar alla moment från förstudie och projektering till byggnation och färdigställande av nytt avloppsreningsverk.",
+        "reservations": [
+          {
+            "parties": [
+              "-"
+            ],
+            "quote": "Boris Jernskiegg (obunden) reserverar sig mot beslutet till förmån för eget förslag."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-10-07/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-10-07/protocol/protokoll-ten-2024-10-07-ss-56pdf-65535?downloadMode=open",
+          "protocol_ref": "§56 TEKNISKA-NAMNDEN 2024-10-07"
+        },
+        "step_id": "ten-2024-10-07-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Projektbudget nya Nolhaga reningsverk"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.188 TEN",
+    "id": "a-2024-0131",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Sammanträdesdagar för tekniska nämndens arbetsutskott och tekniska nämnden 2025 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-10-21/protocol/protokoll-skapad-ten-2024-10-23-140720pdf-65906?downloadMode=open",
+          "protocol_ref": "§58 TEKNISKA-NAMNDEN 2024-10-21"
+        },
+        "step_id": "ten-58-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sammanträdestider 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.162 TEN",
+    "id": "a-2024-0132",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Revisionsenkäten godkänns och översänds till revisorerna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-10-21/protocol/protokoll-skapad-ten-2024-10-23-140720pdf-65906?downloadMode=open",
+          "protocol_ref": "§59 TEKNISKA-NAMNDEN 2024-10-21"
+        },
+        "step_id": "ten-59-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Grundläggande granskning 2024"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2024.171 TEN",
+    "id": "a-2024-0133",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Sluttäckning av Bälinge deponi ska ske under 15-20 års tid.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-10-21/protocol/protokoll-skapad-ten-2024-10-23-140720pdf-65906?downloadMode=open",
+          "protocol_ref": "§60 TEKNISKA-NAMNDEN 2024-10-21"
+        },
+        "step_id": "ten-60-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Inriktningsbeslut livslängd deponi"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0134",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-10-21",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-10-21/protocol/protokoll-skapad-ten-2024-10-23-140720pdf-65906?downloadMode=open",
+          "protocol_ref": "§61 TEKNISKA-NAMNDEN 2024-10-21"
+        },
+        "step_id": "ten-61-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.059 TEN",
+    "id": "a-2024-0135",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-11-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Månadsuppföljning oktober 2024 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-11-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-11-18/protocol/protokoll-skapad-ten-2024-11-21-102702pdf-36759?downloadMode=open",
+          "protocol_ref": "§63 TEKNISKA-NAMNDEN 2024-11-18"
+        },
+        "step_id": "ten-63-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomiuppföljining"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.190 TEN",
+    "id": "a-2024-0136",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-11-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Kvarteren i området får namnen: Rolfskulle, Bergsknallarna, Thorborg, Stenröset, Stensättningen, Bälingehed, Långhuset, Domarringen, Domarberget, Hällkistan. De nya gatorna i området får namnen: Soldattorpsgatan, Domarvägen, Stynaborgsgatan och Trulsagatan.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-11-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-11-18/protocol/protokoll-skapad-ten-2024-11-21-102702pdf-36759?downloadMode=open",
+          "protocol_ref": "§64 TEKNISKA-NAMNDEN 2024-11-18"
+        },
+        "step_id": "ten-64-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Namnsättning av kvartersmark och gator i Bälinge företagspark"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.161 TEN",
+    "id": "a-2024-0137",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-11-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Ordföranden ställer arbetsutskottets förslag mot Boris Jernskieggs förslag och finner att nämnden beslutar enligt arbetsutskottets förslag.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-11-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-11-18/protocol/protokoll-skapad-ten-2024-11-21-102702pdf-36759?downloadMode=open",
+          "protocol_ref": "§65 TEKNISKA-NAMNDEN 2024-11-18"
+        },
+        "step_id": "ten-65-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Namnsättning av gator och kvarter, Stadsskogen etapp 4"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2024.187 TEN",
+    "id": "a-2024-0138",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2024-11-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Förslaget till reviderade avfallsföreskrifter för Alingsås kommun går ut på utställning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-11-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-11-18/protocol/protokoll-skapad-ten-2024-11-21-102702pdf-36759?downloadMode=open",
+          "protocol_ref": "§66 TEKNISKA-NAMNDEN 2024-11-18"
+        },
+        "step_id": "ten-66-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av Alingsås kommuns avfallsföreskrifter 2025"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0139",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-11-18",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-11-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-11-18/protocol/protokoll-skapad-ten-2024-11-21-102702pdf-36759?downloadMode=open",
+          "protocol_ref": "§67 TEKNISKA-NAMNDEN 2024-11-18"
+        },
+        "step_id": "ten-67-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.002 TEN",
+    "id": "a-2024-0140",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-11-18",
+        "decision": null,
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "§ 68 2024.329 BUN Sammanträdestider för Barn- och ungdomsnämnden 2025 § 159 2024.369 KS Säkerhetsorganisationen 2023-Årlig rapport",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-11-18/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-11-18/protocol/protokoll-skapad-ten-2024-11-21-102702pdf-36759?downloadMode=open",
+          "protocol_ref": "§68 TEKNISKA-NAMNDEN 2024-11-18"
+        },
+        "step_id": "ten-68-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Meddelanden 2024"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2024.229 TEN",
+    "id": "a-2024-0141",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-16",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Budget 2025-2027 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-12-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-12-16/protocol/protokoll-skapad-ten-2024-12-17-144336pdf-97611?downloadMode=open",
+          "protocol_ref": "§70 TEKNISKA-NAMNDEN 2024-12-16"
+        },
+        "step_id": "ten-2024-12-16-70-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Budget 2025 - tekniska nämnden"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2024.250 TEN",
+    "id": "a-2024-0142",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-16",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Taxan lämnas oförändrad för år 2025.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-12-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-12-16/protocol/protokoll-skapad-ten-2024-12-17-144336pdf-97611?downloadMode=open",
+          "protocol_ref": "§71 TEKNISKA-NAMNDEN 2024-12-16"
+        },
+        "step_id": "ten-2024-12-16-71-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Indexuppräkning färdtjänsttaxa"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2024.001 TEN",
+    "id": "a-2024-0143",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2024-12-16",
+        "decision": "bifall",
+        "instance": "tekniska-namnden",
+        "protocol_anteckning": [],
+        "quote": "Tekniska nämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/tekniska-namnden/2024-12-16/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2024-12-16/protocol/protokoll-skapad-ten-2024-12-17-144336pdf-97611?downloadMode=open",
+          "protocol_ref": "§72 TEKNISKA-NAMNDEN 2024-12-16"
+        },
+        "step_id": "ten-2024-12-16-72-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2024"
   }
 ]
