@@ -951,3 +951,23 @@ LLM-anrop i onödan går inte att räkna ut i efterhand — bara att det nu är
 löst framåt. Ingen indikation hittills på att buggen orsakat felaktigt
 DUBBELPUBLICERADE ärenden (länknings-deduplikationen har skyddat mot det),
 bara onödig omarbetning.
+
+## 2026-07-24 — Fixat: findSeedMeetingUrl matchade fel fält (instance vs. pdf_url:ens sökväg)
+
+Backfill av kommunstyrelsen misslyckades tyst (0 möten hittade) trots
+att kommunstyrelsen redan hade publicerad data. Orsak:
+`findSeedMeetingUrl` letade efter ett steg där `step.instance ===
+committeeSlug`, och använde sedan DET stegets `pdf_url` som frö. Men ett
+stegs `instance` beskriver vilken instans som FATTADE BESLUTET — inte
+nödvändigtvis vilket protokoll källdokumentet faktiskt är. Många
+kommunstyrelse-steg extraheras ur ett KOMMUNFULLMÄKTIGE-protokoll (som
+återger vad KS beslutat i sin egen ärendebeskrivning), så `pdf_url`
+pekade mot en kommunfullmäktige-mötessida — helt korrekt i sig (det ÄR
+den verkliga källan för citatet), men fel att använda som frö för att
+hitta KOMMUNSTYRELSENS egen möteshistorik.
+
+**Fixat:** matcha istället mot om `pdf_url` självt innehåller
+`/committees/{committeeSlug}/` — det är den enda pålitliga signalen för
+vilken instans käll-DOKUMENTET faktiskt tillhör. Verifierat lokalt: gav
+tidigare `.../kommunfullmaktige/mote-2026-03-25` (fel), ger nu
+`.../kommunstyrelsen/mote-2026-06-15` (rätt). 122/122 tester gröna.

@@ -78,9 +78,17 @@ async function findSeedMeetingUrl(committeeSlug, explicitSeed) {
     const published = JSON.parse(publishedRaw);
     for (const arende of published) {
       for (const step of arende.steps ?? []) {
-        if (step.instance === committeeSlug && step.source?.pdf_url) {
-          // pdf_url: .../committees/{slug}/mote-ÅÅÅÅ-MM-DD/protocol/...pdf?...
-          // → mötessidans egen URL, utan /protocol/-delen.
+        // VIKTIGT FYND (2026-07-24, se DECISION_LOG.md): matcha mot
+        // pdf_url:ens EGEN sökväg (`/committees/{slug}/...`), INTE mot
+        // `step.instance`. Ett stegs `instance` beskriver vilken instans
+        // som FATTADE BESLUTET (t.ex. "kommunstyrelsen"), men källdokumentet
+        // (`pdf_url`) är ofta ett HELT ANNAT möte — typiskt ett
+        // kommunfullmäktige-protokoll som återger vad kommunstyrelsen
+        // beslutat i sin egen ärendebeskrivning. Att matcha på `instance`
+        // gav tidigare fel frö (en kommunfullmäktige-URL istället för en
+        // riktig kommunstyrelse-URL) och lät hela backfill-körningen tro
+        // att kommunstyrelsen hade noll möten.
+        if (step.source?.pdf_url?.includes(`/committees/${committeeSlug}/`)) {
           const match = /^(.*\/committees\/[^/]+\/mote-\d{4}-\d{2}-\d{2})\//.exec(step.source.pdf_url);
           if (match) return match[1];
         }
