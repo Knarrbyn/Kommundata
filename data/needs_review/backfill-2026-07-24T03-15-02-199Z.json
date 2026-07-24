@@ -1,0 +1,1093 @@
+[
+  {
+    "arende": {
+      "title": "Svar på motion gällande leksaksbibliotek i Alingsås för en socialt och ekologiskt hållbar stad - Martin Lindberg (V)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Martin Lindberg",
+          "party": "v"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2022.246 KS",
+      "steps": [
+        {
+          "step_id": "motion-inlamnad-157",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2022-04-27",
+          "quote": "Martin Lindberg (V) har till kommunfullmäktige den 27 april 2022, § 99 lämnat en motion gällande leksaksbibliotek i Alingsås för en socialt och ekologiskt hållbar stad.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§157 KOMMUNSTYRELSEN 2022-11-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2022-11-07/protocol/protokoll-kommunstyrelsen-7-november-2022pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ksau-remiss-157",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2022-05-25",
+          "quote": "Kommunstyrelsens arbetsutskott beslutade den 25 maj § 107 att remittera motionen till kultur- och utbildningsnämnden för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§157 KOMMUNSTYRELSEN 2022-11-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2022-11-07/protocol/protokoll-kommunstyrelsen-7-november-2022pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "namndyttrande-kun-157",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2022-09-21",
+          "quote": "Kultur- och utbildningsnämnden har den 21 september (§ 82) behandlat ärendet och lämnat följande svar sammanfattat: Förvaltningen konstaterar att motionärens förslag är resurskrävande, såväl i fråga om material och föremål, medarbetare och kompetens samt att hitta en lämplig lokal eller mötesplats.",
+          "decision": "avstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§157 KOMMUNSTYRELSEN 2022-11-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2022-11-07/protocol/protokoll-kommunstyrelsen-7-november-2022pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ksau-beredning-157",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2022-10-26",
+          "quote": "Kommunstyrelsens arbetsutskott har den 26 oktober 2022, § 170 behandlat ärendet och lämnat följande förslag till beslut: Motionen avslås.",
+          "decision": "avslag",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§157 KOMMUNSTYRELSEN 2022-11-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2022-11-07/protocol/protokoll-kommunstyrelsen-7-november-2022pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-beslut-157",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2022-11-07",
+          "quote": "Ordföranden ställer förslagen mot varandra och finner att kommunstyrelsen beslutar att bifalla arbetsutskottets förslag till beslut. Förslag till beslut i kommunfullmäktige Motionen avslås.",
+          "decision": "avslag",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§157 KOMMUNSTYRELSEN 2022-11-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2022-11-07/protocol/protokoll-kommunstyrelsen-7-november-2022pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "motion-inlamnad-157",
+        "field": "quote",
+        "quote": "Martin Lindberg (V) har till kommunfullmäktige den 27 april 2022, § 99 lämnat en motion gällande leksaksbibliotek i Alingsås för en socialt och ekologiskt hållbar stad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ksau-remiss-157",
+        "field": "quote",
+        "quote": "Kommunstyrelsens arbetsutskott beslutade den 25 maj § 107 att remittera motionen till kultur- och utbildningsnämnden för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "namndyttrande-kun-157",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden har den 21 september (§ 82) behandlat ärendet och lämnat följande svar sammanfattat: Förvaltningen konstaterar att motionärens förslag är resurskrävande, såväl i fråga om material och föremål, medarbetare och kompetens samt att hitta en lämplig lokal eller mötesplats.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ksau-beredning-157",
+        "field": "quote",
+        "quote": "Kommunstyrelsens arbetsutskott har den 26 oktober 2022, § 170 behandlat ärendet och lämnat följande förslag till beslut: Motionen avslås.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-beslut-157",
+        "field": "quote",
+        "quote": "Ordföranden ställer förslagen mot varandra och finner att kommunstyrelsen beslutar att bifalla arbetsutskottets förslag till beslut. Förslag till beslut i kommunfullmäktige Motionen avslås.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Markanvisning avseende del av Lövekulle 1:6 och 1:7",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2022.441 KS",
+      "steps": [
+        {
+          "step_id": "ksau-beredning-169",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2022-10-26",
+          "quote": "Kommunstyrelsen har den 26 oktober 2022, § 183 behandlat ärendet och lämnat följande förslag till beslut: Tillväxtchef ges i uppdrag att upprätta och underteckna markanvisningsavtal med fastighetsägaren till Lövekulle 1:12 avseende del av fastigheterna Lövekulle 1:6 och 1:7.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§169 KOMMUNSTYRELSEN 2022-11-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2022-11-07/protocol/protokoll-kommunstyrelsen-7-november-2022pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-beslut-169",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2022-11-07",
+          "quote": "Ordförande ställer förslagen att avslå ärendet mot arbetsutskottets förslag till beslut och finner att kommunstyrelsen beslutar bifalla arbetsutskottets förslag till beslut. Beslut Tillväxtchef får i uppdrag att upprätta och underteckna markanvisningsavtal med fastighetsägaren till Lövekulle 1:12 avseende del av fastigheterna Lövekulle 1:6 och 1:7.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "mp",
+                "sd",
+                "v"
+              ],
+              "quote": "Anna Hansson (MP), Boris Jernskiegg (SD), Jill Holm (SD) och Martin Lindberg (V) reserverar sig mot beslutet."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "sd"
+              ],
+              "quote": "Sverigedemokraterna värnar kultur och miljö. Vi förordar småskalighet. Vi anser inte att området mellan järnvägen och Mjörn som kallas \"Mjörnstranden\" ska exploateras med nya stora bostadsområden."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§169 KOMMUNSTYRELSEN 2022-11-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2022-11-07/protocol/protokoll-kommunstyrelsen-7-november-2022pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ksau-beredning-169",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 26 oktober 2022, § 183 behandlat ärendet och lämnat följande förslag till beslut: Tillväxtchef ges i uppdrag att upprätta och underteckna markanvisningsavtal med fastighetsägaren till Lövekulle 1:12 avseende del av fastigheterna Lövekulle 1:6 och 1:7.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-beslut-169",
+        "field": "quote",
+        "quote": "Ordförande ställer förslagen att avslå ärendet mot arbetsutskottets förslag till beslut och finner att kommunstyrelsen beslutar bifalla arbetsutskottets förslag till beslut. Beslut Tillväxtchef får i uppdrag att upprätta och underteckna markanvisningsavtal med fastighetsägaren till Lövekulle 1:12 avseende del av fastigheterna Lövekulle 1:6 och 1:7.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-beslut-169",
+        "field": "reservation[mp+sd+v]",
+        "quote": "Anna Hansson (MP), Boris Jernskiegg (SD), Jill Holm (SD) och Martin Lindberg (V) reserverar sig mot beslutet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-beslut-169",
+        "field": "protocol_anteckning[sd]",
+        "quote": "Sverigedemokraterna värnar kultur och miljö. Vi förordar småskalighet. Vi anser inte att området mellan järnvägen och Mjörn som kallas \"Mjörnstranden\" ska exploateras med nya stora bostadsområden.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Revidering av Regler för flaggning i Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.096 KS",
+      "steps": [
+        {
+          "step_id": "ks-54-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-03-22",
+          "quote": "Kommunstyrelsens arbetsutskott har den 22 mars 2023, § 46 behandlat ärendet och lämnat följande förslag till beslut: Reviderade Regler för flaggning i Alingsås kommun antas, med följande ändringar:",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§54 KOMMUNSTYRELSEN 2023-04-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2023-04-03/protocol/protokoll-kommunstyrelsen-3-april-2023pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-54-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2023-04-03",
+          "quote": "Reviderade Regler för flaggning i Alingsås kommun antas, med följande ändringar:\n1. Sista meningen under avsnitt 3.5, \"Flaggning med vimpel\" ändras till:\n\"Vimpel ska ha två längsgående fält i gult och blått och hissas med det blå fältet överst.\"",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [
+            {
+              "parties": [
+                "sd"
+              ],
+              "quote": "Mats Bjelkemyr (SD) reserverar sig till förmån för eget förslag."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Miljöpartiet kämpar för att stärka och synliggöra Sveriges nationella minoriteter. Miljöpartiet anser att Alingsås kommun bör arbeta med att sprida kunskap om Sveriges nationella minoriteters språk och kultur, samt arbeta aktivt med inkludering."
+            },
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Sveriges nationella minoriteter är judar, romer, samer, sverigefinnar och tornedalingar. De nationella minoriteterna har funnits i landet under lång tid och minoriteternas språk och kultur är en del av det gemensamma kulturarvet."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§54 KOMMUNSTYRELSEN 2023-04-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2023-04-03/protocol/protokoll-kommunstyrelsen-3-april-2023pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-54-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsens arbetsutskott har den 22 mars 2023, § 46 behandlat ärendet och lämnat följande förslag till beslut: Reviderade Regler för flaggning i Alingsås kommun antas, med följande ändringar:",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-54-beslut",
+        "field": "quote",
+        "quote": "Reviderade Regler för flaggning i Alingsås kommun antas, med följande ändringar:\n1. Sista meningen under avsnitt 3.5, \"Flaggning med vimpel\" ändras till:\n\"Vimpel ska ha två längsgående fält i gult och blått och hissas med det blå fältet överst.\"",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-54-beslut",
+        "field": "reservation[sd]",
+        "quote": "Mats Bjelkemyr (SD) reserverar sig till förmån för eget förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-54-beslut",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Miljöpartiet kämpar för att stärka och synliggöra Sveriges nationella minoriteter. Miljöpartiet anser att Alingsås kommun bör arbeta med att sprida kunskap om Sveriges nationella minoriteters språk och kultur, samt arbeta aktivt med inkludering.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-54-beslut",
+        "field": "protocol_anteckning[c]",
+        "quote": "Sveriges nationella minoriteter är judar, romer, samer, sverigefinnar och tornedalingar. De nationella minoriteterna har funnits i landet under lång tid och minoriteternas språk och kultur är en del av det gemensamma kulturarvet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Revidering av taxa för tillsyn enligt miljöbalken",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "pågående",
+      "diarienummer": "2024.215 KS",
+      "steps": [
+        {
+          "step_id": "ks-91-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2024-06-03",
+          "quote": "1. Ansvarig nämnd får för varje kalenderår (avgiftsår) besluta att justera de i denna taxa antagna fasta avgifterna och timtaxan med den procentsats för det innevarande kalenderåret i prisindex för kommunal verksamhet (PKV) som finns publicerad på SKR:s hemsida i oktober månad.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§91 KOMMUNSTYRELSEN 2024-06-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2024-06-03/protocol/protokoll-kommunstyrelsen-2024-06-03pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-91-beslut",
+        "field": "quote",
+        "quote": "1. Ansvarig nämnd får för varje kalenderår (avgiftsår) besluta att justera de i denna taxa antagna fasta avgifterna och timtaxan med den procentsats för det innevarande kalenderåret i prisindex för kommunal verksamhet (PKV) som finns publicerad på SKR:s hemsida i oktober månad.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Särskild avgränsad statistikverksamhet",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.209 KS",
+      "steps": [
+        {
+          "step_id": "ks-99-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2024-06-03",
+          "quote": "1. Särskild avgränsad statistikverksamhet bedrivs av Alingsås kommun vid kommunledningskontoret och består av följande utsedda handläggare: samhällsplanerare, folkhälsostrateg samt controller. 2. För att ta del av uppgifter som behandlas inom den särskilda statistikverksamheten behöver en begäran om allmän handling framställas till utsedda handläggare.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§99 KOMMUNSTYRELSEN 2024-06-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2024-06-03/protocol/protokoll-kommunstyrelsen-2024-06-03pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-99-beslut",
+        "field": "quote",
+        "quote": "1. Särskild avgränsad statistikverksamhet bedrivs av Alingsås kommun vid kommunledningskontoret och består av följande utsedda handläggare: samhällsplanerare, folkhälsostrateg samt controller. 2. För att ta del av uppgifter som behandlas inom den särskilda statistikverksamheten behöver en begäran om allmän handling framställas till utsedda handläggare.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (43 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Plan för anläggande av näridrottsplatser på landsbygden",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.218 KS",
+      "steps": [
+        {
+          "step_id": "ks-104-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2024-06-03",
+          "quote": "1. Kommunledningskontoret får i uppdrag att annonsera om möjligheten att ansöka om bidrag för anläggande av näridrottsplatser på landsbygden. 2. Ekonomichef ges delegation att besluta om ansökningarna för bidrag till anläggande av näridrottsplatser på landsbygden med utgångspunkt i riktlinjerna för investeringsbidrag men med ett fast belopp om 500 tkr.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§104 KOMMUNSTYRELSEN 2024-06-03",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2024-06-03/protocol/protokoll-kommunstyrelsen-2024-06-03pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-104-beslut",
+        "field": "quote",
+        "quote": "1. Kommunledningskontoret får i uppdrag att annonsera om möjligheten att ansöka om bidrag för anläggande av näridrottsplatser på landsbygden. 2. Ekonomichef ges delegation att besluta om ansökningarna för bidrag till anläggande av näridrottsplatser på landsbygden med utgångspunkt i riktlinjerna för investeringsbidrag men med ett fast belopp om 500 tkr.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (49 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Upphävande av kvalitetsstrategi för Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "pågående",
+      "diarienummer": "2024.493 KS",
+      "steps": [
+        {
+          "step_id": "ks-2025-04-07-59",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-04-07",
+          "quote": "Förslag till beslut i kommunfullmäktige\nKommunfullmäktige beslutar att upphäva Kvalitetsstrategi för Alingsås kommun.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Centerpartiet ställde under sammanträdet frågor kring detta och ville särskilt få svar på att detta även gäller följande stycke: \"Kvalitetsarbetet tar avstamp i dem vi finns till för, våra kommuninvånare och de olika målgrupper vi möter i våra verksamheter\""
+            }
+          ],
+          "source": {
+            "protocol_ref": "§59 KOMMUNSTYRELSEN 2025-04-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-04-07/protocol/protokoll-ks-2025-04-rev-reservationpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-2025-04-07-59",
+        "field": "quote",
+        "quote": "Förslag till beslut i kommunfullmäktige\nKommunfullmäktige beslutar att upphäva Kvalitetsstrategi för Alingsås kommun.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-2025-04-07-59",
+        "field": "protocol_anteckning[c]",
+        "quote": "Centerpartiet ställde under sammanträdet frågor kring detta och ville särskilt få svar på att detta även gäller följande stycke: \"Kvalitetsarbetet tar avstamp i dem vi finns till för, våra kommuninvånare och de olika målgrupper vi möter i våra verksamheter\"",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på granskning av personal- och kompetensförsörjning",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2025.018 KS",
+      "steps": [
+        {
+          "step_id": "ks-2025-04-07-60",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-04-07",
+          "quote": "1. Att säkerställa att styrande dokument har beslutsinstans och beslutsdatum.\n2. Att säkerställa att synpunkter från medarbetare som slutar samlas in och analyseras för att ta fram åtgärder inom ramen för den planerade \"offboarding-processen\".\n3. Övriga delar som föreslås hanteras genom tjänstemannaorganisationen och befintligt arbetssätt.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "vi socialdemokrater förväntar oss att fysiska samtal och möten genomförs med medarbetare som slutar i kombination med det så kallade automatiska och systematiska sättet att fånga in synpunkter från medarbetare som lämnar kommunen som arbetsgivare."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§60 KOMMUNSTYRELSEN 2025-04-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-04-07/protocol/protokoll-ks-2025-04-rev-reservationpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-2025-04-07-60",
+        "field": "quote",
+        "quote": "1. Att säkerställa att styrande dokument har beslutsinstans och beslutsdatum.\n2. Att säkerställa att synpunkter från medarbetare som slutar samlas in och analyseras för att ta fram åtgärder inom ramen för den planerade \"offboarding-processen\".\n3. Övriga delar som föreslås hanteras genom tjänstemannaorganisationen och befintligt arbetssätt.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-2025-04-07-60",
+        "field": "protocol_anteckning[s]",
+        "quote": "vi socialdemokrater förväntar oss att fysiska samtal och möten genomförs med medarbetare som slutar i kombination med det så kallade automatiska och systematiska sättet att fånga in synpunkter från medarbetare som lämnar kommunen som arbetsgivare.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande att införa detektionsverktyg av barnpornografiskt material på kommunens datorer - Annika Qarlsson (C) och Heidi Hankanen Ängberg (C)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Annika Qarlsson",
+          "party": "c"
+        },
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2024.474 KS",
+      "steps": [
+        {
+          "step_id": "kf-2024-11-06-motion-detektion",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2024-11-06",
+          "quote": "Annika Qarlsson (C) och Heidi Hankanen Ängberg (C) har inkommit med en motion som föreslår att kommunen ska införa detektionsverktyg som kan upptäcka barnpornografiskt material på kommunens datorer, samt utarbeta en plan för att hantera upptäcka brott i samverkan med polis.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§65 KOMMUNSTYRELSEN 2025-04-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-04-07/protocol/protokoll-ks-2025-04-rev-reservationpdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-2024-11-06-remiss-detektion",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2024-11-06",
+          "quote": "Kommunfullmäktige beslutade den 6 november 2024, § 168 att lämna motionen vidare till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§65 KOMMUNSTYRELSEN 2025-04-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-04-07/protocol/protokoll-ks-2025-04-rev-reservationpdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-2025-04-07-65",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-04-07",
+          "quote": "Kommunledningskontorets yttrande antas som kommunstyrelsens eget.\nFörslag i kommunfullmäktige\nMotionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Centerpartiet anser att kommunen behöver använda tillgänglig teknik för att detektera och följa upp sexuellt övergreppsmaterial på verksamhetens datorer. Genom införandet kan kommunen aktivt bidra till att minska mörkertalet av barnpornografibrott och öka säkerheten för våra barn."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§65 KOMMUNSTYRELSEN 2025-04-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-04-07/protocol/protokoll-ks-2025-04-rev-reservationpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-2024-11-06-motion-detektion",
+        "field": "quote",
+        "quote": "Annika Qarlsson (C) och Heidi Hankanen Ängberg (C) har inkommit med en motion som föreslår att kommunen ska införa detektionsverktyg som kan upptäcka barnpornografiskt material på kommunens datorer, samt utarbeta en plan för att hantera upptäcka brott i samverkan med polis.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kf-2024-11-06-remiss-detektion",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutade den 6 november 2024, § 168 att lämna motionen vidare till kommunstyrelsen för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-2025-04-07-65",
+        "field": "quote",
+        "quote": "Kommunledningskontorets yttrande antas som kommunstyrelsens eget.\nFörslag i kommunfullmäktige\nMotionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-2025-04-07-65",
+        "field": "reservation[c]",
+        "quote": "Centerpartiet anser att kommunen behöver använda tillgänglig teknik för att detektera och följa upp sexuellt övergreppsmaterial på verksamhetens datorer. Genom införandet kan kommunen aktivt bidra till att minska mörkertalet av barnpornografibrott och öka säkerheten för våra barn.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Arrendeavtal med Alingsåshem och Sollebrunns Allmänna Idrottsklubb (SAIK)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2025.138 KS",
+      "steps": [
+        {
+          "step_id": "ks-2025-04-07-68",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-04-07",
+          "quote": "1. Kultur- och utbildningsnämnden får i uppdrag att teckna ett tioårigt arrendeavtal med Alingsåshem med start på avtalsperioden från det att beslutet fastställs.\n2. Kultur- och utbildningsnämnden får i uppdrag att teckna ett tioårigt arrendeavtal med Sollebrunns AIK med start på avtalsperioden från det att beslutet fastställs.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§68 KOMMUNSTYRELSEN 2025-04-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-04-07/protocol/protokoll-ks-2025-04-rev-reservationpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-2025-04-07-68",
+        "field": "quote",
+        "quote": "1. Kultur- och utbildningsnämnden får i uppdrag att teckna ett tioårigt arrendeavtal med Alingsåshem med start på avtalsperioden från det att beslutet fastställs.\n2. Kultur- och utbildningsnämnden får i uppdrag att teckna ett tioårigt arrendeavtal med Sollebrunns AIK med start på avtalsperioden från det att beslutet fastställs.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande att Alingsås kommun ska ansluta sig till Jämställt Västra Götaland - Anton César (S), Anita Hedén Unosson (S) och Pamela Nilsson Ludvigsson (S)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Anton César",
+          "party": "s"
+        },
+        {
+          "name": "Anita Hedén Unosson",
+          "party": "s"
+        },
+        {
+          "name": "Pamela Nilsson Ludvigsson",
+          "party": "s"
+        }
+      ],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2025.212 KS",
+      "steps": [
+        {
+          "step_id": "ks-81-namndyttrande",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2025-05-05",
+          "quote": "Kommunledningskontoret ser positivt på en anslutning till Jämställt Västra Götaland 2024–2027 eftersom ett målstyrt och lokalt anpassat arbete kan bidra till att uppnå de nationella jämställdhetspolitiska delmålen. Kommunledningskontoret föreslår att kommunfullmäktige bifaller motionen.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§81 KOMMUNSTYRELSEN 2025-05-05",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-05-05/protocol/protokoll-ks-2025-05-07pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-81-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-05-05",
+          "quote": "Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Socialdemokraterna valde att yrka på kommunledningskontorets förslag till beslut från kommunstyrelsens arbetsutskott. Det är märkligt att M, KD, L och SD väljer att gå emot kommunstyrelsens egna förvaltning."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§81 KOMMUNSTYRELSEN 2025-05-05",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-05-05/protocol/protokoll-ks-2025-05-07pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-81-namndyttrande",
+        "field": "quote",
+        "quote": "Kommunledningskontoret ser positivt på en anslutning till Jämställt Västra Götaland 2024–2027 eftersom ett målstyrt och lokalt anpassat arbete kan bidra till att uppnå de nationella jämställdhetspolitiska delmålen. Kommunledningskontoret föreslår att kommunfullmäktige bifaller motionen.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-81-beslut",
+        "field": "quote",
+        "quote": "Motionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-81-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Socialdemokraterna valde att yrka på kommunledningskontorets förslag till beslut från kommunstyrelsens arbetsutskott. Det är märkligt att M, KD, L och SD väljer att gå emot kommunstyrelsens egna förvaltning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Beslut om genomförande av ombyggnation av foajé och matsal, Alströmerteatern",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2025.236 KS",
+      "steps": [
+        {
+          "step_id": "ks-92-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-05-05",
+          "quote": "Förstudie för Alströmerteaterns foajé och matsal godkänns. Genomförande av ombyggnation av foajé och matsal vid Alströmerteatern beslutas.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§92 KOMMUNSTYRELSEN 2025-05-05",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-05-05/protocol/protokoll-ks-2025-05-07pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-92-beslut",
+        "field": "quote",
+        "quote": "Förstudie för Alströmerteaterns foajé och matsal godkänns. Genomförande av ombyggnation av foajé och matsal vid Alströmerteatern beslutas.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ledningsförnyelse av 400 kV-ledningen mellan Timmersdala och Stenkullen",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2025.191 KS",
+      "steps": [
+        {
+          "step_id": "ks-93-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-05-05",
+          "quote": "Förvaltningens yttrande i tjänsteskrivelse antas som kommunstyrelsens eget, med ett tillägg om att det ska bevakas att dragningen inte kolliderar med, men kan läggas invid, tänkt korridor för Västra Stambanan och E20.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Centerpartiet anser att det är av yttersta vikt att stamnätet och elmarknaden utvecklas för att möta samhällets behov av en säker, hållbar och ekonomisk elförsörjning. Kraftledningen som detta ärende berör utgör en kritisk överföringsförbindelse mellan mellersta och södra Sverige."
+            },
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Kraftledningen föreslås avvika från tidigare etablerad korridor och istället dras genom skogs- och naturområden, varav flera utgör värdefulla rekreationsmiljöer och innehåller äldre skog med höga naturvärden. Detta är en kortsiktig lösning på ett problem som i grunden är skapat av människan själv."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§93 KOMMUNSTYRELSEN 2025-05-05",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-05-05/protocol/protokoll-ks-2025-05-07pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-93-beslut",
+        "field": "quote",
+        "quote": "Förvaltningens yttrande i tjänsteskrivelse antas som kommunstyrelsens eget, med ett tillägg om att det ska bevakas att dragningen inte kolliderar med, men kan läggas invid, tänkt korridor för Västra Stambanan och E20.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-93-beslut",
+        "field": "protocol_anteckning[c]",
+        "quote": "Centerpartiet anser att det är av yttersta vikt att stamnätet och elmarknaden utvecklas för att möta samhällets behov av en säker, hållbar och ekonomisk elförsörjning. Kraftledningen som detta ärende berör utgör en kritisk överföringsförbindelse mellan mellersta och södra Sverige.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-93-beslut",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Kraftledningen föreslås avvika från tidigare etablerad korridor och istället dras genom skogs- och naturområden, varav flera utgör värdefulla rekreationsmiljöer och innehåller äldre skog med höga naturvärden. Detta är en kortsiktig lösning på ett problem som i grunden är skapat av människan själv.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Motion gällande införande av allmänpolitiska debatter i kommunfullmäktige - Heidi Hankanen Ängberg (C), Annika Qarlsson (C), Ingbritt Johansson (C), Ali Said (C) och Theresa Montebelli (C)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        },
+        {
+          "name": "Annika Qarlsson",
+          "party": "c"
+        },
+        {
+          "name": "Ingbritt Johansson",
+          "party": "c"
+        },
+        {
+          "name": "Ali Said",
+          "party": "c"
+        },
+        {
+          "name": "Theresa Montebelli",
+          "party": "c"
+        }
+      ],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2025.122 KS",
+      "steps": [
+        {
+          "step_id": "kf-9-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2025-02-26",
+          "quote": "Kommunfullmäktige beslutade den 26 februari 2025, § 9 att lämna motionen vidare till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§139 KOMMUNSTYRELSEN 2025-08-18",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-08-18/protocol/protokoll-skapad-ks-2025-08-19-112554pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-139-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-08-18",
+          "quote": "Kommunstyrelsen antar yttrandet som sitt eget. Förslag till beslut i kommunfullmäktige Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "c"
+              ],
+              "quote": "Centerpartiet anser att det är Kommunfullmäktige som ska besluta om införandet av allmänpolitiska debatter. Centerpartiet ställer sig frågande till det som framförs i svaret på motionen och som övriga partier under Kommunstyrelsens sammanträde ställde sig bakom, att kommunfullmäktiges presidium är ansvariga att införa allmänpolitiska debatter och att arbetsordning för kommunfullmäktige uppdateras om \"kommunfullmäktiges presidium så önskar att införa allmänpolitiska debatter\"."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§139 KOMMUNSTYRELSEN 2025-08-18",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-08-18/protocol/protokoll-skapad-ks-2025-08-19-112554pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-9-inlamnad",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutade den 26 februari 2025, § 9 att lämna motionen vidare till kommunstyrelsen för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-139-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsen antar yttrandet som sitt eget. Förslag till beslut i kommunfullmäktige Motionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-139-beslut",
+        "field": "reservation[c]",
+        "quote": "Centerpartiet anser att det är Kommunfullmäktige som ska besluta om införandet av allmänpolitiska debatter. Centerpartiet ställer sig frågande till det som framförs i svaret på motionen och som övriga partier under Kommunstyrelsens sammanträde ställde sig bakom, att kommunfullmäktiges presidium är ansvariga att införa allmänpolitiska debatter och att arbetsordning för kommunfullmäktige uppdateras om \"kommunfullmäktiges presidium så önskar att införa allmänpolitiska debatter\".",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Utbetalning av partistöd 2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2025.379 KS",
+      "steps": [
+        {
+          "step_id": "ks-179-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-10-20",
+          "quote": "Partistöd för 2026 utbetalas utifrån \"Regler för partistöd i Alingsås kommun\"",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§179 KOMMUNSTYRELSEN 2025-10-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-10-20/protocol/protokoll-ks-2025-10-20pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-179-beslut",
+        "field": "quote",
+        "quote": "Partistöd för 2026 utbetalas utifrån \"Regler för partistöd i Alingsås kommun\"",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Remiss av förslag till Regional utvecklingsplan för storstadsregionen",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2025.339 KS",
+      "steps": [
+        {
+          "step_id": "ks-185-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-10-20",
+          "quote": "Kommunstyrelsen ger kommunstyrelsens arbetsutskott i uppdrag att avge ett remissvar. Svaret ska beakta ändringar enligt tidigare beslut i kommunstyrelsens arbetsutskott den 1 oktober 2025, § 154, Heidi Hankanen Ängbergs (C) ändringsförlag 1 samt ett förtydligande gällande behovet av en ombyggnad av E20.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Miljöpartiet anser att kommunens original till remissvar på Regional utvecklingsplan för storstadsutveckling var bra och nyanserad."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§185 KOMMUNSTYRELSEN 2025-10-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-10-20/protocol/protokoll-ks-2025-10-20pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-185-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsen ger kommunstyrelsens arbetsutskott i uppdrag att avge ett remissvar. Svaret ska beakta ändringar enligt tidigare beslut i kommunstyrelsens arbetsutskott den 1 oktober 2025, § 154, Heidi Hankanen Ängbergs (C) ändringsförlag 1 samt ett förtydligande gällande behovet av en ombyggnad av E20.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-185-beslut",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Miljöpartiet anser att kommunens original till remissvar på Regional utvecklingsplan för storstadsutveckling var bra och nyanserad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ansökan om investeringsbidrag gällande tillgänglighetsanpassad toalett på Noltorpsvallen - Alingsås KIK",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2025.435 KS",
+      "steps": [
+        {
+          "step_id": "ks-244-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2025-12-15",
+          "quote": "Föreningen Alingsås KIK (org.nr. 864000-7335) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som detta ärende avser, men maximalt 197 500 kronor, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§244 KOMMUNSTYRELSEN 2025-12-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2025-12-15/protocol/protokoll-skapad-ks-2025-12-22-085021pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-244-beslut",
+        "field": "quote",
+        "quote": "Föreningen Alingsås KIK (org.nr. 864000-7335) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som detta ärende avser, men maximalt 197 500 kronor, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  }
+]
