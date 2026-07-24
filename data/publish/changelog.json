@@ -889,5 +889,13 @@
       "a-2025-0280"
     ],
     "updated_arenden": []
+  },
+  {
+    "run_id": "backfill-2026-07-24T04-52-56-055Z",
+    "timestamp": "2026-07-24T04:52:56.112Z",
+    "data_hash": "b48471aaa869a4d04e23e46703c53b1804460d4664d4d5fd1fbdc790a8b6582f",
+    "arende_count": 782,
+    "new_arenden": [],
+    "updated_arenden": []
   }
 ]
