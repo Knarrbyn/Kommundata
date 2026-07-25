@@ -1079,3 +1079,38 @@ publicerade datan även efter städningen.
 
 **Status:** inte åtgärdat. Ingen kodändring gjord. Ren observation loggad för att inte tappas bort
 innan den riktiga saneringen (post 4 i handoff-kön) påbörjas.
+
+## 2026-07-25 — Fixat: kommunfullmäktiges ~26 äldsta möten (2022-01 till 2023-09) hittades aldrig
+
+**Vad:** efter att all backfill i övrigt slutförts stod kommunfullmäktige kvar på 45 möten
+oavsett hur många gånger backfillen kördes om (två separata körningar gav identiskt resultat).
+De äldsta ~26 mötena i mandatperioden (2022-01-26 till 2023-09-06) fångades aldrig, trots att
+`backfill.yml` kördes med `start_date: "2022-01-01"`.
+
+**Rotorsak:** `fetchNewMeetingsForCommittee` i `src/fetch.ts` läste `committee.seedMeetingUrl`
+(en enskild mötessidas fullständiga sidmeny, som empiriskt bekräftats gå tillbaka till 2009 för
+kommunfullmäktige — se `web_fetch` av `mote-2026-01-28` denna session) BARA som fallback när
+listsidan (`/committees/{slug}`) gav EXAKT NOLL mötalänkar. Men listsidan gav inte noll — den gav
+~45 träffar (de senaste mötena). Eftersom villkoret var `allRefs.length === 0`, konsulterades
+seed-sidans betydligt rikare historik aldrig, trots att den redan var korrekt konfigurerad i
+`config.ts` (`seedMeetingUrl` för kommunfullmäktige har funnits sedan tidigare session).
+
+**Fix:** `src/fetch.ts` — om `committee.seedMeetingUrl` är satt, hämtas den ALLTID och dess
+träffar slås ihop (union, deduplicerat på datum) med listsidans träffar, istället för att bara
+vara en nödfallback. Om inget seedMeetingUrl finns och listsidan ger noll träffar kastas
+fortfarande samma tydliga fel som tidigare (den delen av logiken oförändrad).
+
+**Tester:** `test/fetch.test.ts` uppdaterat — det befintliga integrationstestet mockar nu även
+seedMeetingUrl-anropet (annars hade det kraschat med "Oväntad URL i test", eftersom
+kommunfullmäktige numera har ett `seedMeetingUrl` satt och koden alltid hämtar det). Ett nytt
+test bevisar explicit att ett möte som BARA finns i seed-sidans sidmeny (inte på listsidan)
+faktiskt fångas upp av unionen. Alla 16 tester i filen körda lokalt (`node --experimental-strip-types
+--test test/fetch.test.ts`) och godkända innan push.
+
+**Bieffekt att hålla koll på:** samma bugg (och samma fix) gäller nu automatiskt även för
+`samhallsbyggnadsnamnden`, som fick ett `seedMeetingUrl` tillagt tidigare denna session — nästa
+backfill-omgång för den instansen bör alltså också kunna hitta fler/äldre möten om sådana finns,
+inte bara de 16 som redan fångats.
+
+**Åtgärd kvar:** kör om backfill för `kommunfullmaktige` med den fixade koden för att bekräfta
+att de ~26 äldsta mötena nu faktiskt fångas.
