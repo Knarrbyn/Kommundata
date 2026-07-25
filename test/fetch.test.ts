@@ -146,6 +146,12 @@ test("fetchNewMeetingsForCommittee: full integrationstest med mockad fetchText, 
 
   const pages: Record<string, string> = {
     "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige": FIXTURE_COMMITTEE_LIST_HTML,
+    // seedMeetingUrl hämtas nu ALLTID (inte bara vid noll träffar, se
+    // fix 2026-07-25) — återanvänder samma fixture här eftersom den redan
+    // innehåller exakt samma datum, så unionen introducerar inget nytt och
+    // testets ursprungliga assertions (bara 2026-02-25 i resultatet) håller.
+    "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-01-28":
+      FIXTURE_COMMITTEE_LIST_HTML,
     "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-06-10":
       FIXTURE_MEETING_PAGE_NO_PROTOCOL_YET_HTML.replace(/2026-09-02/g, "2026-06-10"),
     "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-02-25":
@@ -238,5 +244,61 @@ test("fetchNewMeetingsForCommittee: kastar ett TYDLIGT fel (inte tyst '0 nya mö
     () => fetchNewMeetingsForCommittee(committee, seen, fetchText),
     /seedMeetingUrl/,
     "felmeddelandet ska förklara att seedMeetingUrl saknas, inte bara ge ett generiskt fel"
+  );
+});
+
+test("fetchNewMeetingsForCommittee: FIX 2026-07-25 — slår ihop listsidans träffar MED seed-sidans träffar (inte bara fallback vid noll), så äldre möten i seed-sidans fullständiga sidmeny fångas upp", async () => {
+  const committee = {
+    slug: "union-test-instans",
+    name: "Uniontestinstans",
+    confirmed: true,
+    seedMeetingUrl: "https://sammantradesportal.alingsas.se/committees/union-test-instans/mote-2026-01-28",
+  };
+  const seen: Record<string, string[]> = {};
+
+  // Listsidan ger bara EN, ny(are) länk — precis som det bekräftade
+  // skarpa fyndet att listsidan för kommunfullmäktige bara visar de ~45
+  // senaste mötena, inte hela historiken.
+  const listHtml = `
+<html><body>
+<a href="https://sammantradesportal.alingsas.se/committees/union-test-instans/mote-2026-01-28">2026-01-28</a>
+</body></html>`;
+
+  // Seed-sidan (en enskild mötessidas sidmeny) innehåller DÄRUTÖVER ett
+  // mycket äldre möte som listsidan aldrig visade — det här är precis
+  // det scenario som tidigare osynliggjordes eftersom listsidan inte
+  // gav noll träffar (den gav ju en), så den gamla fallback-logiken
+  // aldrig konsulterade seed-sidan alls.
+  const seedHtml = `
+<html><body>
+<a href="https://sammantradesportal.alingsas.se/committees/union-test-instans/mote-2026-01-28">2026-01-28</a>
+<a href="https://sammantradesportal.alingsas.se/committees/union-test-instans/mote-2022-01-26">2022-01-26 (äldre, saknas på listsidan)</a>
+</body></html>`;
+
+  const pages: Record<string, string> = {
+    "https://sammantradesportal.alingsas.se/committees/union-test-instans": listHtml,
+    "https://sammantradesportal.alingsas.se/committees/union-test-instans/mote-2026-01-28": seedHtml,
+    "https://sammantradesportal.alingsas.se/committees/union-test-instans/mote-2022-01-26":
+      FIXTURE_MEETING_PAGE_WITH_PROTOCOL_HTML.replace(/kommunfullmaktige/g, "union-test-instans").replace(
+        /2026-02-25/g,
+        "2022-01-26"
+      ),
+  };
+  const fetchText = async (url: string) => {
+    if (!(url in pages)) throw new Error(`Oväntad URL i test: ${url}`);
+    return pages[url];
+  };
+
+  const result = await fetchNewMeetingsForCommittee(committee, seen, fetchText);
+
+  const dates = result.map((r) => r.date).sort();
+  // 2026-01-28:s protokoll är medvetet INTE mockat med en giltig protokoll-länk
+  // i den här testfixturen (irrelevant för det vi bevisar här), så det mötet
+  // exkluderas korrekt av samma anledning som "protokoll ej justerat än".
+  // Det väsentliga beviset är att 2022-01-26 — som BARA fanns i seed-sidans
+  // sidmeny, aldrig på listsidan — faktiskt hittas, hämtas och godkänns.
+  assert.ok(
+    dates.includes("2022-01-26"),
+    "det äldre mötet som BARA fanns i seed-sidans sidmeny ska nu fångas upp, inte bara det listsidan råkade visa"
   );
 });
