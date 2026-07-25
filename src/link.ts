@@ -24,7 +24,7 @@
  * ett fält extract.ts fyller i direkt, se README "Nästa steg".
  */
 
-import type { CandidateArende } from "./extract.ts";
+import type { CandidateArende, CandidateStep } from "./extract.ts";
 
 export interface ParagraphRef {
   paragraf: string; // t.ex. "225"
@@ -298,4 +298,155 @@ export function generateArendeId(year: number, existingIds: Set<string>): string
     n++;
   } while (existingIds.has(candidate));
   return candidate;
+}
+
+/**
+ * FYND 2026-07-25 (se DECISION_LOG.md): kartläggning av dubblettstädningen
+ * visade 445 diarienummer som förekommer på FLERA toppnivå-ärendeobjekt —
+ * dvs `linkArende` ovan har (av okänd, ännu inte fullt utredd anledning)
+ * misslyckats koppla ihop steg som tillhör samma sakfråga. 256 av dessa
+ * grupper delar EXAKT SAMMA titel inom samma diarienummer — den starkaste
+ * signalen för en äkta länkningsmiss, till skillnad från legitima
+ * återkommande administrativa rutinbuntar (samma diarienummer använt som
+ * "årsnummer" för separata, olikbenämnda poster — dessa ska INTE slås ihop
+ * och omfattas inte av den här funktionen).
+ *
+ * KOMPLIKATION (bevisad empiriskt mot "Kavlås ängar"-paret,
+ * diarienummer 2024.147 KS): posterna är INTE bara kompletterande — de
+ * överlappar delvis på (datum, instans), med olika detaljnivå beroende på
+ * vilket källdokument respektive post extraherades ur (153 av 256 grupper
+ * har minst en sådan krock). En enkel array-union skulle antingen duplicera
+ * eller godtyckligt tappa data. Denna funktion löser det genom att, vid
+ * krock på samma (datum, instans), behålla den version som har MEST
+ * information (beslut ifyllt väger tyngst, sedan röstningsdata, sedan
+ * längre citat som tie-breaker) — eftersom det speglar att den versionen
+ * extraherades ur det mer detaljerade källdokumentet för just det steget.
+ */
+
+
+export interface MergeResult {
+  merged: PublishedArende;
+  droppedIds: string[];
+  conflicts: string[];
+}
+
+function stepMergeKey(step: CandidateStep): string {
+  return `${step.date}|${step.instance}`;
+}
+
+/** Högre poäng = mer komplett/informativ version av samma steg. */
+function stepQuality(step: CandidateStep): number {
+  let score = 0;
+  if (step.decision) score += 2;
+  if (step.voting) score += 1;
+  score += (step.quote?.length ?? 0) / 1000; // liten tie-breaker, avgör aldrig ensam
+  return score;
+}
+
+/**
+ * Slår ihop N ärendeposter som representerar SAMMA sakfråga (samma
+ * diarienummer + exakt samma titel, verifierat av anroparen — se
+ * `findSameCaseGroups` nedan för hur grupperna identifieras). Kastar om
+ * posterna inte delar diarienummer/titel, för att undvika att av misstag
+ * slå ihop olika ärenden.
+ */
+export function mergeSameCaseArenden(items: PublishedArende[]): MergeResult {
+  if (items.length < 2) {
+    throw new Error("mergeSameCaseArenden kräver minst två poster att slå ihop");
+  }
+  const diarienummer = items[0].diarienummer;
+  const title = items[0].title;
+  for (const it of items) {
+    if (it.diarienummer !== diarienummer) {
+      throw new Error(
+        `mergeSameCaseArenden: diarienummer skiljer sig (${it.diarienummer} vs ${diarienummer}) — ` +
+          `vägrar slå ihop, detta är sannolikt inte samma ärende.`
+      );
+    }
+    if (it.title !== title) {
+      throw new Error(
+        `mergeSameCaseArenden: titel skiljer sig ("${it.title}" vs "${title}") — ` +
+          `vägrar slå ihop, detta är sannolikt inte samma ärende.`
+      );
+    }
+  }
+
+  // Bas = posten med flest steg redan innan sammanslagning (mest komplett
+  // grundstomme att bygga vidare på för icke-steg-fält som id, source etc.)
+  const sorted = [...items].sort((a, b) => b.steps.length - a.steps.length);
+  const base = sorted[0];
+  const others = sorted.slice(1);
+
+  const stepMap = new Map<string, CandidateStep>();
+  for (const step of base.steps) {
+    stepMap.set(stepMergeKey(step), step);
+  }
+  for (const other of others) {
+    for (const step of other.steps) {
+      const key = stepMergeKey(step);
+      const existing = stepMap.get(key);
+      if (!existing || stepQuality(step) > stepQuality(existing)) {
+        stepMap.set(key, step);
+      }
+    }
+  }
+  const mergedSteps = Array.from(stepMap.values()).sort((a, b) =>
+    a.date < b.date ? -1 : a.date > b.date ? 1 : 0
+  );
+
+  // Om NÅGON av käll-posterna nått "avgjort" är den sanna, sammanslagna
+  // bilden avgjort — annars hade den delen av historien inte synts alls.
+  const status = items.some((it) => it.status === "avgjort") ? "avgjort" : "pågående";
+
+  // initiators: union på namn (dedupe), bevarar parti från första träffen.
+  const initiatorMap = new Map<string, { name: string; party: string }>();
+  for (const it of items) {
+    for (const ini of it.initiators ?? []) {
+      if (!initiatorMap.has(ini.name)) initiatorMap.set(ini.name, ini);
+    }
+  }
+  const initiators = Array.from(initiatorMap.values());
+
+  const conflicts: string[] = [];
+  const categories = new Set(items.map((it) => it.category).filter(Boolean));
+  if (categories.size > 1) {
+    conflicts.push(`category skiljer sig mellan käll-posterna: ${[...categories].join(", ")}`);
+  }
+  const typer = new Set(items.map((it) => it.initiativ_typ).filter(Boolean));
+  if (typer.size > 1) {
+    conflicts.push(`initiativ_typ skiljer sig mellan käll-posterna: ${[...typer].join(", ")}`);
+  }
+
+  const merged: PublishedArende = {
+    ...base,
+    steps: mergedSteps,
+    status,
+    initiators,
+  };
+
+  return {
+    merged,
+    droppedIds: items.filter((it) => it.id !== base.id).map((it) => it.id),
+    conflicts,
+  };
+}
+
+/**
+ * Hittar grupper av ärenden som delar EXAKT samma diarienummer OCH exakt
+ * samma titel — den avgränsning som spec/DECISION_LOG (2026-07-25) pekade
+ * ut som den säkra delmängden att slå ihop automatiskt. Ärenden med samma
+ * diarienummer men OLIKA titel (t.ex. legitima återkommande rutinbuntar,
+ * eller flerstegs-detaljplaner med titel som ändras per fas) rör den här
+ * funktionen INTE — de kräver fortfarande manuell granskning.
+ */
+export function findSameCaseGroups(arenden: PublishedArende[]): PublishedArende[][] {
+  const groups = new Map<string, PublishedArende[]>();
+  for (const a of arenden) {
+    if (!a.diarienummer) continue;
+    const key = `${a.diarienummer}\u0000${a.title}`;
+    const list = groups.get(key) ?? [];
+    list.push(a);
+    groups.set(key, list);
+  }
+  return Array.from(groups.values()).filter((g) => g.length > 1);
 }
