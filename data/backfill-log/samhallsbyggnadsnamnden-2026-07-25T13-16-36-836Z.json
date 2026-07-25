@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-07-25T13-16-36-836Z",
+  "committee": "samhallsbyggnadsnamnden",
+  "startDate": "2022-01-01",
+  "endDate": "2026-07-24",
+  "maxPerRun": 150,
+  "totalRefsOnListingPage": 121,
+  "inRangeCount": 16,
+  "alreadySeenCount": 0,
+  "remainingBeforeThisRun": 16,
+  "batchThisRun": [
+    "2022-01-24",
+    "2022-02-03",
+    "2022-02-21",
+    "2022-03-07",
+    "2022-03-21",
+    "2022-04-19",
+    "2022-04-25",
+    "2022-05-16",
+    "2022-06-20",
+    "2022-07-25",
+    "2022-08-29",
+    "2022-09-26",
+    "2022-10-24",
+    "2022-11-21",
+    "2022-12-12",
+    "2022-12-19"
+  ],
+  "warning": null
+}
