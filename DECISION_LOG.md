@@ -1207,3 +1207,47 @@ sakfrågor. De 189 "olika titel"-grupperna kräver mer manuell granskning innan 
 skrivas, och en delmängd av dem (administrativa årsbuntar) ska aldrig slås ihop alls.
 
 **Status: ej åtgärdat, medvetet avgränsat till en framtida session med spec + tester.**
+
+## 2026-07-25 — mergeSameCaseArenden byggd, testad och applicerad (347 ärenden sammanslagna)
+
+**Byggt:** `mergeSameCaseArenden` + `findSameCaseGroups` i `src/link.ts` (samma modul som R7:s
+`linkArende`, eftersom det är samma familj av problem: att korrekt identifiera "detta är samma
+sakfråga"). Löser den kartlagda delmängden från förra loggposten (samma diarienummer + EXAKT
+samma titel).
+
+**Nyckelfynd under byggandet (bevisat mot "Kavlås ängar", diarienummer 2024.147 KS):** de
+uppdelade posterna är INTE bara kompletterande — de överlappar delvis på (datum, instans), med
+olika detaljnivå beroende på vilket källdokument respektive post extraherades ur (153 av 256
+ursprungligen granskade grupper hade minst en sådan krock). En enkel array-union hade dupliceringat
+eller tappat data. Löst genom att vid krock behålla versionen med mest information (beslut ifyllt
+väger tyngst, sedan röstningsdata, sedan citatlängd som tie-breaker).
+
+**Tester:** `test/link-merge.test.ts`, 7 tester, byggda mot det RIKTIGA Kavlås ängar-exemplet
+(exakta datum/instans/decision/step_id/protocol_ref ur produktionsdatan). Bevisar bland annat att
+krockande steg löses korrekt (väljer versionen med `decision` ifyllt), att status blir "avgjort"
+om NÅGON käll-post nådde dit, att initiators unioneras utan dubbletter, och att funktionen VÄGRAR
+slå ihop poster med olika diarienummer eller olika titel (skyddsräcke mot att råka slå ihop olika
+ärenden). Alla 21 befintliga tester i `link.test.ts` kördes om och godkändes — inget gick sönder.
+
+**Applicerat på produktionsdata:** `findSameCaseGroups` hittade 347 grupper (fler än det tidigare
+grova 256-estimatet, eftersom den riktiga (diarienummer+titel)-parmatchningen är mer precis än
+den ursprungliga kartläggningens diarienummer-först-gruppering). Resultat:
+- **2780 → 2274 ärenden** (506 borttagna, sammanslagna in i sina respektive par/grupper)
+- **1384 → 1056 unika steg** i de berörda grupperna (328 dubblerade/krockande steg konsoliderade
+  korrekt, ingen förlust av unikt innehåll — varje bortplockat steg var en sämre version av ett
+  steg som redan fanns kvar i bättre form)
+- Verifierat: inga dubbletter av `id` i slutresultatet, inga ärenden utan steg
+
+**35 konflikter flaggade, INTE blockerande:** i 35 av 347 grupper skilde sig `category` eller
+`initiativ_typ` mellan käll-posterna (t.ex. en post kategoriserad "övrigt", en annan "demokrati"
+för samma ärende). Funktionen behåller basens värde (den käll-post som hade flest steg innan
+sammanslagning) och loggar konflikten separat, snarare än att gissa. Detta är en mjuk
+kategoriseringsskillnad, inte ett faktapåstående — bedömdes inte blockerande nog att stoppa
+sammanslagningen, men värt en framtida manuell genomgång. Full lista med id:n och diarienummer
+finns i sessionens verktygsutdata (2026-07-25), inte separat sparad som fil — sök på "category
+skiljer sig" eller "initiativ_typ skiljer sig" i en framtida session om ni vill återskapa listan.
+
+**Kvarstår (oförändrat sedan förra loggposten):** de 189 "olika titel inom samma diarienummer"-
+grupperna (348 poster) rörs INTE av detta — kräver fortfarande manuell granskning eller en mer
+sofistikerad regel innan de kan slås ihop säkert (blandning av legitima flerstegs-detaljplaner
+och administrativa årsbuntar som INTE ska slås ihop).
