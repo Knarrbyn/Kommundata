@@ -1048,3 +1048,34 @@ innan nästa pipeline-körning triggas.
 **Åtgärd:** extra `{` borttagen, `seedMeetingUrl` för `samhallsbyggnadsnamnden` behölls (adderad
 samtidigt, ofarlig och sannolikt nyttig — pekar mot ett bekräftat riktigt möte, mote-2021-01-25).
 Validerat lokalt med samma Node-parsningsmetod som pipelinen använder innan push.
+
+---
+
+## 2026-07-25 — Fler dolda dubbletter än de kända ~94 paren
+
+Ad-hoc-analys (partiaktivitet per parti, begärd av ägaren under en pågående backfill) visade att
+titel-baserad dedup hittar **586 ytterligare fall** där samma ärende ligger som två separata poster
+med olika `diarienummer`/`steps[0].source.protocol_ref` — dvs. den dedup-nyckel
+(`diarienummer + steps[0].source.protocol_ref`) som användes för att räkna och beskriva de
+ursprungliga ~94 paren missar en stor andel av det faktiska dubblettproblemet.
+
+**Metod som avslöjade det:** grupperade `data/published/arenden.json` på exakt `title`-sträng efter
+den vanliga diarienummer+protocol_ref-dedupen. 262 unika titlar hade fler än en post kvar. Manuell
+granskning av ett urval bekräftade att det är samma sakfråga (t.ex. samma bygglovsärende eller
+samma motion) som råkat få olika `diarienummer`/`protocol_ref`-kombination i olika körningar —
+inte olika ärenden som råkar heta likadant.
+
+**Sannolik orsak (ej verifierad):** koncentrerat till nämndärenden (särskilt bygg-/miljönämnden och
+kultur- och utbildningsnämnden i stickprovet) där `link.ts`:s paragraf-korsreferensmatchning (R7)
+inte lyckas koppla ihop stegen, sannolikt för att `Beslutsunderlag`-formatet eller
+paragrafnumreringen skiljer sig åt mer än väntat för dessa instanser jämfört med KF/KS-fallen som
+R7 ursprungligen testades mot.
+
+**Konsekvens:** den planerade saneringen (vänta tills all backfill är klar, gruppera på
+`diarienummer + steps[0].source.protocol_ref`, behåll versionen med flest steg — se tidigare
+handoff-anteckningar) räcker INTE ensam. Den behöver kompletteras med minst en titel- eller
+fuzzy-matchningspassning innan den räknas som klar, annars kvarstår en stor andel dubbletter i den
+publicerade datan även efter städningen.
+
+**Status:** inte åtgärdat. Ingen kodändring gjord. Ren observation loggad för att inte tappas bort
+innan den riktiga saneringen (post 4 i handoff-kön) påbörjas.
