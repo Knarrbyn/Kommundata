@@ -51,6 +51,7 @@ export const COMMITTEES: Committee[] = [
     slug: "samhallsbyggnadsnamnden",
     name: "Samhällsbyggnadsnämnden",
     confirmed: true,
+    seedMeetingUrl: "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-01-25",
     note: "Bekräftad 2026-07-22 via webbsökning mot /committees/samhallsbyggnadsnamnden — " +
       "riktiga möten och protokoll hittade (t.ex. mote-2021-01-25, ett justerat protokoll " +
       "med diariefört ärende). Nämnden finns alltså på riktigt, till skillnad från vad den " +
