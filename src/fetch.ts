@@ -155,23 +155,39 @@ export async function fetchNewMeetingsForCommittee(
   // KRITISKT FYND (2026-07-22, se DECISION_LOG.md): listsidan har visat
   // sig sakna mötalänkar helt i skarp drift (bekräftat empiriskt, inte
   // bara en teoretisk risk) — troligen renderas den olikt en enskild
-  // mötessida. Enskilda mötessidor har bevisat en fullständig sidmeny
-  // med hela historiken, så om listsidan ger NOLL träffar faller vi
-  // tillbaka på en känd mötes-URL (`committee.seedMeetingUrl`) istället.
-  // Om inget frö är satt för instansen: logga tydligt (INTE bara "0 nya
-  // möten", som osynliggör att UPPTÄCKTEN misslyckades strukturellt,
-  // skiljt från det normala "inget nytt sedan sist").
-  if (allRefs.length === 0) {
-    if (committee.seedMeetingUrl) {
-      const seedHtml = await fetchText(committee.seedMeetingUrl);
-      allRefs = extractMeetingRefs(committee.slug, seedHtml);
-    } else {
-      throw new Error(
-        `Listsidan (${listUrl}) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för ` +
-          `"${committee.slug}" — mötesupptäckt för denna instans är strukturellt trasig, inte bara ` +
-          `"inget nytt". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen.`
-      );
+  // mötessida.
+  //
+  // UPPDATERAT FYND (2026-07-25, se DECISION_LOG.md): en enskild
+  // mötessidas sidmeny visade sig innehålla en MYCKET längre historik än
+  // listsidan — bekräftat empiriskt för kommunfullmäktige, där listsidan
+  // bara gav de ~45 senaste mötena medan en enskild mötessidas sidmeny
+  // gick tillbaka till 2009. Den gamla koden använde bara seedMeetingUrl
+  // som fallback vid EXAKT noll träffar, vilket osynliggjorde detta —
+  // listsidan gav trots allt NÅGRA träffar (inte noll), så seed-sidans
+  // rikare historik lästes aldrig. Fixat: om seedMeetingUrl är satt,
+  // slå alltid ihop (union, deduplicerat på datum) träffarna från
+  // listsidan OCH seed-sidan — inte bara som en ren nödfallback.
+  //
+  // Om INGET seedMeetingUrl finns och listsidan gav noll träffar: logga
+  // tydligt (INTE bara "0 nya möten", som osynliggör att UPPTÄCKTEN
+  // misslyckades strukturellt, skiljt från det normala "inget nytt
+  // sedan sist").
+  if (committee.seedMeetingUrl) {
+    const seedHtml = await fetchText(committee.seedMeetingUrl);
+    const seedRefs = extractMeetingRefs(committee.slug, seedHtml);
+    const knownDates = new Set(allRefs.map((r) => r.date));
+    for (const ref of seedRefs) {
+      if (!knownDates.has(ref.date)) {
+        allRefs.push(ref);
+        knownDates.add(ref.date);
+      }
     }
+  } else if (allRefs.length === 0) {
+    throw new Error(
+      `Listsidan (${listUrl}) gav noll mötalänkar och inget seedMeetingUrl är satt i config.ts för ` +
+        `"${committee.slug}" — mötesupptäckt för denna instans är strukturellt trasig, inte bara ` +
+        `"inget nytt". Sätt committee.seedMeetingUrl till en känd mötes-URL för instansen.`
+    );
   }
 
   const newRefs = diffNewMeetings(allRefs, seen);
