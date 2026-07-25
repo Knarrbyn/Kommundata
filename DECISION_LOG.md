@@ -1164,3 +1164,46 @@ dessa fall. Omfattningen av detta problem (hur många ärenden det gäller total
 kartlagd — bara upptäckt som en bieffekt av dedup-analysen. Rekommenderad uppföljning: en separat
 analys som grupperar på `diarienummer` ensamt (utan protocol_ref-kravet) för att hitta alla
 sådana fall, innan man försöker skriva sammanslagningslogik.
+
+## 2026-07-25 — Kartläggning av link.ts-omfattningen (INGEN sammanslagning genomförd)
+
+**Bakgrund:** upptäckten av "Kavlås ängar"-fallet (samma diarienummer, 2024.147 KS, som två
+separata toppnivåärenden) under dubblettstädningen ledde till en fullständig kartläggning av
+hur vanligt detta mönster är i hela `arenden.json` (2780 poster, efter steg-1-dedupen).
+
+**Omfattning:**
+- **445 diarienummer** förekommer på FLERA toppnivå-ärendeposter (totalt 738 "extra" poster
+  utöver den första för varje diarienummer).
+- **256 av dessa grupper (390 extra poster)** har EXAKT SAMMA titel inom samma diarienummer —
+  den starkaste signalen för en äkta länkningsmiss (`link.ts` har misslyckats koppla ihop steg
+  som tillhör samma sakfråga, troligen för att paragraf-korsreferensen i `Beslutsunderlag` av
+  någon anledning inte matchade R7:s regex i just dessa fall).
+- **189 grupper (348 extra poster)** har OLIKA titlar inom samma diarienummer — en blandad
+  kategori: dels legitima flerstegsärenden där titeln uppdateras per steg (t.ex. detaljplaner
+  som går samråd → granskning → antagande, med ändrad titel för varje fas), dels möjliga
+  ytterligare missar.
+- Ett stort antal av de "olika titel"-grupperna (och en del av "samma titel"-grupperna) är
+  INTE ärendekedjor alls, utan legitima återkommande administrativa rutinpunkter som delar ett
+  gemensamt "årsdiarienummer" (t.ex. `2022.001 BUN` med 10 separata månatliga delegationsbeslut,
+  `2023.026 VON` med 7 separata återkommande punkter) — dessa ska INTE slås ihop.
+
+**Varför ingen automatisk sammanslagning gjordes den här sessionen:** ett försök att
+klassificera grupperna automatiskt via `instance`-fältet på första steget visade sig otillräckligt
+tillförlitligt (fältet speglar inte konsekvent varifrån protokollreferensen faktiskt kom, vilket
+gjorde en snabb heuristik riskabel att lita på för produktionsdata). En sammanslagning kräver:
+1. En riktig sammanslagningsalgoritm i `link.ts` (kombinera steg-arrayer, deduplicera inom den
+   sammanslagna listan, hantera ordning enligt R1) — INTE bara "behåll versionen med flest steg"
+   som användes för den enkla steg-1-dedupen (den metoden skulle här FÖRSTÖRA data genom att
+   kasta bort den ena sidans unika steg).
+2. En ny eller uppdaterad invariant i spec (jämförbar med R7) som beskriver exakt vilket mönster
+   som ska trigga sammanslagning (samma diarienummer + samma titel + olika instanser, snarare än
+   bara samma diarienummer) och vilket som INTE ska (återkommande rutinbuntar).
+3. Tester mot riktiga exempel ur de 256 respektive 189 grupperna ovan, innan koden körs mot
+   produktionsdata — samma process som resten av pipelinen redan följer.
+
+**Rekommenderad prioritet för uppföljning:** börja med de 256 "samma titel, olika instans"-
+grupperna (390 poster) — högst sannolikhet för äkta vinst utan att riskera att slå ihop olika
+sakfrågor. De 189 "olika titel"-grupperna kräver mer manuell granskning innan en regel kan
+skrivas, och en delmängd av dem (administrativa årsbuntar) ska aldrig slås ihop alls.
+
+**Status: ej åtgärdat, medvetet avgränsat till en framtida session med spec + tester.**
