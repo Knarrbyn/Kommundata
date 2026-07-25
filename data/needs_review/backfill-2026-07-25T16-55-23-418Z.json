@@ -1,0 +1,1372 @@
+[
+  {
+    "arende": {
+      "title": "Taxa för ansökan om pedagogisk omsorg, fristående verksamhet",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2022.343 KS",
+      "steps": [
+        {
+          "step_id": "ks-210-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2022-10-17",
+          "quote": "Kommunstyrelsen har den 17 oktober 2022, § 131 behandlat ärendet och lämnat följande förslag till beslut:",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§210 KOMMUNFULLMAKTIGE 2022-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2022-10-26/protocol/protokoll-kommunfullmaktige-26-oktober-2022pdf-22736?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-210-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2022-10-26",
+          "quote": "1. Följande avgiftsnivåer för Alingsås kommun antas från och med 1 januari år 2023: Ansökan om nyetablering av verksamhet i form av pedagogisk omsorg: 24 000 kronor. Ansökan om utökande av befintlig verksamhet i form av pedagogisk omsorg: 12 000 kronor. Ansökan om byte av verksamhetsställe inom verksamhet i form av pedagogisk omsorg: 12 000 kronor.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "sd"
+              ],
+              "quote": "Vi Sverigedemokrater anser att den avgift som föreslås på 24 000 kronor kan förhindra och försvåra för aktörer som vill etablera sig i kommunen."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§210 KOMMUNFULLMAKTIGE 2022-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2022-10-26/protocol/protokoll-kommunfullmaktige-26-oktober-2022pdf-22736?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-210-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 17 oktober 2022, § 131 behandlat ärendet och lämnat följande förslag till beslut:",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-210-beslut",
+        "field": "quote",
+        "quote": "1. Följande avgiftsnivåer för Alingsås kommun antas från och med 1 januari år 2023: Ansökan om nyetablering av verksamhet i form av pedagogisk omsorg: 24 000 kronor. Ansökan om utökande av befintlig verksamhet i form av pedagogisk omsorg: 12 000 kronor. Ansökan om byte av verksamhetsställe inom verksamhet i form av pedagogisk omsorg: 12 000 kronor.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (56 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kf-210-beslut",
+        "field": "reservation[sd]",
+        "quote": "Vi Sverigedemokrater anser att den avgift som föreslås på 24 000 kronor kan förhindra och försvåra för aktörer som vill etablera sig i kommunen.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ansökan om förbundsmedlemskap, Herrljunga kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2022.442 KS",
+      "steps": [
+        {
+          "step_id": "ks-212-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2022-10-17",
+          "quote": "Kommunstyrelsen har den 17 oktober 2022, § 132 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§212 KOMMUNFULLMAKTIGE 2022-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2022-10-26/protocol/protokoll-kommunfullmaktige-26-oktober-2022pdf-22736?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-212-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2022-10-26",
+          "quote": "1. Räddningstjänsten i Herrljunga kommuns ansökan om medlemskap i AVRF godkänns med följande tillägg: Målsättningen ska vara att räddningstjänsten i Herrljunga, innan ikraftträdandet av ett nytt förbund, ska ha uppnått jämförbar kostnadsnivå (kr/invånare) för sin räddningstjänst i relation till Alingsås och Vårgårda kommuner.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§212 KOMMUNFULLMAKTIGE 2022-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2022-10-26/protocol/protokoll-kommunfullmaktige-26-oktober-2022pdf-22736?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-212-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 17 oktober 2022, § 132 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-212-beslut",
+        "field": "quote",
+        "quote": "1. Räddningstjänsten i Herrljunga kommuns ansökan om medlemskap i AVRF godkänns med följande tillägg: Målsättningen ska vara att räddningstjänsten i Herrljunga, innan ikraftträdandet av ett nytt förbund, ska ha uppnått jämförbar kostnadsnivå (kr/invånare) för sin räddningstjänst i relation till Alingsås och Vårgårda kommuner.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (43 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Taxa för prövning och tillsyn inom miljöbalkens område",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2022.493 KS",
+      "steps": [
+        {
+          "step_id": "beredning-ks-284",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2022-11-07",
+          "quote": "Kommunstyrelsen har den 7 november 2022, § 166 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§284 KOMMUNFULLMAKTIGE 2022-11-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2022-11-30/protocol/protokoll-kommunfullmaktige-30-november-2022pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "beslut-kf-284",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2022-11-30",
+          "quote": "1. Taxa för prövning och tillsyn inom miljöbalkens område fastställs och börjar gälla från och med den 1 januari 2023. 2. Ansvarig nämnd får för varje kalenderår (avgiftsår) besluta om att justera taxans avgifter med Prisindex för kommunal verksamhet (PKV) per oktober månad.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§284 KOMMUNFULLMAKTIGE 2022-11-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2022-11-30/protocol/protokoll-kommunfullmaktige-30-november-2022pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beredning-ks-284",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 7 november 2022, § 166 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "beslut-kf-284",
+        "field": "quote",
+        "quote": "1. Taxa för prövning och tillsyn inom miljöbalkens område fastställs och börjar gälla från och med den 1 januari 2023. 2. Ansvarig nämnd får för varje kalenderår (avgiftsår) besluta om att justera taxans avgifter med Prisindex för kommunal verksamhet (PKV) per oktober månad.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (43 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ersättningar till förtroendevalda för mandatperioden 2023-2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2022.126 KS",
+      "steps": [
+        {
+          "step_id": "ks-beredning-3",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-02-06",
+          "quote": "Kommunstyrelsen har den 6 februari, § 21 behandlat ärendet och föreslagit att valberedningens ordförandes ersättning under icke valår fastställs till 0,5 procent av kommunstyrelsens ordförandes arvode.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§3 KOMMUNFULLMAKTIGE 2023-02-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-02-22/protocol/protokoll-kommunfullmaktige-22-februari-2023pdf-85001?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-beslut-3",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-02-22",
+          "quote": "Valberedningens ordförandes ersättning för icke valår fastställs till 0,5 procent av arvodet för kommunstyrelsens ordförande.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§3 KOMMUNFULLMAKTIGE 2023-02-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-02-22/protocol/protokoll-kommunfullmaktige-22-februari-2023pdf-85001?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-beredning-3",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 6 februari, § 21 behandlat ärendet och föreslagit att valberedningens ordförandes ersättning under icke valår fastställs till 0,5 procent av kommunstyrelsens ordförandes arvode.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-beslut-3",
+        "field": "quote",
+        "quote": "Valberedningens ordförandes ersättning för icke valår fastställs till 0,5 procent av arvodet för kommunstyrelsens ordförande.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Handlingsplaner till klimatstrategin",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "avgjort",
+      "diarienummer": "2023.130 KS",
+      "steps": [
+        {
+          "step_id": "ks-beredning-66",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-04-03",
+          "quote": "Kommunstyrelsen har den 3 april 2023, § 50 behandlat ärendet och lämnat följande förslag till beslut:",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§66 KOMMUNFULLMAKTIGE 2023-04-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-04-26/protocol/protokoll-kommunfullmaktige-2023-04-26pdf-89124?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-beslut-66",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-04-26",
+          "quote": "1. Handlingsplan för begränsad klimatpåverkan antas, med följande tillägg: Åtgärd för mål 3.1 i Handlingsplan för begränsad klimatpåverkan ändras till följande: Antal områden tätortsnära skog där reservatsbildningen eller andra former av formellt skydd har genomförts eller påbörjats samt areal.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till kommunstyrelsens förslag. Nej-röst för bifall till Amanda Anderssons ändringsförslag.",
+            "result": {
+              "ja": 43,
+              "nej": 7,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Miljöpartiet tycker det är bra att Alingsås kommun äntligen får en handlingsplan för minskad klimatpåverkan och en handlingsplan för klimatanpassningar. Klimatet är vår tids ödesfråga och alla måste ställa om, såväl globalt som lokalt."
+            },
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vi anser att planerna i grunden är bra, men åtgärderna i dem måste skärpas om vi ska visa att vi i Alingsås kommun tar omställningen på verkligt allvar."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§66 KOMMUNFULLMAKTIGE 2023-04-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-04-26/protocol/protokoll-kommunfullmaktige-2023-04-26pdf-89124?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-beredning-66",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 3 april 2023, § 50 behandlat ärendet och lämnat följande förslag till beslut:",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-beslut-66",
+        "field": "quote",
+        "quote": "1. Handlingsplan för begränsad klimatpåverkan antas, med följande tillägg: Åtgärd för mål 3.1 i Handlingsplan för begränsad klimatpåverkan ändras till följande: Antal områden tätortsnära skog där reservatsbildningen eller andra former av formellt skydd har genomförts eller påbörjats samt areal.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-beslut-66",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Miljöpartiet tycker det är bra att Alingsås kommun äntligen får en handlingsplan för minskad klimatpåverkan och en handlingsplan för klimatanpassningar. Klimatet är vår tids ödesfråga och alla måste ställa om, såväl globalt som lokalt.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-beslut-66",
+        "field": "protocol_anteckning[v]",
+        "quote": "Vi anser att planerna i grunden är bra, men åtgärderna i dem måste skärpas om vi ska visa att vi i Alingsås kommun tar omställningen på verkligt allvar.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Bolagsordning, ägardirektiv samt namn på nytt dotterbolag på grund av ny koncernstruktur inom energikoncernen",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2023.323 KS",
+      "steps": [
+        {
+          "step_id": "abar-133",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-08-16",
+          "quote": "AB Alingsås Rådhus har den 16 augusti 2023, § 14 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§133 KOMMUNFULLMAKTIGE 2023-09-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-09-06/protocol/protokoll-kommunfullmaktige-6-september-2023pdf-81666?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-133",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-08-21",
+          "quote": "Kommunstyrelsen har den 21 augusti 2023, § 127 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§133 KOMMUNFULLMAKTIGE 2023-09-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-09-06/protocol/protokoll-kommunfullmaktige-6-september-2023pdf-81666?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-133",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-09-06",
+          "quote": "1. Ägardirektiv för Alingsås Energi Elnät AB godkänns och ska gälla från 1 januari 2024. 2. Förslag till namnändring för Alingsås Energi Elnät AB godkänns och ska gälla från 1 januari 2024. 3. Förslag till bolagsordning för Alingsås Energi Elnät AB godkänns och ska gälla från 1 januari 2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§133 KOMMUNFULLMAKTIGE 2023-09-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-09-06/protocol/protokoll-kommunfullmaktige-6-september-2023pdf-81666?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "abar-133",
+        "field": "quote",
+        "quote": "AB Alingsås Rådhus har den 16 augusti 2023, § 14 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-133",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 21 augusti 2023, § 127 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-133",
+        "field": "quote",
+        "quote": "1. Ägardirektiv för Alingsås Energi Elnät AB godkänns och ska gälla från 1 januari 2024. 2. Förslag till namnändring för Alingsås Energi Elnät AB godkänns och ska gälla från 1 januari 2024. 3. Förslag till bolagsordning för Alingsås Energi Elnät AB godkänns och ska gälla från 1 januari 2024.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (49 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "VA-taxa 2024",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2023.288 KS",
+      "steps": [
+        {
+          "step_id": "ks-beredning-163",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-09-04",
+          "quote": "Kommunstyrelsen har den 4 september 2023, § 146 behandlat ärendet och föreslagit att VA-taxan godkänns och börjar gälla från och med 1 januari 2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§163 KOMMUNFULLMAKTIGE 2023-09-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-09-27/protocol/protokoll-kommunfullmaktige-29-september-2023pdf-62237?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-beslut-163",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-09-27",
+          "quote": "Ny VA-taxa för år 2024 godkänns och börjar gälla från och med den 1 januari 2024, med redaktionell ändring av samhällsbyggnadsnämnden till rätt namn på instansen.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§163 KOMMUNFULLMAKTIGE 2023-09-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-09-27/protocol/protokoll-kommunfullmaktige-29-september-2023pdf-62237?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-beredning-163",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 4 september 2023, § 146 behandlat ärendet och föreslagit att VA-taxan godkänns och börjar gälla från och med 1 januari 2024.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-beslut-163",
+        "field": "quote",
+        "quote": "Ny VA-taxa för år 2024 godkänns och börjar gälla från och med den 1 januari 2024, med redaktionell ändring av samhällsbyggnadsnämnden till rätt namn på instansen.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Interpellation till kommunstyrelsens ordförande gällande chefsrekrytering - Sebastian Aronsson (S)",
+      "initiativ_typ": "interpellation",
+      "initiators": [
+        {
+          "name": "Sebastian Aronsson",
+          "party": "s"
+        }
+      ],
+      "category": "övrigt",
+      "status": "pågående",
+      "diarienummer": "2023.394 KS",
+      "steps": [
+        {
+          "step_id": "interpellation-stalld-170",
+          "instance": "kommunfullmaktige",
+          "type": "interpellation_stalld",
+          "date": "2023-09-27",
+          "quote": "Sebastian Aronsson (S) lämnar en interpellation till kommunstyrelsens ordförande gällande chefsrekrytering med följande frågor: Hur efterlevs beslutade förändringar idag?",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§170 KOMMUNFULLMAKTIGE 2023-09-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-09-27/protocol/protokoll-kommunfullmaktige-29-september-2023pdf-62237?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "interpellation-remiss-170",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-09-27",
+          "quote": "Interpellationen lämnas till kommunstyrelsens ordförande för besvarande på nästa kommunfullmäktigesammanträde.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§170 KOMMUNFULLMAKTIGE 2023-09-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-09-27/protocol/protokoll-kommunfullmaktige-29-september-2023pdf-62237?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "interpellation-stalld-170",
+        "field": "quote",
+        "quote": "Sebastian Aronsson (S) lämnar en interpellation till kommunstyrelsens ordförande gällande chefsrekrytering med följande frågor: Hur efterlevs beslutade förändringar idag?",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "interpellation-remiss-170",
+        "field": "quote",
+        "quote": "Interpellationen lämnas till kommunstyrelsens ordförande för besvarande på nästa kommunfullmäktigesammanträde.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förflyttning av kommunens arbetsmarknadsenhet och integrationsenhet",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.219 KS",
+      "steps": [
+        {
+          "step_id": "ks-190-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-10-16",
+          "quote": "Kommunstyrelsen har den 16 oktober 2023, § 171 behandlat ärendet och beslutat att ge kommundirektör, tillsammans med socialförvaltningen, i uppdrag att fortsätta arbetet med att ta fram en Alingsåsmodell, samt föreslagit att kommunens arbetsmarknadsenhet och integrationsenhet förflyttas från kultur- och utbildningsnämnden till socialnämnden från och med 1 januari 2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§190 KOMMUNFULLMAKTIGE 2023-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-10-25/protocol/protokoll-kommunfullmaktige-2023-10-25pdf-42808?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-190-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-10-25",
+          "quote": "Kommunens arbetsmarknadsenhet och integrationsenhet förflyttas från kultur- och utbildningsnämnden till socialnämnden från och med 1 januari 2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§190 KOMMUNFULLMAKTIGE 2023-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-10-25/protocol/protokoll-kommunfullmaktige-2023-10-25pdf-42808?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-190-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 16 oktober 2023, § 171 behandlat ärendet och beslutat att ge kommundirektör, tillsammans med socialförvaltningen, i uppdrag att fortsätta arbetet med att ta fram en Alingsåsmodell, samt föreslagit att kommunens arbetsmarknadsenhet och integrationsenhet förflyttas från kultur- och utbildningsnämnden till socialnämnden från och med 1 januari 2024.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (49 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kf-190-beslut",
+        "field": "quote",
+        "quote": "Kommunens arbetsmarknadsenhet och integrationsenhet förflyttas från kultur- och utbildningsnämnden till socialnämnden från och med 1 januari 2024.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande Bjärkehallen - Heidi Hankanen Ängberg (C)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        }
+      ],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.098 KS",
+      "steps": [
+        {
+          "step_id": "kf-193-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2023-02-22",
+          "quote": "Heidi Hankanen Ängberg, (C) har till kommunfullmäktige den 22 februari 2023 §16 lämnat en motion om utökning och tillgänglighetsanpassning av läktare i Bjärkehallens A-hall.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§193 KOMMUNFULLMAKTIGE 2023-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-10-25/protocol/protokoll-kommunfullmaktige-2023-10-25pdf-42808?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-193-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2023-10-16",
+          "quote": "Kommunstyrelsen har den 16 oktober 2023, § 174 behandlat ärendet och föreslagit att motionens första punkt avslås och motionens andra punkt anses besvarad.",
+          "decision": "delvis",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§193 KOMMUNFULLMAKTIGE 2023-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-10-25/protocol/protokoll-kommunfullmaktige-2023-10-25pdf-42808?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-193-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-10-25",
+          "quote": "Motionens första punkt avseende utökning av läktare i A-hallen avslås. Motionens andra punkt avseende tillgänglighetsanpassning av läktare anses besvarad.",
+          "decision": "delvis",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§193 KOMMUNFULLMAKTIGE 2023-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-10-25/protocol/protokoll-kommunfullmaktige-2023-10-25pdf-42808?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-193-motion-inlamnad",
+        "field": "quote",
+        "quote": "Heidi Hankanen Ängberg, (C) har till kommunfullmäktige den 22 februari 2023 §16 lämnat en motion om utökning och tillgänglighetsanpassning av läktare i Bjärkehallens A-hall.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-193-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 16 oktober 2023, § 174 behandlat ärendet och föreslagit att motionens första punkt avslås och motionens andra punkt anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-193-beslut",
+        "field": "quote",
+        "quote": "Motionens första punkt avseende utökning av läktare i A-hallen avslås. Motionens andra punkt avseende tillgänglighetsanpassning av läktare anses besvarad.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Fråga till kommunstyrelsens ordförande gällande hissning av Israels flagga - Amanda Andersson (MP)",
+      "initiativ_typ": "enkel_fraga",
+      "initiators": [
+        {
+          "name": "Amanda Andersson",
+          "party": "mp"
+        }
+      ],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2023.447 KS",
+      "steps": [
+        {
+          "step_id": "kf-197-fraga-stalld",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_stalld",
+          "date": "2023-10-25",
+          "quote": "Min fråga till kommunstyrelsens ordförande lyder: När beslutet att Alingsås kommun skulle hissa Israels flagga togs, fanns det några tankar kring att hissningen av flaggan kan uppfattas som att Alingsås kommun tar ställning i en 75 år lång, blodig och komplex konflikt?",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§197 KOMMUNFULLMAKTIGE 2023-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-10-25/protocol/protokoll-kommunfullmaktige-2023-10-25pdf-42808?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-197-fraga-svarad",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_svarad",
+          "date": "2023-10-25",
+          "quote": "Kommunstyrelsens ordförande Daniel Filipsson (M) besvarar frågan muntligt vid dagens sammanträde.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§197 KOMMUNFULLMAKTIGE 2023-10-25",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-10-25/protocol/protokoll-kommunfullmaktige-2023-10-25pdf-42808?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-197-fraga-stalld",
+        "field": "quote",
+        "quote": "Min fråga till kommunstyrelsens ordförande lyder: När beslutet att Alingsås kommun skulle hissa Israels flagga togs, fanns det några tankar kring att hissningen av flaggan kan uppfattas som att Alingsås kommun tar ställning i en 75 år lång, blodig och komplex konflikt?",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kf-197-fraga-svarad",
+        "field": "quote",
+        "quote": "Kommunstyrelsens ordförande Daniel Filipsson (M) besvarar frågan muntligt vid dagens sammanträde.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Utvärdering av kostavtal och av möjlighet att bedriva verksamheten i egen regi",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.358 KS",
+      "steps": [
+        {
+          "step_id": "ks-192-2023-11-06",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2023-11-06",
+          "quote": "Kommunstyrelsen har den 6 november 2023, § 192 behandlat ärendet och beslutat enligt följande: 1. Kommunstyrelsen anser att uppdraget om att utreda kostverksamheten är slutfört. Kostverksamheten kvarstår i nuvarande form. 2. Kommundirektör får delegation att avgöra om nuvarande avtal bör förlängas och i sådana fall genomföra detta.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§219 KOMMUNFULLMAKTIGE 2023-11-29",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-11-29/protocol/protokoll-kommunfullmaktige-2023-11-29pdf-59787?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-219-2023-11-29",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2023-11-29",
+          "quote": "Kostverksamheten och lokalvårdsverksamheten flyttas ansvarsmässigt och organisatoriskt till kommunstyrelsen från och med den 1 januari 2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§219 KOMMUNFULLMAKTIGE 2023-11-29",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2023-11-29/protocol/protokoll-kommunfullmaktige-2023-11-29pdf-59787?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-192-2023-11-06",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 6 november 2023, § 192 behandlat ärendet och beslutat enligt följande: 1. Kommunstyrelsen anser att uppdraget om att utreda kostverksamheten är slutfört. Kostverksamheten kvarstår i nuvarande form. 2. Kommundirektör får delegation att avgöra om nuvarande avtal bör förlängas och i sådana fall genomföra detta.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "kf-219-2023-11-29",
+        "field": "quote",
+        "quote": "Kostverksamheten och lokalvårdsverksamheten flyttas ansvarsmässigt och organisatoriskt till kommunstyrelsen från och med den 1 januari 2024.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ändring av bolagsordning för Alingsås Energi Elnät AB",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2024.042 KS",
+      "steps": [
+        {
+          "step_id": "ks-2024-02-05-s11-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2024-01-23",
+          "quote": "Lydelsen under § 5 i bolagsordningen ändras till \"Aktiekapitalet skall vara lägst fyra miljoner (4 000 000) kronor och högst sexton miljoner (16 000 000) kronor.\"",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§11 KOMMUNFULLMAKTIGE 2024-02-28",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-02-28/protocol/protokoll-kf-2024-02-28-uppdaterad-deltagarlistapdf-98062?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-2024-02-28-s11-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2024-02-28",
+          "quote": "Förslag till ny bolagsordning för Alingsås Energi Elnät AB godkänns.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§11 KOMMUNFULLMAKTIGE 2024-02-28",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-02-28/protocol/protokoll-kf-2024-02-28-uppdaterad-deltagarlistapdf-98062?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-2024-02-05-s11-beredning",
+        "field": "quote",
+        "quote": "Lydelsen under § 5 i bolagsordningen ändras till \"Aktiekapitalet skall vara lägst fyra miljoner (4 000 000) kronor och högst sexton miljoner (16 000 000) kronor.\"",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-2024-02-28-s11-beslut",
+        "field": "quote",
+        "quote": "Förslag till ny bolagsordning för Alingsås Energi Elnät AB godkänns.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Fråga till kommunstyrelsens ordförande gällande vägar i Sollebrunn - Heidi Hankanen Ängberg (C)",
+      "initiativ_typ": "enkel_fraga",
+      "initiators": [
+        {
+          "name": "Heidi Hankanen Ängberg",
+          "party": "c"
+        }
+      ],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2024.149 KS",
+      "steps": [
+        {
+          "step_id": "enkel-fraga-stalld-2024-03-27",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_stalld",
+          "date": "2024-03-27",
+          "quote": "Heidi Hankanen Ängberg (C) lämnar en fråga till kommunstyrelsens ordförande gällande vägar i Sollebrunn",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§48 KOMMUNFULLMAKTIGE 2024-03-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-03-27/protocol/protokoll-kommunfullmaktige-2024-03-27pdf-73626?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "enkel-fraga-svarad-2024-03-27",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_svarad",
+          "date": "2024-03-27",
+          "quote": "Kommunstyrelsens ordförande Daniel Filipsson (M) besvarar frågan muntligt vid dagens sammanträde.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§48 KOMMUNFULLMAKTIGE 2024-03-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-03-27/protocol/protokoll-kommunfullmaktige-2024-03-27pdf-73626?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "enkel-fraga-stalld-2024-03-27",
+        "field": "quote",
+        "quote": "Heidi Hankanen Ängberg (C) lämnar en fråga till kommunstyrelsens ordförande gällande vägar i Sollebrunn",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "enkel-fraga-svarad-2024-03-27",
+        "field": "quote",
+        "quote": "Kommunstyrelsens ordförande Daniel Filipsson (M) besvarar frågan muntligt vid dagens sammanträde.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande behovet av en klimatanpassningsstrateg - Amanda Andersson (MP)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Amanda Andersson",
+          "party": "mp"
+        }
+      ],
+      "category": "miljö-klimat",
+      "status": "avgjort",
+      "diarienummer": "2024.117 KS",
+      "steps": [
+        {
+          "step_id": "motion-inlamnad-66",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2024-02-27",
+          "quote": "Amanda Andersson (MP) har till kommunfullmäktige den 27 februari 2024, § 23 lämnat en motion om att utreda behovet av en klimatanpassningsstrateg.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§66 KOMMUNFULLMAKTIGE 2024-04-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-04-24/protocol/protokoll-kommunfullmaktige-2024-04-24pdf-29254?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "klk-yttrande-66",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2024-03-18",
+          "quote": "Det finns idag därmed en god överblick över våra behov och våra processer och det finns därmed inget behov av att göra en utredning kring behov av att rekrytera en klimatanpassningsstrateg. Kommunledningskontoret föreslår därmed att motionen ska avslås.",
+          "decision": "avstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§66 KOMMUNFULLMAKTIGE 2024-04-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-04-24/protocol/protokoll-kommunfullmaktige-2024-04-24pdf-29254?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-beredning-66",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2024-04-08",
+          "quote": "Kommunstyrelsen har den 8 april 2024, § 56 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§66 KOMMUNFULLMAKTIGE 2024-04-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-04-24/protocol/protokoll-kommunfullmaktige-2024-04-24pdf-29254?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-beslut-66",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2024-04-24",
+          "quote": "Motionen avslås.",
+          "decision": "avslag",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Kommunledningskontoret anser att det inte behövs någon ytterligare utredning gällande Alingsås kommuns behov av en klimatanpassningsstrateg eftersom de har en bild av vad som behöver göras."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§66 KOMMUNFULLMAKTIGE 2024-04-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-04-24/protocol/protokoll-kommunfullmaktige-2024-04-24pdf-29254?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "motion-inlamnad-66",
+        "field": "quote",
+        "quote": "Amanda Andersson (MP) har till kommunfullmäktige den 27 februari 2024, § 23 lämnat en motion om att utreda behovet av en klimatanpassningsstrateg.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "klk-yttrande-66",
+        "field": "quote",
+        "quote": "Det finns idag därmed en god överblick över våra behov och våra processer och det finns därmed inget behov av att göra en utredning kring behov av att rekrytera en klimatanpassningsstrateg. Kommunledningskontoret föreslår därmed att motionen ska avslås.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-beredning-66",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 8 april 2024, § 56 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-beslut-66",
+        "field": "quote",
+        "quote": "Motionen avslås.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-beslut-66",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Kommunledningskontoret anser att det inte behövs någon ytterligare utredning gällande Alingsås kommuns behov av en klimatanpassningsstrateg eftersom de har en bild av vad som behöver göras.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Fråga till kommunstyrelsens ordförande gällande barn- och ungdomsverksamheten - Marcus Wallin (V)",
+      "initiativ_typ": "enkel_fraga",
+      "initiators": [
+        {
+          "name": "Marcus Wallin",
+          "party": "v"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2024.259 KS",
+      "steps": [
+        {
+          "step_id": "kf-117-fraga-stalld",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_stalld",
+          "date": "2024-06-12",
+          "quote": "Vad innebär det rent konkret för barnen och personalen inom förskolan och grundskolan att \"bibehålla status quo\" utifrån rådande ansträngda läge i verksamheterna?",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§117 KOMMUNFULLMAKTIGE 2024-06-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-06-12/protocol/protokoll-kommunfullmaktige-2024-06-12pdf-59684?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-117-fraga-svarad",
+          "instance": "kommunfullmaktige",
+          "type": "enkel_fraga_svarad",
+          "date": "2024-06-12",
+          "quote": "Kommunstyrelsens ordförande Daniel Filipsson (M) besvarar frågan muntligt vid dagens sammanträde.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§117 KOMMUNFULLMAKTIGE 2024-06-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-06-12/protocol/protokoll-kommunfullmaktige-2024-06-12pdf-59684?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-117-fraga-stalld",
+        "field": "quote",
+        "quote": "Vad innebär det rent konkret för barnen och personalen inom förskolan och grundskolan att \"bibehålla status quo\" utifrån rådande ansträngda läge i verksamheterna?",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-117-fraga-svarad",
+        "field": "quote",
+        "quote": "Kommunstyrelsens ordförande Daniel Filipsson (M) besvarar frågan muntligt vid dagens sammanträde.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ny styrmodell 2024",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2024.339 KS",
+      "steps": [
+        {
+          "step_id": "ks-149-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2024-10-21",
+          "quote": "Kommunstyrelsen har den 21 oktober 2024, § 140 behandlat ärendet och föreslagit att styrmodell för Alingsås kommun antas och att styrmodellen ersätter den tidigare styrmodellen, antagen av kommunfullmäktige den 27 november 2019, § 218.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§149 KOMMUNFULLMAKTIGE 2024-11-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-11-06/protocol/protokoll-kf-2024-11-06pdf-39370?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-149-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2024-11-06",
+          "quote": "Styrmodell för Alingsås kommun antas. Styrmodellen ersätter den tidigare styrmodellen, antagen av kommunfullmäktige den 27 november 2019, § 218.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vi i Vänsterpartiet reserverar oss först och främst mot det övergripande målet i förslaget till ny styrmodell - \"Sveriges mest effektiva kommun\". När fokus ligger på effektivitet finns det en risk att det innebär nedskärningar i välfärdstjänster, ökad press på arbetstagare och en minskning av offentliga investeringar i sociala program som bidrar till långsiktig trygghet och jämlikhet."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "l"
+              ],
+              "quote": "Liberalerna ser positivt på att med det övergripande effektivitetsmålet kommer ett större fokus läggas vid kvalitet och resursutnyttjande. Vi vill samtidigt peka på svårigheten att hitta lämpliga indikatorer för att utvärdera om kommunen når detta mål."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§149 KOMMUNFULLMAKTIGE 2024-11-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-11-06/protocol/protokoll-kf-2024-11-06pdf-39370?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-149-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 21 oktober 2024, § 140 behandlat ärendet och föreslagit att styrmodell för Alingsås kommun antas och att styrmodellen ersätter den tidigare styrmodellen, antagen av kommunfullmäktige den 27 november 2019, § 218.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-149-beslut",
+        "field": "quote",
+        "quote": "Styrmodell för Alingsås kommun antas. Styrmodellen ersätter den tidigare styrmodellen, antagen av kommunfullmäktige den 27 november 2019, § 218.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-149-beslut",
+        "field": "reservation[v]",
+        "quote": "Vi i Vänsterpartiet reserverar oss först och främst mot det övergripande målet i förslaget till ny styrmodell - \"Sveriges mest effektiva kommun\". När fokus ligger på effektivitet finns det en risk att det innebär nedskärningar i välfärdstjänster, ökad press på arbetstagare och en minskning av offentliga investeringar i sociala program som bidrar till långsiktig trygghet och jämlikhet.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-149-beslut",
+        "field": "protocol_anteckning[l]",
+        "quote": "Liberalerna ser positivt på att med det övergripande effektivitetsmålet kommer ett större fokus läggas vid kvalitet och resursutnyttjande. Vi vill samtidigt peka på svårigheten att hitta lämpliga indikatorer för att utvärdera om kommunen når detta mål.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "GIS-taxa 2025",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2024.341 KS",
+      "steps": [
+        {
+          "step_id": "ten-154-namndyttrande",
+          "instance": "tekniska-namnden",
+          "type": "namndyttrande",
+          "date": "2024-08-26",
+          "quote": "Tekniska nämnden behandlade den 26 augusti 2024, § 45 ärendet om GIS-taxa för år 2025 och beslutade att föreslå kommunfullmäktige att fastställa förslaget till ny GIS-taxa.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§154 KOMMUNFULLMAKTIGE 2024-11-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-11-06/protocol/protokoll-kf-2024-11-06pdf-39370?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-154-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2024-10-21",
+          "quote": "Kommunstyrelsen har den 21 oktober 2024, § 149 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§154 KOMMUNFULLMAKTIGE 2024-11-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-11-06/protocol/protokoll-kf-2024-11-06pdf-39370?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-154-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2024-11-06",
+          "quote": "1. GIS-taxan fastställs, med följande ändring: Följande mening läggs till som andra mening under rubriken 1:1 Taxans legala grund (sidan 3): \"GIS står för geografiska informationssystem. Det är IT-system som kan läsa kartor och tolka geografiska data (geodata).\" 2. GIS-taxan börjar gälla från den 1 januari 2025.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§154 KOMMUNFULLMAKTIGE 2024-11-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-11-06/protocol/protokoll-kf-2024-11-06pdf-39370?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ten-154-namndyttrande",
+        "field": "quote",
+        "quote": "Tekniska nämnden behandlade den 26 augusti 2024, § 45 ärendet om GIS-taxa för år 2025 och beslutade att föreslå kommunfullmäktige att fastställa förslaget till ny GIS-taxa.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-154-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 21 oktober 2024, § 149 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-154-beslut",
+        "field": "quote",
+        "quote": "1. GIS-taxan fastställs, med följande ändring: Följande mening läggs till som andra mening under rubriken 1:1 Taxans legala grund (sidan 3): \"GIS står för geografiska informationssystem. Det är IT-system som kan läsa kartor och tolka geografiska data (geodata).\" 2. GIS-taxan börjar gälla från den 1 januari 2025.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Motion gällande att anordna ett funkis-fullmäktige - Sanna Dabolins (V) och Marcus Wallin (V)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Sanna Dabolins",
+          "party": "v"
+        },
+        {
+          "name": "Marcus Wallin",
+          "party": "v"
+        }
+      ],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2024.510 KS",
+      "steps": [
+        {
+          "step_id": "kf-190-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2024-12-11",
+          "quote": "Sanna Dabolins (V) och Marcus Wallin (V) lämnar en motion om att anordna ett funkis-fullmäktige.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§190 KOMMUNFULLMAKTIGE 2024-12-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-12-11/protocol/protokoll-kf-2024-12-11pdf-64792?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-190-remiss",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2024-12-11",
+          "quote": "Motionen lämnas till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§190 KOMMUNFULLMAKTIGE 2024-12-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2024-12-11/protocol/protokoll-kf-2024-12-11pdf-64792?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-190-motion-inlamnad",
+        "field": "quote",
+        "quote": "Sanna Dabolins (V) och Marcus Wallin (V) lämnar en motion om att anordna ett funkis-fullmäktige.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-190-remiss",
+        "field": "quote",
+        "quote": "Motionen lämnas till kommunstyrelsen för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
