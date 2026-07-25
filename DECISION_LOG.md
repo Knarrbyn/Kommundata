@@ -1022,3 +1022,29 @@ domän vid nedladdning via API).
    inte en kapitulation inför buggen. De 3 möten som redan hunnit bearbetas och ligger i
    `data/published/arenden.json`/`data/seen.json` lämnas orörda; städas vid nästa
    dubblettstädning om det behövs.
+
+## 2026-07-25 — Trasig config.ts efter manuell borttagning av överförmyndarnämnden
+
+**Vad:** ägaren tog manuellt bort `overformyndarnamnden`-raden ur `COMMITTEES` i `src/config.ts`
+via GitHubs webbredigerare (2026-07-24 kväll), men en extra klammerparentes (`{`) blev kvar
+strax före `samhallsbyggnadsnamnden`-posten. Filen såg visuellt korrekt ut i både webbredigerarens
+diff-vy och den renderade kodvyn (79 rader, ingen synlig `overformyndarnamnden`-text), men var
+syntaktiskt trasig — `node --experimental-strip-types` kraschade med
+`SyntaxError [ERR_INVALID_TYPESCRIPT_SYNTAX]: Unexpected token '{'`.
+
+**Konsekvens:** ALLA backfill-körningar (oavsett instans) skulle ha misslyckats vid steget
+"Kör backfill för denna omgång" tills fixat — inte bara `samhallsbyggnadsnamnden`, som råkade
+vara den instans som testades först efter den trasiga committen. Två körningar (#19, #20) föll
+för detta innan orsaken hittades, efter en omväg där ett ARCHIVE_REPO_TOKEN-utgånget-secret-fel
+(#18) och en initial felaktig gissning om saknad `seedMeetingUrl` (#17, som gällde den redan
+borttagna overformyndarnamnden) fick undersökas och uteslutas först.
+
+**Lärdom:** en textmatchning ("finns strängen 'overformyndarnamnden' kvar?") eller en visuell
+koll av diff-vyn räcker INTE för att verifiera att en manuell filredigering är syntaktiskt giltig.
+Framöver: efter varje manuell config.ts-redigering, validera med
+`node --experimental-strip-types --input-type=module -e "import('...').then(m => console.log(m.COMMITTEES.length))"`
+innan nästa pipeline-körning triggas.
+
+**Åtgärd:** extra `{` borttagen, `seedMeetingUrl` för `samhallsbyggnadsnamnden` behölls (adderad
+samtidigt, ofarlig och sannolikt nyttig — pekar mot ett bekräftat riktigt möte, mote-2021-01-25).
+Validerat lokalt med samma Node-parsningsmetod som pipelinen använder innan push.
