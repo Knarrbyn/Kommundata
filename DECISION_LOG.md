@@ -1114,3 +1114,16 @@ inte bara de 16 som redan fångats.
 
 **Åtgärd kvar:** kör om backfill för `kommunfullmaktige` med den fixade koden för att bekräfta
 att de ~26 äldsta mötena nu faktiskt fångas.
+
+## 2026-07-25 — BEKRÄFTAT: kommunfullmäktige-gapet löst, hela mandatperioden nu täckt
+
+Backfill kört om med den fixade `fetch.ts`. Resultat: 45 möten, jämnt fördelade över hela
+mandatperioden (2022: 13, 2023: 11, 2024: 9, 2025: 8, 2026: 4 t.o.m. juli). Äldsta mötet är nu
+2022-01-26 (första i mandatperioden), nyaste 2026-05-06 (2026-06-10 korrekt exkluderat — protokoll
+ej justerat än, samma logik som alltid). Inga misstänkta luckor i mitten av intervallet; enstaka
+saknade månader jämfört med sidmenyns fullständiga lista förklaras rimligen av inställda möten
+eller protokoll som ännu inte justerats. Backfillen är nu i praktiken komplett för samtliga nio
+bevakade instanser (390 → uppdaterat totalantal efter denna körning, se `data/seen.json`).
+
+**Kvarstående planerat arbete:** dubblettstädningen (~94 par i `arenden.json`), som medvetet
+väntade tills all backfill var klar.
