@@ -46,7 +46,6 @@ export const COMMITTEES: Committee[] = [
   { slug: "socialnamnden", name: "Socialnämnden", confirmed: true },
   { slug: "barn-och-ungdomsnamnden", name: "Barn- och ungdomsnämnden", confirmed: true },
   { slug: "bygg-och-miljonamnden", name: "Bygg- och miljönämnden", confirmed: true },
-  { 
   {
     slug: "samhallsbyggnadsnamnden",
     name: "Samhällsbyggnadsnämnden",
