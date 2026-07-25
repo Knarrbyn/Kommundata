@@ -1127,3 +1127,40 @@ bevakade instanser (390 → uppdaterat totalantal efter denna körning, se `data
 
 **Kvarstående planerat arbete:** dubblettstädningen (~94 par i `arenden.json`), som medvetet
 väntade tills all backfill var klar.
+
+## 2026-07-25 — Dubblettstädning genomförd (94 poster), titel-baserad dedup medvetet AVSTÅDD
+
+**Genomfört:** `data/published/arenden.json` städat från 2874 → 2780 poster. Metod: gruppering på
+exakt `(diarienummer, steps[0].source.protocol_ref)`, behöll versionen med flest steg vid krock
+(i praktiken identiska — samma antal steg på båda sidor i alla granskade fall). De 94 borttagna
+posterna orsakades av `markSeen()`-buggen (se tidigare logg) — samma möte bearbetat flera gånger
+innan fixen, vilket skapade exakta kopior. Filen omkanoniserad (`canonicalize`-logiken från
+`publish.ts` återskapad i Python: rekursivt sorterade objektnycklar, bevarad array-ordning) innan
+push, för att hålla samma stil som pipelinens egen output. Ny filstorlek: 4 438 332 → 4 279 465
+bytes, konsekvent med borttagningen.
+
+**Medvetet INTE genomfört: titel-baserad dedup (ett andra städsteg som använts en gång tidigare i
+en annan, mindre analys-session).** Testat mot detta dataset och visade sig FARLIGT här: 787
+"dubbletter" hittades på exakt titel, men en närmare granskning visade att de allra flesta är
+HELT LEGITIMA återkommande administrativa rutinpunkter — samma generiska titel
+("Redovisning av delegationsbeslut", "Ekonomisk uppföljning", "Delegerade beslut 2024" osv.)
+förekommer vid i princip VARJE sammanträde i en nämnd, med olika datum, protokollreferenser och
+ofta olika diarienummer. Att deduplicera på titel hade raderat hundratals genuint distinkta
+ärenden. Även en förfining ("samma titel OCH samma datum") visade sig otillräcklig — den fångade
+en blandning av (a) genuint olika ärenden som råkar dela dag och generisk titel, och (b) ett
+separat, riktigt problem (se nedan). Slutsats: titel ska INTE användas som dedup-nyckel för denna
+typ av kommunal ärendedata; endast (diarienummer, protocol_ref) är en tillräckligt precis nyckel.
+
+**Nytt fynd, INTE åtgärdat, kräver egen lösning:** ett litet antal ärenden med SAMMA diarienummer
+återfinns som TVÅ separata toppnivåobjekt i `arenden.json` istället för ett ärende med flera steg
+— dvs `link.ts` har (av okänd anledning, inte utredd) misslyckats koppla ihop dem trots matchande
+diarienummer. Exempel: "Kavlås ängar - Utvidgning av verksamhetsområde..." (diarienummer
+2024.147 KS) finns som både `a-2024-0001` (kopplat till §86 KOMMUNFULLMAKTIGE 2024-05-29, 3 steg)
+och `a-2024-0427` (kopplat till §67 KOMMUNSTYRELSEN 2024-05-06, 3 steg) — två separata poster som
+borde vara EN med 6 (eller fler, minus ev. överlapp) steg. Detta är INTE en dubblett att radera
+(båda sidor har unikt innehåll) utan ett sammanslagningsproblem som kräver att `link.ts`s
+matchningslogik (R7, paragraf-korsreferens) undersöks för varför den missade kopplingen i just
+dessa fall. Omfattningen av detta problem (hur många ärenden det gäller totalt) är INTE
+kartlagd — bara upptäckt som en bieffekt av dedup-analysen. Rekommenderad uppföljning: en separat
+analys som grupperar på `diarienummer` ensamt (utan protocol_ref-kravet) för att hitta alla
+sådana fall, innan man försöker skriva sammanslagningslogik.
