@@ -1,0 +1,442 @@
+[
+  {
+    "arende": {
+      "title": "Ekonomisk uppföljning 2021",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.019 SN",
+      "steps": [
+        {
+          "step_id": "sn-68-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2021-12-14",
+          "quote": "Socialnämnden fastställer månadsuppföljningen per november 2021 och fastställer helårsprognosen till 6,5 mnkr",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§68 SOCIALNAMNDEN 2021-12-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-12-14/protocol/protokoll-sn-2021-12-14-pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-68-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden fastställer månadsuppföljningen per november 2021 och fastställer helårsprognosen till 6,5 mnkr",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Motion om utökat stöd för kvinnojouren Olivia",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Stina Karlsson",
+          "party": "v"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "pågående",
+      "diarienummer": "2021.071 SN",
+      "steps": [
+        {
+          "step_id": "kf-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2021-09-08",
+          "quote": "Stina Karlsson (V) har till kommunfullmäktige den 8 september 2021, § 154, lämnat en motion till kommunfullmäktige om utökat stöd för kvinnojouren Olivia.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§71 SOCIALNAMNDEN 2021-12-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-12-14/protocol/protokoll-sn-2021-12-14-pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "sn-71-namndyttrande",
+          "instance": "socialnamnden",
+          "type": "namndyttrande",
+          "date": "2021-12-14",
+          "quote": "Förvaltningen föreslår att avtalet även fortsatt gäller för ett år i taget. Ordförande ställer arbetsutskottets förslag mot Maria Adrell (V) förslag och finner att socialnämnden beslutar bifalla arbetsutskottets förslag till beslut i socialnämnden.",
+          "decision": "avstyrker",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Maria Adrell (V) reserverar sig mot beslutet till förmån för Stina Karlsson (V) motion."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§71 SOCIALNAMNDEN 2021-12-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-12-14/protocol/protokoll-sn-2021-12-14-pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-motion-inlamnad",
+        "field": "quote",
+        "quote": "Stina Karlsson (V) har till kommunfullmäktige den 8 september 2021, § 154, lämnat en motion till kommunfullmäktige om utökat stöd för kvinnojouren Olivia.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "sn-71-namndyttrande",
+        "field": "quote",
+        "quote": "Förvaltningen föreslår att avtalet även fortsatt gäller för ett år i taget. Ordförande ställer arbetsutskottets förslag mot Maria Adrell (V) förslag och finner att socialnämnden beslutar bifalla arbetsutskottets förslag till beslut i socialnämnden.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "sn-71-namndyttrande",
+        "field": "reservation[v]",
+        "quote": "Maria Adrell (V) reserverar sig mot beslutet till förmån för Stina Karlsson (V) motion.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion om översyn av delegationsordningar - Simon Waern (S), Anders Sandberg (S) och Anita Hedén Unosson (S)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Simon Waern",
+          "party": "s"
+        },
+        {
+          "name": "Anders Sandberg",
+          "party": "s"
+        },
+        {
+          "name": "Anita Hedén Unosson",
+          "party": "s"
+        }
+      ],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2021.226 KS",
+      "steps": [
+        {
+          "step_id": "ks-203-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2021-04-28",
+          "quote": "Simon Waern (S), Anders Sandberg (S) och Anita Hedén Unosson (S) har till kommunfullmäktige den 28 april 2021, § 80, lämnat en motion om översyn av nämndernas delegationsordningar.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§203 KOMMUNSTYRELSEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-12-13/protocol/protokoll-kommunstyrelsen-13-december-2021pdf-46591?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-203-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-12-13",
+          "quote": "Kommunledningskontorets yttrande antas som kommunstyrelsens eget. Kommunledningskontoret får i uppdrag att vid presidiedialoger under 2022 mellan kommunstyrelsens presidium och samtliga nämnders presidium inom ramen för uppsiktsplikten gå igenom nämndernas delegationsordningar. Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§203 KOMMUNSTYRELSEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-12-13/protocol/protokoll-kommunstyrelsen-13-december-2021pdf-46591?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-203-motion-inlamnad",
+        "field": "quote",
+        "quote": "Simon Waern (S), Anders Sandberg (S) och Anita Hedén Unosson (S) har till kommunfullmäktige den 28 april 2021, § 80, lämnat en motion om översyn av nämndernas delegationsordningar.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-203-beslut",
+        "field": "quote",
+        "quote": "Kommunledningskontorets yttrande antas som kommunstyrelsens eget. Kommunledningskontoret får i uppdrag att vid presidiedialoger under 2022 mellan kommunstyrelsens presidium och samtliga nämnders presidium inom ramen för uppsiktsplikten gå igenom nämndernas delegationsordningar. Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Projektering för Kv. Solen, Kabomhuset",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2020.170 KS",
+      "steps": [
+        {
+          "step_id": "ks-206-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-12-13",
+          "quote": "Förstudie och programhandling godkänns. Projektering av ombyggnation av Kv Solen, Kabom beställs av Alingsåshem.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§206 KOMMUNSTYRELSEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-12-13/protocol/protokoll-kommunstyrelsen-13-december-2021pdf-46591?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-206-beslut",
+        "field": "quote",
+        "quote": "Förstudie och programhandling godkänns. Projektering av ombyggnation av Kv Solen, Kabom beställs av Alingsåshem.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Detaljplan för Alingsås, Bostäder m.m. i Stadsskogen, etapp 5",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2021.499 KS",
+      "steps": [
+        {
+          "step_id": "ks-209-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-12-13",
+          "quote": "Innehållet i Start-PM, Stadsskogen etapp 5 godkänns. Tillväxtchefen får i uppdrag att upprätta och underteckna projektdirektiv avseende beställning av Detaljplan Stadsskogen, etapp 5 baserat på innehåller i Start-PM. Tillväxtchefen får i uppdrag att underteckna planavtal, baserat på innehållet i Start-PM.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "l",
+                "mp",
+                "v",
+                "c"
+              ],
+              "quote": "Jens Christian Berlin (L), Anna Hansson (MP), Martin Lindberg (V) och Annika Qarlsson (C) reserverar sig till förmån för eget förslag."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§209 KOMMUNSTYRELSEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-12-13/protocol/protokoll-kommunstyrelsen-13-december-2021pdf-46591?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-209-beslut",
+        "field": "quote",
+        "quote": "Innehållet i Start-PM, Stadsskogen etapp 5 godkänns. Tillväxtchefen får i uppdrag att upprätta och underteckna projektdirektiv avseende beställning av Detaljplan Stadsskogen, etapp 5 baserat på innehåller i Start-PM. Tillväxtchefen får i uppdrag att underteckna planavtal, baserat på innehållet i Start-PM.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-209-beslut",
+        "field": "reservation[l+mp+v+c]",
+        "quote": "Jens Christian Berlin (L), Anna Hansson (MP), Martin Lindberg (V) och Annika Qarlsson (C) reserverar sig till förmån för eget förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ansökan om investeringsbidrag från Alingsås Sportfiskeförening",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2021.549 KS",
+      "steps": [
+        {
+          "step_id": "ks-212-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-12-13",
+          "quote": "Alingsås Sportfiskeförening beviljas ett investeringsbidrag om maximalt 267 tkr. Beviljat investeringsbidrag villkoras med att de tillstånd som krävs även beviljas.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§212 KOMMUNSTYRELSEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-12-13/protocol/protokoll-kommunstyrelsen-13-december-2021pdf-46591?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-212-beslut",
+        "field": "quote",
+        "quote": "Alingsås Sportfiskeförening beviljas ett investeringsbidrag om maximalt 267 tkr. Beviljat investeringsbidrag villkoras med att de tillstånd som krävs även beviljas.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Budget 2022-2024",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.524 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-215-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-12-13",
+          "quote": "Samhällsbyggnadsnämnden beslutar anta budget för Samhällsbyggnadsnämnden 2022-2024.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§215 SAMHALLSBYGGNADSNAMNDEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-12-13/protocol/protokoll-sbn-2021-12-13-justeratpdf-85941?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-215-beslut",
+        "field": "quote",
+        "quote": "Samhällsbyggnadsnämnden beslutar anta budget för Samhällsbyggnadsnämnden 2022-2024.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Bomullen 1 (Hemvägen 14), bygglov ändrad användning av industribyggnad (2021-0606)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2021.448 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-218-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-12-13",
+          "quote": "Bygglov beviljas med stöd av 9 kap § 31 b (PBL) med följande motivering: Detaljplanen vann laga kraft 1967 och dess genomförandetid har utgått. Därför kan bygglov beviljas enlig PBL 9 Kap § 31 b, då avvikelsen är liten och i samklang med den utveckling som skett med övrig verksamhet inom fastigheten Bomullen 1.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för att bygglov ska beviljas. Nej-röst för att bygglov ska avslås.",
+            "result": {
+              "ja": 7,
+              "nej": 6,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§218 SAMHALLSBYGGNADSNAMNDEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-12-13/protocol/protokoll-sbn-2021-12-13-justeratpdf-85941?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-218-beslut",
+        "field": "quote",
+        "quote": "Bygglov beviljas med stöd av 9 kap § 31 b (PBL) med följande motivering: Detaljplanen vann laga kraft 1967 och dess genomförandetid har utgått. Därför kan bygglov beviljas enlig PBL 9 Kap § 31 b, då avvikelsen är liten och i samklang med den utveckling som skett med övrig verksamhet inom fastigheten Bomullen 1.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (54 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Östad 15:1, strandskyddsdispens för nybyggnad av friggebod (2021-0712)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "avgjort",
+      "diarienummer": "2021.528 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-220-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-12-13",
+          "quote": "Strandskyddsdispens ges för nybyggnad av komplementbyggnad på fastigheten Östad 15:1 vid sjön Mjörn, i enlighet med situationsplan, se bilaga 1. Särskilt skäl för undantag från strandskyddsbestämmelserna är att platsen redan har tagits i anspråk på ett sätt som gör att det saknar betydelse för strandskyddets syften",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§220 SAMHALLSBYGGNADSNAMNDEN 2021-12-13",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-12-13/protocol/protokoll-sbn-2021-12-13-justeratpdf-85941?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-220-beslut",
+        "field": "quote",
+        "quote": "Strandskyddsdispens ges för nybyggnad av komplementbyggnad på fastigheten Östad 15:1 vid sjön Mjörn, i enlighet med situationsplan, se bilaga 1. Särskilt skäl för undantag från strandskyddsbestämmelserna är att platsen redan har tagits i anspråk på ett sätt som gör att det saknar betydelse för strandskyddets syften",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (46 ord) — se spec §4.2 R2"
+      }
+    ]
+  }
+]

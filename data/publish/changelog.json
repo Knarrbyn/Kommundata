@@ -3103,5 +3103,2363 @@
     "arende_count": 2874,
     "new_arenden": [],
     "updated_arenden": []
+  },
+  {
+    "run_id": "2026-07-26T14-53-26-004Z",
+    "timestamp": "2026-07-26T14:53:27.798Z",
+    "data_hash": "e3294bad0e6b6ff66e6e3426173d0daf3e30464c1ffef924058eb8a2305f2e15",
+    "arende_count": 2346,
+    "new_arenden": [
+      "a-2021-0010",
+      "a-2021-0011",
+      "a-2021-0012",
+      "a-2021-0013",
+      "a-2021-0014",
+      "a-2021-0015",
+      "a-2021-0016",
+      "a-2021-0017",
+      "a-2021-0018",
+      "a-2021-0019",
+      "a-2021-0020",
+      "a-2021-0021",
+      "a-2021-0022",
+      "a-2021-0023",
+      "a-2021-0024",
+      "a-2021-0025",
+      "a-2021-0026",
+      "a-2021-0027",
+      "a-2021-0028",
+      "a-2021-0029",
+      "a-2021-0030",
+      "a-2021-0031",
+      "a-2021-0032",
+      "a-2021-0033",
+      "a-2021-0034",
+      "a-2021-0035",
+      "a-2021-0036",
+      "a-2021-0037",
+      "a-2021-0038",
+      "a-2021-0039",
+      "a-2021-0040",
+      "a-2021-0041",
+      "a-2021-0042",
+      "a-2021-0043",
+      "a-2021-0044",
+      "a-2021-0045",
+      "a-2021-0046",
+      "a-2021-0047",
+      "a-2021-0048",
+      "a-2021-0049",
+      "a-2021-0050",
+      "a-2021-0051",
+      "a-2021-0052",
+      "a-2021-0053",
+      "a-2021-0054",
+      "a-2021-0055",
+      "a-2021-0056",
+      "a-2021-0057",
+      "a-2021-0058",
+      "a-2021-0059",
+      "a-2021-0060",
+      "a-2021-0061",
+      "a-2021-0062",
+      "a-2021-0063",
+      "a-2021-0064",
+      "a-2021-0065",
+      "a-2021-0066",
+      "a-2021-0067",
+      "a-2021-0068",
+      "a-2021-0069",
+      "a-2021-0070",
+      "a-2021-0071",
+      "a-2021-0072",
+      "a-2021-0073",
+      "a-2021-0074",
+      "a-2021-0075",
+      "a-2021-0076",
+      "a-2021-0077",
+      "a-2021-0078",
+      "a-2021-0079"
+    ],
+    "updated_arenden": [
+      {
+        "id": "a-2026-0019",
+        "new_step_ids": [
+          "yrkesgymnasium-info-2024-06-19",
+          "kun-55-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0023",
+        "new_step_ids": [
+          "kun-99-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0024",
+        "new_step_ids": [
+          "kun-47-beslut",
+          "kun-46-beslut",
+          "kun-83-beslut",
+          "kun-au-2025-03-05",
+          "kun-2025-03-12",
+          "kun-32-beslut",
+          "kun-2026-02-18-s12-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0026",
+        "new_step_ids": [
+          "sn-15-beslut",
+          "sn-23-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0029",
+        "new_step_ids": [
+          "sn-64-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0080",
+        "new_step_ids": [
+          "s27-beslut",
+          "bun-42-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0042",
+        "new_step_ids": [
+          "bmn-2026-01-20-s5-beslut",
+          "beslut-14",
+          "beslut-bmn-20260325",
+          "bm-39-beslut",
+          "delegerade-beslut-bmn"
+        ]
+      },
+      {
+        "id": "a-2026-0043",
+        "new_step_ids": [
+          "beslut-15",
+          "beslut-bmn-20260325",
+          "meddelanden-bmn"
+        ]
+      },
+      {
+        "id": "a-2026-0059",
+        "new_step_ids": [
+          "ten-2026-02-17-10-beslut",
+          "delegerade-beslut-ten-2026-05-18"
+        ]
+      },
+      {
+        "id": "a-2026-0060",
+        "new_step_ids": [
+          "meddelanden-ten-2026-05-18"
+        ]
+      },
+      {
+        "id": "a-2026-0065",
+        "new_step_ids": [
+          "von-57-beslut",
+          "von-2024-01-30-7-beslut",
+          "von-44-beslut",
+          "s79-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0001",
+        "new_step_ids": [
+          "ten-beslut-2024-03-18",
+          "ksau-beredning-2024-04-24",
+          "ks-beslut-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2024-0002",
+        "new_step_ids": [
+          "ksau-beredning-2024-04-24",
+          "ks-beslut-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2024-0003",
+        "new_step_ids": [
+          "ksau-beredning-2024-04-24",
+          "ks-beslut-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2024-0005",
+        "new_step_ids": [
+          "ksau-beredning-2024-04-24",
+          "ks-beslut-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2024-0006",
+        "new_step_ids": [
+          "ksau-beredning-2024-04-24",
+          "ks-beslut-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2023-0001",
+        "new_step_ids": [
+          "motion-inlamnad-2023-11-29",
+          "ksau-beredning-2024-04-24",
+          "ks-beslut-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2024-0008",
+        "new_step_ids": [
+          "motion-inlamnad-2024-04-24",
+          "klk-yttrande-2024-04-30",
+          "ks-beslut-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2023-0002",
+        "new_step_ids": [
+          "ks-yttrande-2024-05-06"
+        ]
+      },
+      {
+        "id": "a-2025-0026",
+        "new_step_ids": [
+          "ks-22-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0027",
+        "new_step_ids": [
+          "ks-24-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0037",
+        "new_step_ids": [
+          "ks-21-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0038",
+        "new_step_ids": [
+          "ks-2025-04-07-56"
+        ]
+      },
+      {
+        "id": "a-2025-0039",
+        "new_step_ids": [
+          "ks-2025-04-07-57"
+        ]
+      },
+      {
+        "id": "a-2025-0040",
+        "new_step_ids": [
+          "ks-2025-04-07-58"
+        ]
+      },
+      {
+        "id": "a-2024-0013",
+        "new_step_ids": [
+          "kf-2024-12-11-motion-klimakteriet",
+          "ks-2025-04-07-64"
+        ]
+      },
+      {
+        "id": "a-2024-0015",
+        "new_step_ids": [
+          "kf-2024-12-12-motion-barnkonvention",
+          "ks-2025-04-07-66"
+        ]
+      },
+      {
+        "id": "a-2025-0045",
+        "new_step_ids": [
+          "ks-138-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0046",
+        "new_step_ids": [
+          "ks-124-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0047",
+        "new_step_ids": [
+          "ks-27-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0048",
+        "new_step_ids": [
+          "ks-125-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0016",
+        "new_step_ids": [
+          "ks-126-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0053",
+        "new_step_ids": [
+          "ks-2026-02-02-3",
+          "kf-beslut-35"
+        ]
+      },
+      {
+        "id": "a-2025-0055",
+        "new_step_ids": [
+          "ks-2026-02-02-5",
+          "kf-beslut-37"
+        ]
+      },
+      {
+        "id": "a-2025-0056",
+        "new_step_ids": [
+          "ks-2026-02-02-7",
+          "kf-beslut-39"
+        ]
+      },
+      {
+        "id": "a-2025-0057",
+        "new_step_ids": [
+          "ks-2026-02-02-8",
+          "kf-beslut-40"
+        ]
+      },
+      {
+        "id": "a-2025-0065",
+        "new_step_ids": [
+          "ks-228-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0066",
+        "new_step_ids": [
+          "ks-227-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0067",
+        "new_step_ids": [
+          "ks-229-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0068",
+        "new_step_ids": [
+          "ks-231-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0069",
+        "new_step_ids": [
+          "ks-230-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0070",
+        "new_step_ids": [
+          "ks-232-motion-inlamnad",
+          "ks-232-namndyttrande-ten",
+          "ks-232-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0071",
+        "new_step_ids": [
+          "ks-233-motion-inlamnad",
+          "ks-233-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0267",
+        "new_step_ids": [
+          "ks-2026-02-02-2"
+        ]
+      },
+      {
+        "id": "a-2026-0269",
+        "new_step_ids": [
+          "ks-2026-02-02-4"
+        ]
+      },
+      {
+        "id": "a-2026-0271",
+        "new_step_ids": [
+          "ks-2026-02-02-6"
+        ]
+      },
+      {
+        "id": "a-2025-0073",
+        "new_step_ids": [
+          "ks-2026-02-02-9-beslut"
+        ]
+      },
+      {
+        "id": "a-2026-0274",
+        "new_step_ids": [
+          "ks-2026-02-02-10"
+        ]
+      },
+      {
+        "id": "a-2026-0275",
+        "new_step_ids": [
+          "ks-2026-02-02-11"
+        ]
+      },
+      {
+        "id": "a-2025-0074",
+        "new_step_ids": [
+          "ks-2026-02-02-12-namnd",
+          "ks-2026-02-02-12-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0075",
+        "new_step_ids": [
+          "ks-2026-02-02-13-namnd",
+          "ks-2026-02-02-13-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0076",
+        "new_step_ids": [
+          "ks-2026-02-02-14-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0028",
+        "new_step_ids": [
+          "ks-152-beslut",
+          "beslut-kf-288"
+        ]
+      },
+      {
+        "id": "a-2022-0002",
+        "new_step_ids": [
+          "motion-inlamnad-274",
+          "beslut-kf-274"
+        ]
+      },
+      {
+        "id": "a-2022-0003",
+        "new_step_ids": [
+          "beslut-kf-275"
+        ]
+      },
+      {
+        "id": "a-2022-0004",
+        "new_step_ids": [
+          "motion-inlamnad-276",
+          "beslut-kf-276"
+        ]
+      },
+      {
+        "id": "a-2021-0001",
+        "new_step_ids": [
+          "namndyttrande-ks-273",
+          "beslut-kf-273"
+        ]
+      },
+      {
+        "id": "a-2022-0005",
+        "new_step_ids": [
+          "beslut-kf-278"
+        ]
+      },
+      {
+        "id": "a-2022-0006",
+        "new_step_ids": [
+          "beslut-kf-279"
+        ]
+      },
+      {
+        "id": "a-2022-0007",
+        "new_step_ids": [
+          "beslut-kf-280"
+        ]
+      },
+      {
+        "id": "a-2022-0008",
+        "new_step_ids": [
+          "beslut-kf-282"
+        ]
+      },
+      {
+        "id": "a-2022-0009",
+        "new_step_ids": [
+          "beredning-ks-285",
+          "beslut-kf-285"
+        ]
+      },
+      {
+        "id": "a-2022-0010",
+        "new_step_ids": [
+          "beslut-kf-283"
+        ]
+      },
+      {
+        "id": "a-2022-0011",
+        "new_step_ids": [
+          "beslut-kf-281"
+        ]
+      },
+      {
+        "id": "a-2022-0012",
+        "new_step_ids": [
+          "beslut-kf-287"
+        ]
+      },
+      {
+        "id": "a-2022-0014",
+        "new_step_ids": [
+          "beslut-kf-286"
+        ]
+      },
+      {
+        "id": "a-2022-0644",
+        "new_step_ids": [
+          "ks-beslut-171"
+        ]
+      },
+      {
+        "id": "a-2022-0019",
+        "new_step_ids": [
+          "beslut_kf_294"
+        ]
+      },
+      {
+        "id": "a-2022-0020",
+        "new_step_ids": [
+          "remiss_ks_295",
+          "beslut_kf_295"
+        ]
+      },
+      {
+        "id": "a-2022-0021",
+        "new_step_ids": [
+          "beslut_kf_297"
+        ]
+      },
+      {
+        "id": "a-2022-0022",
+        "new_step_ids": [
+          "beslut_kf_296"
+        ]
+      },
+      {
+        "id": "a-2022-0023",
+        "new_step_ids": [
+          "beslut_kf_300"
+        ]
+      },
+      {
+        "id": "a-2022-0027",
+        "new_step_ids": [
+          "beslut_kf_298"
+        ]
+      },
+      {
+        "id": "a-2023-0003",
+        "new_step_ids": [
+          "ks-beredning-67",
+          "kf-beslut-67",
+          "165-ks-beslut",
+          "kf-187-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0539",
+        "new_step_ids": [
+          "ks-86-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0540",
+        "new_step_ids": [
+          "ks-87-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0541",
+        "new_step_ids": [
+          "ks-89-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0542",
+        "new_step_ids": [
+          "ks-90-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0543",
+        "new_step_ids": [
+          "ks-92-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0544",
+        "new_step_ids": [
+          "ks-93-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0545",
+        "new_step_ids": [
+          "ks-94-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0546",
+        "new_step_ids": [
+          "ks-95-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0547",
+        "new_step_ids": [
+          "ks-96-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0038",
+        "new_step_ids": [
+          "kf-2024-12-11-motion-lustgas"
+        ]
+      },
+      {
+        "id": "a-2025-0191",
+        "new_step_ids": [
+          "ks-185-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0019",
+        "new_step_ids": [
+          "von-27-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0054",
+        "new_step_ids": [
+          "delegationsbeslut-beslut",
+          "von-94-beslut",
+          "von-106-beslut",
+          "von-2024-01-30-8-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0066",
+        "new_step_ids": [
+          "lov2024-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0075",
+        "new_step_ids": [
+          "von-17-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0051",
+        "new_step_ids": [
+          "von-19-beslut",
+          "von-2024-04-23-34-beslut",
+          "von-42-beslut",
+          "von-49-beslut",
+          "von-55-beslut",
+          "von-62-beslut",
+          "beslut-71",
+          "von-82-beslut",
+          "von-93-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0241",
+        "new_step_ids": [
+          "s15-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0281",
+        "new_step_ids": [
+          "ten-66-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0282",
+        "new_step_ids": [
+          "ten-2025-02-19-s8-beslut",
+          "ten-2025-04-22-s18-beslut",
+          "ten-2025-08-25-36-beslut",
+          "ten-59-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0295",
+        "new_step_ids": [
+          "ten-30-beslut",
+          "ten-2026-01-19-s3-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0297",
+        "new_step_ids": [
+          "ten-2025-08-25-35-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0077",
+        "new_step_ids": [
+          "ten-2023-02-20-s13-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0081",
+        "new_step_ids": [
+          "ten-22-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0086",
+        "new_step_ids": [
+          "ten-2023-02-20-s14-beslut",
+          "ten-29-beslut",
+          "ten-2023-08-28-55-beslut",
+          "ten-79-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0093",
+        "new_step_ids": [
+          "ten-74-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0117",
+        "new_step_ids": [
+          "ten-80-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0105",
+        "new_step_ids": [
+          "ten-2024-03-18-17-beslut",
+          "ten-2024-04-22-23-beslut",
+          "ten-2024-06-17-39-beslut",
+          "beslut_ten",
+          "ten-61-beslut",
+          "ten-67-beslut",
+          "ten-2024-12-16-72-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0106",
+        "new_step_ids": [
+          "ten-2024-06-17-40-beslut",
+          "ten-68-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0112",
+        "new_step_ids": [
+          "ten-63-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0049",
+        "new_step_ids": [
+          "sol-beslut-von-2022-08-30"
+        ]
+      },
+      {
+        "id": "a-2022-0050",
+        "new_step_ids": [
+          "lss-beslut-von-2022-08-30"
+        ]
+      },
+      {
+        "id": "a-2022-0054",
+        "new_step_ids": [
+          "von-48-beslut",
+          "von-53-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0064",
+        "new_step_ids": [
+          "privata-utforare-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0097",
+        "new_step_ids": [
+          "bun-23-beslut",
+          "bun-36-beslut",
+          "bun-46-beslut",
+          "bun-58-beslut",
+          "bun-69-beslut",
+          "bun-88-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0098",
+        "new_step_ids": [
+          "bun-35-beslut",
+          "bun-68-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0099",
+        "new_step_ids": [
+          "bun-24-beslut",
+          "bun-37-beslut",
+          "bun-47-beslut",
+          "bun-59-beslut",
+          "bun-70-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0100",
+        "new_step_ids": [
+          "bun-25-beslut",
+          "bun-38-beslut",
+          "bun-48-beslut",
+          "bun-90-beslut",
+          "bun-104-beslut",
+          "bun-121-beslut",
+          "bun-134-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0103",
+        "new_step_ids": [
+          "bun-76-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0104",
+        "new_step_ids": [
+          "bun-112-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0109",
+        "new_step_ids": [
+          "bun-41-beslut",
+          "bun-51-beslut",
+          "bun-62-beslut",
+          "bun-75-beslut",
+          "bun-95-beslut",
+          "bun-107-beslut",
+          "bun-124-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0117",
+        "new_step_ids": [
+          "bun-113-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0126",
+        "new_step_ids": [
+          "bun-129-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0127",
+        "new_step_ids": [
+          "bun-115-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0128",
+        "new_step_ids": [
+          "bun-114-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0155",
+        "new_step_ids": [
+          "bun-103-beslut",
+          "bun-120-beslut",
+          "bun-133-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0165",
+        "new_step_ids": [
+          "bun-119-beslut",
+          "bun-132-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0177",
+        "new_step_ids": [
+          "bun-131-beslut",
+          "bun-33-beslut",
+          "bun-52-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0144",
+        "new_step_ids": [
+          "bun-24-beslut",
+          "bun-34-beslut",
+          "bun-45-beslut",
+          "bun-53-beslut",
+          "bun-59-beslut",
+          "bun-beslut-78",
+          "bun-87-beslut",
+          "bun-95-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0177",
+        "new_step_ids": [
+          "bun-27-beslut",
+          "bun-37-beslut",
+          "bun-48-beslut",
+          "bun-55-beslut",
+          "bun-81-beslut",
+          "bun-90-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0163",
+        "new_step_ids": [
+          "bun-85-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0178",
+        "new_step_ids": [
+          "bun-2024-02-20-15-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0187",
+        "new_step_ids": [
+          "bun-38-beslut",
+          "bun-47-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0190",
+        "new_step_ids": [
+          "bun-36-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0166",
+        "new_step_ids": [
+          "bun-24-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0167",
+        "new_step_ids": [
+          "bun-27-beslut",
+          "bun-33-beslut",
+          "bun-42-beslut",
+          "bun-67-beslut",
+          "bun-72-beslut",
+          "bun-83-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0208",
+        "new_step_ids": [
+          "bun-46-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0194",
+        "new_step_ids": [
+          "bun-2025-02-18-s10-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0207",
+        "new_step_ids": [
+          "bun-2025-01-21-s1-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0323",
+        "new_step_ids": [
+          "bun-58-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0353",
+        "new_step_ids": [
+          "bun-2025-02-18-s11-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0349",
+        "new_step_ids": [
+          "bun-19-beslut",
+          "bun-33-beslut",
+          "bun-37-beslut",
+          "bun-53-beslut",
+          "bun-68-beslut",
+          "bun-76-beslut",
+          "bun-87-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0369",
+        "new_step_ids": [
+          "bun-2026-02-17-s9-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0374",
+        "new_step_ids": [
+          "bun-88-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0193",
+        "new_step_ids": [
+          "kun-60-beslut",
+          "kun-110-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0199",
+        "new_step_ids": [
+          "kun-54-beslut",
+          "kun-74-beslut",
+          "kun-90-beslut",
+          "beslut-kun-100",
+          "kun-118-beslut",
+          "kun-134-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0203",
+        "new_step_ids": [
+          "kun-63-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0205",
+        "new_step_ids": [
+          "kun-129-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0210",
+        "new_step_ids": [
+          "kun-117-beslut",
+          "kun-135-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0212",
+        "new_step_ids": [
+          "kun-88-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0232",
+        "new_step_ids": [
+          "kun-109-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0233",
+        "new_step_ids": [
+          "kun-133-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0236",
+        "new_step_ids": [
+          "beslut-kun-102"
+        ]
+      },
+      {
+        "id": "a-2022-0252",
+        "new_step_ids": [
+          "kun-19-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0196",
+        "new_step_ids": [
+          "kun-51-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0197",
+        "new_step_ids": [
+          "kun-85-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0198",
+        "new_step_ids": [
+          "kun-66-beslut",
+          "kun-112-beslut",
+          "kun-2024-01-17-s3-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0202",
+        "new_step_ids": [
+          "kun-82-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0214",
+        "new_step_ids": [
+          "kun-61-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0238",
+        "new_step_ids": [
+          "kun-124-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0220",
+        "new_step_ids": [
+          "ungdomsverksamhet-beslut-2024-06-19"
+        ]
+      },
+      {
+        "id": "a-2025-0410",
+        "new_step_ids": [
+          "kun-2025-02-19-s10-beslut",
+          "kun-35-beslut",
+          "kun-50-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0411",
+        "new_step_ids": [
+          "kun-36-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0270",
+        "new_step_ids": [
+          "bmu-11-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0288",
+        "new_step_ids": [
+          "beslut-bmn-63",
+          "bm-76-beslut",
+          "delegerade-beslut-bmn-2023-09-26",
+          "delegerade-beslut-bmn-2023-11-21",
+          "delegerade-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0315",
+        "new_step_ids": [
+          "meddelanden-bmn-2023-09-26"
+        ]
+      },
+      {
+        "id": "a-2023-0316",
+        "new_step_ids": [
+          "vasterbodarna-beslut-bmn-2023-09-26"
+        ]
+      },
+      {
+        "id": "a-2024-0277",
+        "new_step_ids": [
+          "delegerade-beslut-2024",
+          "beslut-bmn-32",
+          "beslut-bmn-52",
+          "bmu-63-beslut",
+          "bmn-78-beslut",
+          "98-beslut-bmn-2024-10-22",
+          "delegerade-beslut-2024-11-19",
+          "delegerade-beslut-2024"
+        ]
+      },
+      {
+        "id": "a-2024-0286",
+        "new_step_ids": [
+          "bmu-62-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0326",
+        "new_step_ids": [
+          "beslut-bmn-48"
+        ]
+      },
+      {
+        "id": "a-2024-0345",
+        "new_step_ids": [
+          "beslut-bmn-2025-08-26"
+        ]
+      },
+      {
+        "id": "a-2025-0458",
+        "new_step_ids": [
+          "delegerade-beslut",
+          "beslut-bmn-53",
+          "beslut-bmn-64",
+          "beslut-101"
+        ]
+      },
+      {
+        "id": "a-2025-0459",
+        "new_step_ids": [
+          "beslut-102"
+        ]
+      },
+      {
+        "id": "a-2025-0491",
+        "new_step_ids": [
+          "beredning-au-2025-12-09",
+          "beslut-bmn-2025-12-16"
+        ]
+      },
+      {
+        "id": "a-2025-0494",
+        "new_step_ids": [
+          "bmn-2026-01-20-s4-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0272",
+        "new_step_ids": [
+          "sn-47-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0282",
+        "new_step_ids": [
+          "sn-42-beslut",
+          "sn-52-beslut",
+          "sn-62-beslut",
+          "sn-68-beslut",
+          "sn-74-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0287",
+        "new_step_ids": [
+          "sn-54-beslut",
+          "sn-69-beslut",
+          "sn-2023-02-14-12-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0288",
+        "new_step_ids": [
+          "sn-49-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0362",
+        "new_step_ids": [
+          "sn-28-beslut",
+          "beslut-sn-2023-06-13",
+          "sn-43-beslut",
+          "sn-51-beslut",
+          "sn-55-beslut",
+          "sn-60-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0371",
+        "new_step_ids": [
+          "sn-42-beslut",
+          "sn-57-beslut",
+          "sn-2024-02-13-6-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0379",
+        "new_step_ids": [
+          "sn-22-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0386",
+        "new_step_ids": [
+          "sn-2024-03-19-11-beslut",
+          "sn-2024-10-22-47-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0351",
+        "new_step_ids": [
+          "sn-2024-03-19-10-beslut",
+          "sn-2024-04-16-18-beslut",
+          "sn-2024-06-11-32-beslut",
+          "sn-2024-10-22-46-beslut",
+          "sn-52-beslut",
+          "sn-56-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0364",
+        "new_step_ids": [
+          "sn-44-beslut",
+          "sn-53-beslut",
+          "sn-2025-02-11-6-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0374",
+        "new_step_ids": [
+          "sn-15-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0513",
+        "new_step_ids": [
+          "sn-17-beslut",
+          "sn-2025-10-21-49-beslut",
+          "sn-60-beslut"
+        ]
+      },
+      {
+        "id": "a-2025-0521",
+        "new_step_ids": [
+          "sn-46-beslut",
+          "sn-12-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0322",
+        "new_step_ids": [
+          "sbn-2022-02-21-28-beslut",
+          "sbn-73-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0325",
+        "new_step_ids": [
+          "sbn-2022-02-21-36-beslut",
+          "sbn-77-beslut",
+          "sbn-97-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0329",
+        "new_step_ids": [
+          "sbn-86-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0410",
+        "new_step_ids": [
+          "sbn-192-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0567",
+        "new_step_ids": [
+          "ks-2022-02-07-2-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0568",
+        "new_step_ids": [
+          "ks-2022-02-07-3-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0569",
+        "new_step_ids": [
+          "ks-2022-02-07-4-beslut"
+        ]
+      },
+      {
+        "id": "a-2020-0002",
+        "new_step_ids": [
+          "ks-2022-02-07-5-namndyttrande-kun",
+          "ks-2022-02-07-5-namndyttrande-sbn",
+          "ks-2022-02-07-5-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0584",
+        "new_step_ids": [
+          "ks-24-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0572",
+        "new_step_ids": [
+          "ks-31-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0573",
+        "new_step_ids": [
+          "ks-32-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0587",
+        "new_step_ids": [
+          "ks-47-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0588",
+        "new_step_ids": [
+          "ks-48-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0589",
+        "new_step_ids": [
+          "ks-49-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0590",
+        "new_step_ids": [
+          "ks-50-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0591",
+        "new_step_ids": [
+          "ks-51-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0592",
+        "new_step_ids": [
+          "ks-52-beslut"
+        ]
+      },
+      {
+        "id": "a-2021-0008",
+        "new_step_ids": [
+          "ks-53-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0596",
+        "new_step_ids": [
+          "ks-69-beslut",
+          "kf-177-beslut",
+          "ks-137-beslut",
+          "ks-2023-02-06-21-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0597",
+        "new_step_ids": [
+          "ks-70-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0599",
+        "new_step_ids": [
+          "ks-72-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0600",
+        "new_step_ids": [
+          "ks-73-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0601",
+        "new_step_ids": [
+          "ks-74-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0485",
+        "new_step_ids": [
+          "bilpool-kf-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0462",
+        "new_step_ids": [
+          "ks-77-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0489",
+        "new_step_ids": [
+          "ks-2022-06-20-92-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0503",
+        "new_step_ids": [
+          "kf-176-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0610",
+        "new_step_ids": [
+          "ks-112-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0611",
+        "new_step_ids": [
+          "ks-113-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0613",
+        "new_step_ids": [
+          "ks-114-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0612",
+        "new_step_ids": [
+          "ks-117-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0617",
+        "new_step_ids": [
+          "ks-130-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0626",
+        "new_step_ids": [
+          "ks-133-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0615",
+        "new_step_ids": [
+          "ks-134-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0618",
+        "new_step_ids": [
+          "ks-139-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0530",
+        "new_step_ids": [
+          "kf-214-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0531",
+        "new_step_ids": [
+          "kf-213-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0554",
+        "new_step_ids": [
+          "ks-2023-02-06-14-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0555",
+        "new_step_ids": [
+          "ks-2023-02-06-15-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0557",
+        "new_step_ids": [
+          "ks-2023-02-06-16-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0558",
+        "new_step_ids": [
+          "ks-2023-02-06-17-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0556",
+        "new_step_ids": [
+          "ks-2023-02-06-18-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0559",
+        "new_step_ids": [
+          "ks-2023-02-06-19-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0560",
+        "new_step_ids": [
+          "ks-2023-02-06-20-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0660",
+        "new_step_ids": [
+          "namndyttrande-ks-2023-02-06"
+        ]
+      },
+      {
+        "id": "a-2023-0567",
+        "new_step_ids": [
+          "ks-34-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0570",
+        "new_step_ids": [
+          "ks-35-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0571",
+        "new_step_ids": [
+          "ks-37-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0661",
+        "new_step_ids": [
+          "ks-38-namndyttrande"
+        ]
+      },
+      {
+        "id": "a-2023-0419",
+        "new_step_ids": [
+          "kf-beslut-68"
+        ]
+      },
+      {
+        "id": "a-2023-0587",
+        "new_step_ids": [
+          "ks-66-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0586",
+        "new_step_ids": [
+          "ks-67-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0588",
+        "new_step_ids": [
+          "ks-68-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0595",
+        "new_step_ids": [
+          "ks-86-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0599",
+        "new_step_ids": [
+          "ks-87-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0600",
+        "new_step_ids": [
+          "ks-88-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0597",
+        "new_step_ids": [
+          "ks-90-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0608",
+        "new_step_ids": [
+          "ks-91-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0606",
+        "new_step_ids": [
+          "ks-92-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0602",
+        "new_step_ids": [
+          "ks-93-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0603",
+        "new_step_ids": [
+          "ks-94-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0604",
+        "new_step_ids": [
+          "ks-95-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0605",
+        "new_step_ids": [
+          "ks-96-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0607",
+        "new_step_ids": [
+          "ks-97-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0552",
+        "new_step_ids": [
+          "kf-beslut-119"
+        ]
+      },
+      {
+        "id": "a-2022-0553",
+        "new_step_ids": [
+          "kf-beslut-118"
+        ]
+      },
+      {
+        "id": "a-2022-0554",
+        "new_step_ids": [
+          "ks-beredning-120",
+          "kf-beslut-120"
+        ]
+      },
+      {
+        "id": "a-2023-0596",
+        "new_step_ids": [
+          "ks-102-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0609",
+        "new_step_ids": [
+          "ks-104-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0598",
+        "new_step_ids": [
+          "ks-beslut-2023-06-14"
+        ]
+      },
+      {
+        "id": "a-2023-0453",
+        "new_step_ids": [
+          "motion-inlamnad-137",
+          "ks-137",
+          "kf-137"
+        ]
+      },
+      {
+        "id": "a-2023-0620",
+        "new_step_ids": [
+          "ks_beslut_230619"
+        ]
+      },
+      {
+        "id": "a-2023-0623",
+        "new_step_ids": [
+          "ks_beslut_230619"
+        ]
+      },
+      {
+        "id": "a-2023-0617",
+        "new_step_ids": [
+          "ks-125-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0618",
+        "new_step_ids": [
+          "ks-126-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0613",
+        "new_step_ids": [
+          "ks-128-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0612",
+        "new_step_ids": [
+          "ks-131-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0616",
+        "new_step_ids": [
+          "ks-132-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0555",
+        "new_step_ids": [
+          "kf-139"
+        ]
+      },
+      {
+        "id": "a-2022-0556",
+        "new_step_ids": [
+          "ks-138",
+          "kf-138"
+        ]
+      },
+      {
+        "id": "a-2023-0472",
+        "new_step_ids": [
+          "kf-136"
+        ]
+      },
+      {
+        "id": "a-2023-0624",
+        "new_step_ids": [
+          "ks-139-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0476",
+        "new_step_ids": [
+          "kf-beslut-160"
+        ]
+      },
+      {
+        "id": "a-2023-0477",
+        "new_step_ids": [
+          "kf-beslut-161"
+        ]
+      },
+      {
+        "id": "a-2023-0478",
+        "new_step_ids": [
+          "ks-beredning-162",
+          "kf-beslut-162"
+        ]
+      },
+      {
+        "id": "a-2023-0480",
+        "new_step_ids": [
+          "ks-beredning-164",
+          "kf-beslut-164"
+        ]
+      },
+      {
+        "id": "a-2023-0481",
+        "new_step_ids": [
+          "ks-beredning-165",
+          "kf-beslut-165"
+        ]
+      },
+      {
+        "id": "a-2022-0557",
+        "new_step_ids": [
+          "ks-beredning-166",
+          "kf-beslut-166"
+        ]
+      },
+      {
+        "id": "a-2022-0558",
+        "new_step_ids": [
+          "kf-beslut-167"
+        ]
+      },
+      {
+        "id": "a-2023-0656",
+        "new_step_ids": [
+          "164-ks-beslut",
+          "ks-187-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0646",
+        "new_step_ids": [
+          "168-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0647",
+        "new_step_ids": [
+          "169-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0648",
+        "new_step_ids": [
+          "170-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0670",
+        "new_step_ids": [
+          "173-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0653",
+        "new_step_ids": [
+          "176-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0654",
+        "new_step_ids": [
+          "177-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0657",
+        "new_step_ids": [
+          "ks-188-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0658",
+        "new_step_ids": [
+          "ks-189-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0664",
+        "new_step_ids": [
+          "ks-198-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0666",
+        "new_step_ids": [
+          "ks-199-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0665",
+        "new_step_ids": [
+          "ks-200-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0668",
+        "new_step_ids": [
+          "ks-203-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0663",
+        "new_step_ids": [
+          "ks-204-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0561",
+        "new_step_ids": [
+          "ks-beredning-237",
+          "kf-beslut-237"
+        ]
+      },
+      {
+        "id": "a-2023-0522",
+        "new_step_ids": [
+          "ks-beredning-239",
+          "kf-beslut-239"
+        ]
+      },
+      {
+        "id": "a-2023-0523",
+        "new_step_ids": [
+          "ksau-beredning-238",
+          "kf-beslut-238"
+        ]
+      },
+      {
+        "id": "a-2023-0662",
+        "new_step_ids": [
+          "ks-214-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0669",
+        "new_step_ids": [
+          "ks-215-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0676",
+        "new_step_ids": [
+          "ks-226-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0508",
+        "new_step_ids": [
+          "ks-2024-02-05-2"
+        ]
+      },
+      {
+        "id": "a-2023-0677",
+        "new_step_ids": [
+          "ks-2024-02-05-3"
+        ]
+      },
+      {
+        "id": "a-2023-0678",
+        "new_step_ids": [
+          "ks-2024-02-05-4"
+        ]
+      },
+      {
+        "id": "a-2023-0679",
+        "new_step_ids": [
+          "ks-2024-02-05-5"
+        ]
+      },
+      {
+        "id": "a-2024-0509",
+        "new_step_ids": [
+          "ks-2024-02-05-6"
+        ]
+      },
+      {
+        "id": "a-2024-0510",
+        "new_step_ids": [
+          "ks-2024-02-05-7"
+        ]
+      },
+      {
+        "id": "a-2024-0511",
+        "new_step_ids": [
+          "ks-2024-02-05-8"
+        ]
+      },
+      {
+        "id": "a-2024-0512",
+        "new_step_ids": [
+          "ks-2024-02-05-9"
+        ]
+      },
+      {
+        "id": "a-2024-0513",
+        "new_step_ids": [
+          "ks-2024-02-05-11"
+        ]
+      },
+      {
+        "id": "a-2023-0542",
+        "new_step_ids": [
+          "ks-2024-01-11-s13-namndyttrande",
+          "kf-2024-02-28-s13-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0543",
+        "new_step_ids": [
+          "ks-2024-01-30-s14-namndyttrande",
+          "kf-2024-02-28-s14-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0544",
+        "new_step_ids": [
+          "ks-2024-01-30-s15-namndyttrande",
+          "kf-2024-02-28-s15-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0545",
+        "new_step_ids": [
+          "ks-2024-01-12-s16-namndyttrande",
+          "kf-2024-02-28-s16-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0546",
+        "new_step_ids": [
+          "ks-2024-01-11-s17-namndyttrande",
+          "kf-2024-02-28-s17-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0547",
+        "new_step_ids": [
+          "ks-2024-01-11-s18-namndyttrande",
+          "kf-2024-02-28-s18-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0524",
+        "new_step_ids": [
+          "ks-32-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0688",
+        "new_step_ids": [
+          "ks-33-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0520",
+        "new_step_ids": [
+          "ks-34-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0522",
+        "new_step_ids": [
+          "ks-35-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0521",
+        "new_step_ids": [
+          "ks-36-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0686",
+        "new_step_ids": [
+          "ks-37-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0689",
+        "new_step_ids": [
+          "ks-38-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0523",
+        "new_step_ids": [
+          "ks-39-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0687",
+        "new_step_ids": [
+          "ks-40-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0690",
+        "new_step_ids": [
+          "ks-41-namndyttrande"
+        ]
+      },
+      {
+        "id": "a-2023-0691",
+        "new_step_ids": [
+          "ks-42-namndyttrande"
+        ]
+      },
+      {
+        "id": "a-2024-0529",
+        "new_step_ids": [
+          "ks-52-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0532",
+        "new_step_ids": [
+          "ks-53-beslut",
+          "ks-169-beredning",
+          "kf-180-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0534",
+        "new_step_ids": [
+          "ks-54-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0533",
+        "new_step_ids": [
+          "ks-55-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0442",
+        "new_step_ids": [
+          "kf-beslut-2024-09-04"
+        ]
+      },
+      {
+        "id": "a-2024-0443",
+        "new_step_ids": [
+          "kf-beslut-2024-09-04"
+        ]
+      },
+      {
+        "id": "a-2024-0555",
+        "new_step_ids": [
+          "ks-123-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0556",
+        "new_step_ids": [
+          "ks-124-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0563",
+        "new_step_ids": [
+          "141-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0570",
+        "new_step_ids": [
+          "142-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0573",
+        "new_step_ids": [
+          "143-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0562",
+        "new_step_ids": [
+          "144-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0564",
+        "new_step_ids": [
+          "145-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0565",
+        "new_step_ids": [
+          "146-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0571",
+        "new_step_ids": [
+          "147-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0566",
+        "new_step_ids": [
+          "148-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0567",
+        "new_step_ids": [
+          "150-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0568",
+        "new_step_ids": [
+          "151-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0569",
+        "new_step_ids": [
+          "152-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0574",
+        "new_step_ids": [
+          "153-motion-inlamnad",
+          "153-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0575",
+        "new_step_ids": [
+          "154-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2023-0692",
+        "new_step_ids": [
+          "155-motion-inlamnad",
+          "155-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0576",
+        "new_step_ids": [
+          "156-motion-inlamnad",
+          "156-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0572",
+        "new_step_ids": [
+          "158-ks-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0587",
+        "new_step_ids": [
+          "ks-177-beslut"
+        ]
+      },
+      {
+        "id": "a-2024-0585",
+        "new_step_ids": [
+          "ks-182-beslut"
+        ]
+      },
+      {
+        "id": "a-2022-0574",
+        "new_step_ids": [
+          "ks-217-beredning",
+          "kf-217-beslut"
+        ]
+      },
+      {
+        "id": "a-2021-0003",
+        "new_step_ids": [
+          "von-79-beslut"
+        ]
+      },
+      {
+        "id": "a-2021-0009",
+        "new_step_ids": [
+          "von-80-beslut"
+        ]
+      }
+    ]
   }
 ]
