@@ -1,0 +1,127 @@
+[
+  {
+    "arende": {
+      "title": "Uppgiftsfördelning av arbetsmiljöuppgifter inom samhällsbyggnadskontoret",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.077 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-197-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-11-22",
+          "quote": "Nämndens ordförande fördelar arbetsmiljöuppgifter till förvaltningschefen genom att ordförande och förvaltningschef undertecknar uppgiftsfördelningen i dokumentet \"Fördelning av arbetsmiljöuppgifter nämnd till förvaltningschef\".",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§197 SAMHALLSBYGGNADSNAMNDEN 2021-11-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-11-22/protocol/protokoll-sbn-2021-11-22-ssss-197-199-justeratpdf-97811?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-197-beslut",
+        "field": "quote",
+        "quote": "Nämndens ordförande fördelar arbetsmiljöuppgifter till förvaltningschefen genom att ordförande och förvaltningschef undertecknar uppgiftsfördelningen i dokumentet \"Fördelning av arbetsmiljöuppgifter nämnd till förvaltningschef\".",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ekonomisk uppföljning 2021",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.019 SN",
+      "steps": [
+        {
+          "step_id": "sn-59-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2021-11-16",
+          "quote": "Socialnämnden fastställer månadsuppföljningen per oktober 2021 och fastställer helårsprognosen till 5,0 mnkr.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§59 SOCIALNAMNDEN 2021-11-16",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-11-16/protocol/protokoll-sn-2021-11-16pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-59-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden fastställer månadsuppföljningen per oktober 2021 och fastställer helårsprognosen till 5,0 mnkr.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Planprogram för Alingsås, Mjörnstranden, samråd",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2021.050 KS",
+      "steps": [
+        {
+          "step_id": "ks-beslut-2021-11-08",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-11-08",
+          "quote": "Kommunstyrelsen beslutar att \"Planprogram för Mjörnstranden\" ska skickas ut för samråd, enligt plan- och bygglagen 5:11a, 5:12-13.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Vi i Miljöpartiet vill gärna se en utveckling av Mjörnstranden som ger stöd för friluftsliv och rekreation. Vi förordar dock en lägre exploateringsgrad än vad som anges i samrådshandlingarna."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§185 KOMMUNSTYRELSEN 2021-11-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-11-08/protocol/protokoll-kommunstyrelsen-8-november-2021pdf-95464?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-beslut-2021-11-08",
+        "field": "quote",
+        "quote": "Kommunstyrelsen beslutar att \"Planprogram för Mjörnstranden\" ska skickas ut för samråd, enligt plan- och bygglagen 5:11a, 5:12-13.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-beslut-2021-11-08",
+        "field": "protocol_anteckning[mp]",
+        "quote": "Vi i Miljöpartiet vill gärna se en utveckling av Mjörnstranden som ger stöd för friluftsliv och rekreation. Vi förordar dock en lägre exploateringsgrad än vad som anges i samrådshandlingarna.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
