@@ -1251,3 +1251,32 @@ skiljer sig" eller "initiativ_typ skiljer sig" i en framtida session om ni vill 
 grupperna (348 poster) rörs INTE av detta — kräver fortfarande manuell granskning eller en mer
 sofistikerad regel innan de kan slås ihop säkert (blandning av legitima flerstegs-detaljplaner
 och administrativa årsbuntar som INTE ska slås ihop).
+
+## 2026-08-03 — Netlify-credits: glömt DIAGNOSTIK-steg i weekly-pipeline.yml borttaget
+
+**Vad:** Netlify-credits sjönk från 164 till 100 på en dag. Ägarens egen utredning (Usage &
+billing → Credit usage breakdown) visade att 60 production deploys (900 credits) stod för i
+princip hela förbrukningen, spårat till `weekly-pipeline.yml`.
+
+**Rotorsak:** ett steg (`DIAGNOSTIK — kolla om ARCHIVE_REPO_TOKEN faktiskt är satt`) som skulle
+tagits bort efter felsökning tidigare i projektet blev kvar. Steget gjorde `git commit` + `git
+push` till main VID VARJE körning — schemalagd (måndagar) OCH varje manuell `workflow_dispatch`
+under utveckling — oavsett om något faktiskt hade ändrats. Netlify är kopplat direkt mot repot
+och deployar automatiskt vid varje push till main (15 credits/deploy), så varje sådan onödig
+commit blev en betald deploy.
+
+**Åtgärd:** hela DIAGNOSTIK-steget borttaget ur `weekly-pipeline.yml`. Kunde INTE pushas via
+API/token (fine-grained PAT saknar `workflow`-scope, samma kända begränsning som gäller alla
+ändringar under `.github/workflows/*.yml`, se tidigare loggposter) — filen validerades lokalt
+(giltig YAML, exakt 14 kvarvarande steg) och laddades sedan upp manuellt av ägaren via GitHubs
+webbgränssnitt. Verifierat i efterhand: DIAGNOSTIK-strängen finns inte kvar i filen på main.
+
+**Kontrollerat separat:** `backfill.yml` hade INTE samma diagnostiksteg — bara
+`weekly-pipeline.yml` var påverkad.
+
+**Kvarstår, medvetet lägre prioriterat (rotorsak 2 i ägarens utredning):** varje RIKTIG
+pipeline-körning (dvs. när nytt innehåll faktiskt hittas) pushar fortfarande TVÅ separata commits
+(huvuddata, sedan en uppföljande "Fyll i arkivlänkar"-commit) — alltså två Netlify-deploys istället
+för en. Det är medvetet designat så eftersom arkivlänkarna behöver känna till huvudcommittens
+SHA innan de kan skapas korrekt. En riktig lösning (reservera/beräkna SHA:n i förväg för att slå
+ihop till en commit) kräver mer omskrivning och är inte påbörjad.
