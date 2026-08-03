@@ -1,0 +1,184 @@
+[
+  {
+    "arende": {
+      "title": "Återkallande av tillstånd, Solkattens förskola, SKIB AB",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2021.308 BUN",
+      "steps": [
+        {
+          "step_id": "bun-92-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-10-19",
+          "quote": "Ordförande Kent Perciwall (KD) ställer frågan om beslutet kan avgöras idag och föreslår tillsammans med Bertil Ynghammar (KD), Robin Almanakis (M), Hugo Peterson (C), Per Palm (L) och Kerstin Kristensson (L) återremiss av ärendet med förslaget att förvaltningen genomför ett nytt tillsynsbesök och uppdaterar den utredning som ligger till grund för bedömning.",
+          "decision": null,
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Det blir sällan bra när ärenden hamnar i långbänk. I det aktuella ärendet blir konsekvensen att barnen och deras vårdnadshavare kommer i kläm. Under sammanträdet gjorde vi det klart för nämnden att en återremiss i ren klartext innebär en kritik av förvaltningens beredning."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§92 BARN-OCH-UNGDOMSNAMNDEN 2021-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-10-19/protocol/protokoll-skapad-bun-2021-10-20-063115pdf-89648?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-92-beslut",
+        "field": "quote",
+        "quote": "Ordförande Kent Perciwall (KD) ställer frågan om beslutet kan avgöras idag och föreslår tillsammans med Bertil Ynghammar (KD), Robin Almanakis (M), Hugo Peterson (C), Per Palm (L) och Kerstin Kristensson (L) återremiss av ärendet med förslaget att förvaltningen genomför ett nytt tillsynsbesök och uppdaterar den utredning som ligger till grund för bedömning.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (52 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "bun-92-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Det blir sällan bra när ärenden hamnar i långbänk. I det aktuella ärendet blir konsekvensen att barnen och deras vårdnadshavare kommer i kläm. Under sammanträdet gjorde vi det klart för nämnden att en återremiss i ren klartext innebär en kritik av förvaltningens beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Nuläge och målsättning rörande barngruppernas storlek i förskolan",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2016.157 BUN",
+      "steps": [
+        {
+          "step_id": "bun-95-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-10-19",
+          "quote": "Barn- och ungdomsnämnden tar del av återrapporteringen och avslutar den halvårsvisa uppföljningen i ärende \"Nuläge och målsättning rörande barngruppernas storlek i förskolan\" 2016.157 BUN.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§95 BARN-OCH-UNGDOMSNAMNDEN 2021-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-10-19/protocol/protokoll-skapad-bun-2021-10-20-063115pdf-89648?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-95-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden tar del av återrapporteringen och avslutar den halvårsvisa uppföljningen i ärende \"Nuläge och målsättning rörande barngruppernas storlek i förskolan\" 2016.157 BUN.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Redovisning av obesvarade motioner 2021",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2021.058 KS",
+      "steps": [
+        {
+          "step_id": "ks-171-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-10-18",
+          "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut:\n1. Redovisningen godkänns.\n2. Handläggningen fortsätter för följande motioner som är äldre än ett år:\nMotion om infartsvägar - Boris Jernskiegg (SD), Glenn Pettersson (SD),\nAgneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD)\noch Lars Olof Jaeger (SD).",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§171 KOMMUNSTYRELSEN 2021-10-18",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-10-18/protocol/protokoll-kommunstyrelsen-18-oktober-2021pdf-47468?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-171-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut:\n1. Redovisningen godkänns.\n2. Handläggningen fortsätter för följande motioner som är äldre än ett år:\nMotion om infartsvägar - Boris Jernskiegg (SD), Glenn Pettersson (SD),\nAgneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD)\noch Lars Olof Jaeger (SD).",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Upphandling av Alingsås kommuns lokalvård",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.501 KS",
+      "steps": [
+        {
+          "step_id": "ks-174-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-10-18",
+          "quote": "Kommunstyrelsens beslut:\n1. Ekonomichefen får i uppdrag att fastställa upphandlingsdokumentet och godkänna det för annonsering.\n2. Ekonomichefen får i uppdrag att underteckna avtalet med vinnande leverantör/leverantörer i upphandlingen.\n3. Kommunledningskontoret får i uppdrag att, två år före eventuell förlängning av kommande avtal, utvärdera avtalet samt utreda övergång till egen regi som alternativ till fortsatt extern regi.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Anna Hansson (MP) lämnar följande skriftliga reservation:\nUpphandlingen av lokalvård omfattar mycket stora belopp och påverkar rent praktiskt stora delar av kommunens verksamhet. Kommunstyrelsen behöver säkerställa att bra krav ställs för ekologisk och social hållbarhet."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§174 KOMMUNSTYRELSEN 2021-10-18",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-10-18/protocol/protokoll-kommunstyrelsen-18-oktober-2021pdf-47468?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-174-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens beslut:\n1. Ekonomichefen får i uppdrag att fastställa upphandlingsdokumentet och godkänna det för annonsering.\n2. Ekonomichefen får i uppdrag att underteckna avtalet med vinnande leverantör/leverantörer i upphandlingen.\n3. Kommunledningskontoret får i uppdrag att, två år före eventuell förlängning av kommande avtal, utvärdera avtalet samt utreda övergång till egen regi som alternativ till fortsatt extern regi.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (56 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-174-beslut",
+        "field": "reservation[mp]",
+        "quote": "Anna Hansson (MP) lämnar följande skriftliga reservation:\nUpphandlingen av lokalvård omfattar mycket stora belopp och påverkar rent praktiskt stora delar av kommunens verksamhet. Kommunstyrelsen behöver säkerställa att bra krav ställs för ekologisk och social hållbarhet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
