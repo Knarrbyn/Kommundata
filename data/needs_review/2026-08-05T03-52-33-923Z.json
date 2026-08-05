@@ -1,0 +1,158 @@
+[
+  {
+    "arende": {
+      "title": "Remiss - Motion om ökad sjukskötersketäthet i vård och omsorg - Maria Adrell (V)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Maria Adrell",
+          "party": "v"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "pågående",
+      "diarienummer": "2021.125 VON",
+      "steps": [
+        {
+          "step_id": "von-55-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2021-04-28",
+          "quote": "Maria Adrell (V) har till kommunfullmäktige den 28 april 2021, § 82 lämnat en motion om ökad sjukskötersketäthet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§55 VARD-OCH-OMSORGSNAMNDEN 2021-09-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-09-27/protocol/protokoll-skapad-von-2021-09-28-100929pdf-81814?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-55-namndyttrande",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "namndyttrande",
+          "date": "2021-09-27",
+          "quote": "Då en översyn av sjuksköterskekompetensen kommer genomföras i samband med de omställningar som den kommunala hälso- och sjukvården står inför ser förvaltningen inget behov av att idag ta fram en plan. Förvaltningen föreslår att motionen avstyrks.",
+          "decision": "avstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§55 VARD-OCH-OMSORGSNAMNDEN 2021-09-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-09-27/protocol/protokoll-skapad-von-2021-09-28-100929pdf-81814?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-55-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2021-09-27",
+          "quote": "Motionen avstyrks.",
+          "decision": "avslag",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§55 VARD-OCH-OMSORGSNAMNDEN 2021-09-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-09-27/protocol/protokoll-skapad-von-2021-09-28-100929pdf-81814?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-55-motion-inlamnad",
+        "field": "quote",
+        "quote": "Maria Adrell (V) har till kommunfullmäktige den 28 april 2021, § 82 lämnat en motion om ökad sjukskötersketäthet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "von-55-namndyttrande",
+        "field": "quote",
+        "quote": "Då en översyn av sjuksköterskekompetensen kommer genomföras i samband med de omställningar som den kommunala hälso- och sjukvården står inför ser förvaltningen inget behov av att idag ta fram en plan. Förvaltningen föreslår att motionen avstyrks.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "von-55-beslut",
+        "field": "quote",
+        "quote": "Motionen avstyrks.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Detaljplan för Alingsås, Bostäder m.m. i Stadsskogen, etapp 4 (Stadsskogen 1)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "pågående",
+      "diarienummer": "2021.147 KS",
+      "steps": [
+        {
+          "step_id": "ks-127-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-09-06",
+          "quote": "1. Följande ändringar görs i planförslaget:\n-På den juridiskt bindande plankartan ska följande utformningsbestämmelse läggas till:\n\"Byggnaderna ska ha ett traditionellt arkitektoniskt formspråk\" och planbeskrivningen revideras med hänsyn därtill.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "l",
+                "mp",
+                "c"
+              ],
+              "quote": "Jens Christian Berlin (L), Anna Hansson (MP), Annika Qarlsson (C) och Susanna Nerell (C) reserverar sig till förmån för egna förslag."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "l"
+              ],
+              "quote": "Alingsås behöver ett byggande som skapar bostäder och livsmiljöer där människor trivs och mår bra. För att uppnå detta krävs en kunskap om och förankring i tidigare generationers lösningar, men också nytänkande och experimentlust för att hitta lösningar som är giltiga i dag."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§127 KOMMUNSTYRELSEN 2021-09-06",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-09-06/protocol/protokoll-kommunstyrelsen-6-september-2021pdf-23909?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-127-beslut",
+        "field": "quote",
+        "quote": "1. Följande ändringar görs i planförslaget:\n-På den juridiskt bindande plankartan ska följande utformningsbestämmelse läggas till:\n\"Byggnaderna ska ha ett traditionellt arkitektoniskt formspråk\" och planbeskrivningen revideras med hänsyn därtill.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-127-beslut",
+        "field": "reservation[l+mp+c]",
+        "quote": "Jens Christian Berlin (L), Anna Hansson (MP), Annika Qarlsson (C) och Susanna Nerell (C) reserverar sig till förmån för egna förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-127-beslut",
+        "field": "protocol_anteckning[l]",
+        "quote": "Alingsås behöver ett byggande som skapar bostäder och livsmiljöer där människor trivs och mår bra. För att uppnå detta krävs en kunskap om och förankring i tidigare generationers lösningar, men också nytänkande och experimentlust för att hitta lösningar som är giltiga i dag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
