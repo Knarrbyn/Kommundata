@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-08-10T10-53-14-901Z",
+  "committeesChecked": [
+    "kommunfullmaktige",
+    "kommunstyrelsen",
+    "vard-och-omsorgsnamnden",
+    "tekniska-namnden",
+    "kultur-och-utbildningsnamnden",
+    "socialnamnden",
+    "barn-och-ungdomsnamnden",
+    "bygg-och-miljonamnden",
+    "samhallsbyggnadsnamnden"
+  ],
+  "perCommitteeResults": [
+    {
+      "slug": "kommunfullmaktige",
+      "foundCount": 37,
+      "error": null
+    },
+    {
+      "slug": "kommunstyrelsen",
+      "foundCount": 55,
+      "error": null
+    },
+    {
+      "slug": "vard-och-omsorgsnamnden",
+      "foundCount": 44,
+      "error": null
+    },
+    {
+      "slug": "tekniska-namnden",
+      "foundCount": 0,
+      "error": null
+    },
+    {
+      "slug": "kultur-och-utbildningsnamnden",
+      "foundCount": 28,
+      "error": null
+    },
+    {
+      "slug": "socialnamnden",
+      "foundCount": 42,
+      "error": null
+    },
+    {
+      "slug": "barn-och-ungdomsnamnden",
+      "foundCount": 36,
+      "error": null
+    },
+    {
+      "slug": "bygg-och-miljonamnden",
+      "foundCount": 0,
+      "error": null
+    },
+    {
+      "slug": "samhallsbyggnadsnamnden",
+      "foundCount": 43,
+      "error": null
+    }
+  ],
+  "totalNewMeetingsFound": 285,
+  "cappedAtThisRun": true,
+  "maxPerRun": 15,
+  "meetingsThisRun": [
+    "kommunfullmaktige 2026-06-10",
+    "kommunstyrelsen 2026-04-13",
+    "kommunstyrelsen 2025-11-24",
+    "kultur-och-utbildningsnamnden 2025-09-22",
+    "kommunstyrelsen 2025-02-03",
+    "kultur-och-utbildningsnamnden 2022-03-16",
+    "kultur-och-utbildningsnamnden 2022-02-21",
+    "socialnamnden 2021-08-24",
+    "kommunstyrelsen 2021-08-23",
+    "samhallsbyggnadsnamnden 2021-08-23",
+    "samhallsbyggnadsnamnden 2021-07-26",
+    "kommunstyrelsen 2021-06-21",
+    "kommunfullmaktige 2021-06-16",
+    "kultur-och-utbildningsnamnden 2021-06-15",
+    "socialnamnden 2021-06-15"
+  ]
+}

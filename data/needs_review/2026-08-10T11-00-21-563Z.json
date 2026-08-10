@@ -1,0 +1,92 @@
+[
+  {
+    "arende": {
+      "title": "Hjorten 4, rivningslov rivning av gårdsbyggnad (2021-0401)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2021.359 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-148-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-08-23",
+          "quote": "Ansökan om rivningslov avslås med stöd av 9 kap. 34 § Plan- och bygglagen (PBL). Samhällsbyggnadsförvaltningen ges i uppdrag att inom ramen för pågående tillsynsärende återkomma till samhällsbyggnadsnämnden med förslag om åtgärdsföreläggande mot berörd fastighetsägare med krav om upprustning alternativt varsam rivning och efterföljande återuppbyggnad av det olovligt vanvårdade gårdshuset.",
+          "decision": "avslag",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§148 SAMHALLSBYGGNADSNAMNDEN 2021-08-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-08-23/protocol/protokoll-sbn-2021-08-23pdf-18017?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-148-beslut",
+        "field": "quote",
+        "quote": "Ansökan om rivningslov avslås med stöd av 9 kap. 34 § Plan- och bygglagen (PBL). Samhällsbyggnadsförvaltningen ges i uppdrag att inom ramen för pågående tillsynsärende återkomma till samhällsbyggnadsnämnden med förslag om åtgärdsföreläggande mot berörd fastighetsägare med krav om upprustning alternativt varsam rivning och efterföljande återuppbyggnad av det olovligt vanvårdade gårdshuset.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (50 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Nolby 37:4 (Vintergatan 2), bygglov för tillbyggnad av restaurang (2021-0228)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2021.234 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-119-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-07-26",
+          "quote": "Bygglov beviljas med stöd av 9 kap. 31 C § p 2 plan- och bygglagen (2010:900), PBL, för uteserveringen med en byggnadsarea på 16 kvm. Bygglov beviljas, för tillbyggnad av restaurang VED med ett förråd, vedförvaring och förvaring för sopkärl, totalt 28,6 kvm, enligt 9 kap. 30 § plan- och bygglagen (2010:900), PBL.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [
+            {
+              "parties": [
+                "s",
+                "mp",
+                "v"
+              ],
+              "quote": "Bo Olsson (S), Lars Larsson (S), Thomas Olofsson (S), Lennart Pettersson (S), Sebastian Birgersson (MP) och John Hedlund (V) reserverar sig mot beslutet."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§119 SAMHALLSBYGGNADSNAMNDEN 2021-07-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-07-26/protocol/protokoll-sbn-2021-07-26-justeradpdf-18010?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-119-beslut",
+        "field": "quote",
+        "quote": "Bygglov beviljas med stöd av 9 kap. 31 C § p 2 plan- och bygglagen (2010:900), PBL, för uteserveringen med en byggnadsarea på 16 kvm. Bygglov beviljas, för tillbyggnad av restaurang VED med ett förråd, vedförvaring och förvaring för sopkärl, totalt 28,6 kvm, enligt 9 kap. 30 § plan- och bygglagen (2010:900), PBL.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (53 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "sbn-119-beslut",
+        "field": "reservation[s+mp+v]",
+        "quote": "Bo Olsson (S), Lars Larsson (S), Thomas Olofsson (S), Lennart Pettersson (S), Sebastian Birgersson (MP) och John Hedlund (V) reserverar sig mot beslutet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
