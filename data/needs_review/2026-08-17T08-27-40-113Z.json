@@ -1,0 +1,416 @@
+[
+  {
+    "arende": {
+      "title": "Tillsyn, Rådmannens förskola, ULNA AB, 2021",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2021.138 BUN",
+      "steps": [
+        {
+          "step_id": "bun-64-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-06-15",
+          "quote": "Barn- och ungdomsnämnden uppmanar till revidering av dokumentet: \"RIKTLINJER - för att stödja de barn inom ULNA förskolor som är i behov av särskilt stöd i sitt lärande\", men avstår från ingripande i enlighet med Skollagen 26 kap 12§.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§64 BARN-OCH-UNGDOMSNAMNDEN 2021-06-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-06-15/protocol/protokoll-skapad-bun-2021-06-23-092013pdf-26049?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-64-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden uppmanar till revidering av dokumentet: \"RIKTLINJER - för att stödja de barn inom ULNA förskolor som är i behov av särskilt stöd i sitt lärande\", men avstår från ingripande i enlighet med Skollagen 26 kap 12§.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Tillsyn, Apelsinens förskola, ULNA AB, 2021",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2021.137 BUN",
+      "steps": [
+        {
+          "step_id": "bun-65-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-06-15",
+          "quote": "Barn- och ungdomsnämnden uppmanar till revidering av dokumentet: \"RIKTLINJER - för att stödja de barn inom ULNA förskolor som är i behov av särskilt stöd i sitt lärande\", men avstår från ingripande i enlighet med Skollagen 26 kap 12§.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§65 BARN-OCH-UNGDOMSNAMNDEN 2021-06-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-06-15/protocol/protokoll-skapad-bun-2021-06-23-092013pdf-26049?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-65-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden uppmanar till revidering av dokumentet: \"RIKTLINJER - för att stödja de barn inom ULNA förskolor som är i behov av särskilt stöd i sitt lärande\", men avstår från ingripande i enlighet med Skollagen 26 kap 12§.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Uppdrag: Vuxennärvaro i skolan",
+      "initiativ_typ": "initiativarende",
+      "initiators": [
+        {
+          "name": "Anna Wahlgren",
+          "party": "v"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": null,
+      "steps": [
+        {
+          "step_id": "bun-72-vackt",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "initiativarende_vackt",
+          "date": "2021-06-15",
+          "quote": "Anna Wahlgren (V) lyfter vid dagens sammanträde initiativ enligt nedan: Barn- och ungdomsförvaltningen ger förvaltningen i uppdrag att se över hur förvaltningen kan stötta sina skolor i arbetet att på ett säkert sätt utöka vuxennärvaron i skolan under raster, förflyttningar mellan olika aktiviteter och dylikt.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§72 BARN-OCH-UNGDOMSNAMNDEN 2021-06-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-06-15/protocol/protokoll-skapad-bun-2021-06-23-092013pdf-26049?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "bun-72-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-06-15",
+          "quote": "Barn- och ungdomsnämnden avslår initiativ från Anna Wahgren (V).",
+          "decision": "avslag",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "kd",
+                "m",
+                "c"
+              ],
+              "quote": "Vi från Alliansen har inget emot vuxenstöd i skolan, men vi känner dock att detta redan tas om hand av varje skola på det sätt de behöver det bäst. Så att ålägga förvaltningen och skolorna något de redan gör känns inte relevant."
+            },
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Vi socialdemokrater anser att det är mycket viktigt att öka vuxennärvaron i skolan, framför allt på raster. Dock upplever vi att förvaltningen redan har det uppdrag som föreslås i Vänsterpartiets nämndinitiativ. Att påföra ytterligare ett generellt hållet uppdrag riskerar att medföra onödig administration."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§72 BARN-OCH-UNGDOMSNAMNDEN 2021-06-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-06-15/protocol/protokoll-skapad-bun-2021-06-23-092013pdf-26049?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-72-vackt",
+        "field": "quote",
+        "quote": "Anna Wahlgren (V) lyfter vid dagens sammanträde initiativ enligt nedan: Barn- och ungdomsförvaltningen ger förvaltningen i uppdrag att se över hur förvaltningen kan stötta sina skolor i arbetet att på ett säkert sätt utöka vuxennärvaron i skolan under raster, förflyttningar mellan olika aktiviteter och dylikt.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "bun-72-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden avslår initiativ från Anna Wahgren (V).",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "bun-72-beslut",
+        "field": "protocol_anteckning[kd+m+c]",
+        "quote": "Vi från Alliansen har inget emot vuxenstöd i skolan, men vi känner dock att detta redan tas om hand av varje skola på det sätt de behöver det bäst. Så att ålägga förvaltningen och skolorna något de redan gör känns inte relevant.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "bun-72-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Vi socialdemokrater anser att det är mycket viktigt att öka vuxennärvaron i skolan, framför allt på raster. Dock upplever vi att förvaltningen redan har det uppdrag som föreslås i Vänsterpartiets nämndinitiativ. Att påföra ytterligare ett generellt hållet uppdrag riskerar att medföra onödig administration.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Lokalförsörjningsplan 2021-2025",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2021.093 VON",
+      "steps": [
+        {
+          "step_id": "von-36-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2021-06-14",
+          "quote": "1. Lokalförsörjningsplan för vård- och omsorgsnämnden 2021-2025 antas. 2. Vård- och omsorgsförvaltningen får i uppdrag att ta fram en strategi för framtidens äldreomsorg.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§36 VARD-OCH-OMSORGSNAMNDEN 2021-06-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-06-14/protocol/protokoll-skapad-von-2021-06-17-090419pdf-85242?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-36-beslut",
+        "field": "quote",
+        "quote": "1. Lokalförsörjningsplan för vård- och omsorgsnämnden 2021-2025 antas. 2. Vård- och omsorgsförvaltningen får i uppdrag att ta fram en strategi för framtidens äldreomsorg.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ändring nr 1 av DP 63, DP för Lövekulle etapp 1 Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2020.582 SBN",
+      "steps": [
+        {
+          "step_id": "beslut-sbn-2021-06-14",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-06-14",
+          "quote": "Samhällsbyggnadsnämnden antar \"Ändring 1 av detaljplan för Alingsås, Lövekulle Etapp 1\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§100 SAMHALLSBYGGNADSNAMNDEN 2021-06-14",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-06-14/protocol/protokoll-sbn-2021-06-11-ss100-justeradpdf-12314?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beslut-sbn-2021-06-14",
+        "field": "quote",
+        "quote": "Samhällsbyggnadsnämnden antar \"Ändring 1 av detaljplan för Alingsås, Lövekulle Etapp 1\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Kostupphandling",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2021.320 KS",
+      "steps": [
+        {
+          "step_id": "ks-98-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-06-07",
+          "quote": "Kommunstyrelsens beslut: 1. Ekonomichef får i uppdrag att fastställa förfrågningsunderlaget och godkänna det för annonsering. 2. Ekonomichef får i uppdrag att underteckna avtalet med vinnande entreprenör i upphandlingen. 3. Kommunledningskontoret får i uppdrag att, två år före eventuell förlängning av kommande avtal, utvärdera avtalet samt utreda övergång till egen regi som alternativ till fortsatt extern regi.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vänsterpartiet ser i nuläget inget annat realistiskt alternativ än att gå vidare med en upphandling på de premisser som föreslås. Vi vill däremot rikta kritik mot att ärendet handläggs så sent i processen inför tidigare avtals utgång att man har svårt att utreda eller föreslå alternativa tillvägagångssätt."
+            },
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Socialdemokraterna är principiella motståndare till att kommunens måltidsverksamhet i sin helhet är utlagd på entreprenad. Vi ser tydliga fördelar, i synnerhet vad gäller offentlig rådighet och långsiktiga styrningsmöjligheter, med en verksamhet helt eller till stor del bedriven i egen regi."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§98 KOMMUNSTYRELSEN 2021-06-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-06-07/protocol/protokoll-kommunstyrelsen-7-juni-2021pdf-62086?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-98-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens beslut: 1. Ekonomichef får i uppdrag att fastställa förfrågningsunderlaget och godkänna det för annonsering. 2. Ekonomichef får i uppdrag att underteckna avtalet med vinnande entreprenör i upphandlingen. 3. Kommunledningskontoret får i uppdrag att, två år före eventuell förlängning av kommande avtal, utvärdera avtalet samt utreda övergång till egen regi som alternativ till fortsatt extern regi.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (56 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-98-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "Vänsterpartiet ser i nuläget inget annat realistiskt alternativ än att gå vidare med en upphandling på de premisser som föreslås. Vi vill däremot rikta kritik mot att ärendet handläggs så sent i processen inför tidigare avtals utgång att man har svårt att utreda eller föreslå alternativa tillvägagångssätt.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-98-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Socialdemokraterna är principiella motståndare till att kommunens måltidsverksamhet i sin helhet är utlagd på entreprenad. Vi ser tydliga fördelar, i synnerhet vad gäller offentlig rådighet och långsiktiga styrningsmöjligheter, med en verksamhet helt eller till stor del bedriven i egen regi.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande omvärdering av LOV - Boris Jernskiegg (SD) m fl",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Boris Jernskiegg",
+          "party": "sd"
+        },
+        {
+          "name": "Glenn Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Agneta Grange",
+          "party": "sd"
+        },
+        {
+          "name": "Zandra Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Otto Stryhn",
+          "party": "sd"
+        },
+        {
+          "name": "Lars Olof Jaeger",
+          "party": "sd"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2020.356 KS",
+      "steps": [
+        {
+          "step_id": "motion-inlamnad-lov",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2020-08-22",
+          "quote": "Boris Jernskiegg (SD), Glenn Pettersson (SD), Agneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD) och Lars Olof Jaeger (SD) har den 22 augusti 2020, § 78, lämnat in en motion till kommunfullmäktige om att omvärdera fullmäktiges beslut om att införa valfrihetssystem (LOV) inom särskilt boende.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§96 KOMMUNFULLMAKTIGE 2021-05-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-05-26/protocol/protokoll-kommunfullmaktige-26-maj-2021pdf-78984?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "klk-yttrande-lov",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2021-03-31",
+          "quote": "De beslut som nu fattats i ärendet ändrar förutsättningarna från de som var rådande då motionen skrevs. Beslutet om att införa LOV för särskilt boende har omprövats och upphävts genom vård- och omsorgsnämnden och kommunfullmäktiges beslut. Kommunledningskontoret bedömer därmed att motionen bör anses besvarad.",
+          "decision": "ingen rekommendation",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§96 KOMMUNFULLMAKTIGE 2021-05-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-05-26/protocol/protokoll-kommunfullmaktige-26-maj-2021pdf-78984?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-beslut-lov",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2021-05-26",
+          "quote": "Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§96 KOMMUNFULLMAKTIGE 2021-05-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-05-26/protocol/protokoll-kommunfullmaktige-26-maj-2021pdf-78984?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "motion-inlamnad-lov",
+        "field": "quote",
+        "quote": "Boris Jernskiegg (SD), Glenn Pettersson (SD), Agneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD) och Lars Olof Jaeger (SD) har den 22 augusti 2020, § 78, lämnat in en motion till kommunfullmäktige om att omvärdera fullmäktiges beslut om att införa valfrihetssystem (LOV) inom särskilt boende.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (46 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "klk-yttrande-lov",
+        "field": "quote",
+        "quote": "De beslut som nu fattats i ärendet ändrar förutsättningarna från de som var rådande då motionen skrevs. Beslutet om att införa LOV för särskilt boende har omprövats och upphävts genom vård- och omsorgsnämnden och kommunfullmäktiges beslut. Kommunledningskontoret bedömer därmed att motionen bör anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-beslut-lov",
+        "field": "quote",
+        "quote": "Motionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
