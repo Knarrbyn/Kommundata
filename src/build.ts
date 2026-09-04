@@ -16,12 +16,20 @@
  * dess ställe. Allt annat i mallen — CSS, typsnittsval, alla
  * renderingsfunktioner (renderStep, renderCard, viewArende, viewParti,
  * viewMetod, viewOm, router) — är orört, det är prototypens egen kod.
+ *
+ * TILLÄGG 2026-08-24 (se DECISION_LOG.md): en ANDRA platshållare,
+ * `__MOTEN_JSON__`, injicerar `data/published/moten.json` — indexet
+ * över ALLA möten en instans haft (inte bara de som gav ärenden), som
+ * grund för en kronologisk mötestidslinje per instans. Samma
+ * injektionsmönster och samma escape-logik återanvänds rakt av.
  */
 
 import { readFile } from "node:fs/promises";
 import type { PublishedArende } from "./link.ts";
+import type { MotesPost } from "./moten.ts";
 
-const PLACEHOLDER = "__ARENDEN_JSON__";
+const ARENDEN_PLACEHOLDER = "__ARENDEN_JSON__";
+const MOTEN_PLACEHOLDER = "__MOTEN_JSON__";
 const DEFAULT_TEMPLATE_PATH = new URL("../templates/site.html", import.meta.url);
 
 /**
@@ -52,26 +60,47 @@ export function escapeForInlineScript(json: string): string {
  * mallens gamla, hårdkodade testärenden — en lätt att missa bugg annars.
  */
 export function injectArendenData(templateHtml: string, arenden: PublishedArende[]): string {
-  if (!templateHtml.includes(PLACEHOLDER)) {
+  if (!templateHtml.includes(ARENDEN_PLACEHOLDER)) {
     throw new Error(
-      `Platshållaren "${PLACEHOLDER}" hittades inte i mallen. Har templates/site.html ändrats så att ` +
+      `Platshållaren "${ARENDEN_PLACEHOLDER}" hittades inte i mallen. Har templates/site.html ändrats så att ` +
         `markören försvunnit eller döpts om? build.ts måste uppdateras i så fall.`
     );
   }
   const json = escapeForInlineScript(JSON.stringify(arenden));
-  return templateHtml.replace(PLACEHOLDER, json);
+  return templateHtml.replace(ARENDEN_PLACEHOLDER, json);
+}
+
+/**
+ * Injicerar mötesindexet i mallens platshållare. Samma mönster och
+ * samma säkerhetsskäl som injectArendenData. `moten` får vara tom array
+ * (t.ex. innan moten.json existerar första gången) — det är inte ett
+ * felläge, bara en tom mötestidslinje att visa.
+ */
+export function injectMotenData(templateHtml: string, moten: MotesPost[]): string {
+  if (!templateHtml.includes(MOTEN_PLACEHOLDER)) {
+    throw new Error(
+      `Platshållaren "${MOTEN_PLACEHOLDER}" hittades inte i mallen. Har templates/site.html ändrats så att ` +
+        `markören försvunnit eller döpts om? build.ts måste uppdateras i så fall.`
+    );
+  }
+  const json = escapeForInlineScript(JSON.stringify(moten));
+  return templateHtml.replace(MOTEN_PLACEHOLDER, json);
 }
 
 /**
  * Läser den faktiska mallfilen och renderar hela sidan. Det här är vad
- * build-cli.ts anropar. `templatePath` kan override:as (används av
+ * build-cli.ts anropar. `moten` är valfri (default tom array) så
+ * BEFINTLIGA anrop (och tester) som bara skickar `arenden` fortsätter
+ * fungera oförändrat. `templatePath` kan override:as (används av
  * testerna för att peka på en isolerad testfixtur om det behövs, annars
  * pekar den på den riktiga `templates/site.html`).
  */
 export async function renderSite(
   arenden: PublishedArende[],
+  moten: MotesPost[] = [],
   templatePath: string | URL = DEFAULT_TEMPLATE_PATH
 ): Promise<string> {
   const templateHtml = await readFile(templatePath, "utf-8");
-  return injectArendenData(templateHtml, arenden);
+  const withArenden = injectArendenData(templateHtml, arenden);
+  return injectMotenData(withArenden, moten);
 }
