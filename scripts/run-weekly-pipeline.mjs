@@ -29,6 +29,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { COMMITTEES, BASE_URL, SEEN_FILE, ARCHIVE_REPO, ARCHIVE_LOCAL_DIR } from "../src/config.ts";
 import { loadSeen, fetchNewMeetingsForCommittee, markSeen } from "../src/fetch.ts";
+import { buildMotesEntry, upsertMotesIndex, canonicalizeMoten } from "../src/moten.ts";
 import { downloadMeetingFiles } from "../src/download.ts";
 import { extractPdfText, buildExtractionPrompt, parseExtractionResponse, stampPdfUrl, normalizeInstanceSlugs } from "../src/extract.ts";
 import { runGates } from "../src/gates.ts";
@@ -319,6 +320,24 @@ async function main() {
       publishedDb.push({ ...candidate, id, ...flag });
     }
   }
+
+  // Möten-index (se DECISION_LOG.md 2026-08-24, src/moten.ts): fångar
+  // VARJE besökt möte den här körningen — oavsett om det gav ärenden —
+  // så att en instans fullständiga mötestidslinje går att visa, inte
+  // bara de möten som råkade producera ett extraherbart ärende.
+  const motenRaw = await readFile("data/published/moten.json", "utf-8").catch(() => "[]");
+  let motenDb = JSON.parse(motenRaw);
+  for (const meeting of cappedMeetings) {
+    const arendeIdsForMeeting = publishedDb
+      .filter((a) => a.steps.some((s) => s.source?.pdf_url === meeting.protocolPdfUrl))
+      .map((a) => a.id);
+    motenDb = upsertMotesIndex(
+      motenDb,
+      buildMotesEntry(meeting.committeeSlug, meeting.date, meeting.protocolPdfUrl, arendeIdsForMeeting)
+    );
+  }
+  await writeFile("data/published/moten.json", JSON.stringify(canonicalizeMoten(motenDb), null, 2) + "\n");
+  console.error(`Möten-index: ${motenDb.length} möten totalt (${cappedMeetings.length} besökta denna körning).`);
 
   // Publish: kanonisera, hasha, changelog.
   const previous = JSON.parse(await readFile("data/publish/last-published.json", "utf-8").catch(() => "[]"));
