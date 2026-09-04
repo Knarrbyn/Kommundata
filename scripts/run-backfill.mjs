@@ -40,6 +40,7 @@ import { runGates } from "../src/gates.ts";
 import { buildVerificationPrompt, parseVerificationResponse, reconcile } from "../src/verify.ts";
 import { archiveArendenWithGit } from "../src/archive.ts";
 import { linkArende, generateArendeId } from "../src/link.ts";
+import { buildMotesEntry, upsertMotesIndex, canonicalizeMoten } from "../src/moten.ts";
 import { preparePublish } from "../src/publish.ts";
 import { renderSite } from "../src/build.ts";
 
@@ -221,6 +222,7 @@ async function main() {
   const allNeedsReview = [];
   const allToPublish = [];
   const rawTextByMeeting = new Map();
+  const processedMeetings = []; // för moten.json — se DECISION_LOG.md 2026-08-24
   const downloadDeps = {
     fetchBinary,
     ensureDir: (p) => mkdir(p, { recursive: true }),
@@ -239,6 +241,7 @@ async function main() {
         continue;
       }
       const meeting = { ...ref, protocolPdfUrl };
+      processedMeetings.push(meeting);
 
       const downloaded = await downloadMeetingFiles(meeting, meetingHtml, downloadDeps, ARCHIVE_BASE_DIR);
       const protocolRelativePath = downloaded.protocolPath.replace(`${ARCHIVE_LOCAL_DIR}/`, "");
@@ -329,6 +332,23 @@ async function main() {
       console.error(`+ "${candidate.title}" → nytt ärende ${id}`);
     }
   }
+
+  // Möten-index (se DECISION_LOG.md 2026-08-24, src/moten.ts): samma
+  // logik som i weekly-pipeline — fångar VARJE besökt möte (med giltigt
+  // protokoll) oavsett om det gav ärenden.
+  const motenRaw = await readFile("data/published/moten.json", "utf-8").catch(() => "[]");
+  let motenDb = JSON.parse(motenRaw);
+  for (const meeting of processedMeetings) {
+    const arendeIdsForMeeting = publishedDb
+      .filter((a) => a.steps.some((s) => s.source?.pdf_url === meeting.protocolPdfUrl))
+      .map((a) => a.id);
+    motenDb = upsertMotesIndex(
+      motenDb,
+      buildMotesEntry(committeeSlug, meeting.date, meeting.protocolPdfUrl, arendeIdsForMeeting)
+    );
+  }
+  await writeFile("data/published/moten.json", JSON.stringify(canonicalizeMoten(motenDb), null, 2) + "\n");
+  console.error(`Möten-index: ${motenDb.length} möten totalt (${processedMeetings.length} besökta denna körning).`);
 
   const previous = JSON.parse(await readFile("data/publish/last-published.json", "utf-8").catch(() => "[]"));
   const { canonical, dataHash, changelogEntry } = preparePublish(publishedDb, previous, `backfill-${runTimestamp}`);
