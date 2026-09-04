@@ -5,6 +5,7 @@ import { readFile } from "node:fs/promises";
 import {
   renderSite,
   injectArendenData,
+  injectMotenData,
   escapeForInlineScript,
 } from "../src/build.ts";
 import type { PublishedArende } from "../src/link.ts";
@@ -176,4 +177,78 @@ test("renderSite: det långa 43-ords R2-citatet (vattenlek, det verkliga fyndet 
     ) || html.includes("Tekniska nämnden beslutade att avstyrka motionens första att-sats"),
     "det 43-ords citatet som bevisar R2-lösningen ska nå ända fram till den renderade sidan"
   );
+});
+
+// ---------------------------------------------------------------------
+// TILLÄGG 2026-08-24 (se DECISION_LOG.md): moten.json-injektion och
+// mötestidslinjen i /namnd/[slug]. Samma metod som ovan — riktig mall,
+// kört genom Node:s vm-modul för att bevisa syntaktisk giltighet, inte
+// bara att strängen ser rätt ut.
+// ---------------------------------------------------------------------
+
+const EXAMPLE_MOTE = {
+  instance: "tekniska-namnden",
+  date: "2026-02-25",
+  protocol_pdf_url: "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-02-25/protocol/protokoll-ten-2026-02-25pdf?downloadMode=open",
+  archive_url: null,
+  arende_ids: ["a-2025-0368"],
+};
+
+const EXAMPLE_MOTE_INFO_ONLY = {
+  instance: "tekniska-namnden",
+  date: "2026-05-14",
+  protocol_pdf_url: "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-05-14/protocol/protokoll-ten-2026-05-14pdf?downloadMode=open",
+  archive_url: null,
+  arende_ids: [],
+};
+
+test("renderSite: bakåtkompatibel — anrop utan moten-argument injicerar tom array, kraschar inte", async () => {
+  const html = await renderSite([VATTENLEK]);
+  assert.match(html, /const MOTEN = \[\];/);
+});
+
+test("renderSite: injicerar moten.json korrekt i den RIKTIGA mallen, inkl. ett rent informationsmöte (tom arende_ids)", async () => {
+  const html = await renderSite([VATTENLEK], [EXAMPLE_MOTE, EXAMPLE_MOTE_INFO_ONLY]);
+  assert.match(html, /"instance":"tekniska-namnden"/);
+  assert.match(html, /"arende_ids":\[\]/, "informationsmötets tomma arende_ids ska finnas kvar, inte tappas");
+});
+
+test("renderSite: det injicerade MOTEN-scriptblocket är syntaktiskt giltig JavaScript (körs genom vm)", async () => {
+  const html = await renderSite([VATTENLEK, PARKERING], [EXAMPLE_MOTE, EXAMPLE_MOTE_INFO_ONLY]);
+  const scriptMatch = /<script>([\s\S]*)<\/script>\s*<\/body>/.exec(html);
+  assert.ok(scriptMatch, "hittade inget avslutande <script>-block i HTML:en");
+  const scriptSource = scriptMatch![1];
+
+  const elements: Record<string, any> = {};
+  function makeEl() {
+    return { innerHTML: "", classList: { add() {}, remove() {} }, addEventListener() {} };
+  }
+  const sandbox: any = {
+    document: {
+      getElementById: (id: string) => (elements[id] ??= makeEl()),
+      querySelectorAll: () => [],
+      querySelector: () => makeEl(),
+      addEventListener() {},
+    },
+    window: { addEventListener() {}, scrollTo() {} },
+    location: { hash: "" },
+    console,
+  };
+  vm.createContext(sandbox);
+
+  assert.doesNotThrow(() => {
+    vm.runInContext(scriptSource, sandbox);
+  }, "MOTEN-injektionen och den utökade viewNamnd() ska vara giltig körbar JavaScript");
+});
+
+test("injectMotenData: kastar ett TYDLIGT fel om platshållaren saknas", () => {
+  assert.throws(
+    () => injectMotenData("<html>ingen platshållare här</html>", [EXAMPLE_MOTE]),
+    /Platshållaren.*hittades inte/
+  );
+});
+
+test("templates/site.html: den RIKTIGA mallfilen innehåller fortfarande MOTEN-platshållaren", async () => {
+  const raw = await readFile(TEMPLATE_PATH, "utf-8");
+  assert.match(raw, /__MOTEN_JSON__/);
 });
