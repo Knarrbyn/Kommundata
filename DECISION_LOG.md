@@ -1280,3 +1280,78 @@ pipeline-körning (dvs. när nytt innehåll faktiskt hittas) pushar fortfarande 
 för en. Det är medvetet designat så eftersom arkivlänkarna behöver känna till huvudcommittens
 SHA innan de kan skapas korrekt. En riktig lösning (reservera/beräkna SHA:n i förväg för att slå
 ihop till en commit) kräver mer omskrivning och är inte påbörjad.
+
+
+## 2026-08-24 — Ny funktion: moten.json — mötestidslinje per instans
+
+**Bakgrund:** produktdiskussion om att kunna se "vilka protokoll finns för
+Kommunstyrelsen/KF/en nämnd under en tidsperiod" — inte bara ärenden, utan
+FAKTISKA MÖTEN, inklusive rena informationsmöten som aldrig gett upphov
+till ett extraherbart ärende och därför är helt osynliga i `arenden.json`.
+
+**Byggt:**
+- `src/moten.ts` — ny modul: `buildMotesEntry`, `upsertMotesIndex`,
+  `canonicalizeMoten`. 8 tester (`test/moten.test.ts`), alla lokalt körda
+  och godkända innan push.
+- `data/published/moten.json` — nytt öppet datalager, ett objekt per möte:
+  `{ instance, date, protocol_pdf_url, archive_url, arende_ids }`.
+  `arende_ids` är medvetet TOM array (inte null) för informationsmöten —
+  det är hela poängen, mötet ska synas ändå.
+- `scripts/run-weekly-pipeline.mjs` och `scripts/run-backfill.mjs`:
+  bygger nu `moten.json` för VARJE besökt möte (inte bara de som gav
+  ärenden) genom att korrelera `meeting.protocolPdfUrl` mot färdiglänkade
+  ärendens `steps[].source.pdf_url` efter link-steget.
+- `src/build.ts` / `src/build-cli.ts`: en andra platshållare,
+  `__MOTEN_JSON__`, injiceras precis som `__ARENDEN_JSON__`. Bakåt-
+  kompatibelt — `renderSite(arenden)` utan moten-argument fungerar
+  fortfarande (default tom array), inga befintliga anrop bröts.
+  `dist/api/moten.json` publiceras som ett nytt öppet API, samma mönster
+  som `dist/api/arenden.json`.
+- `templates/site.html`: `/namnd/[slug]`-vyn (fanns redan, visade bara
+  ärendekort) har nu en kronologisk mötestidslinje ovanför ärendelistan,
+  filtrerbar per år, med länk till protokollet och — om mötet gav
+  ärenden — länkar till dem. Informationsmöten visas med texten "Inga
+  extraherade ärenden — troligen ett rent informationsmöte" istället för
+  att osynliggöras.
+
+**Tester:** 14 tester i `test/build.test.ts` (5 nya + 9 befintliga, alla
+gröna — inget gick sönder). Samma vm-baserade metod som redan användes:
+den RIKTIGA mallen körs genom Node:s `vm`-modul för att bevisa att
+injektionen producerar syntaktiskt giltig, körbar JavaScript — inte bara
+att strängen ser rätt ut.
+
+**Initial backfill (2026-08-24):** 17 av 438 redan bearbetade möten
+kunde INTE härledas ur befintlig `arenden.json` (de gav noll ärenden och
+ingen `pdf_url` finns därför sparad någonstans). De 421 övriga
+(96 %) härleddes gratis, ingen ny nätverkstrafik. De 17 luckorna
+kräver en enskild sidhämtning per möte (för att hitta protokoll-URL:en)
+— bedömdes inte värt att jaga nu (sökmotorn indexerar inte dessa
+obskyra, innehållsfattiga informationsmöten pålitligt, vilket gjorde det
+oproportionerligt dyrt i verktygsanrop för 4 % av datan). Kvarstående
+luckor, för framtida ifyllnad:
+  - vard-och-omsorgsnamnden 2023-01-10
+  - vard-och-omsorgsnamnden 2024-10-24
+  - kommunstyrelsen 2026-05-20
+  - kommunfullmaktige 2022-10-19
+  - socialnamnden 2022-06-22
+  - kultur-och-utbildningsnamnden 2021-09-28
+  - bygg-och-miljonamnden 2023-01-03
+  - bygg-och-miljonamnden 2023-05-16
+  - bygg-och-miljonamnden 2023-10-24
+  - bygg-och-miljonamnden 2024-05-14
+  - samhallsbyggnadsnamnden 2021-06-14
+  - samhallsbyggnadsnamnden 2022-02-03
+  - samhallsbyggnadsnamnden 2022-03-21
+  - samhallsbyggnadsnamnden 2022-04-19
+  - samhallsbyggnadsnamnden 2022-05-16
+  - samhallsbyggnadsnamnden 2022-07-25
+  - samhallsbyggnadsnamnden 2022-10-24
+
+**Känd begränsning kvar:** dessa 17 möten är redan markerade `seen` i
+`seen.json`, så normal pipeline-körning kommer ALDRIG naturligt besöka
+dem igen (diffNewMeetings filtrerar bort redan sedda datum). En riktig
+lösning kräver antingen (a) en engångskörning som explicit hämtar just
+dessa 17 mötessidor och kör dem genom samma `extractProtocolPdfUrl`-logik
+som resten av pipelinen, eller (b) en manuell komplettering. Ofarligt att
+lämna som är — påverkar bara mötestidslinjens fullständighet marginellt,
+inte ärendedatans korrekthet.
