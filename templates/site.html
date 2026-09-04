@@ -358,6 +358,7 @@ const INITIATIVE_TYPE_META = {
 };
 
 const ARENDEN = __ARENDEN_JSON__;
+const MOTEN = __MOTEN_JSON__;
 
 function partyPill(p){
   const color = PARTY_COLOR[p.party] || '#999';
@@ -649,12 +650,43 @@ function viewParti(kod){
   return html;
 }
 
+let namndMotesYear = 'alla';
+
+function setNamndMotesYear(year){
+  namndMotesYear = year;
+  render();
+}
+
+// TILLÄGG 2026-08-24 (se DECISION_LOG.md): renderar en rad i mötestid-
+// linjen. Ett möte utan extraherade ärenden visas ändå — det ÄR poängen
+// med moten.json (se src/moten.ts): rena informationsmöten ska synas som
+// riktiga möten, inte osynliggöras bara för att de inte gav ett ärende.
+function renderMotesRow(m){
+  const arendeLinks = (m.arende_ids||[]).length
+    ? m.arende_ids.map(id=>{
+        const a = ARENDEN.find(x=>x.id===id);
+        const title = a ? a.title : id;
+        return `<a onclick="navigate('/arende/${id}')" style="color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer;">${title}</a>`;
+      }).join(', ')
+    : '<span style="color:var(--ink-soft); font-style:italic;">Inga extraherade ärenden — troligen ett rent informationsmöte</span>';
+  return `
+  <div class="motes-row" style="padding:10px 0; border-bottom:1px solid var(--line); display:flex; gap:16px; align-items:baseline; flex-wrap:wrap;">
+    <span style="font-variant-numeric:tabular-nums; min-width:96px; color:var(--ink-soft);">${m.date}</span>
+    <a href="${m.protocol_pdf_url}" target="_blank" rel="noopener noreferrer" style="color:inherit;">Protokoll ↗</a>
+    <span style="flex:1; min-width:200px;">${arendeLinks}</span>
+  </div>`;
+}
+
 function viewNamnd(slug){
   const name = INSTANCE_NAMES[slug];
   if(!name){
     return `<a class="back-link" onclick="navigate('/')">← Alla ärenden</a><div class="empty-note">Okänd instans "${slug}".</div>`;
   }
   const involved = ARENDEN.filter(a => a.steps.some(s=>s.instance===slug));
+  const moten = (MOTEN||[]).filter(m => m.instance===slug).slice().sort((a,b)=> b.date.localeCompare(a.date));
+  const years = Array.from(new Set(moten.map(m=>m.date.slice(0,4)))).sort((a,b)=>b.localeCompare(a));
+  if(namndMotesYear!=='alla' && !years.includes(namndMotesYear)) namndMotesYear = 'alla';
+  const motenFiltered = namndMotesYear==='alla' ? moten : moten.filter(m=>m.date.slice(0,4)===namndMotesYear);
 
   let html = `
   <a class="back-link" onclick="navigate('/')">← Alla ärenden</a>
@@ -663,6 +695,23 @@ function viewNamnd(slug){
     <h1>${name}</h1>
     <p style="color:var(--ink-soft); max-width:56ch; margin-top:6px;">Alla ärenden med minst ett steg hos ${name} — motioner, yttranden, beslut och övriga initiativtyper, med samma verifieringsmetod som för resten av sajten.</p>
   </div>`;
+
+  if(moten.length){
+    const yearButtons = years.map(y=>
+      `<button class="${namndMotesYear===y?'active':''}" onclick="setNamndMotesYear('${y}')">${y}</button>`
+    ).join('');
+    html += `
+    <div class="filter-group" style="margin-top:24px;">
+      <span class="filter-group-label">Mötestidslinje (${moten.length} möten registrerade${years.length?`, ${years[years.length-1]}–${years[0]}`:''})</span>
+      <div class="filters">
+        <button class="${namndMotesYear==='alla'?'active':''}" onclick="setNamndMotesYear('alla')">Alla år</button>
+        ${yearButtons}
+      </div>
+    </div>
+    <div class="motes-timeline" style="margin-top:12px; margin-bottom:28px;">
+      ${motenFiltered.map(renderMotesRow).join('')}
+    </div>`;
+  }
 
   if(!involved.length){
     html += `<div class="empty-note">Inga ärenden registrerade hos ${name} ännu — det säger inget om nämndens faktiska aktivitet, bara att inget av de hittills granskade ärendena råkar beröra den.</div>`;
