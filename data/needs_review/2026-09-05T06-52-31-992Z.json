@@ -1,0 +1,575 @@
+[
+  {
+    "arende": {
+      "title": "Uppdatering av tillämpningsanvisningar 2021 - Avgifter och ersättningar för personer inom verksamhetsområde funktionsstöd",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2021.081 VON",
+      "steps": [
+        {
+          "step_id": "von-19-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2021-04-27",
+          "quote": "Vård- och omsorgsnämnden fastställer revidering av \"Tillämpningsanvisningar 2021 avgifter och ersättningar för personer inom verksamhetsområde funktionsstöd\" per 1 juni 2021.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§19 VARD-OCH-OMSORGSNAMNDEN 2021-04-27",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-04-27/protocol/protokoll-skapad-von-2021-04-29-085451pdf-47552?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-19-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden fastställer revidering av \"Tillämpningsanvisningar 2021 avgifter och ersättningar för personer inom verksamhetsområde funktionsstöd\" per 1 juni 2021.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Återrapportering av uppdrag kartläggning och plan med kriterier för minnesplatser och statyer",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2021.093 KUN",
+      "steps": [
+        {
+          "step_id": "kun-51-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2021-04-21",
+          "quote": "Kartläggning och plan med kriterier för minnesplatser och statyer godkänns. Förvaltningen får i uppdrag att tillsammans med det lokala föreningslivet och hembygdsföreningarna genomföra en inventering av de personer med koppling till Alingsås som kan komma i fråga vid en framtida konstnärlig gestaltning i det offentliga rummet.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§51 KULTUR-OCH-UTBILDNINGSNAMNDEN 2021-04-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2021-04-21/protocol/protokoll-skapad-kun-2021-04-22-120348pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-51-beslut",
+        "field": "quote",
+        "quote": "Kartläggning och plan med kriterier för minnesplatser och statyer godkänns. Förvaltningen får i uppdrag att tillsammans med det lokala föreningslivet och hembygdsföreningarna genomföra en inventering av de personer med koppling till Alingsås som kan komma i fråga vid en framtida konstnärlig gestaltning i det offentliga rummet.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (46 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Motion om personligt ombud - Anna Hansson (MP), Britt-Marie Kuylenstierna (MP)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Anna Hansson",
+          "party": "mp"
+        },
+        {
+          "name": "Britt-Marie Kuylenstierna",
+          "party": "mp"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "pågående",
+      "diarienummer": "2021.011 SN",
+      "steps": [
+        {
+          "step_id": "motion_inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2020-12-09",
+          "quote": "Anna Hansson (MP) och Britt-Marie Kuylenstierna (MP) lämnade en motion om personligt ombud till kommunfullmäktige. I motionen yrkas att Alingsås kommun ska erbjuda tjänsten personlig ombud för behövande kommuninvånare.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§21 SOCIALNAMNDEN 2021-04-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-04-20/protocol/protokoll-sn-2021-04-20pdf-69092?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf_remiss",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2020-12-09",
+          "quote": "Kommunfullmäktige beslutade, KF 2020-12-09, § 176, att lämna motionen till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§21 SOCIALNAMNDEN 2021-04-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-04-20/protocol/protokoll-sn-2021-04-20pdf-69092?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ksau_remiss",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2021-01-20",
+          "quote": "Kommunstyrelsens arbetsutskott beslutad, KSAU 2021-01-20, § 17, att remittera motionen till socialnämnden för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§21 SOCIALNAMNDEN 2021-04-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-04-20/protocol/protokoll-sn-2021-04-20pdf-69092?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "namndyttrande_sn",
+          "instance": "socialnamnden",
+          "type": "namndyttrande",
+          "date": "2021-04-20",
+          "quote": "Socialnämnden godkänner förslag till yttrande och översänder yttrandet till kommunstyrelsen.",
+          "decision": "avstyrker",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till arbetsutskottets förslag. Nej-röst för bifall till Leif Hanssons förslag.",
+            "result": {
+              "ja": 7,
+              "nej": 6,
+              "avstar": 0
+            }
+          },
+          "reservations": [
+            {
+              "parties": [
+                "s",
+                "v",
+                "mp"
+              ],
+              "quote": "Leif Hansson (S), Lars-Ivan Gustafsson (S), Britt Anderson Näsman (S), Oscar Allard (S), Maria Adrell (V) och Harriet Ljungdahl (MP) reserverar sig mot beslutet."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§21 SOCIALNAMNDEN 2021-04-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-04-20/protocol/protokoll-sn-2021-04-20pdf-69092?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "motion_inlamnad",
+        "field": "quote",
+        "quote": "Anna Hansson (MP) och Britt-Marie Kuylenstierna (MP) lämnade en motion om personligt ombud till kommunfullmäktige. I motionen yrkas att Alingsås kommun ska erbjuda tjänsten personlig ombud för behövande kommuninvånare.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf_remiss",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutade, KF 2020-12-09, § 176, att lämna motionen till kommunstyrelsen för beredning.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ksau_remiss",
+        "field": "quote",
+        "quote": "Kommunstyrelsens arbetsutskott beslutad, KSAU 2021-01-20, § 17, att remittera motionen till socialnämnden för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "namndyttrande_sn",
+        "field": "quote",
+        "quote": "Socialnämnden godkänner förslag till yttrande och översänder yttrandet till kommunstyrelsen.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "namndyttrande_sn",
+        "field": "reservation[s+v+mp]",
+        "quote": "Leif Hansson (S), Lars-Ivan Gustafsson (S), Britt Anderson Näsman (S), Oscar Allard (S), Maria Adrell (V) och Harriet Ljungdahl (MP) reserverar sig mot beslutet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Huvudmannens verksamhetsuppföljning läsåret för 19/20",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2021.083 BUN",
+      "steps": [
+        {
+          "step_id": "bun-36-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-04-20",
+          "quote": "Redovisningen godkänns. Tema \"Trygghet\", \"Kunskaper, utveckling och lärande utifrån alla läroplanens mål\" samt \"Likvärdig utbildning\" för fördjupningsdialoger fastställs.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§36 BARN-OCH-UNGDOMSNAMNDEN 2021-04-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-04-20/protocol/protokoll-skapad-bun-2021-04-23-154300pdf-91619?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-36-beslut",
+        "field": "quote",
+        "quote": "Redovisningen godkänns. Tema \"Trygghet\", \"Kunskaper, utveckling och lärande utifrån alla läroplanens mål\" samt \"Likvärdig utbildning\" för fördjupningsdialoger fastställs.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Omvandlingsområde Färgens Östra Strand",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2017.200 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-2021-04-19-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-04-19",
+          "quote": "Samhällsbyggnadsnämnden antar \"Detaljplan för Alingsås och upphävande av områdesbestämmelser, Omvandlingsområde Färgens östra strand\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§57 SAMHALLSBYGGNADSNAMNDEN 2021-04-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-04-19/protocol/protokoll-sbn-2021-04-19-omedelbar-justering-ss-57pdf-25360?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-2021-04-19-beslut",
+        "field": "quote",
+        "quote": "Samhällsbyggnadsnämnden antar \"Detaljplan för Alingsås och upphävande av områdesbestämmelser, Omvandlingsområde Färgens östra strand\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion om utvecklingsplaner för Säveån och Gerdska ström - Simon Waern (S), Camilla Stenson (S), Leif Hansson (S)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Simon Waern",
+          "party": "s"
+        },
+        {
+          "name": "Camilla Stensson",
+          "party": "s"
+        },
+        {
+          "name": "Leif Hansson",
+          "party": "s"
+        }
+      ],
+      "category": "miljö-klimat",
+      "status": "pågående",
+      "diarienummer": "2020.475 KS",
+      "steps": [
+        {
+          "step_id": "ks-52-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2020-10-28",
+          "quote": "Simon Waern (S), Camilla Stensson (S) och Leif Hansson (S) har till kommunfullmäktige den 28 oktober 2020, § 146 lämnat en motion om utvecklingsplan för Säveån och Gerdska ström.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 KOMMUNSTYRELSEN 2021-04-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-04-12/protocol/protokoll-kommunstyrelsen-12-april-2021pdf-86516?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-52-namndyttrande",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2021-04-12",
+          "quote": "Kommunledningskontorets bedömning är att båda åarna har ett behov av utvecklingsplaner. För Gerdska ström är förutsättningarna relativt tydliga och därför kan ett arbete med en utvecklingsplan påbörjas relativt omgående. Innan en utvecklingsplan för Säveån tas fram, bör planeringsförutsättningarna ha tydliggjorts.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 KOMMUNSTYRELSEN 2021-04-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-04-12/protocol/protokoll-kommunstyrelsen-12-april-2021pdf-86516?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-52-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-04-12",
+          "quote": "Kommunstyrelsen antar kommunledningskontorets yttrande som sitt eget. Motionen bifalls. Samhällsbyggnadsnämnden får i uppdrag att genomföra uppdraget i enlighet med kommunstyrelsens yttrande.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 KOMMUNSTYRELSEN 2021-04-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-04-12/protocol/protokoll-kommunstyrelsen-12-april-2021pdf-86516?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-52-motion-inlamnad",
+        "field": "quote",
+        "quote": "Simon Waern (S), Camilla Stensson (S) och Leif Hansson (S) har till kommunfullmäktige den 28 oktober 2020, § 146 lämnat en motion om utvecklingsplan för Säveån och Gerdska ström.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-52-namndyttrande",
+        "field": "quote",
+        "quote": "Kommunledningskontorets bedömning är att båda åarna har ett behov av utvecklingsplaner. För Gerdska ström är förutsättningarna relativt tydliga och därför kan ett arbete med en utvecklingsplan påbörjas relativt omgående. Innan en utvecklingsplan för Säveån tas fram, bör planeringsförutsättningarna ha tydliggjorts.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-52-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsen antar kommunledningskontorets yttrande som sitt eget. Motionen bifalls. Samhällsbyggnadsnämnden får i uppdrag att genomföra uppdraget i enlighet med kommunstyrelsens yttrande.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Granskningsutskick gällande detaljplan för Alingsås, förskola vid Nolhaga allé (Sörhaga 2:4 m fl)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2020.008 KS",
+      "steps": [
+        {
+          "step_id": "ks-57-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-04-12",
+          "quote": "Kommunstyrelsen beslutar att \"Detaljplan för Alingsås, förskola vid Nolhaga allé (Sörhaga 2:4 m.fl.) kan skickas ut för granskning enligt plan- och bygglagen 5:11-13.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§57 KOMMUNSTYRELSEN 2021-04-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-04-12/protocol/protokoll-kommunstyrelsen-12-april-2021pdf-86516?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-57-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsen beslutar att \"Detaljplan för Alingsås, förskola vid Nolhaga allé (Sörhaga 2:4 m.fl.) kan skickas ut för granskning enligt plan- och bygglagen 5:11-13.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Delegering av beslutanderätt enligt lag om särskilda begränsningar för att förhindra spridning av sjukdomen covid-19",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "pågående",
+      "diarienummer": "2021.131 KS",
+      "steps": [
+        {
+          "step_id": "ks-61-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-04-12",
+          "quote": "Kommunfullmäktige delegerar till kommunstyrelsen ansvaret för uppgifter som ankommer på kommunen enligt den tillfälliga lagen (2021:4) om särskilda begränsningar för att förhindra spridning av Covid-19 eller förordningar och föreskrifter som meddelas med stöd av denna, i den mån uppgiften inte redan anförtrotts annan nämnd genom lag eller förordning.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§61 KOMMUNSTYRELSEN 2021-04-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-04-12/protocol/protokoll-kommunstyrelsen-12-april-2021pdf-86516?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-61-beslut",
+        "field": "quote",
+        "quote": "Kommunfullmäktige delegerar till kommunstyrelsen ansvaret för uppgifter som ankommer på kommunen enligt den tillfälliga lagen (2021:4) om särskilda begränsningar för att förhindra spridning av Covid-19 eller förordningar och föreskrifter som meddelas med stöd av denna, i den mån uppgiften inte redan anförtrotts annan nämnd genom lag eller förordning.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (48 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Komplettering till ägardirektiv för fastighetskoncernen",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.068 KS",
+      "steps": [
+        {
+          "step_id": "ks-27-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2021-03-08",
+          "quote": "Kommunstyrelsen har den 8 mars 2021, § 33 behandlat ärendet och lämnat följande förslag till kommunfullmäktige för beslut:",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§27 KOMMUNFULLMAKTIGE 2021-03-31",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-03-31/protocol/protokoll-kommunfullmaktige-den-31-mars-2021pdf-83668?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-27-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2021-03-31",
+          "quote": "Nuvarande ägardirektiv för Fastighetskoncernen Alingsås Rådhus AB, AB Alingsåshem samt Fabs AB kompletteras med bilagan \"Övergripande finansieringsprinciper och strategiska ställningstaganden\", med följande ändring:",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till kommunstyrelsens förslag. Nej-röst för avslag till kommunstyrelsens förslag.",
+            "result": {
+              "ja": 42,
+              "nej": 8,
+              "avstar": 0
+            }
+          },
+          "reservations": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Martin Lindberg (V), Stina Karlsson (V), Tony Norman (V) och Maria Adrell (V) reserverar sig till förmån för eget förslag."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "sd"
+              ],
+              "quote": "Vi Sverigedemokrater är försiktiga. Vi tror på det trygga samhället byggt på svensk kultur och svenska traditioner. Vi tror på ett försiktigt bostadsbolag som skall utvecklas med de boende och samhällets bästa för sina ögon."
+            },
+            {
+              "parties": [
+                "kd"
+              ],
+              "quote": "Kristdemokraterna motsätter sig ett höjt lånetak för Alingsås kommunkoncern med hänvisning till ärende 12 om lånetak för Alingsås kommun. Hur vi hanterar ekonomin idag har återbäring på morgondagens verksamhetsutrymme."
+            },
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vänsterpartiet reserverar sig mot föreliggande beslut. Genom den överenskommelse som övriga partier nu fattat anser vi att man har öppnat dörren för storskaliga utförsäljningar av vårt allmännyttiga fastighetsbolag Alingsåshem."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§27 KOMMUNFULLMAKTIGE 2021-03-31",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-03-31/protocol/protokoll-kommunfullmaktige-den-31-mars-2021pdf-83668?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-27-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 8 mars 2021, § 33 behandlat ärendet och lämnat följande förslag till kommunfullmäktige för beslut:",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-27-beslut",
+        "field": "quote",
+        "quote": "Nuvarande ägardirektiv för Fastighetskoncernen Alingsås Rådhus AB, AB Alingsåshem samt Fabs AB kompletteras med bilagan \"Övergripande finansieringsprinciper och strategiska ställningstaganden\", med följande ändring:",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-27-beslut",
+        "field": "reservation[v]",
+        "quote": "Martin Lindberg (V), Stina Karlsson (V), Tony Norman (V) och Maria Adrell (V) reserverar sig till förmån för eget förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-27-beslut",
+        "field": "protocol_anteckning[sd]",
+        "quote": "Vi Sverigedemokrater är försiktiga. Vi tror på det trygga samhället byggt på svensk kultur och svenska traditioner. Vi tror på ett försiktigt bostadsbolag som skall utvecklas med de boende och samhällets bästa för sina ögon.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-27-beslut",
+        "field": "protocol_anteckning[kd]",
+        "quote": "Kristdemokraterna motsätter sig ett höjt lånetak för Alingsås kommunkoncern med hänvisning till ärende 12 om lånetak för Alingsås kommun. Hur vi hanterar ekonomin idag har återbäring på morgondagens verksamhetsutrymme.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-27-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "Vänsterpartiet reserverar sig mot föreliggande beslut. Genom den överenskommelse som övriga partier nu fattat anser vi att man har öppnat dörren för storskaliga utförsäljningar av vårt allmännyttiga fastighetsbolag Alingsåshem.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
