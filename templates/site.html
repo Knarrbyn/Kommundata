@@ -781,6 +781,11 @@ function viewSok(){
       <button class="${sokFilter.namnd==='alla'?'active':''}" onclick="setSokFilter('namnd','alla')">Alla instanser</button>
       ${namndButtons}
     </div>
+    ${sokFilter.namnd!=='alla' ? `<div style="margin-top:8px;">
+      <a onclick="navigate('/namnd/${sokFilter.namnd}')" style="color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer; font-size:0.9rem;">
+        → Se fullständig mötestidslinje för ${INSTANCE_NAMES[sokFilter.namnd]||sokFilter.namnd}
+      </a>
+    </div>` : ''}
   </div>
 
   <div class="filter-group">
