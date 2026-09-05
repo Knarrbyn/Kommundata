@@ -353,11 +353,16 @@ async function main() {
   console.error(`\nPublish: ${publishedDb.length} ärenden totalt, data_hash ${dataHash.slice(0, 12)}...`);
 
   // Build: statisk sajt.
-  const html = await renderSite(publishedDb);
+  // FIX 2026-09-05 (se DECISION_LOG.md): renderSite() anropades utan
+  // motenDb som andra argument, vilket gjorde att MOTEN alltid injicerades
+  // som tom array i den byggda sajten trots att moten.json fylldes på
+  // korrekt bakom kulisserna — mötestidslinjen syntes aldrig i praktiken.
+  const html = await renderSite(publishedDb, motenDb);
   await mkdir("dist/api", { recursive: true });
   await writeFile("dist/index.html", html);
   await writeFile("dist/api/arenden.json", JSON.stringify(publishedDb, null, 2));
-  console.error(`Build: dist/index.html (${publishedDb.length} ärenden), dist/api/arenden.json`);
+  await writeFile("dist/api/moten.json", JSON.stringify(motenDb, null, 2));
+  console.error(`Build: dist/index.html (${publishedDb.length} ärenden, ${motenDb.length} möten), dist/api/arenden.json, dist/api/moten.json`);
 
   // seen.json uppdateras EFTER publish (se markSeen-kommentaren i fetch.ts).
   await writeFile(SEEN_FILE, JSON.stringify(seen, null, 2));
