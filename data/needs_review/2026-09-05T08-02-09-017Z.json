@@ -1,0 +1,259 @@
+[
+  {
+    "arende": {
+      "title": "Ändring nr 1 av DP 63, DP för Lövekulle etapp 1 Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2020.582 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-2021-03-22-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2021-03-22",
+          "quote": "Samhällsbyggnadsnämnden låter planförslaget gå ut samråd enligt plan- och bygglagen 5 kap 6-7 §§ samt håller det därefter tillgängligt för granskning enligt plan- och bygglagen 5:18-21.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§34 SAMHALLSBYGGNADSNAMNDEN 2021-03-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-03-22/protocol/protokoll-sbn-2021-03-22-omedelbar-justering-ss-34pdf-84248?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-2021-03-22-beslut",
+        "field": "quote",
+        "quote": "Samhällsbyggnadsnämnden låter planförslaget gå ut samråd enligt plan- och bygglagen 5 kap 6-7 §§ samt håller det därefter tillgängligt för granskning enligt plan- och bygglagen 5:18-21.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion om språktest vid anställning till arbeten inom kommunen där kommunikation är viktigt - Boris Jernskiegg (SD) m fl",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Boris Jernskiegg",
+          "party": "sd"
+        },
+        {
+          "name": "Glenn Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Agneta Grange",
+          "party": "sd"
+        },
+        {
+          "name": "Zandra Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Otto Stryhn",
+          "party": "sd"
+        },
+        {
+          "name": "Lars Olof Jaeger",
+          "party": "sd"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2020.341 KS",
+      "steps": [
+        {
+          "step_id": "ks-29-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2020-09-02",
+          "quote": "Boris Jernskiegg (SD), Glenn Pettersson (SD), Agneta Grange (SD), Zandra Pettersson (SD) Otto Stryhn (SD) och Lars Olof Jaeger (SD). har till kommunfullmäktige den 2 september 2020 § 75 lämnat en motion om språktest vid anställning till arbeten inom kommunen där kommunikation är viktigt.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§29 KOMMUNSTYRELSEN 2021-03-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-03-08/protocol/protokoll-kommunstyrelsen-8-mars-2021pdf-78053?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-29-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-03-08",
+          "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§29 KOMMUNSTYRELSEN 2021-03-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-03-08/protocol/protokoll-kommunstyrelsen-8-mars-2021pdf-78053?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-29-motion-inlamnad",
+        "field": "quote",
+        "quote": "Boris Jernskiegg (SD), Glenn Pettersson (SD), Agneta Grange (SD), Zandra Pettersson (SD) Otto Stryhn (SD) och Lars Olof Jaeger (SD). har till kommunfullmäktige den 2 september 2020 § 75 lämnat en motion om språktest vid anställning till arbeten inom kommunen där kommunikation är viktigt.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-29-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion gällande kameraövervakning av kommunens fastigheter - Boris Jernskiegg (SD) m fl.",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Boris Jernskiegg",
+          "party": "sd"
+        },
+        {
+          "name": "Glenn Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Agneta Grange",
+          "party": "sd"
+        },
+        {
+          "name": "Zandra Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Otto Stryhn",
+          "party": "sd"
+        },
+        {
+          "name": "Lars Olof Jaeger",
+          "party": "sd"
+        }
+      ],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.348 KS",
+      "steps": [
+        {
+          "step_id": "ks-31-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2020-08-22",
+          "quote": "Boris Jernskiegg (SD), Glenn Pettersson (SD), Agneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD) och Lars Olof Jaeger (SD) har till kommunfullmäktige den 22 augusti 2020, §77, i en motion yrkat att en samlad säkerhetsanalys ska göras av kommunens samtliga fastigheter.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 KOMMUNSTYRELSEN 2021-03-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-03-08/protocol/protokoll-kommunstyrelsen-8-mars-2021pdf-78053?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-31-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-03-08",
+          "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 KOMMUNSTYRELSEN 2021-03-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-03-08/protocol/protokoll-kommunstyrelsen-8-mars-2021pdf-78053?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-31-motion-inlamnad",
+        "field": "quote",
+        "quote": "Boris Jernskiegg (SD), Glenn Pettersson (SD), Agneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD) och Lars Olof Jaeger (SD) har till kommunfullmäktige den 22 augusti 2020, §77, i en motion yrkat att en samlad säkerhetsanalys ska göras av kommunens samtliga fastigheter.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-31-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Komplettering till ägardirektiv för fastighetskoncernen",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2021.068 KS",
+      "steps": [
+        {
+          "step_id": "ks-33-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-03-08",
+          "quote": "Nuvarande ägardirektiv för Fastighetskoncernen Alingsås Rådhus AB, AB Alingsåshem samt Fabs AB kompletteras med bilagan \"Övergripande finansieringsprinciper och strategiska ställningstaganden\".",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [
+            {
+              "parties": [
+                "kd",
+                "v"
+              ],
+              "quote": "Lady France Mulumba (KD) och Martin Lindberg (V) reserverar sig till förmån för egna förslag."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§33 KOMMUNSTYRELSEN 2021-03-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-03-08/protocol/protokoll-kommunstyrelsen-8-mars-2021pdf-78053?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-33-beslut",
+        "field": "quote",
+        "quote": "Nuvarande ägardirektiv för Fastighetskoncernen Alingsås Rådhus AB, AB Alingsåshem samt Fabs AB kompletteras med bilagan \"Övergripande finansieringsprinciper och strategiska ställningstaganden\".",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-33-beslut",
+        "field": "reservation[kd+v]",
+        "quote": "Lady France Mulumba (KD) och Martin Lindberg (V) reserverar sig till förmån för egna förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
