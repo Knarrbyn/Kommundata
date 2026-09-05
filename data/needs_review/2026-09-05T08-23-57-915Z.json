@@ -1,0 +1,232 @@
+[
+  {
+    "arende": {
+      "title": "Svar på motion om framtagande av en långsiktig plan för Nolhaga slott och park - Pär-Göran Björkman (S), Simon Waern (S) och Camilla Stensson (S)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Pär-Göran Björkman",
+          "party": "s"
+        },
+        {
+          "name": "Simon Waern",
+          "party": "s"
+        },
+        {
+          "name": "Camilla Stensson",
+          "party": "s"
+        }
+      ],
+      "category": "övrigt",
+      "status": "pågående",
+      "diarienummer": "2020.320 KS",
+      "steps": [
+        {
+          "step_id": "ks-2021-02-08-6-motion",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2020-09-02",
+          "quote": "Kommunfullmäktige gav motionen \"Framtagande av en långsiktigt plan för Nolhaga slott och park - Pär-Göran Björkman (S), Simon Waern (S), Camilla Stensson (S)\" till kommunstyrelsen för beredning 2 september 2020 § 72.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§6 KOMMUNSTYRELSEN 2021-02-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-2021-02-08-6-yttrande",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2021-01-19",
+          "quote": "Då kommunledningskontoret, samhällsbyggnadskontoret och kultur- och utbildningsförvaltningen redan arbetar tillsammans med frågan om en långsiktig plan för Nolhaga slott och park, anses motionen besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§6 KOMMUNSTYRELSEN 2021-02-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-2021-02-08-6-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-02-08",
+          "quote": "1. Kommunledningskontorets yttrande antas som kommunstyrelsens eget. 2. En politisk styrgrupp bestående av presidierna för kommunstyrelsen, kultur- och utbildningsnämnden och samhällsbyggnadsnämnden utses. Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§6 KOMMUNSTYRELSEN 2021-02-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-2021-02-08-6-motion",
+        "field": "quote",
+        "quote": "Kommunfullmäktige gav motionen \"Framtagande av en långsiktigt plan för Nolhaga slott och park - Pär-Göran Björkman (S), Simon Waern (S), Camilla Stensson (S)\" till kommunstyrelsen för beredning 2 september 2020 § 72.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-2021-02-08-6-yttrande",
+        "field": "quote",
+        "quote": "Då kommunledningskontoret, samhällsbyggnadskontoret och kultur- och utbildningsförvaltningen redan arbetar tillsammans med frågan om en långsiktig plan för Nolhaga slott och park, anses motionen besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-2021-02-08-6-beslut",
+        "field": "quote",
+        "quote": "1. Kommunledningskontorets yttrande antas som kommunstyrelsens eget. 2. En politisk styrgrupp bestående av presidierna för kommunstyrelsen, kultur- och utbildningsnämnden och samhällsbyggnadsnämnden utses. Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Rekryterings- och avgångsprocess",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2021.049 KS",
+      "steps": [
+        {
+          "step_id": "ks-2021-02-08-16-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2021-02-08",
+          "quote": "1.Kommunledningskontoret får i uppdrag att införa utökad bakgrundskontroll, samt säkerhetskontroll efter särskild riskbedömning. 2.Kommunledningskontoret får i uppdrag att lämna förslag på ändringar i kommunstyrelsens reglemente, samt i kommunstyrelsens delegationsordning: ge kommundirektören delegation på att fatta beslut om individuella överenskommelser överstigande 3 månader.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§16 KOMMUNSTYRELSEN 2021-02-08",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-2021-02-08-16-beslut",
+        "field": "quote",
+        "quote": "1.Kommunledningskontoret får i uppdrag att införa utökad bakgrundskontroll, samt säkerhetskontroll efter särskild riskbedömning. 2.Kommunledningskontoret får i uppdrag att lämna förslag på ändringar i kommunstyrelsens reglemente, samt i kommunstyrelsens delegationsordning: ge kommundirektören delegation på att fatta beslut om individuella överenskommelser överstigande 3 månader.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Uppdrag: Utvärdera förändringar inom kostverksamheten",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2019.124 BUN",
+      "steps": [
+        {
+          "step_id": "bun-2021-01-26-s4-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-01-26",
+          "quote": "Barn- och ungdomsnämnden tar del av återrapporteringen och ger förvaltningen i uppdrag att, i enligt med avtal med ISS, genomföra fortsatt svinnmätning och fortsatt arbete för att förbättra måltidsmiljön och minska matsvinnet och återrapportera till Barn- och ungdomsnämnden i september 2021.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": true,
+            "question": "Bifall till tilläggsyrkande (Ja) eller avslag (Nej)",
+            "result": {
+              "ja": 7,
+              "nej": 6,
+              "avstar": 0
+            }
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "m",
+                "c",
+                "l",
+                "kd"
+              ],
+              "quote": "Nämnden har redan gett förvaltningen i uppdrag att arbeta med att minska och hantera matsvinnet. Vi i Alliansen ställer oss inte negativa till Socialdemokraternas förslag i sig men anser att uppdraget som redan givits ska ges möjlighet att fortsätta och vi ser fram emot uppdatering i ärendet."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§4 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-2021-01-26-s4-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden tar del av återrapporteringen och ger förvaltningen i uppdrag att, i enligt med avtal med ISS, genomföra fortsatt svinnmätning och fortsatt arbete för att förbättra måltidsmiljön och minska matsvinnet och återrapportera till Barn- och ungdomsnämnden i september 2021.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "bun-2021-01-26-s4-beslut",
+        "field": "protocol_anteckning[m+c+l+kd]",
+        "quote": "Nämnden har redan gett förvaltningen i uppdrag att arbeta med att minska och hantera matsvinnet. Vi i Alliansen ställer oss inte negativa till Socialdemokraternas förslag i sig men anser att uppdraget som redan givits ska ges möjlighet att fortsätta och vi ser fram emot uppdatering i ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Tillsyn, Vittra Gerdsken förskola, Vittraskolorna AB, 2020",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2020.360 BUN",
+      "steps": [
+        {
+          "step_id": "bun-2021-01-26-s6-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2021-01-26",
+          "quote": "Barn- och ungdomsnämnden uppmanar till revidering av dokumentet: \"Rutin vid oro för ett barn\" men avstår från ingripande i enlighet med Skollagen 26 kap 12§.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§6 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-2021-01-26-s6-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden uppmanar till revidering av dokumentet: \"Rutin vid oro för ett barn\" men avstår från ingripande i enlighet med Skollagen 26 kap 12§.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]

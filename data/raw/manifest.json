@@ -2989,5 +2989,45 @@
     "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2021-02-24/protocol/protokoll-skapad-kun-2021-02-24-195921pdf?downloadMode=open",
     "relativePath": "data/raw/kultur-och-utbildningsnamnden/2021-02-24/protokoll.pdf",
     "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-02-23/protocol/protokoll-skapad-von-2021-02-25-102241pdf-13006?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2021-02-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-02-23/protocol/protokoll-skapad-bun-2021-02-25-132428pdf-60312?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2021-02-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-02-22/protocol/protokoll-sbn-2021-02-22-omedelbar-justeringpdf-28694?downloadMode=open",
+    "relativePath": "data/raw/samhallsbyggnadsnamnden/2021-02-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+    "relativePath": "data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+    "relativePath": "data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-01-25/protocol/protokoll-skapad-von-2021-01-29-125635pdf-27428?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2021-01-25/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
   }
 ]

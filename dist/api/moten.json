@@ -1,8 +1,33 @@
 [
   {
     "instance": "barn-och-ungdomsnamnden",
-    "date": "2021-03-23",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-03-23/protocol/protokoll-skapad-bun-2021-03-25-162022pdf-57464?downloadMode=open",
+    "date": "2021-01-26",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2021-0555",
+      "a-2021-0556",
+      "a-2021-0557",
+      "a-2021-0558",
+      "a-2021-0559",
+      "a-2021-0560",
+      "a-2021-0561",
+      "a-2021-0562",
+      "a-2021-0563"
+    ]
+  },
+  {
+    "instance": "barn-och-ungdomsnamnden",
+    "date": "2021-02-23",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-02-23/protocol/protokoll-skapad-bun-2021-02-25-132428pdf-60312?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2021-0526",
+      "a-2021-0527",
+      "a-2021-0528"
+    ]
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2021-0467",
@@ -17,7 +42,10 @@
       "a-2021-0476",
       "a-2021-0477",
       "a-2021-0478"
-    ]
+    ],
+    "date": "2021-03-23",
+    "instance": "barn-och-ungdomsnamnden",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-03-23/protocol/protokoll-skapad-bun-2021-03-25-162022pdf-57464?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -1459,6 +1487,19 @@
     "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-08-25/protocol/protokoll-skapad-bmn-2026-09-04-085140pdf?downloadMode=open"
   },
   {
+    "instance": "kommunfullmaktige",
+    "date": "2021-01-27",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2020-0026",
+      "a-2020-0027",
+      "a-2021-0552",
+      "a-2021-0553",
+      "a-2021-0554"
+    ]
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2019-0001",
@@ -2556,8 +2597,26 @@
   },
   {
     "instance": "kommunstyrelsen",
-    "date": "2021-03-08",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-03-08/protocol/protokoll-kommunstyrelsen-8-mars-2021pdf-78053?downloadMode=open",
+    "date": "2021-02-08",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2019-0003",
+      "a-2019-0004",
+      "a-2020-0025",
+      "a-2021-0542",
+      "a-2021-0543",
+      "a-2021-0544",
+      "a-2021-0545",
+      "a-2021-0546",
+      "a-2021-0547",
+      "a-2021-0548",
+      "a-2021-0549",
+      "a-2021-0550",
+      "a-2021-0551"
+    ]
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2020-0021",
@@ -2579,7 +2638,10 @@
       "a-2021-0502",
       "a-2021-0503",
       "a-2021-0504"
-    ]
+    ],
+    "date": "2021-03-08",
+    "instance": "kommunstyrelsen",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-03-08/protocol/protokoll-kommunstyrelsen-8-mars-2021pdf-78053?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -4143,9 +4205,6 @@
     "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-08-31/protocol/protokoll-ks-2026-08-31pdf?downloadMode=open"
   },
   {
-    "instance": "kultur-och-utbildningsnamnden",
-    "date": "2021-02-24",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2021-02-24/protocol/protokoll-skapad-kun-2021-02-24-195921pdf?downloadMode=open",
     "archive_url": null,
     "arende_ids": [
       "a-2021-0510",
@@ -4164,12 +4223,12 @@
       "a-2021-0523",
       "a-2021-0524",
       "a-2021-0525"
-    ]
+    ],
+    "date": "2021-02-24",
+    "instance": "kultur-och-utbildningsnamnden",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2021-02-24/protocol/protokoll-skapad-kun-2021-02-24-195921pdf?downloadMode=open"
   },
   {
-    "instance": "kultur-och-utbildningsnamnden",
-    "date": "2021-03-17",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2021-03-17/protocol/protokoll-skapad-kun-2021-03-18-101953pdf?downloadMode=open",
     "archive_url": null,
     "arende_ids": [
       "a-2021-0482",
@@ -4180,7 +4239,10 @@
       "a-2021-0487",
       "a-2021-0488",
       "a-2021-0489"
-    ]
+    ],
+    "date": "2021-03-17",
+    "instance": "kultur-och-utbildningsnamnden",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2021-03-17/protocol/protokoll-skapad-kun-2021-03-18-101953pdf?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -5005,10 +5067,20 @@
   },
   {
     "instance": "samhallsbyggnadsnamnden",
-    "date": "2021-03-22",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-03-22/protocol/protokoll-sbn-2021-03-22-omedelbar-justering-ss-34pdf-84248?downloadMode=open",
+    "date": "2021-02-22",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-02-22/protocol/protokoll-sbn-2021-02-22-omedelbar-justeringpdf-28694?downloadMode=open",
     "archive_url": null,
-    "arende_ids": []
+    "arende_ids": [
+      "a-2021-0540",
+      "a-2021-0541"
+    ]
+  },
+  {
+    "archive_url": null,
+    "arende_ids": [],
+    "date": "2021-03-22",
+    "instance": "samhallsbyggnadsnamnden",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-03-22/protocol/protokoll-sbn-2021-03-22-omedelbar-justering-ss-34pdf-84248?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -5279,12 +5351,31 @@
   },
   {
     "instance": "socialnamnden",
-    "date": "2021-03-24",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-03-24/protocol/protokoll-sn-2021-03-24-pdf?downloadMode=open",
+    "date": "2021-02-22",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2021-0529",
+      "a-2021-0530",
+      "a-2021-0531",
+      "a-2021-0532",
+      "a-2021-0533",
+      "a-2021-0534",
+      "a-2021-0535",
+      "a-2021-0536",
+      "a-2021-0537",
+      "a-2021-0538",
+      "a-2021-0539"
+    ]
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2021-0466"
-    ]
+    ],
+    "date": "2021-03-24",
+    "instance": "socialnamnden",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-03-24/protocol/protokoll-sn-2021-03-24-pdf?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -6422,8 +6513,24 @@
   },
   {
     "instance": "vard-och-omsorgsnamnden",
-    "date": "2021-03-02",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-03-02/protocol/protokoll-skapad-von-2021-03-04-101239pdf-69059?downloadMode=open",
+    "date": "2021-01-25",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-01-25/protocol/protokoll-skapad-von-2021-01-29-125635pdf-27428?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2021-0564",
+      "a-2021-0565",
+      "a-2021-0566",
+      "a-2021-0567"
+    ]
+  },
+  {
+    "instance": "vard-och-omsorgsnamnden",
+    "date": "2021-02-23",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-02-23/protocol/protokoll-skapad-von-2021-02-25-102241pdf-13006?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": []
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2021-0505",
@@ -6431,18 +6538,21 @@
       "a-2021-0507",
       "a-2021-0508",
       "a-2021-0509"
-    ]
+    ],
+    "date": "2021-03-02",
+    "instance": "vard-och-omsorgsnamnden",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-03-02/protocol/protokoll-skapad-von-2021-03-04-101239pdf-69059?downloadMode=open"
   },
   {
-    "instance": "vard-och-omsorgsnamnden",
-    "date": "2021-03-22",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-03-22/protocol/protokoll-skapad-von-2021-03-24-112620pdf-76699?downloadMode=open",
     "archive_url": null,
     "arende_ids": [
       "a-2021-0479",
       "a-2021-0480",
       "a-2021-0481"
-    ]
+    ],
+    "date": "2021-03-22",
+    "instance": "vard-och-omsorgsnamnden",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-03-22/protocol/protokoll-skapad-von-2021-03-24-112620pdf-76699?downloadMode=open"
   },
   {
     "archive_url": null,

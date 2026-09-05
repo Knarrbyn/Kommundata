@@ -106792,5 +106792,1608 @@
       }
     ],
     "title": "Uppdrag till förvaltningen angående dialog med föreningsliv och idrottsrörelse 2021"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2021.030 BUN",
+    "id": "a-2021-0526",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-23",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av och godkänner elevhälsans patientsäkerhetsberättelse för 2020 och övergripande mål och strategier för 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-02-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-02-23/protocol/protokoll-skapad-bun-2021-02-25-132428pdf-60312?downloadMode=open",
+          "protocol_ref": "§16 BARN-OCH-UNGDOMSNAMNDEN 2021-02-23"
+        },
+        "step_id": "bun-16-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Patientsäkerhetsberättelse för elevhälsans psykologiska insats 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0526 (titel-likhet 0.82) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2021.029 BUN",
+    "id": "a-2021-0527",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-23",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av och godkänner elevhälsans patientsäkerhetsberättelse för 2020 och övergripande mål och strategier för 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-02-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-02-23/protocol/protokoll-skapad-bun-2021-02-25-132428pdf-60312?downloadMode=open",
+          "protocol_ref": "§17 BARN-OCH-UNGDOMSNAMNDEN 2021-02-23"
+        },
+        "step_id": "bun-17-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Patientsäkerhetsberättelse för elevhälsans medicinska insats 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0102 (titel-likhet 0.71) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2021.028 BUN",
+    "id": "a-2021-0528",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-23",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "s"
+            ],
+            "quote": "Anton César (S), Annika Olofsson (S), Anders Juhlin (S), Luzaan Eisa (S) och Jenny Helgesson (S) lämnar följande protokollsanteckning: Vi har full förståelse för att pandemiåret 2020 varit utmanande för våra verksamheter."
+          }
+        ],
+        "quote": "Barn- och ungdomsnämnden godkänner årsbokslut 2020.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-02-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-02-23/protocol/protokoll-skapad-bun-2021-02-25-132428pdf-60312?downloadMode=open",
+          "protocol_ref": "§18 BARN-OCH-UNGDOMSNAMNDEN 2021-02-23"
+        },
+        "step_id": "bun-18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Årsbokslut 2020 Barn-och ungdomsnämnden"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0447 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2020.120 SN",
+    "id": "a-2021-0529",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden föreslår kommunstyrelsen att fatta beslut om att ingå tio-årigt hyreskontrakt avseende boendemoduler enligt skrivelsen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§4 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-4-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Projekt boendemoduler"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0279 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2021.005 SN",
+    "id": "a-2021-0530",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "v"
+            ],
+            "quote": "Vänsterpartiet reserverar sig mot beslutet att sänka normen för hyresavgift. Alingsås har idag brist på hyresbostäder som så många andra städer. Vi är i en pågående pandemi och många prognoser visar att att vi kommer att gå in i en lågkonjunktur. Alingsåshem har begärt en hyreshöjning med 3,5%."
+          }
+        ],
+        "quote": "Socialnämnden godkänner de reviderade riktlinjerna för ekonomiskt bistånd och godkänner att följande mening under avsnitt 3.6 Övriga boendeformer, I första hand skall sökande hänvisas till boende på Högvalla Boende i Sollebrunn, tas bort.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§5 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-5-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Riktlinjer för ekonomiskt bistånd"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0188 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.127 SN",
+    "id": "a-2021-0531",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner förvaltningens förslag till yttrande samt att översända yttrandet till kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§6 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-6-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Granskning av kommunens försörjningsstöd"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0271 (titel-likhet 0.71) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.117 SN",
+    "id": "a-2021-0532",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner uppföljning av socialnämndens arbete 2020.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§7 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljning av socialnämndens arbete 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0429 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.107 SN",
+    "id": "a-2021-0533",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden beslutar att reviderad delegationsordning gäller från och med 2021-03-01.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§8 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-8-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning 2021"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0308 (titel-likhet 0.71) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2021.004 SN",
+    "id": "a-2021-0534",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner att föreslagna ledamöter i nämnden och namngivna tjänstepersoner får förordnande att fatta beslut enligt angivna § i lag med särskilda bestämmelser om vård av unga (LVU) och lag om vård av missbrukare i vissa fall (LVM)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§9 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-9-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förordnande enligt lag med särskilda bestämmelser om vård av unga (LVU) och lag om vård av missbrukare i vissa fall (LVM)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0097 (titel-likhet 0.67) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2020.066 SN",
+    "id": "a-2021-0535",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner förvaltningens förslag till yttrande samt att översända yttrandet till kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§10 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Granskning av placeringar av barn och unga"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0273 (titel-likhet 0.67) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2021.002 SN",
+    "id": "a-2021-0536",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens årsbokslut 2020 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§11 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Socialnämndens årsbokslut 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0135 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2021.019 SN",
+    "id": "a-2021-0537",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden fastställer den ekonomiska månadsuppföljningen per januari 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§12 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomisk uppföljning 2021"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.095 SN",
+    "id": "a-2021-0538",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner återrapporteringen och förvaltningens uppdrag är således slutfört.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§13 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Återrapportering av det systematiska brandskyddsarbetet"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2026-0207 (titel-likhet 0.86) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2020.024 SN",
+    "id": "a-2021-0539",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden noterar rapporteringen till IVO för kvartal 4 2020 och översänder rapporten till kommunfullmäktige och kommunens revisorer.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2021-02-22/protocol/protokoll-sn-2021-02-22pdf?downloadMode=open",
+          "protocol_ref": "§14 SOCIALNAMNDEN 2021-02-22"
+        },
+        "step_id": "sn-2021-02-22-14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut anmälda till Inspektionen för vård och omsorg 2020"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2020.504 SBN",
+    "id": "a-2021-0540",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden godkänner årsbokslutet. Beslutet justeras omedelbart.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-02-22/protocol/protokoll-sbn-2021-02-22-omedelbar-justeringpdf-28694?downloadMode=open",
+          "protocol_ref": "§22 SAMHALLSBYGGNADSNAMNDEN 2021-02-22"
+        },
+        "step_id": "sbn-2021-02-22-22-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljningar och bokslut 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0462 (titel-likhet 0.83) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2021.011 SBN",
+    "id": "a-2021-0541",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-22",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ordförande ställer inkomna yrkanden mot varandra och finner att förvaltningens förslag ska bifallas.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Christian Wiberg (MP) reserverar sig mot beslutet med följande motivering: Miljöpartiet motsätter sig en sammanslagning av miljöskyddskontoret och samhällsbyggnadskontoret."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2021-02-22/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-02-22/protocol/protokoll-sbn-2021-02-22-omedelbar-justeringpdf-28694?downloadMode=open",
+          "protocol_ref": "§23 SAMHALLSBYGGNADSNAMNDEN 2021-02-22"
+        },
+        "step_id": "sbn-2021-02-22-23-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Beslut om sammanslagning av samhällsbyggnadskontoret och miljöskyddskontoret"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0460 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "miljö-klimat",
+    "diarienummer": "2018.731 KS",
+    "id": "a-2021-0542",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "ingen rekommendation",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Ärendet återremitteras för ytterligare politisk beredning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§2 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-2",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av Livsmedelsprogrammet"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0457 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.553 KS",
+    "id": "a-2021-0543",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "1. Taxor och avgifter 2021 för Alingsås och Vårgårda Räddningstjänstförbund godkänns. 2. Direktionen får för varje kalenderår (avgiftsår) besluta om att höja avgiftsbeloppen (fasta avgifter och timavgifter) med Prisindex för kommunal verksamhet (PKV).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§3 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-3",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Taxor och avgifter för Alingsås och Vårgårda Räddningstjänstförbund 2021"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0458 (titel-likhet 0.86) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2019.757 KS",
+    "id": "a-2021-0544",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunfullmäktige beslutar att upphäva beslutet den 29 januari 2020, § 2, om att införa valfrihetssystem (LOV) inom särskilt boende för äldre.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§4 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-4",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förslag om att inte införa valfrihetssystem (LOV) i särskilt boende för äldre"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2019-0001 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "miljö-klimat",
+    "diarienummer": "2019.299 KS",
+    "id": "a-2019-0003",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Pär-Göran Björkman",
+        "party": "s"
+      },
+      {
+        "name": "Björn Wallin Salthammer",
+        "party": "s"
+      },
+      {
+        "name": "Anita Hedén Unosson",
+        "party": "s"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2019-03-27",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Pär-Göran Björkman (S), Anita Hedén Unosson (S), och Björn Salthammar Wallin (S) har den 27 mars 2019, § 63 lämnat in en motion till kommunfullmäktige om att upprätta en strategisk plan mot nedskräpning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§5 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-5-motion",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2021-01-12",
+        "decision": "besvarad",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunledningskontoret gör bedömningen att åtgärderna som beskrivs ovan fyller samma funktion som en strategisk plan mot nedskräpning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§5 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-5-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2021-02-08",
+        "decision": "besvarad",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunledningskontorets yttrande antas som kommunstyrelsens eget. Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§5 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-5-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion om en ren och prydlig kommun - Pär-Göran Björkman (S), Björn Wallin Salthammer (S) och Anita Hedén Unosson (S)"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2020.373 KS",
+    "id": "a-2020-0025",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Camilla Stensson",
+        "party": "s"
+      },
+      {
+        "name": "Anton César",
+        "party": "s"
+      },
+      {
+        "name": "Simon Waern",
+        "party": "s"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-09-30",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Camilla Stensson (S), Anton César (S) och Simon Waern (S) har till kommunfullmäktige den 30 september 2020, § 117 lämnat en motion om en NPF (neuropsykiatriska funktionshinder)- säkrad gymnasieutbildning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§7 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-7-motion",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2021-01-11",
+        "decision": "avstyrker",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kultur- och utbildningsnämnden behandlade motionen den 16 december 2020, § 99 med förslaget att motionen ska avstyrkas. Förslaget motiveras bland annat med att stödinsatser bör rikta in sig på individuella lösningar utifrån den enskildes behov, i stället för att den samlade funktionsvariatonen helt ska styra stödet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§7 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-7-namndyttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2021-02-08",
+        "decision": "avslag",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen avslås.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§7 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion om NPF-säkrad gymnasieutbildning - Camilla Stensson (S), Anton César (S) och Simon Waern (S)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2019-0002 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "miljö-klimat",
+    "diarienummer": "2019.769 KS",
+    "id": "a-2019-0004",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Camilla Stensson",
+        "party": "s"
+      },
+      {
+        "name": "Anita Hedén Unosson",
+        "party": "s"
+      },
+      {
+        "name": "Simon Waern",
+        "party": "s"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2019-12-11",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Camilla Stensson (S), Anita Hedén Unosson (S) och Simon Waern (S) har den 11 december 2019, § 256 lämnat in en motion till kommunfullmäktige om minskad plastanvändning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§8 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-8-motion",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2020-12-18",
+        "decision": "besvarad",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "I och med att det pågår insatser på internationell, nationell och kommunal nivå för att minska plastanvändningen inom flera områden bedömer kommunledningskontoret att frågan om att minska plastanvändningen är omhändertagen och motionen därmed besvarad.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§8 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-8-yttrande",
+        "type": "namndyttrande",
+        "voting": null
+      },
+      {
+        "date": "2021-02-08",
+        "decision": "besvarad",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunledningskontorets yttrande antas som kommunstyrelsens eget. Kommunstyrelsens förslag till kommunfullmäktige för beslut: Motionen anses besvarad.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§8 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-8-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Svar på motion om minskad plastanvändning i kommunen - Camilla Stensson (S), Anita Hedén Unosson (S) och Simon Waern (S)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.325 KS",
+    "id": "a-2021-0545",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Förslag till planprioritering 2021-2022 godkänns.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Anna Hansson (MP) reserverar sig till förmån för eget förslag."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§9 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-9-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Planprioritering 2021-2022"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2016.647 KS",
+    "id": "a-2021-0546",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen beslutar att införliva frågor som hör till träbyggnadsstrategi i andra styrdokument och att inte införa en separat träbyggnadsstrategi.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§10 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förslag gällande uppdrag om träbyggnadsstrategi"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0116 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.487 KS",
+    "id": "a-2021-0547",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "1. Kommunstyrelsens beslut den 14 november 2016, § 217 om att sälja fastigheten Skogskullen 1 genom ett anbudsförfarande upphävs. 2. Kommunledningskontoret får i uppdrag att genomföra en markanvisningstävling för fastigheten Skogskullen 1.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§11 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Försäljning av Skogskullen 1"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.386 KS",
+    "id": "a-2021-0548",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Med13 ja-röster mot 2 nej-röster beslutar kommunstyrelsen att bifalla arbetsutskottets förslag.",
+        "reservations": [
+          {
+            "parties": [
+              "sd"
+            ],
+            "quote": "Boris Jernskiegg (SD) reserverar sig till förmån för eget förslag."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§12 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-12-beslut",
+        "type": "beslut",
+        "voting": {
+          "question": "Ja-röst för bifall till arbetsutskottets förslag. Nej-röst för bifall till Boris Jernskieggs förslag att avslå ärendet.",
+          "recorded": true,
+          "result": {
+            "avstar": 0,
+            "ja": 13,
+            "nej": 2
+          }
+        }
+      }
+    ],
+    "title": "Direktanvisning avseende del av Noltorp 1:6"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2020.571 KS",
+    "id": "a-2021-0549",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Tillväxt- och exploateringschefen får i uppdrag att underteckna marköverlåtelseavtal avseende del av Tuvebo 1:34 och Tuvebo 1:30 med Frostvägen Fastighets AB.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§13 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-13-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Försäljning av del av Tuvebo 1:34 och Tuvebo 1:30 inom detaljplan 189"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2023-0404 (titel-likhet 0.67) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.565 KS",
+    "id": "a-2021-0550",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Handlingsplan för informationssäkerhet i Alingsås kommun 2021 antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§14 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-14-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Handlingsplan Informationssäkerhet i Alingsås kommun 2021"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0459 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "infrastruktur",
+    "diarienummer": "2021.021 KS",
+    "id": "a-2021-0551",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-02-08",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämndens beslut om införande av vite om 15 000 kr då en fastighetsägare inte utför sina åtaganden godkänns",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2021-02-08/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2021-02-08/protocol/protokoll-kommunstyrelsen-den-8-februari-2021pdf-90690?downloadMode=open",
+          "protocol_ref": "§15 KOMMUNSTYRELSEN 2021-02-08"
+        },
+        "step_id": "ks-2021-02-08-15-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Åläggande av gångbanerenhållning"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2020.562 KS",
+    "id": "a-2020-0026",
+    "initiativ_typ": "interpellation",
+    "initiators": [
+      {
+        "name": "Britt-Marie Kuylenstierna",
+        "party": "mp"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-12-09",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Britt-Marie Kuylenstierna (MP) har till kommunfullmäktige den 9 december 2020, § 179 lämnat en interpellation om socialnämndens beslut att lägga ned den icke biståndsbedömda delen av föräldrarådgivningen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§2 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "interpellation_stalld_2",
+        "type": "interpellation_stalld",
+        "voting": null
+      },
+      {
+        "date": "2021-01-27",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Socialnämndens ordförande Thorsten Larsson (M) har i skrivelse den 17 januari 2021 lämnat sitt interpellationssvar.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§2 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "interpellation_svarad_2",
+        "type": "interpellation_svarad",
+        "voting": null
+      }
+    ],
+    "title": "Svar på interpellation till socialnämndens ordförande Thorsten Larsson om Föräldrarådgivningen - Britt-Marie Kuylenstierna (MP)"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2020.547 KS",
+    "id": "a-2020-0027",
+    "initiativ_typ": "interpellation",
+    "initiators": [
+      {
+        "name": "Britt-Marie Kuylenstierna",
+        "party": "mp"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-12-09",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Britt-Marie Kuylenstierna (MP) har till kommunfullmäktige den 9 december 2020, § 174 lämnat en interpellation om att Barnkonventionen den 1 januari 2020 inkorporerades i svensk lagstiftning och hur Alingsås kommuns strategi för implementering ser ut.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§3 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "interpellation_stalld_3",
+        "type": "interpellation_stalld",
+        "voting": null
+      },
+      {
+        "date": "2021-01-27",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens ordförande Daniel Filipsson (M) har i skrivelse den 25 januari 2021 lämnat sitt interpellationssvar.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§3 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "interpellation_svarad_3",
+        "type": "interpellation_svarad",
+        "voting": null
+      }
+    ],
+    "title": "Svar på interpellation till kommunstyrelsens ordförande Daniel Filipsson om barnkonventionen - Britt-Marie Kuylenstierna (MP)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2021.026 KS",
+    "id": "a-2021-0552",
+    "initiativ_typ": "enkel_fraga",
+    "initiators": [
+      {
+        "name": "Sebastian Aronsson",
+        "party": "s"
+      }
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-27",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Angående den medialt uppmärksammade händelsen då en anställd i kultur- och utbildningsnämnden varslas om uppsägning men efter medial uppmärksamhet får besked om att anställningen ska fortsätta.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§4 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "enkel_fraga_stalld_4",
+        "type": "enkel_fraga_stalld",
+        "voting": null
+      },
+      {
+        "date": "2021-01-27",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Kultur- och utbildningsnämndens ordförande Anne Gunnevik (L) besvarar frågan muntligt vid dagens sammanträde.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§4 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "enkel_fraga_svarad_4",
+        "type": "enkel_fraga_svarad",
+        "voting": null
+      }
+    ],
+    "title": "Fråga till kultur- och utbildningsnämndens ordförande gällande anställningsärende - Sebastian Aronsson (S)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0178 (titel-likhet 0.91) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2021.027 KS",
+    "id": "a-2021-0553",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Boris Jernskiegg",
+        "party": "sd"
+      },
+      {
+        "name": "Lars-Olof Jaeger",
+        "party": "sd"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-01-27",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Boris Jernskiegg (SD) och Lars-Olof Jaeger (SD) lämnar en motion om tillfällig äldreomsorgsberedning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§5 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "motion_inlamnad_5",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2021-01-27",
+        "decision": "ingen rekommendation",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Motionen lämnas till kommunstyrelsen för beredning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§5 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "beslut_remiss_5",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Motion om tillfällig äldreomsorgsberedning - Boris Jernskiegg (SD, Lars-Olof Jaeger (SD)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0179 (titel-likhet 0.83) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2021.029 KS",
+    "id": "a-2021-0554",
+    "initiativ_typ": "motion",
+    "initiators": [
+      {
+        "name": "Amanda Andersson",
+        "party": "mp"
+      }
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2021-01-27",
+        "decision": null,
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Amanda Andersson (MP) lämnar en motion om hospicevård.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§6 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "motion_inlamnad_6",
+        "type": "motion_inlamnad",
+        "voting": null
+      },
+      {
+        "date": "2021-01-27",
+        "decision": "ingen rekommendation",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Motionen lämnas till kommunstyrelsen för beredning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2021-01-27/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2021-01-27/protocol/protokoll-kommunfullmaktige-den-27-januari-2021pdf-87842?downloadMode=open",
+          "protocol_ref": "§6 KOMMUNFULLMAKTIGE 2021-01-27"
+        },
+        "step_id": "beslut_remiss_6",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Motion om hospicevård - Amanda Andersson (MP)"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2021.007 BUN",
+    "id": "a-2021-0555",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§2 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s2-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "SKRs öppna jämförelser läsåret 2019/2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0095 (titel-likhet 0.78) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2021.006 BUN",
+    "id": "a-2021-0556",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningens godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§3 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s3-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Uppföljning av synpunkter/klagomål inkomna till huvudman 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0094 (titel-likhet 0.80) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.401 BUN",
+    "id": "a-2021-0557",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden fastställer lednings- och kommunikationsplanen för extraordinära händelser.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§5 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s5-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lednings- och kommunikationsplan för extraordinära händelser 2021"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2020.361 BUN",
+    "id": "a-2021-0558",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden godkänner tillsyn av Kristallens förskola och lägger ärendet till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§7 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s7-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Tillsyn, Kristallens förskola, Norlandia förskolor, 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0091 (titel-likhet 0.78) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2020.333 BUN",
+    "id": "a-2021-0559",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av informationen om genomförd kötillsyn 2020 och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§8 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s8-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kötillsyn av fristående verksamheter inom barnomsorg 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2024-0159 (titel-likhet 0.80) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2021.024 BUN",
+    "id": "a-2021-0560",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden beslutar att anta dokumenthanteringsplan för 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§9 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s9-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Dokumenthanteringsplan Barn- och ungdomsnämnden 2021"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0329 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2020.197 BUN",
+    "id": "a-2021-0561",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§10 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s10-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Anmälningar om kränkande behandlingar läsåret 2020/2021"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0219 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2021.011 BUN",
+    "id": "a-2021-0562",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§11 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s11-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bevakning skolplikt och frånvaro"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0045 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2021.001 BUN",
+    "id": "a-2021-0563",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-26",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Redovisningen godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2021-01-26/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2021-01-26/protocol/protokoll-skapad-bun-2021-01-27-104534pdf-96393?downloadMode=open",
+          "protocol_ref": "§12 BARN-OCH-UNGDOMSNAMNDEN 2021-01-26"
+        },
+        "step_id": "bun-2021-01-26-s12-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsbeslut 2021- central administration"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0085 (titel-likhet 0.75) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2021.003 VON",
+    "id": "a-2021-0564",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "v"
+            ],
+            "quote": "Vänsterpartiet ser med oro på vård- och omsorgsnämndens knappa ekonomiska tilldelning i årets budget. Otillräcklig ekonomisk tilldelning kommer i slutändan att ha negativ effekt för den enskilde vårdtagaren."
+          }
+        ],
+        "quote": "Ordföranden frågar om förvaltningens förslag till beslut tillsammans med Eva-Lotta Pamps ändringsförslag samt tilläggsförslag kan bifallas och finner att så är fallet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2021-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-01-25/protocol/protokoll-skapad-von-2021-01-29-125635pdf-27428?downloadMode=open",
+          "protocol_ref": "§2 VARD-OCH-OMSORGSNAMNDEN 2021-01-25"
+        },
+        "step_id": "von-2021-01-25-budget-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Vård- och omsorgsnämndens budget 2021-2023"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2023-0030 (titel-likhet 0.71) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2020.050 VON",
+    "id": "a-2021-0565",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden antar förvaltningens kvartals- och individrapport för Q4 som sitt svar till IVO och revisorerna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2021-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-01-25/protocol/protokoll-skapad-von-2021-01-29-125635pdf-27428?downloadMode=open",
+          "protocol_ref": "§3 VARD-OCH-OMSORGSNAMNDEN 2021-01-25"
+        },
+        "step_id": "von-2021-01-25-sol-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut SoL 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0036 (titel-likhet 0.71) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2020.049 VON",
+    "id": "a-2021-0566",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden antar förvaltningens kvartals- och individrapport för Q4 som sitt svar till IVO och revisorerna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2021-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-01-25/protocol/protokoll-skapad-von-2021-01-29-125635pdf-27428?downloadMode=open",
+          "protocol_ref": "§4 VARD-OCH-OMSORGSNAMNDEN 2021-01-25"
+        },
+        "step_id": "von-2021-01-25-lss-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut LSS 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2024-0267 (titel-likhet 0.75) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.040 VON",
+    "id": "a-2021-0567",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2021-01-25",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner anmälan av delegationsbeslut för december 2020.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2021-01-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-01-25/protocol/protokoll-skapad-von-2021-01-29-125635pdf-27428?downloadMode=open",
+          "protocol_ref": "§5 VARD-OCH-OMSORGSNAMNDEN 2021-01-25"
+        },
+        "step_id": "von-2021-01-25-delegation-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Anmälan av delegationsbeslut 2020"
   }
 ]
