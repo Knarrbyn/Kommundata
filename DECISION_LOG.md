@@ -1355,3 +1355,25 @@ dessa 17 mötessidor och kör dem genom samma `extractProtocolPdfUrl`-logik
 som resten av pipelinen, eller (b) en manuell komplettering. Ofarligt att
 lämna som är — påverkar bara mötestidslinjens fullständighet marginellt,
 inte ärendedatans korrekthet.
+
+## 2026-09-05 — Fixat: mötestidslinjen syntes aldrig live trots att moten.json byggdes korrekt
+
+**Vad:** efter gårdagens `moten.json`-funktion visade sig sajten fortfarande visa en TOM
+mötestidslinje trots att `data/published/moten.json` innehöll 436 korrekta poster.
+
+**Rotorsak:** `run-weekly-pipeline.mjs` och `run-backfill.mjs` anropar `renderSite()` DIREKT
+(importerad från `build.ts`), inte via `build-cli.ts`. `build-cli.ts` uppdaterades korrekt för
+att läsa och skicka med `moten.json`, men de faktiska anropsplatserna i själva pipeline-
+skripten glömdes — `renderSite(publishedDb)` skickade bara ärendedatan, aldrig `motenDb` som
+andra argument. Eftersom `renderSite`s andra parameter har default-värdet tom array (medvetet,
+för bakåtkompatibilitet) kraschade ingenting — sajten byggdes bara tyst med `const MOTEN = [];`
+istället för de faktiska 436 mötena. Ett klassiskt "uppdaterade fel anropsställe"-misstag: två
+separata kodvägar (`build-cli.ts` och de två pipeline-skriptens egna direktanrop) gör samma sak
+men underhålls separat.
+
+**Åtgärd:** `renderSite(publishedDb, motenDb)` i båda skripten, samt `dist/api/moten.json`
+skrivs nu också därifrån (matchar vad `build-cli.ts` redan gjorde).
+
+**Lärdom att bära vidare:** när en funktions anropssignatur ändras, sök igenom HELA repot efter
+alla anropsställen — inte bara den "officiella" CLI-ingångspunkten. `grep -rn "renderSite("` hade
+hittat båda de missade anropen direkt.
