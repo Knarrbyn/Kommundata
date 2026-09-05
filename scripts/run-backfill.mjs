@@ -360,10 +360,14 @@ async function main() {
   changelog.push(changelogEntry);
   await writeFile("data/publish/changelog.json", JSON.stringify(changelog, null, 2));
 
-  const html = await renderSite(publishedDb);
+  // FIX 2026-09-05 (se DECISION_LOG.md): renderSite() anropades utan
+  // motenDb som andra argument — MOTEN injicerades alltid tomt trots att
+  // moten.json fylldes på korrekt bakom kulisserna.
+  const html = await renderSite(publishedDb, motenDb);
   await mkdir("dist/api", { recursive: true });
   await writeFile("dist/index.html", html);
   await writeFile("dist/api/arenden.json", JSON.stringify(publishedDb, null, 2));
+  await writeFile("dist/api/moten.json", JSON.stringify(motenDb, null, 2));
 
   await writeFile(SEEN_FILE, JSON.stringify(seen, null, 2));
 
