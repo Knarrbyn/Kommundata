@@ -3029,5 +3029,45 @@
     "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2021-01-25/protocol/protokoll-skapad-von-2021-01-29-125635pdf-27428?downloadMode=open",
     "relativePath": "data/raw/vard-och-omsorgsnamnden/2021-01-25/protokoll.pdf",
     "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2021-01-25/protocol/protokoll-sbn-2021-01-25-omedelbar-justeringpdf-12295?downloadMode=open",
+    "relativePath": "data/raw/samhallsbyggnadsnamnden/2021-01-25/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-12-21/protocol/protokoll-skapad-von-2020-12-22-154743pdf-80640?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2020-12-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-12-17/protocol/protokoll-skapad-von-2020-12-22-154336pdf-74230?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2020-12-17/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-12-16/protocol/protokoll-for-kommunstyrelsen-den-16-december-2020pdf-29450?downloadMode=open",
+    "relativePath": "data/raw/kommunstyrelsen/2020-12-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2020-12-16/protocol/protokoll-skapad-kun-2020-12-17-085039pdf?downloadMode=open",
+    "relativePath": "data/raw/kultur-och-utbildningsnamnden/2020-12-16/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2020-12-15/protocol/protokoll-sn-2020-12-15pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2020-12-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-12-15/protocol/protokoll-skapad-bun-2020-12-16-065825pdf-83649?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2020-12-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-12-14/protocol/protokoll-sbn-2020-12-14-ss-240pdf-51242?downloadMode=open",
+    "relativePath": "data/raw/samhallsbyggnadsnamnden/2020-12-14/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
   }
 ]
