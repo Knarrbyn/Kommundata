@@ -1,0 +1,325 @@
+[
+  {
+    "arende": {
+      "title": "Antagande av ny gemensam avfallsplan för kommunerna inom Göteborgsregionen (GR)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "avgjort",
+      "diarienummer": "2020.074 KS",
+      "steps": [
+        {
+          "step_id": "ks-168-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2020-11-09",
+          "quote": "Kommunstyrelsen har den 9 november 2020, § 161 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§168 KOMMUNFULLMAKTIGE 2020-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-12-09/protocol/protokoll-for-kommunfullmaktige-den-9-december-2020pdf-52636?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-168-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2020-12-09",
+          "quote": "\"Göteborgsregionen minskar avfallet – avfallsplan för tretton kommuner till 2030\" antas som Alingsås kommuns egen avfallsplan.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§168 KOMMUNFULLMAKTIGE 2020-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-12-09/protocol/protokoll-for-kommunfullmaktige-den-9-december-2020pdf-52636?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-168-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 9 november 2020, § 161 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-168-beslut",
+        "field": "quote",
+        "quote": "\"Göteborgsregionen minskar avfallet – avfallsplan för tretton kommuner till 2030\" antas som Alingsås kommuns egen avfallsplan.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion om klimatbudget för Alingsås kommun - Anna Hansson (MP)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Anna Hansson",
+          "party": "mp"
+        }
+      ],
+      "category": "miljö-klimat",
+      "status": "avgjort",
+      "diarienummer": "2019.768 KS",
+      "steps": [
+        {
+          "step_id": "kf-172-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2019-12-11",
+          "quote": "Anna Hansson (MP) har till kommunfullmäktige den 11 december 2019, § 258 lämnat en motion om att Alingsås kommun ska ta fram en klimatbudget.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§172 KOMMUNFULLMAKTIGE 2020-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-12-09/protocol/protokoll-for-kommunfullmaktige-den-9-december-2020pdf-52636?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-172-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2020-11-23",
+          "quote": "Kommunstyrelsen har den 23 november 2020, § 172 behandlat ärendet och lämnat följande förslag till beslut kommunfullmäktige för beslut: Motionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§172 KOMMUNFULLMAKTIGE 2020-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-12-09/protocol/protokoll-for-kommunfullmaktige-den-9-december-2020pdf-52636?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-172-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2020-12-09",
+          "quote": "Med 25 ja-röster och 1 nej-röst beslutar kommunfullmäktige att bifalla kommunstyrelsens förslag.",
+          "decision": "besvarad",
+          "voting": {
+            "recorded": true,
+            "question": "Ja-röst för bifall till kommunstyrelsens förslag att motionen ska anses besvarad. Nej-röst för bifall till Anna Hanssons förslag att motionen ska bifallas.",
+            "result": {
+              "ja": 25,
+              "nej": 1,
+              "avstar": 0
+            }
+          },
+          "reservations": [
+            {
+              "parties": [
+                "mp"
+              ],
+              "quote": "Kommunen behöver ta fram en klimatbudget för att få en bättre kontroll och styrning gällande att minska både de direkta och indirekta utsläppen av klimatpåverkande ämnen"
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§172 KOMMUNFULLMAKTIGE 2020-12-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-12-09/protocol/protokoll-for-kommunfullmaktige-den-9-december-2020pdf-52636?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-172-motion-inlamnad",
+        "field": "quote",
+        "quote": "Anna Hansson (MP) har till kommunfullmäktige den 11 december 2019, § 258 lämnat en motion om att Alingsås kommun ska ta fram en klimatbudget.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-172-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 23 november 2020, § 172 behandlat ärendet och lämnat följande förslag till beslut kommunfullmäktige för beslut: Motionen anses besvarad.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-172-beslut",
+        "field": "quote",
+        "quote": "Med 25 ja-röster och 1 nej-röst beslutar kommunfullmäktige att bifalla kommunstyrelsens förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-172-beslut",
+        "field": "reservation[mp]",
+        "quote": "Kommunen behöver ta fram en klimatbudget för att få en bättre kontroll och styrning gällande att minska både de direkta och indirekta utsläppen av klimatpåverkande ämnen",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Remiss - En långsiktigt hållbar migrationspolitik (SOU 2020:54)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.480 KS",
+      "steps": [
+        {
+          "step_id": "188-namndyttrande-2020-11",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2020-11-26",
+          "quote": "Alingsås kommun tillstyrker utredningens förslag vad gäller tidsbegränsade uppehållstillstånd som huvudregel samt krav på samhällsinformation och språkkrav för att få permanent uppehållstillstånd. Alingsås kommun avstyrker utredningens förslag på krav som ska ställas vid anhöriginvandring.",
+          "decision": "ingen rekommendation",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§188 KOMMUNSTYRELSEN 2020-12-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-12-07/protocol/protokoll-for-kommunstyrelsen-den-7-december-2020pdf-32531?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "188-beslut-2020-12",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-12-07",
+          "quote": "Kommunledningskontorets remissvar daterat den 26 november 2020 antas med ändring att i delen försörjningskrav vid anhöriginvandring ska remissvaret vara att tillstyrka utredningens förslag gällande de nya krav som ska ställas för anhöriginvandring, som kommunstyrelsens svar till remissen En långsiktig hållbar migrationspolitik (SOU 2020:54).",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "mp",
+                "v",
+                "c"
+              ],
+              "quote": "Anna Hansson (MP), Martin Lindberg (V) och Karl-Johan Karlsson (C) reserverar sig till förmån för egna förslag."
+            }
+          ],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "sd"
+              ],
+              "quote": "Vi Sverigedemokrater har en mycket realistisk bild över hur migrationspolitiken förts i vårt land under flera decennier. Vi ser med förfäran hur vårt välfärdssamhälle fallit ihop som ett korthus då resurserna inte räcker till."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§188 KOMMUNSTYRELSEN 2020-12-07",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-12-07/protocol/protokoll-for-kommunstyrelsen-den-7-december-2020pdf-32531?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "188-namndyttrande-2020-11",
+        "field": "quote",
+        "quote": "Alingsås kommun tillstyrker utredningens förslag vad gäller tidsbegränsade uppehållstillstånd som huvudregel samt krav på samhällsinformation och språkkrav för att få permanent uppehållstillstånd. Alingsås kommun avstyrker utredningens förslag på krav som ska ställas vid anhöriginvandring.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "188-beslut-2020-12",
+        "field": "quote",
+        "quote": "Kommunledningskontorets remissvar daterat den 26 november 2020 antas med ändring att i delen försörjningskrav vid anhöriginvandring ska remissvaret vara att tillstyrka utredningens förslag gällande de nya krav som ska ställas för anhöriginvandring, som kommunstyrelsens svar till remissen En långsiktig hållbar migrationspolitik (SOU 2020:54).",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (43 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "188-beslut-2020-12",
+        "field": "reservation[mp+v+c]",
+        "quote": "Anna Hansson (MP), Martin Lindberg (V) och Karl-Johan Karlsson (C) reserverar sig till förmån för egna förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "188-beslut-2020-12",
+        "field": "protocol_anteckning[sd]",
+        "quote": "Vi Sverigedemokrater har en mycket realistisk bild över hur migrationspolitiken förts i vårt land under flera decennier. Vi ser med förfäran hur vårt välfärdssamhälle fallit ihop som ett korthus då resurserna inte räcker till.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Utökat antal platser på äldreboende - Blockförhyrning av äldreboendeplatser - LOU",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2020.296 VON",
+      "steps": [
+        {
+          "step_id": "s85-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2020-11-30",
+          "quote": "Vård-och omsorgsnämnden ger förvaltningen i uppdrag att genomföra en LOU-upphandling med abonnemangsavtal på 60+20 vårdboendeplatser, som omfattar extern byggnation och drift av ett nytt vårdboende i Alingsås kommun med avtalstid 10+3+2 år.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Vi socialdemokrater ställer oss kritiska till beslutet att upphandla tillkommande äldreboendeplatser via blockhyresmodell. Mot bakgrund av rådande finansiella situation – vilken för tillfället inte medger nybyggnation i kommunal regi – kan upphandling av ett nytt äldreboende i enlighet med LOU vara ett sätt att säkra fler boendeplatser."
+            },
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vänsterpartiet i Alingsås ställer sig bakom dagens protokollsanteckning från Socialdemokraterna i ärendet Utökat antal platser på äldreboende – LOU och avstår därmed att delta i beslutet."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§85 VARD-OCH-OMSORGSNAMNDEN 2020-11-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-11-30/protocol/protokoll-skapad-von-2020-12-04-152522pdf-77962?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "s85-beslut",
+        "field": "quote",
+        "quote": "Vård-och omsorgsnämnden ger förvaltningen i uppdrag att genomföra en LOU-upphandling med abonnemangsavtal på 60+20 vårdboendeplatser, som omfattar extern byggnation och drift av ett nytt vårdboende i Alingsås kommun med avtalstid 10+3+2 år.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "s85-beslut",
+        "field": "protocol_anteckning[s]",
+        "quote": "Vi socialdemokrater ställer oss kritiska till beslutet att upphandla tillkommande äldreboendeplatser via blockhyresmodell. Mot bakgrund av rådande finansiella situation – vilken för tillfället inte medger nybyggnation i kommunal regi – kan upphandling av ett nytt äldreboende i enlighet med LOU vara ett sätt att säkra fler boendeplatser.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "s85-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "Vänsterpartiet i Alingsås ställer sig bakom dagens protokollsanteckning från Socialdemokraterna i ärendet Utökat antal platser på äldreboende – LOU och avstår därmed att delta i beslutet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
