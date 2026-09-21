@@ -1,0 +1,171 @@
+[
+  {
+    "arende": {
+      "title": "Antagande av ny gemensam avfallsplan för kommunerna inom Göteborgsregionen (GR)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "pågående",
+      "diarienummer": "2020.074 KS",
+      "steps": [
+        {
+          "step_id": "ks-161-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-11-09",
+          "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: \"Göteborgsregionen minskar avfallet – avfallsplan för tretton kommuner till 2030\" antas som Alingsås kommuns egen avfallsplan.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§161 KOMMUNSTYRELSEN 2020-11-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-11-09/protocol/protokoll-for-kommunstyrelsen-den-9-november-2020pdf-12116?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-161-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: \"Göteborgsregionen minskar avfallet – avfallsplan för tretton kommuner till 2030\" antas som Alingsås kommuns egen avfallsplan.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Utökat antal platser på äldreboende - LOU",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2020.296 VON",
+      "steps": [
+        {
+          "step_id": "von-74-beredning",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beredning",
+          "date": "2020-10-08",
+          "quote": "Det finansiella läget medför att kommunens möjligheter att projektera och bygga i egen regi via Alingsås hem är begränsat. Detta innebär att kommunen behöver hitta andra möjligheter att öka tillgången på äldreboendeplatser och platser på bostad med särskild service för LSS-gruppen.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§74 VARD-OCH-OMSORGSNAMNDEN 2020-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-10-26/protocol/protokoll-skapad-von-2020-10-30-160759pdf-42525?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-74-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2020-10-26",
+          "quote": "Vård- och omsorgsnämnden ger förvaltningen i uppdrag att gå vidare med upphandling av äldreboende enligt LOU (lag om offentlig upphandling) och presentera ett underlag till upphandling på vård- och omsorgsnämnden i november 2020.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "Vänsterpartiet förstår att det ekonomiska läge som Alingsås kommun befinner sig i nu, medför svårigheter att finansiera byggande av lägenheter och lokaler för särskilda boenden. Vår uppfattning är att kommunen på sikt bör eftersträva att långsiktigt bestämma över, samt äga lokaler och fastigheter där kommunen bedriver verksamhet."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§74 VARD-OCH-OMSORGSNAMNDEN 2020-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-10-26/protocol/protokoll-skapad-von-2020-10-30-160759pdf-42525?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-74-beredning",
+        "field": "quote",
+        "quote": "Det finansiella läget medför att kommunens möjligheter att projektera och bygga i egen regi via Alingsås hem är begränsat. Detta innebär att kommunen behöver hitta andra möjligheter att öka tillgången på äldreboendeplatser och platser på bostad med särskild service för LSS-gruppen.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "von-74-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden ger förvaltningen i uppdrag att gå vidare med upphandling av äldreboende enligt LOU (lag om offentlig upphandling) och presentera ett underlag till upphandling på vård- och omsorgsnämnden i november 2020.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "von-74-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "Vänsterpartiet förstår att det ekonomiska läge som Alingsås kommun befinner sig i nu, medför svårigheter att finansiera byggande av lägenheter och lokaler för särskilda boenden. Vår uppfattning är att kommunen på sikt bör eftersträva att långsiktigt bestämma över, samt äga lokaler och fastigheter där kommunen bedriver verksamhet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar till Hörselskadades Riksförbund och Synskadades Riksförbund",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2020.299 VON",
+      "steps": [
+        {
+          "step_id": "von-81-beredning",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beredning",
+          "date": "2020-10-26",
+          "quote": "Vård- och omsorgsförvaltningen föreslår att nämnden tackar för inbjudan till dialogmöte men väljer att avböja. Vård- och omsorgsnämnden tar till sig SRF och HRFs gemensamt inkomna synpunkter på avvecklingen av syn- och höselkonsulenttjänsten men nämnden står fast vid sitt beslut som fattades den 27 januari 2020 § 3.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§81 VARD-OCH-OMSORGSNAMNDEN 2020-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-10-26/protocol/protokoll-skapad-von-2020-10-30-160759pdf-42525?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-81-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2020-10-26",
+          "quote": "Vård- och omsorgsnämnden antar förvaltningens yttrande som svar på Hörselskadades Riksförbunds skrivelse samt Synskadades Riksförbunds och Hörselskadades Riksförbunds gemensamma skrivelser.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§81 VARD-OCH-OMSORGSNAMNDEN 2020-10-26",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-10-26/protocol/protokoll-skapad-von-2020-10-30-160759pdf-42525?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-81-beredning",
+        "field": "quote",
+        "quote": "Vård- och omsorgsförvaltningen föreslår att nämnden tackar för inbjudan till dialogmöte men väljer att avböja. Vård- och omsorgsnämnden tar till sig SRF och HRFs gemensamt inkomna synpunkter på avvecklingen av syn- och höselkonsulenttjänsten men nämnden står fast vid sitt beslut som fattades den 27 januari 2020 § 3.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (48 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "von-81-beslut",
+        "field": "quote",
+        "quote": "Vård- och omsorgsnämnden antar förvaltningens yttrande som svar på Hörselskadades Riksförbunds skrivelse samt Synskadades Riksförbunds och Hörselskadades Riksförbunds gemensamma skrivelser.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  }
+]
