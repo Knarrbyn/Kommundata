@@ -1,0 +1,501 @@
+[
+  {
+    "arende": {
+      "title": "Delårsbokslut för vård- och omsorgsnämnden per augusti 2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2026.053 VON",
+      "steps": [
+        {
+          "step_id": "von-55-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2026-09-21",
+          "quote": "1. Delårsbokslut för vård- och omsorgsnämnden per augusti 2026 fastställs. 2. Avdelningen för boende och arbete får i uppdrag att redovisa vilka åtgärder avdelningen ämnar vidta för att hantera avdelningens prognostiserade underskott. Redovisningen ska ske i oktober 2026.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "v"
+              ],
+              "quote": "LSS dras med stora underskott samtidigt som det i genomförts effektiviseringsåtgärder och besparingar behöver vi ställa oss frågan om verksamheten har tilldelats tillräckligt med resurser för att möta de faktiska behoven."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§55 VARD-OCH-OMSORGSNAMNDEN 2026-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-09-21/protocol/protokoll-2026-09-21-vonpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-55-beslut",
+        "field": "quote",
+        "quote": "1. Delårsbokslut för vård- och omsorgsnämnden per augusti 2026 fastställs. 2. Avdelningen för boende och arbete får i uppdrag att redovisa vilka åtgärder avdelningen ämnar vidta för att hantera avdelningens prognostiserade underskott. Redovisningen ska ske i oktober 2026.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "von-55-beslut",
+        "field": "protocol_anteckning[v]",
+        "quote": "LSS dras med stora underskott samtidigt som det i genomförts effektiviseringsåtgärder och besparingar behöver vi ställa oss frågan om verksamheten har tilldelats tillräckligt med resurser för att möta de faktiska behoven.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion om att ta tillvara EPA-ungdomars engagemang i Alingsås - Marcus Wallin (V)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Marcus Wallin",
+          "party": "v"
+        }
+      ],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2026.131 VON",
+      "steps": [
+        {
+          "step_id": "von-61-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2026-05-06",
+          "quote": "Marcus Wallin (V) har i en motion till kommunfullmäktige den 6 maj 2026, § 98/2026 KF, lämnat in en motion om att tillvarata EPA-ungdomars engagemang i Alingsås.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§61 VARD-OCH-OMSORGSNAMNDEN 2026-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-09-21/protocol/protokoll-2026-09-21-vonpdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-61-namndyttrande",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "namndyttrande",
+          "date": "2026-09-21",
+          "quote": "Förvaltningen ser med fördel på att börja planera för ett \"EPA-projekt\" till sommaren 2027, där formen och omfattningen av projektet överlämnas till förvaltningen att närmare utforma. Utvärdering kommer sedan att genomföras för att bedöma om projektet ger önskade nyttor, om arbetssättet ska permanentas och i vilken utsträckning.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§61 VARD-OCH-OMSORGSNAMNDEN 2026-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-09-21/protocol/protokoll-2026-09-21-vonpdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "von-61-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2026-09-21",
+          "quote": "Motionen tillstyrks.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§61 VARD-OCH-OMSORGSNAMNDEN 2026-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-09-21/protocol/protokoll-2026-09-21-vonpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "von-61-motion-inlamnad",
+        "field": "quote",
+        "quote": "Marcus Wallin (V) har i en motion till kommunfullmäktige den 6 maj 2026, § 98/2026 KF, lämnat in en motion om att tillvarata EPA-ungdomars engagemang i Alingsås.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "von-61-namndyttrande",
+        "field": "quote",
+        "quote": "Förvaltningen ser med fördel på att börja planera för ett \"EPA-projekt\" till sommaren 2027, där formen och omfattningen av projektet överlämnas till förvaltningen att närmare utforma. Utvärdering kommer sedan att genomföras för att bedöma om projektet ger önskade nyttor, om arbetssättet ska permanentas och i vilken utsträckning.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "von-61-beslut",
+        "field": "quote",
+        "quote": "Motionen tillstyrks.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Samverkansavtal om yrkesutbildningar för vuxna 2027-2030",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2026.156 KUN",
+      "steps": [
+        {
+          "step_id": "yrkesutb-kun-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2026-09-21",
+          "quote": "Kultur- och utbildningsnämnden ingår samverkansansval om yrkesutbildning för vuxna 2027–2030.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§87 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-09-21/protocol/protokoll-kun-2026-09-22-063023pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "yrkesutb-kun-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden ingår samverkansansval om yrkesutbildning för vuxna 2027–2030.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Motion gällande införande av fritidsbank",
+      "initiativ_typ": "motion",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "pågående",
+      "diarienummer": "2025.228 KUN",
+      "steps": [
+        {
+          "step_id": "fritidsbank-kf-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2026-02-25",
+          "quote": "Kommunfullmäktige beslutade den 25 februari 2026, § 44 att bifalla motion om att kultur- och utbildningsnämnden fick i uppdrag att utreda möjligheterna att införa en fritidsbank med lämpliga förvaltningar.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§90 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-09-21/protocol/protokoll-kun-2026-09-22-063023pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "fritidsbank-kun-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2026-09-21",
+          "quote": "Uppdrag att utreda möjligheterna att införa en Fritidsbank i Alingsås kommun godkänns. Utredningen överlämnas till kommunstyrelsen för fortsatt beredning och med förslag att kommunen tecknar medlemskap i Fritidsbanken för att möjliggöra en gemensam utredningsprocess tillsammans med organisationen.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§90 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-09-21/protocol/protokoll-kun-2026-09-22-063023pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "fritidsbank-kf-beslut",
+        "field": "quote",
+        "quote": "Kommunfullmäktige beslutade den 25 februari 2026, § 44 att bifalla motion om att kultur- och utbildningsnämnden fick i uppdrag att utreda möjligheterna att införa en fritidsbank med lämpliga förvaltningar.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "fritidsbank-kun-beslut",
+        "field": "quote",
+        "quote": "Uppdrag att utreda möjligheterna att införa en Fritidsbank i Alingsås kommun godkänns. Utredningen överlämnas till kommunstyrelsen för fortsatt beredning och med förslag att kommunen tecknar medlemskap i Fritidsbanken för att möjliggöra en gemensam utredningsprocess tillsammans med organisationen.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Skolval Ansökningsförfarande, placeringsregler och urvalskriterier",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "barn-utbildning",
+      "status": "avgjort",
+      "diarienummer": "2026.199 BUN",
+      "steps": [
+        {
+          "step_id": "bun-54-au",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "namndyttrande",
+          "date": "2026-09-01",
+          "quote": "Barn- och ungdomsnämndens arbetsutskott har den 1 september 2026, § 36 behandlat ärendet och föreslagit att: Barn- och ungdomsnämnden antar Skolval ansökningsförfarande, placeringsregler och urvalskriterier med gällande förändringar.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§54 BARN-OCH-UNGDOMSNAMNDEN 2026-09-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-09-15/protocol/protokoll-skapad-bun-2026-09-21-140130pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "bun-54-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2026-09-15",
+          "quote": "Barn- och ungdomsnämnden beslutar att anta Skolval ansökningsförfarande, placeringsregler och urvalskriterier med den ändringen att texten på sidan sju ersätts med följande lydelse: \"Elever som inte haft placering i kommunens förskolor eller skolor som åberopar särskilda skäl kontaktar enhetschef för barn- och elevhälsa som inhämtar information och gör en bedömning.\"",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§54 BARN-OCH-UNGDOMSNAMNDEN 2026-09-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-09-15/protocol/protokoll-skapad-bun-2026-09-21-140130pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-54-au",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämndens arbetsutskott har den 1 september 2026, § 36 behandlat ärendet och föreslagit att: Barn- och ungdomsnämnden antar Skolval ansökningsförfarande, placeringsregler och urvalskriterier med gällande förändringar.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "bun-54-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden beslutar att anta Skolval ansökningsförfarande, placeringsregler och urvalskriterier med den ändringen att texten på sidan sju ersätts med följande lydelse: \"Elever som inte haft placering i kommunens förskolor eller skolor som åberopar särskilda skäl kontaktar enhetschef för barn- och elevhälsa som inhämtar information och gör en bedömning.\"",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (50 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förstudie familjecentral Alingsås tätort",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2026.259 BUN",
+      "steps": [
+        {
+          "step_id": "bun-55-au",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "namndyttrande",
+          "date": "2026-09-01",
+          "quote": "Barn- och ungdomsnämndens arbetsutskott har den 1 september 2026, § 37 behandlat ärendet och föreslagit att: Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem genomföra en förstudie för familjecentral i Alingsås tätort med placering i Noltorp.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§55 BARN-OCH-UNGDOMSNAMNDEN 2026-09-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-09-15/protocol/protokoll-skapad-bun-2026-09-21-140130pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "bun-55-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2026-09-15",
+          "quote": "Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem genomföra en förstudie för familjecentral i Alingsås tätort med placering i Noltorp.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§55 BARN-OCH-UNGDOMSNAMNDEN 2026-09-15",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2026-09-15/protocol/protokoll-skapad-bun-2026-09-21-140130pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-55-au",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämndens arbetsutskott har den 1 september 2026, § 37 behandlat ärendet och föreslagit att: Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem genomföra en förstudie för familjecentral i Alingsås tätort med placering i Noltorp.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "bun-55-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden ger förvaltningen i uppdrag att tillsammans med Alingsåshem genomföra en förstudie för familjecentral i Alingsås tätort med placering i Noltorp.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ändring 1 av detaljplan 156 för Alingsås, Verksamheter vid Vänersborgsvägen",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2020.266 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-212-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2020-10-19",
+          "quote": "Samhällsbyggnadsnämnden antar \"Ändring nr 1 av Detaljplan för Alingsås, Verksamheter vid Vänersborgsvägen\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§212 SAMHALLSBYGGNADSNAMNDEN 2020-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-10-19/protocol/protokoll-sbn-2020-10-19pdf-73128?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-212-beslut",
+        "field": "quote",
+        "quote": "Samhällsbyggnadsnämnden antar \"Ändring nr 1 av Detaljplan för Alingsås, Verksamheter vid Vänersborgsvägen\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Förlängd avtalstid nytt kommunarkiv",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "pågående",
+      "diarienummer": "2020.160 KS",
+      "steps": [
+        {
+          "step_id": "ks-140-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-10-12",
+          "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut:\n1. Hyresavtal godkänns upp till 20 år för lokaler för nytt kommunarkiv.\n2. Kommunstyrelsen ges i uppdrag att teckna hyresavtal för kommunarkivet om 240 månader med Fastighets AB Balder till en årshyra om 1 725 tkr.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§140 KOMMUNSTYRELSEN 2020-10-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-10-12/protocol/protokoll-for-kommunstyrelsen-den-12-oktober-2020pdf-94550?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-140-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut:\n1. Hyresavtal godkänns upp till 20 år för lokaler för nytt kommunarkiv.\n2. Kommunstyrelsen ges i uppdrag att teckna hyresavtal för kommunarkivet om 240 månader med Fastighets AB Balder till en årshyra om 1 725 tkr.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (42 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Redovisning av obesvarade motioner 2020",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "pågående",
+      "diarienummer": "2020.072 KS",
+      "steps": [
+        {
+          "step_id": "ks-144-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-10-12",
+          "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut:\n1. Redovisningen godkänns.\n2. Handläggningen fortsätter för följande motion som är äldre än ett år:\nMotion om en ren och prydlig kommun - Pär-Göran Björkman (S),\nBjörn Wallin Salthammer (S) och Anita Hedén Unosson (S).",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§144 KOMMUNSTYRELSEN 2020-10-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-10-12/protocol/protokoll-for-kommunstyrelsen-den-12-oktober-2020pdf-94550?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-144-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut:\n1. Redovisningen godkänns.\n2. Handläggningen fortsätter för följande motion som är äldre än ett år:\nMotion om en ren och prydlig kommun - Pär-Göran Björkman (S),\nBjörn Wallin Salthammer (S) och Anita Hedén Unosson (S).",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Överlåtelse av Bergkullen 1 och 2, Norra Stadsskogen till PEAB Markutveckling AB",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2017.440 KS",
+      "steps": [
+        {
+          "step_id": "ks-149-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-10-12",
+          "quote": "Kommunstyrelsens beslut:\n1. PEAB Markutveckling AB får förvärva fastigheterna Bergkullen 1 och 2 i Norra Stadsskogen för köpesummor som baseras på ett kvadratmeterpris på 2.500 kr/kvm BTA bostadsrätt bostäder och 830.000 kr/småhustomt.\n2. Kommundirektören ges rätt att underteckna marköverlåtelse-avtal med PEAB Markutveckling AB.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§149 KOMMUNSTYRELSEN 2020-10-12",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-10-12/protocol/protokoll-for-kommunstyrelsen-den-12-oktober-2020pdf-94550?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-149-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens beslut:\n1. PEAB Markutveckling AB får förvärva fastigheterna Bergkullen 1 och 2 i Norra Stadsskogen för köpesummor som baseras på ett kvadratmeterpris på 2.500 kr/kvm BTA bostadsrätt bostäder och 830.000 kr/småhustomt.\n2. Kommundirektören ges rätt att underteckna marköverlåtelse-avtal med PEAB Markutveckling AB.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (43 ord) — se spec §4.2 R2"
+      }
+    ]
+  }
+]
