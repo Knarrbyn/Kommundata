@@ -3189,5 +3189,45 @@
     "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-10-12/protocol/protokoll-for-kommunstyrelsen-den-12-oktober-2020pdf-94550?downloadMode=open",
     "relativePath": "data/raw/kommunstyrelsen/2020-10-12/protokoll.pdf",
     "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-09-23/protocol/protokoll-skapad-bmn-2026-09-30-142811pdf?downloadMode=open",
+    "relativePath": "data/raw/bygg-och-miljonamnden/2026-09-23/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-09-30/protocol/protokoll-kommunfullmaktige-den-30-september-2020pdf-29664?downloadMode=open",
+    "relativePath": "data/raw/kommunfullmaktige/2020-09-30/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2020-09-22/protocol/protokoll-skapad-kun-2020-09-22-183007pdf?downloadMode=open",
+    "relativePath": "data/raw/kultur-och-utbildningsnamnden/2020-09-22/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-09-21/protocol/protokoll-for-kommunstyrelsen-den-21-september-2020pdf-96710?downloadMode=open",
+    "relativePath": "data/raw/kommunstyrelsen/2020-09-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-09-21/protocol/protokoll-skapad-von-2020-09-22-170257pdf-50589?downloadMode=open",
+    "relativePath": "data/raw/vard-och-omsorgsnamnden/2020-09-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2020-09-21/protocol/protokoll-sn-2020-09-21pdf?downloadMode=open",
+    "relativePath": "data/raw/socialnamnden/2020-09-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-09-21/protocol/protokoll-sbn-2020-09-23-exkl-sekretesspdf-25429?downloadMode=open",
+    "relativePath": "data/raw/samhallsbyggnadsnamnden/2020-09-21/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
+  },
+  {
+    "pdfUrl": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-09-15/protocol/protokoll-skapad-bun-2020-09-24-080129pdf-91397?downloadMode=open",
+    "relativePath": "data/raw/barn-och-ungdomsnamnden/2020-09-15/protokoll.pdf",
+    "repo": "Knarrbyn/Kommundata-arkiv"
   }
 ]

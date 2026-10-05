@@ -1,0 +1,111 @@
+[
+  {
+    "arende": {
+      "title": "Motion om NPF-säkrad gymnasieutbildning - Camilla Stensson (S), Anton César (S) och Simon Waern (S)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Camilla Stensson",
+          "party": "s"
+        },
+        {
+          "name": "Anton César",
+          "party": "s"
+        },
+        {
+          "name": "Simon Waern",
+          "party": "s"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2020.373 KS",
+      "steps": [
+        {
+          "step_id": "motion-inlamnad-117",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2020-09-30",
+          "quote": "Camilla Stensson (S), Anton César (S) och Simon Waern (S) lämnar en motion om en NPF-säkrad (neuropsykiatriska funktionshinder) gymnasieutbildning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§117 KOMMUNFULLMAKTIGE 2020-09-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-09-30/protocol/protokoll-kommunfullmaktige-den-30-september-2020pdf-29664?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-remiss-117",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2020-09-30",
+          "quote": "Motionen lämnas till kommunstyrelsen för beredning.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§117 KOMMUNFULLMAKTIGE 2020-09-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-09-30/protocol/protokoll-kommunfullmaktige-den-30-september-2020pdf-29664?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "motion-inlamnad-117",
+        "field": "quote",
+        "quote": "Camilla Stensson (S), Anton César (S) och Simon Waern (S) lämnar en motion om en NPF-säkrad (neuropsykiatriska funktionshinder) gymnasieutbildning.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "kf-remiss-117",
+        "field": "quote",
+        "quote": "Motionen lämnas till kommunstyrelsen för beredning.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Remiss från Västra Götalandsregionen - Regional utvecklingsstrategi för Västra Götaland 2021-2030",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.209 KS",
+      "steps": [
+        {
+          "step_id": "ks-133-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-09-21",
+          "quote": "Kommunledningskontorets remissvar daterat den 14 september 2020 antas som kommunstyrelsens svar till remissen Västra Götalands regionen utvecklingsstrategi 2021-2030.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§133 KOMMUNSTYRELSEN 2020-09-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-09-21/protocol/protokoll-for-kommunstyrelsen-den-21-september-2020pdf-96710?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-133-beslut",
+        "field": "quote",
+        "quote": "Kommunledningskontorets remissvar daterat den 14 september 2020 antas som kommunstyrelsens svar till remissen Västra Götalands regionen utvecklingsstrategi 2021-2030.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]
