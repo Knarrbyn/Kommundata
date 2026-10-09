@@ -821,7 +821,15 @@ function viewSok(){
   const namndButtons = Object.keys(INSTANCE_NAMES).map(slug=>
     `<button class="${sokFilter.namnd===slug?'active':''}" onclick="setSokFilter('namnd','${slug}')">${INSTANCE_NAMES[slug]}</button>`
   ).join('');
-  const periodButtons = allMandatperioder().map(p=>
+  // Skydd mot tom default (t.ex. januari 2027): om förvald/vald period
+  // saknar ärenden ännu finns ingen knapp för den och sökningen skulle ge
+  // noll träffar. Fall då tillbaka till senaste perioden som HAR ärenden
+  // (eller "alla" om datan är tom). Motsvarar skyddet i viewNamnd.
+  const sokPerioder = allMandatperioder();
+  if(sokFilter.mandatperiod!=='alla' && !sokPerioder.includes(sokFilter.mandatperiod)){
+    sokFilter.mandatperiod = sokPerioder.length ? sokPerioder[sokPerioder.length-1] : 'alla';
+  }
+  const periodButtons = sokPerioder.map(p=>
     `<button class="${sokFilter.mandatperiod===p?'active':''}" onclick="setSokFilter('mandatperiod','${p}')">${mandatperiodLabel(p)}</button>`
   ).join('');
 
