@@ -1377,3 +1377,76 @@ skrivs nu också därifrån (matchar vad `build-cli.ts` redan gjorde).
 **Lärdom att bära vidare:** när en funktions anropssignatur ändras, sök igenom HELA repot efter
 alla anropsställen — inte bara den "officiella" CLI-ingångspunkten. `grep -rn "renderSite("` hade
 hittat båda de missade anropen direkt.
+
+## 2026-10-09 — Mandatperiod-filtrering implementerad (Problem 1 av 2 från ägardialog 2026-09-05)
+
+**Bakgrund:** valet 2026-09-13 avgjort, ny mandatperiod stundar. Ägaren ville undvika att
+/sok och /namnd/[slug] blir rörigt fulla när flera mandatperioders ärenden blandas utan
+urskiljning. Ägarbeslutet (`claude/beslut-mandatperiod-hantering-2026-09-05.md` i
+Mjörninstitutet-projektet) föreslog två separata problem — bara det första byggs nu:
+
+1. **Filtrering/uppdelning per mandatperiod** (byggt nu).
+2. **Konstellations-/röstningsanalys per majoritet** (medvetet AVSTÅTT — ägarbeslut,
+   inte tekniskt hinder i den här implementationen). Skäl: av 4304 steg i produktionsdatan
+   vid beslutstillfället hade bara 83 en registrerad röstsiffra (`voting.recorded: true`),
+   och NOLL av dessa hade en per-parti-nedbrytning (`voting.by_party`) — det fältet
+   förekommer bara i testriggens `case-48`, aldrig i verklig produktionsdata. En
+   "så röstar majoriteten"-analys skulle vila på i praktiken obefintligt underlag.
+
+**OBS, fristående från sakinnehållet:** den här implementationen byggdes en gång redan
+2026-09-27 i en annan sessions arbetskopia, committades lokalt i två commits, men pushen
+nekades av sessionens git-proxy ("not in this session's authorized repository set") — och
+när den sessionens sandbox sedan återställdes gick båda commitarna förlorade utan att nå
+GitHub. Repot fortsatte opåverkat med två ordinarie veckokörningar (2026-09-28, 2026-10-05)
+som om arbetet aldrig skett. Byggdes om från grunden 2026-10-09 i en session med faktisk
+push-behörighet. Lärdom: committa lokalt räcker inte som bevis på att arbete är klart — bara
+en lyckad `git push` (verifierad mot `origin`) gör det. Verifiera push-behörighet TIDIGT i en
+session, inte efter att allt arbete redan är gjort.
+
+**Vad byggdes:**
+- **`src/mandatperiod.ts`** (ny modul, ren kod, inget nätverk): `deriveMandatperiod(date)`
+  härleder mandatperiod-etikett ur ett enskilt datum; `deriveMandatperioder(dates[])` gör
+  samma sak för en mängd datum (ett ärendes steg kan sträcka sig över ett årsskifte —
+  bekräftat i skarp data, se nedan); `currentMandatperiod()` ger innevarande period utifrån
+  dagens datum; `addMandatperioder(arenden[])` anrikar en ärendelista utan att mutera indata.
+- **Global brytpunkt, 1 januari påföljande år** — samma ägarbeslut som redan fattades
+  2026-09-05: enkelhet framför den juridiska distinktionen (fullmäktige tillträder redan
+  15 oktober valåret, nämnder/KS 1 januari). Formeln är generell (fungerar för godtyckligt
+  valår, bakåt och framåt), inte hårdkodad till bara 2022/2026/2030.
+- **`arenden.json`**: nytt fält `mandatperioder: string[]` per ärende, härlett ur
+  `steps[].date`. **`moten.json`**: nytt fält `mandatperiod: string` per mötespost (ETT
+  datum → EN period, till skillnad från ärenden).
+- **Medvetet INTE inbakat i `publish.ts`s `preparePublish`** — det skulle ändra dess
+  hash-/diff-kontrakt, som `publish.test.ts` explicit läser av
+  (`assert.equal(result.dataHash, computeDataHash(current))`). Istället anropas
+  `addMandatperioder()` explicit i `run-weekly-pipeline.mjs` och `run-backfill.mjs` INNAN
+  `preparePublish`/`renderSite`, samma mönster som `moten.ts`s `upsertMotesIndex`. Lades
+  även till i `publish-cli.ts` för manuella körningar.
+- **`templates/site.html`**: samma härledningslogik duplicerad i klient-JS (statisk sajt,
+  ingen delad build mot pipelinen — kommentar i koden pekar tillbaka på `mandatperiod.ts`
+  om de någonsin behöver synkas). Filter tillagt på `/sok` (default: innevarande period,
+  växlingsbart till "Alla perioder" eller en specifik tidigare period) och på
+  `/namnd/[slug]` (filtrerar ärendelistan, INTE mötestidslinjen — den har redan sitt eget
+  årsfilter sedan tidigare och fyller ett annat syfte: fullständig kronologisk historik).
+  Förklarande text om brytpunkts-avvägningen visas vid filtret (tooltip + synlig brödtext)
+  och i sin helhet på `/om`.
+- **`scripts/backfill-mandatperiod-field.mjs`** (nytt engångsskript, säkert att köra om):
+  fyllde i fälten på ALL befintlig produktionsdata (3218 ärenden, 500 möten vid körtillfället
+  — databasen hade vuxit med två veckokörningar sedan det första (förlorade) försöket) och
+  byggde om `dist/` i samma körning. Resultat: 2 ärenden i 2014–2018, 1396 i 2018–2022, 1847
+  i 2022–2026 (en handfull ärenden räknas i två perioder eftersom de sträcker sig över ett
+  årsskifte, t.ex. ärenden väckta sent i en mandatperiod med beslut i nästa).
+
+**Testat:** `test/mandatperiod.test.ts` (ny, 14 tester — brytpunkt, historiska/framtida
+perioder, ärenden som spänner ett årsskifte, felhantering på ogiltigt datum) och
+`test/moten.test.ts` (utökad). Hela svundan (157 tester) grön. Den byggda sajtens
+klient-JS verifierat manuellt mot den FAKTISKA skarpa datan — `currentMandatperiod()`,
+`allMandatperioder()` och filterknapparna i `viewSok`/`viewNamnd` kördes och kontrollerades
+direkt mot `dist/index.html`.
+
+**Ej byggt, medvetet:** hemsidan (`/`) rördes inte — dess "senaste ärendena"-lista är redan
+recency-ordnad och har inte samma röriga-flera-perioder-problem som sök/nämndvyerna.
+Mötestidslinjen i `/namnd/[slug]` behöll sitt befintliga årsfilter oförändrat, trots att
+`moten.json` nu även bär `mandatperiod` — bedömdes inte nödvändigt: årsfiltret löser redan
+samma klutter-problem för möten specifikt, och den fullständiga kronologiska historiken är
+själva poängen med den vyn.

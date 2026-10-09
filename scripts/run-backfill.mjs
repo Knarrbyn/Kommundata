@@ -42,6 +42,7 @@ import { archiveArendenWithGit } from "../src/archive.ts";
 import { linkArende, generateArendeId } from "../src/link.ts";
 import { buildMotesEntry, upsertMotesIndex, canonicalizeMoten } from "../src/moten.ts";
 import { preparePublish } from "../src/publish.ts";
+import { addMandatperioder } from "../src/mandatperiod.ts";
 import { renderSite } from "../src/build.ts";
 
 const USER_AGENT =
@@ -313,7 +314,7 @@ async function main() {
   const { arenden: archivedArenden } = archiveArendenWithGit(allToPublish, rawFiles);
 
   const publishedDbRaw = await readFile("data/published/arenden.json", "utf-8").catch(() => "[]");
-  const publishedDb = JSON.parse(publishedDbRaw);
+  let publishedDb = JSON.parse(publishedDbRaw);
   const existingIds = new Set(publishedDb.map((a) => a.id));
 
   for (const candidate of archivedArenden) {
@@ -332,6 +333,11 @@ async function main() {
       console.error(`+ "${candidate.title}" → nytt ärende ${id}`);
     }
   }
+
+  // Mandatperiod-filtrering (se DECISION_LOG.md, src/mandatperiod.ts):
+  // samma resonemang som i weekly-pipeline — härleds om för hela
+  // databasen, innan moten-index/publish/build.
+  publishedDb = addMandatperioder(publishedDb);
 
   // Möten-index (se DECISION_LOG.md 2026-08-24, src/moten.ts): samma
   // logik som i weekly-pipeline — fångar VARJE besökt möte (med giltigt

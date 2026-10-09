@@ -17,6 +17,7 @@
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { preparePublish } from "./publish.ts";
+import { addMandatperioder } from "./mandatperiod.ts";
 import type { PublishedArende } from "./link.ts";
 import type { ChangelogEntry } from "./publish.ts";
 
@@ -38,11 +39,16 @@ async function main() {
   const [, , runIdArg] = process.argv;
   const runId = runIdArg ?? new Date().toISOString();
 
-  const current: PublishedArende[] = await loadJsonOrEmpty(PUBLISHED_PATH, []);
-  if (current.length === 0) {
+  const loaded: PublishedArende[] = await loadJsonOrEmpty(PUBLISHED_PATH, []);
+  if (loaded.length === 0) {
     console.error(`Inget att publicera — ${PUBLISHED_PATH} saknas eller är tom. Kör link-cli.ts först.`);
     process.exit(1);
   }
+  // Mandatperiod-filtrering (se DECISION_LOG.md, src/mandatperiod.ts):
+  // härleds om VARJE körning, för ALLA ärenden — rent och idempotent, så
+  // ett manuellt publish-cli-anrop alltid håller fältet à jour även om
+  // vecko-/backfill-skripten av någon anledning inte redan gjort det.
+  const current = addMandatperioder(loaded);
 
   const previous: PublishedArende[] = await loadJsonOrEmpty(LAST_SNAPSHOT_PATH, []);
   const existingChangelog: ChangelogEntry[] = await loadJsonOrEmpty(CHANGELOG_PATH, []);

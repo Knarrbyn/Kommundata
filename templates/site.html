@@ -360,6 +360,36 @@ const INITIATIVE_TYPE_META = {
 const ARENDEN = __ARENDEN_JSON__;
 const MOTEN = __MOTEN_JSON__;
 
+// Mandatperiod-filtrering (se DECISION_LOG.md, ägarbeslut 2026-09-05, och
+// src/mandatperiod.ts i pipelinekoden — SAMMA logik dupliceras här
+// eftersom sajten är en fristående statisk fil utan delad build mot
+// pipelinen; håll de två i synk om brytpunkten någonsin ändras).
+// Global brytpunkt: 1 januari året efter ett val. Fullmäktige tillträder
+// juridiskt redan 15 oktober valåret, men sajten väljer enkelhet framför
+// exakthet — ett enda brytdatum för hela sajten.
+const MANDATPERIOD_REFERENSVALAR = 2022;
+function deriveMandatperiod(dateStr){
+  const year = Number(dateStr.slice(0,4));
+  const periodIndex = Math.floor((year - (MANDATPERIOD_REFERENSVALAR+1))/4);
+  const startYear = MANDATPERIOD_REFERENSVALAR + periodIndex*4;
+  return `${startYear}-${startYear+4}`;
+}
+function currentMandatperiod(){
+  return deriveMandatperiod(new Date().toISOString().slice(0,10));
+}
+function allMandatperioder(){
+  const set = new Set();
+  ARENDEN.forEach(a=>(a.mandatperioder||[]).forEach(p=>set.add(p)));
+  return Array.from(set).sort((a,b)=>Number(a.slice(0,4))-Number(b.slice(0,4)));
+}
+function mandatperiodLabel(p){
+  return p===currentMandatperiod() ? `${p} (innevarande)` : p;
+}
+const MANDATPERIOD_FORKLARING = 'Kommunfullmäktige och kommunstyrelsen får nya ledamöter redan i '+
+  'oktober–december valåret, men för enkelhetens skull räknar Faktagranskaren hela sajten som att en '+
+  'ny mandatperiod börjar 1 januari året därpå. Beslut som fullmäktige och kommunstyrelsen fattar under '+
+  'hösten ett valår visas därför fortfarande under den föregående mandatperioden.';
+
 function partyPill(p){
   const color = PARTY_COLOR[p.party] || '#999';
   return `<span class="party-pill" style="cursor:pointer;" onclick="event.stopPropagation(); navigate('/parti/${p.party}')"><span class="dot" style="background:${color}"></span>${p.name} (${(p.party||'').toUpperCase()})</span>`;
@@ -651,9 +681,15 @@ function viewParti(kod){
 }
 
 let namndMotesYear = 'alla';
+let namndMandatperiod = currentMandatperiod();
 
 function setNamndMotesYear(year){
   namndMotesYear = year;
+  render();
+}
+
+function setNamndMandatperiod(p){
+  namndMandatperiod = p;
   render();
 }
 
@@ -682,7 +718,11 @@ function viewNamnd(slug){
   if(!name){
     return `<a class="back-link" onclick="navigate('/')">← Alla ärenden</a><div class="empty-note">Okänd instans "${slug}".</div>`;
   }
-  const involved = ARENDEN.filter(a => a.steps.some(s=>s.instance===slug));
+  const involvedAll = ARENDEN.filter(a => a.steps.some(s=>s.instance===slug));
+  const periodsForNamnd = Array.from(new Set(involvedAll.flatMap(a=>a.mandatperioder||[])))
+    .sort((a,b)=>Number(a.slice(0,4))-Number(b.slice(0,4)));
+  if(namndMandatperiod!=='alla' && !periodsForNamnd.includes(namndMandatperiod)) namndMandatperiod = 'alla';
+  const involved = namndMandatperiod==='alla' ? involvedAll : involvedAll.filter(a=>(a.mandatperioder||[]).includes(namndMandatperiod));
   const moten = (MOTEN||[]).filter(m => m.instance===slug).slice().sort((a,b)=> b.date.localeCompare(a.date));
   const years = Array.from(new Set(moten.map(m=>m.date.slice(0,4)))).sort((a,b)=>b.localeCompare(a));
   if(namndMotesYear!=='alla' && !years.includes(namndMotesYear)) namndMotesYear = 'alla';
@@ -713,8 +753,26 @@ function viewNamnd(slug){
     </div>`;
   }
 
-  if(!involved.length){
+  if(periodsForNamnd.length){
+    const periodButtons = periodsForNamnd.map(p=>
+      `<button class="${namndMandatperiod===p?'active':''}" onclick="setNamndMandatperiod('${p}')">${mandatperiodLabel(p)}</button>`
+    ).join('');
+    html += `
+    <div class="filter-group" style="margin-top:24px;">
+      <span class="filter-group-label" title="${MANDATPERIOD_FORKLARING.replace(/"/g,'&quot;')}">Mandatperiod ⓘ</span>
+      <div class="filters">
+        <button class="${namndMandatperiod==='alla'?'active':''}" onclick="setNamndMandatperiod('alla')">Alla perioder</button>
+        ${periodButtons}
+      </div>
+    </div>`;
+  }
+
+  if(!involvedAll.length){
     html += `<div class="empty-note">Inga ärenden registrerade hos ${name} ännu — det säger inget om nämndens faktiska aktivitet, bara att inget av de hittills granskade ärendena råkar beröra den.</div>`;
+    return html;
+  }
+  if(!involved.length){
+    html += `<div class="empty-note">Inga ärenden hos ${name} under vald mandatperiod. <a onclick="setNamndMandatperiod('alla')" style="color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer;">Visa alla perioder →</a></div>`;
     return html;
   }
 
@@ -723,11 +781,12 @@ function viewNamnd(slug){
 }
 
 let sokQuery = '';
-let sokFilter = { namnd: 'alla', status: 'alla' };
+let sokFilter = { namnd: 'alla', status: 'alla', mandatperiod: currentMandatperiod() };
 
 function matchesSok(a, q){
   if(sokFilter.namnd!=='alla' && !a.steps.some(s=>s.instance===sokFilter.namnd)) return false;
   if(sokFilter.status!=='alla' && a.status!==sokFilter.status) return false;
+  if(sokFilter.mandatperiod!=='alla' && !(a.mandatperioder||[]).includes(sokFilter.mandatperiod)) return false;
   if(!q) return true;
   if(a.title.toLowerCase().includes(q)) return true;
   return a.steps.some(s =>
@@ -762,17 +821,29 @@ function viewSok(){
   const namndButtons = Object.keys(INSTANCE_NAMES).map(slug=>
     `<button class="${sokFilter.namnd===slug?'active':''}" onclick="setSokFilter('namnd','${slug}')">${INSTANCE_NAMES[slug]}</button>`
   ).join('');
+  const periodButtons = allMandatperioder().map(p=>
+    `<button class="${sokFilter.mandatperiod===p?'active':''}" onclick="setSokFilter('mandatperiod','${p}')">${mandatperiodLabel(p)}</button>`
+  ).join('');
 
   return `
   <div class="hero" style="border-bottom:none; padding-bottom:0;">
     <h1>Sök i ärenden</h1>
-    <p class="lede">Fritextsök i titlar och citat, kombinerat med filter för nämnd/instans och status.</p>
+    <p class="lede">Fritextsök i titlar och citat, kombinerat med filter för nämnd/instans, status och mandatperiod.</p>
   </div>
 
   <div class="filter-group">
     <input type="search" id="sok-input" placeholder="Sök på ord i titel eller citat…" value="${sokQuery.replace(/"/g,'&quot;')}"
       oninput="handleSokInput(this.value)"
       style="width:100%; max-width:480px; padding:10px 14px; border:1px solid var(--line); border-radius:8px; font-size:0.95rem; font-family:inherit; background:var(--paper);">
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-group-label" title="${MANDATPERIOD_FORKLARING.replace(/"/g,'&quot;')}">Mandatperiod ⓘ</span>
+    <div class="filters">
+      <button class="${sokFilter.mandatperiod==='alla'?'active':''}" onclick="setSokFilter('mandatperiod','alla')">Alla perioder</button>
+      ${periodButtons}
+    </div>
+    <div style="margin-top:8px; font-size:0.82rem; color:var(--ink-soft); max-width:56ch;">${MANDATPERIOD_FORKLARING}</div>
   </div>
 
   <div class="filter-group">
@@ -828,6 +899,7 @@ function viewOm(){
     <p><strong style="color:var(--ink)">Neutralitetslöfte.</strong> Identisk metod och samma verifieringsgrindar tillämpas för alla partier och alla initiativtyper — motioner lika noggrant som styrelseförslag, oavsett vem som bygger eller driftar tjänsten.</p>
     <p><strong style="color:var(--ink)">Inga fristående uttalanden.</strong> Endast citat kopplade till ett formellt ärende på en instans dagordning publiceras. Inga lösryckta citat från insändare eller pressutspel.</p>
     <p><strong style="color:var(--ink)">Fullständiga styrdokument ingår inte.</strong> Faktagranskaren fångar beslutshändelsen — mötet där ett dokument antas, med citat och röstning — men inte hela dokumentets innehåll. Kommunens egna, alltid uppdaterade styrdokument (policyer, riktlinjer, planer, program med mera) hittar du samlade på <a href="https://www.alingsas.se/kommun-och-politik/politik-och-beslut/forfattningssamling-och-styrande-dokument/styrande-dokument/" target="_blank" rel="noopener noreferrer">Alingsås kommuns webbplats</a>.</p>
+    <p><strong style="color:var(--ink)">Mandatperioder.</strong> ${MANDATPERIOD_FORKLARING}</p>
     <p><strong style="color:var(--ink)">Rättelser.</strong> Fel rättas synligt, aldrig i tysthet.</p>
     <p>Skapad av <strong style="color:var(--ink)">Tankesmedjan Mjörninstitutet</strong>.</p>
     <p>Arkitekturen är inspirerad av <a href="https://drygast.nu" target="_blank" rel="noopener noreferrer">drygast.nu</a> — grundmönstret med statisk sajt, verifieringsgrind i ren kod och dubbel oberoende AI-granskning är hämtat därifrån. Faktagranskaren bygger egen kod och egen data, men vill gärna erkänna varifrån den övergripande idén kom.</p>

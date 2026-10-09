@@ -15,7 +15,16 @@
  * AI-extraktion — datan (datum/instans/protokoll-URL) finns redan i
  * `MeetingWithProtocol` under pipeline-körningen (se fetch.ts), den
  * kasserades bara tidigare istället för att publiceras separat.
+ *
+ * TILLÄGG 2026-09-27 (se DECISION_LOG.md, mandatperiod-filtrering):
+ * `mandatperiod` härleds direkt ur `date` via mandatperiod.ts, samma
+ * globala brytpunkt (1 januari) som används för arenden.json:s
+ * `mandatperioder`. Ett möte har bara ETT datum, alltså exakt EN
+ * mandatperiod — till skillnad från ett ärende, vars steg kan sträcka sig
+ * över flera perioder.
  */
+
+import { deriveMandatperiod } from "./mandatperiod.ts";
 
 export interface MotesPost {
   instance: string;
@@ -23,6 +32,7 @@ export interface MotesPost {
   protocol_pdf_url: string;
   archive_url: string | null;
   arende_ids: string[];
+  mandatperiod: string;
 }
 
 /**
@@ -42,6 +52,7 @@ export function buildMotesEntry(
     protocol_pdf_url: protocolPdfUrl,
     archive_url: null,
     arende_ids: [...arendeIds].sort(),
+    mandatperiod: deriveMandatperiod(date),
   };
 }
 

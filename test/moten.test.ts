@@ -63,5 +63,16 @@ test("upsertMotesIndex: sortering är instans-först, sedan datum inom instansen
 test("canonicalizeMoten: sorterar objektnycklar rekursivt men bevarar array-ordning", () => {
   const moten = [buildMotesEntry("kommunstyrelsen", "2026-01-01", "url", ["a-1"])];
   const canon = canonicalizeMoten(moten) as Array<Record<string, unknown>>;
-  assert.deepEqual(Object.keys(canon[0]), ["archive_url", "arende_ids", "date", "instance", "protocol_pdf_url"].sort());
+  assert.deepEqual(
+    Object.keys(canon[0]),
+    ["archive_url", "arende_ids", "date", "instance", "mandatperiod", "protocol_pdf_url"].sort()
+  );
+});
+
+test("buildMotesEntry: mandatperiod härleds ur date (global brytpunkt 1 januari)", () => {
+  const forePeriodskifte = buildMotesEntry("kommunfullmaktige", "2026-11-03", "url", []);
+  assert.equal(forePeriodskifte.mandatperiod, "2022-2026", "okt–dec valåret hör ännu till föregående period");
+
+  const efterPeriodskifte = buildMotesEntry("kommunfullmaktige", "2027-01-01", "url", []);
+  assert.equal(efterPeriodskifte.mandatperiod, "2026-2030");
 });
