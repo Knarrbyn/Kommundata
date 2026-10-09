@@ -160,7 +160,9 @@ test("renderSite: det injicerade scriptblocket i DEN RIKTIGA MALLEN är syntakti
 
 test("renderSite: citat med citattecken, radbrytning och en </script>-sekvens överlever end-to-end intakt genom mallens riktiga JS", async () => {
   const html = await renderSite([VATTENLEK]);
-  const arendenMatch = /const ARENDEN = ([\s\S]*?);\s*\n\s*function partyPill/.exec(html);
+  // Förankrat mot nästa rad i mallen (const MOTEN), inte mot en senare
+  // funktion — annars fångar regexen med sig all kod däremellan.
+  const arendenMatch = /const ARENDEN = ([\s\S]*?);\s*\n\s*const MOTEN = /.exec(html);
   assert.ok(arendenMatch, "hittade inte ARENDEN-tilldelningen i den renderade mallen");
   const parsed = vm.runInNewContext(arendenMatch![1]);
   const problemQuote = parsed[0].steps[2].quote;

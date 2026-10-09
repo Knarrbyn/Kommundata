@@ -390,6 +390,77 @@ const MANDATPERIOD_FORKLARING = 'Kommunfullmäktige och kommunstyrelsen får nya
   'ny mandatperiod börjar 1 januari året därpå. Beslut som fullmäktige och kommunstyrelsen fattar under '+
   'hösten ett valår visas därför fortfarande under den föregående mandatperioden.';
 
+// GEMENSAMT MANDATPERIODSVAL (ägarbeslut 2026-10-09): ETT val som gäller
+// samtidigt på Ärenden (/), Sök, nämndsidor och partisidor — inklusive
+// siffrorna i startsidans sifferremsa. Default: innevarande period.
+let valdMandatperiod = currentMandatperiod();
+// true när default-perioden (innevarande) saknar publicerade ärenden och
+// vi därför tillfälligt visar senaste perioden med data (t.ex. de första
+// dagarna i januari 2027) — styr en förklarande notis.
+let mandatperiodFallback = false;
+
+// Säkerställer att valdMandatperiod alltid pekar på en period som finns i
+// datan (annars noll träffar och ingen markerad knapp). Anropas överst i
+// varje vy innan filtrering. Returnerar listan över perioder med data.
+function normaliseraMandatperiod(){
+  const perioder = allMandatperioder();
+  if(valdMandatperiod!=='alla' && !perioder.includes(valdMandatperiod)){
+    mandatperiodFallback = valdMandatperiod===currentMandatperiod();
+    valdMandatperiod = perioder.length ? perioder[perioder.length-1] : 'alla';
+  }
+  return perioder;
+}
+function setMandatperiod(p){
+  valdMandatperiod = p;
+  mandatperiodFallback = false;
+  render();
+}
+function arendeIValdPeriod(a){
+  return valdMandatperiod==='alla' || (a.mandatperioder||[]).includes(valdMandatperiod);
+}
+// Steg-nivå (citat, reservationer, protokollsanteckningar): ett ärende
+// som spänner två perioder ska bara bidra med de steg som faktiskt
+// inträffade under vald period.
+function stegIValdPeriod(step){
+  return valdMandatperiod==='alla' || deriveMandatperiod(step.date)===valdMandatperiod;
+}
+function mandatperiodNotis(){
+  const aktuell = currentMandatperiod();
+  const notisStil = 'margin-top:10px; padding:8px 12px; border-left:3px solid var(--line); font-size:0.88rem; color:var(--ink-soft); max-width:60ch;';
+  const lankStil = 'color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer;';
+  if(mandatperiodFallback){
+    return `<div style="${notisStil}">Den nya mandatperioden ${aktuell} har inga publicerade ärenden ännu — visar ${valdMandatperiod} så länge.</div>`;
+  }
+  // Under periodens första kalenderår är den nya perioden tunn; säg det
+  // rakt ut så att det inte ser ut som att sajten tappat data.
+  const iar = new Date().toISOString().slice(0,4);
+  if(valdMandatperiod===aktuell && Number(aktuell.slice(0,4))+1===Number(iar)){
+    const n = ARENDEN.filter(arendeIValdPeriod).length;
+    const perioder = allMandatperioder();
+    const idx = perioder.indexOf(aktuell);
+    const fore = idx>0 ? perioder[idx-1] : null;
+    return `<div style="${notisStil}">Ny mandatperiod — ${n} ${n===1?'ärende':'ärenden'} hittills.${fore ? ` <a onclick="setMandatperiod('${fore}')" style="${lankStil}">Visa föregående period (${fore}) →</a>` : ''}</div>`;
+  }
+  return '';
+}
+function renderMandatperiodFilter(visaForklaring){
+  const perioder = normaliseraMandatperiod();
+  if(!perioder.length) return '';
+  const knappar = perioder.map(p=>
+    `<button class="${valdMandatperiod===p?'active':''}" onclick="setMandatperiod('${p}')">${mandatperiodLabel(p)}</button>`
+  ).join('');
+  return `
+  <div class="filter-group">
+    <span class="filter-group-label" title="${MANDATPERIOD_FORKLARING.replace(/"/g,'&quot;')}">Mandatperiod ⓘ</span>
+    <div class="filters">
+      <button class="${valdMandatperiod==='alla'?'active':''}" onclick="setMandatperiod('alla')">Alla perioder</button>
+      ${knappar}
+    </div>
+    ${mandatperiodNotis()}
+    ${visaForklaring ? `<div style="margin-top:8px; font-size:0.82rem; color:var(--ink-soft); max-width:56ch;">${MANDATPERIOD_FORKLARING}</div>` : ''}
+  </div>`;
+}
+
 function partyPill(p){
   const color = PARTY_COLOR[p.party] || '#999';
   return `<span class="party-pill" style="cursor:pointer;" onclick="event.stopPropagation(); navigate('/parti/${p.party}')"><span class="dot" style="background:${color}"></span>${p.name} (${(p.party||'').toUpperCase()})</span>`;
@@ -507,27 +578,34 @@ function renderCard(arende){
 
 let activeFilter = {status:'alla', typ:'alla'};
 
-function computeTypeCounts(){
+function computeTypeCounts(lista){
   const counts = {};
-  ARENDEN.forEach(a=>{ counts[a.initiativ_typ] = (counts[a.initiativ_typ]||0) + 1; });
+  lista.forEach(a=>{ counts[a.initiativ_typ] = (counts[a.initiativ_typ]||0) + 1; });
   return counts;
 }
 
 function viewHome(){
-  const total = ARENDEN.length;
-  const quoteCount = ARENDEN.reduce((sum,a)=>sum+a.steps.reduce((s,st)=>{
+  // Mandatperiod (gemensamt val): sifferremsan, typräknarna och listan
+  // följer alla vald period. Citat räknas på steg-nivå (stegIValdPeriod),
+  // så ett ärende som spänner två perioder bara bidrar med citaten från
+  // stegen inom vald period.
+  normaliseraMandatperiod();
+  const iPeriod = ARENDEN.filter(arendeIValdPeriod);
+  const total = iPeriod.length;
+  const quoteCount = iPeriod.reduce((sum,a)=>sum+a.steps.filter(stegIValdPeriod).reduce((s,st)=>{
     let c = st.quote?1:0;
     c += (st.reservations||[]).length;
     c += (st.protocol_anteckning||[]).length;
     return s+c;
   },0),0);
+  const periodSuffix = valdMandatperiod==='alla' ? '' : ` ${valdMandatperiod}`;
 
-  const filtered = ARENDEN.filter(a =>
+  const filtered = iPeriod.filter(a =>
     (activeFilter.status==='alla' || a.status===activeFilter.status) &&
     (activeFilter.typ==='alla' || a.initiativ_typ===activeFilter.typ)
   );
 
-  const typeCounts = computeTypeCounts();
+  const typeCounts = computeTypeCounts(iPeriod);
   const typeOrder = ['motion','interpellation','initiativarende','styrelseforslag','enkel_fraga','medborgarforslag'];
   const typeButtons = typeOrder.filter(t=>typeCounts[t]).map(t=>{
     const meta = INITIATIVE_TYPE_META[t];
@@ -541,11 +619,13 @@ function viewHome(){
     <h1>Varje politiskt ärende, spårat från motion till beslut — styrkt med ordagrant citat.</h1>
     <p class="lede">Faktagranskaren följer ärenden genom Alingsås kommuns beslutsprocess — inte bara motioner, utan alla initiativtyper: interpellationer, initiativärenden och nämndens/kommunstyrelsens egna förslag. Varje citat nedan är maskinellt verifierat mot det justerade protokollet, ordagrant.</p>
     <div class="method-strip">
-      <div class="cell"><span class="num">${total}</span><span class="label">Bevakade ärenden</span></div>
-      <div class="cell"><span class="num">${quoteCount}</span><span class="label">Verifierade citat</span></div>
+      <div class="cell"><span class="num">${total}</span><span class="label">Bevakade ärenden${periodSuffix}</span></div>
+      <div class="cell"><span class="num">${quoteCount}</span><span class="label">Verifierade citat${periodSuffix}</span></div>
       <div class="cell"><span class="num">100%</span><span class="label">Ordagrant styrkta mot original</span></div>
     </div>
   </div>
+
+  ${renderMandatperiodFilter(false)}
 
   <div class="filter-group">
     <span class="filter-group-label">Partier</span>
@@ -613,13 +693,23 @@ function viewParti(kod){
   }
   const color = PARTY_COLOR[kod];
 
-  const initiated = ARENDEN.filter(a => a.initiators.some(i=>i.party===kod));
+  // Mandatperiod (gemensamt val): väckta ärenden filtreras på ärendenivå,
+  // reservationer/anteckningar/röster på steg-nivå (stegets datum).
+  normaliseraMandatperiod();
+  const initiatedAll = ARENDEN.filter(a => a.initiators.some(i=>i.party===kod));
+  const initiated = initiatedAll.filter(arendeIValdPeriod);
+  let finnsNagonAnnanPeriod = initiatedAll.length > 0;
 
   const reservationEntries = [];
   const anteckningEntries = [];
   const votingEntries = [];
   ARENDEN.forEach(a=>{
     a.steps.forEach(step=>{
+      const beror = (step.reservations||[]).some(r=>r.parties.includes(kod)) ||
+        (step.protocol_anteckning||[]).some(x=>x.parties.includes(kod)) ||
+        !!(step.voting && step.voting.recorded && step.voting.by_party && step.voting.by_party[kod]);
+      if(beror) finnsNagonAnnanPeriod = true;
+      if(!stegIValdPeriod(step)) return;
       (step.reservations||[]).forEach(r=>{
         if(r.parties.includes(kod)) reservationEntries.push({arende:a, step, item:r});
       });
@@ -642,8 +732,14 @@ function viewParti(kod){
     </div>
     <h1>${name} <span style="color:var(--ink-faint); font-size:0.6em;">(${kod.toUpperCase()})</span></h1>
     <p style="color:var(--ink-soft); max-width:56ch; margin-top:6px;">Allt registrerat för ${name} i testdatan: väckta ärenden, reservationer och protokollsanteckningar. Samma verifieringsmetod som för alla andra partier.</p>
-  </div>`;
+  </div>
 
+  ${renderMandatperiodFilter(false)}`;
+
+  if(hasNothing && finnsNagonAnnanPeriod){
+    html += `<div class="empty-note">Inget registrerat för ${name} under vald mandatperiod. <a onclick="setMandatperiod('alla')" style="color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer;">Visa alla perioder →</a></div>`;
+    return html;
+  }
   if(hasNothing){
     html += `<div class="empty-note">Inget registrerat för ${name} i den här testdatan ännu — det säger inget om partiets faktiska aktivitet, bara att inget av de nio granskade ärendena råkar beröra dem.</div>`;
     return html;
@@ -681,15 +777,9 @@ function viewParti(kod){
 }
 
 let namndMotesYear = 'alla';
-let namndMandatperiod = currentMandatperiod();
 
 function setNamndMotesYear(year){
   namndMotesYear = year;
-  render();
-}
-
-function setNamndMandatperiod(p){
-  namndMandatperiod = p;
   render();
 }
 
@@ -718,11 +808,11 @@ function viewNamnd(slug){
   if(!name){
     return `<a class="back-link" onclick="navigate('/')">← Alla ärenden</a><div class="empty-note">Okänd instans "${slug}".</div>`;
   }
+  // Mandatperiod (gemensamt val, se valdMandatperiod): filtrerar
+  // ärendelistan, INTE mötestidslinjen (den har sitt eget årsfilter).
+  normaliseraMandatperiod();
   const involvedAll = ARENDEN.filter(a => a.steps.some(s=>s.instance===slug));
-  const periodsForNamnd = Array.from(new Set(involvedAll.flatMap(a=>a.mandatperioder||[])))
-    .sort((a,b)=>Number(a.slice(0,4))-Number(b.slice(0,4)));
-  if(namndMandatperiod!=='alla' && !periodsForNamnd.includes(namndMandatperiod)) namndMandatperiod = 'alla';
-  const involved = namndMandatperiod==='alla' ? involvedAll : involvedAll.filter(a=>(a.mandatperioder||[]).includes(namndMandatperiod));
+  const involved = involvedAll.filter(arendeIValdPeriod);
   const moten = (MOTEN||[]).filter(m => m.instance===slug).slice().sort((a,b)=> b.date.localeCompare(a.date));
   const years = Array.from(new Set(moten.map(m=>m.date.slice(0,4)))).sort((a,b)=>b.localeCompare(a));
   if(namndMotesYear!=='alla' && !years.includes(namndMotesYear)) namndMotesYear = 'alla';
@@ -753,18 +843,8 @@ function viewNamnd(slug){
     </div>`;
   }
 
-  if(periodsForNamnd.length){
-    const periodButtons = periodsForNamnd.map(p=>
-      `<button class="${namndMandatperiod===p?'active':''}" onclick="setNamndMandatperiod('${p}')">${mandatperiodLabel(p)}</button>`
-    ).join('');
-    html += `
-    <div class="filter-group" style="margin-top:24px;">
-      <span class="filter-group-label" title="${MANDATPERIOD_FORKLARING.replace(/"/g,'&quot;')}">Mandatperiod ⓘ</span>
-      <div class="filters">
-        <button class="${namndMandatperiod==='alla'?'active':''}" onclick="setNamndMandatperiod('alla')">Alla perioder</button>
-        ${periodButtons}
-      </div>
-    </div>`;
+  if(involvedAll.length){
+    html += `<div style="margin-top:24px;">${renderMandatperiodFilter(false)}</div>`;
   }
 
   if(!involvedAll.length){
@@ -772,7 +852,7 @@ function viewNamnd(slug){
     return html;
   }
   if(!involved.length){
-    html += `<div class="empty-note">Inga ärenden hos ${name} under vald mandatperiod. <a onclick="setNamndMandatperiod('alla')" style="color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer;">Visa alla perioder →</a></div>`;
+    html += `<div class="empty-note">Inga ärenden hos ${name} under vald mandatperiod. <a onclick="setMandatperiod('alla')" style="color:inherit; text-decoration:underline; text-underline-offset:2px; cursor:pointer;">Visa alla perioder →</a></div>`;
     return html;
   }
 
@@ -781,12 +861,12 @@ function viewNamnd(slug){
 }
 
 let sokQuery = '';
-let sokFilter = { namnd: 'alla', status: 'alla', mandatperiod: currentMandatperiod() };
+let sokFilter = { namnd: 'alla', status: 'alla' };
 
 function matchesSok(a, q){
   if(sokFilter.namnd!=='alla' && !a.steps.some(s=>s.instance===sokFilter.namnd)) return false;
   if(sokFilter.status!=='alla' && a.status!==sokFilter.status) return false;
-  if(sokFilter.mandatperiod!=='alla' && !(a.mandatperioder||[]).includes(sokFilter.mandatperiod)) return false;
+  if(!arendeIValdPeriod(a)) return false;
   if(!q) return true;
   if(a.title.toLowerCase().includes(q)) return true;
   return a.steps.some(s =>
@@ -821,17 +901,9 @@ function viewSok(){
   const namndButtons = Object.keys(INSTANCE_NAMES).map(slug=>
     `<button class="${sokFilter.namnd===slug?'active':''}" onclick="setSokFilter('namnd','${slug}')">${INSTANCE_NAMES[slug]}</button>`
   ).join('');
-  // Skydd mot tom default (t.ex. januari 2027): om förvald/vald period
-  // saknar ärenden ännu finns ingen knapp för den och sökningen skulle ge
-  // noll träffar. Fall då tillbaka till senaste perioden som HAR ärenden
-  // (eller "alla" om datan är tom). Motsvarar skyddet i viewNamnd.
-  const sokPerioder = allMandatperioder();
-  if(sokFilter.mandatperiod!=='alla' && !sokPerioder.includes(sokFilter.mandatperiod)){
-    sokFilter.mandatperiod = sokPerioder.length ? sokPerioder[sokPerioder.length-1] : 'alla';
-  }
-  const periodButtons = sokPerioder.map(p=>
-    `<button class="${sokFilter.mandatperiod===p?'active':''}" onclick="setSokFilter('mandatperiod','${p}')">${mandatperiodLabel(p)}</button>`
-  ).join('');
+  // Mandatperiod: gemensamt val (valdMandatperiod), inkl. skyddet mot
+  // tom default i januari efter ett val — se normaliseraMandatperiod().
+  const periodFilter = renderMandatperiodFilter(true);
 
   return `
   <div class="hero" style="border-bottom:none; padding-bottom:0;">
@@ -845,14 +917,7 @@ function viewSok(){
       style="width:100%; max-width:480px; padding:10px 14px; border:1px solid var(--line); border-radius:8px; font-size:0.95rem; font-family:inherit; background:var(--paper);">
   </div>
 
-  <div class="filter-group">
-    <span class="filter-group-label" title="${MANDATPERIOD_FORKLARING.replace(/"/g,'&quot;')}">Mandatperiod ⓘ</span>
-    <div class="filters">
-      <button class="${sokFilter.mandatperiod==='alla'?'active':''}" onclick="setSokFilter('mandatperiod','alla')">Alla perioder</button>
-      ${periodButtons}
-    </div>
-    <div style="margin-top:8px; font-size:0.82rem; color:var(--ink-soft); max-width:56ch;">${MANDATPERIOD_FORKLARING}</div>
-  </div>
+  ${periodFilter}
 
   <div class="filter-group">
     <span class="filter-group-label">Nämnd/instans</span>

@@ -1450,3 +1450,32 @@ Mötestidslinjen i `/namnd/[slug]` behöll sitt befintliga årsfilter oförändr
 `moten.json` nu även bär `mandatperiod` — bedömdes inte nödvändigt: årsfiltret löser redan
 samma klutter-problem för möten specifikt, och den fullständiga kronologiska historiken är
 själva poängen med den vyn.
+
+## 2026-10-09 (forts.) — Gemensamt mandatperiodsval på hela sajten
+
+**Ägarbeslut (Lennart, 2026-10-09):** de flesta besökare är intresserade av innevarande
+mandatperiod, så periodvalet ska gälla även på startsidan (Ärenden) — inte bara /sok och
+/namnd/[slug] — och sifferremsan samt partisidorna ska följa valet.
+
+**Vad byggdes (`templates/site.html`):**
+- Ett enda gemensamt tillstånd `valdMandatperiod` (default: innevarande period) ersätter de
+  tidigare separata `sokFilter.mandatperiod` och `namndMandatperiod`. Väljer man period på en
+  flik följer de andra med. Delad knapprad via `renderMandatperiodFilter()`.
+- **Startsidan:** sifferremsan ("Bevakade ärenden 2022-2026", "Verifierade citat 2022-2026"),
+  typräknarna och listan följer vald period. Citat räknas på steg-nivå (`stegIValdPeriod`),
+  så ett ärende som spänner två perioder bara bidrar med citat från steg inom vald period.
+- **Partisidor:** väckta ärenden filtreras på ärendenivå; reservationer, protokollsanteckningar
+  och röster på steg-nivå. Tom period ger "Inget registrerat … under vald mandatperiod. Visa
+  alla perioder →" (skiljs från fallet att partiet saknar data helt).
+- **Nämndsidor:** samma globala val; tidigare tyst återställning till "alla" när nämnden saknade
+  ärenden i perioden är borttagen — istället visas tom-notis med länk till alla perioder.
+- **Periodskifte (januari efter val):** `normaliseraMandatperiod()` faller tillbaka till senaste
+  period med data om innevarande saknar publicerade ärenden, med notis "Den nya mandatperioden
+  … har inga publicerade ärenden ännu — visar … så länge." Under periodens första kalenderår
+  visas "Ny mandatperiod — N ärenden hittills. Visa föregående period →" så att en tunn ny
+  period inte ser ut som dataförlust (ägarens val framför att fördröja periodbytet).
+
+**Testat:** simulerade datum (2026-10-09, 2027-01-05 utan 2027-data, 2027-01-25 och 2028 med
+ett syntetiskt 2027-ärende) mot byggd `dist/index.html`, alla fyra vyerna. `test/build.test.ts`:
+regexen som plockar ut ARENDEN förankrades mot `const MOTEN` i stället för `function partyPill`
+(den fångade tidigare av en slump med all kod däremellan). Hela sviten 157/157 grön.
