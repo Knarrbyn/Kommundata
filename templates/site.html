@@ -731,7 +731,7 @@ function viewParti(kod){
       <span class="type-tag" style="color:${color}"><span class="swatch"></span>Parti</span>
     </div>
     <h1>${name} <span style="color:var(--ink-faint); font-size:0.6em;">(${kod.toUpperCase()})</span></h1>
-    <p style="color:var(--ink-soft); max-width:56ch; margin-top:6px;">Allt registrerat för ${name} i testdatan: väckta ärenden, reservationer och protokollsanteckningar. Samma verifieringsmetod som för alla andra partier.</p>
+    <p style="color:var(--ink-soft); max-width:56ch; margin-top:6px;">Allt registrerat för ${name} i de granskade protokollen: väckta ärenden, reservationer och protokollsanteckningar. Samma verifieringsmetod som för alla andra partier.</p>
   </div>
 
   ${renderMandatperiodFilter(false)}`;
@@ -741,7 +741,7 @@ function viewParti(kod){
     return html;
   }
   if(hasNothing){
-    html += `<div class="empty-note">Inget registrerat för ${name} i den här testdatan ännu — det säger inget om partiets faktiska aktivitet, bara att inget av de nio granskade ärendena råkar beröra dem.</div>`;
+    html += `<div class="empty-note">Inget registrerat för ${name} ännu — det säger inget om partiets faktiska aktivitet, bara att inget av de hittills granskade ärendena råkar beröra partiet.</div>`;
     return html;
   }
 
