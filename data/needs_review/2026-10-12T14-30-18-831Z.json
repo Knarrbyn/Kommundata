@@ -1,0 +1,112 @@
+[
+  {
+    "arende": {
+      "title": "Inrättande av gemensam överförmyndarnämnd - Reglemente och samverkansavtal",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2026.229 KS",
+      "steps": [
+        {
+          "step_id": "ks-136-beredning",
+          "instance": "kommunstyrelsen",
+          "type": "beredning",
+          "date": "2026-08-31",
+          "quote": "Kommunstyrelsen har den 31 augusti 2026, § 124 behandlat ärendet.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§136 KOMMUNFULLMAKTIGE 2026-09-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-09-30/protocol/protokoll-kf-2026-09-30pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "kf-136-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2026-09-30",
+          "quote": "Vårgårda kommun ska ingå i den gemensamma överförmyndarnämnden tillsammans med Alingsås, Lerum och Ale kommuner.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "l"
+              ],
+              "quote": "Att fyra mindre kommuner i Västsverige utropar en gemensam nämnd till den \"Västsvenska överförmyndarnämnden\" framstår som både megalomaniskt och löjeväckande. En lämpligare geografisk beteckning hade varit \"Mittenälvsborg\" eller \"Mellersta Älvsborg\"."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§136 KOMMUNFULLMAKTIGE 2026-09-30",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-09-30/protocol/protokoll-kf-2026-09-30pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-136-beredning",
+        "field": "quote",
+        "quote": "Kommunstyrelsen har den 31 augusti 2026, § 124 behandlat ärendet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-136-beslut",
+        "field": "quote",
+        "quote": "Vårgårda kommun ska ingå i den gemensamma överförmyndarnämnden tillsammans med Alingsås, Lerum och Ale kommuner.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "kf-136-beslut",
+        "field": "protocol_anteckning[l]",
+        "quote": "Att fyra mindre kommuner i Västsverige utropar en gemensam nämnd till den \"Västsvenska överförmyndarnämnden\" framstår som både megalomaniskt och löjeväckande. En lämpligare geografisk beteckning hade varit \"Mittenälvsborg\" eller \"Mellersta Älvsborg\".",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ändring av detaljplan 130 för Alingsås, Bostäder vid Tallbackegatan 12",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "infrastruktur",
+      "status": "avgjort",
+      "diarienummer": "2019.472 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-179-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2020-08-24",
+          "quote": "Samhällsbyggnadsnämnden antar \"Ändring nr 1 av Detaljplan för Alingsås, Nordvästra stadsskogen, Tallbackegatan 12 och 14, (Skogsslänten 2)\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§179 SAMHALLSBYGGNADSNAMNDEN 2020-08-24",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-08-24/protocol/protokoll-sbn-2020-08-24pdf-62722?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-179-beslut",
+        "field": "quote",
+        "quote": "Samhällsbyggnadsnämnden antar \"Ändring nr 1 av Detaljplan för Alingsås, Nordvästra stadsskogen, Tallbackegatan 12 och 14, (Skogsslänten 2)\" enligt plan- och bygglagen 5:27 (delegation från kommunfullmäktige i Reglemente för Samhällsbyggnadsnämnden).",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]
