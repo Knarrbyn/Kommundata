@@ -1,0 +1,332 @@
+[
+  {
+    "arende": {
+      "title": "Uppdrag att redovisa vilka åtgärder avdelningen boende och arbete ämnar vidta för att hantera avdelningens prognostiserade underskott - muntlig information",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2026.222 VON",
+      "steps": [
+        {
+          "step_id": "beslut-von-73-2026-10-22",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2026-10-22",
+          "quote": "1. Den muntliga redovisningen godkänns. Uppdraget från den 21 september 2026, § 55 VON anses därmed slutfört. 2. Avdelningen LSS boende och arbete får i förnyat uppdrag att redovisa vilka åtgärder avdelningen ämnar vidta för att hantera det prognostiserade underskottet. Redovisning ska ske i april 2027.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§73 VARD-OCH-OMSORGSNAMNDEN 2026-10-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-10-22/protocol/protokoll-von-2026-10-22pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "beslut-von-73-2026-10-22",
+        "field": "quote",
+        "quote": "1. Den muntliga redovisningen godkänns. Uppdraget från den 21 september 2026, § 55 VON anses därmed slutfört. 2. Avdelningen LSS boende och arbete får i förnyat uppdrag att redovisa vilka åtgärder avdelningen ämnar vidta för att hantera det prognostiserade underskottet. Redovisning ska ske i april 2027.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (46 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Återrapportering av handlingsplan särskild boendeform för äldre personer 2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2026.201 VON",
+      "steps": [
+        {
+          "step_id": "uppdrag-von-2026-04-23-74",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beredning",
+          "date": "2026-04-23",
+          "quote": "Den 23 april 2026, § 27 VON gav vård- och omsorgsnämnden förvaltningen ett förnyat uppdrag om att återrapportera effekterna utifrån handlingsplan särskild boendeform för äldre personer.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§74 VARD-OCH-OMSORGSNAMNDEN 2026-10-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-10-22/protocol/protokoll-von-2026-10-22pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "namndyttrande-forvaltningen-74",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "namndyttrande",
+          "date": "2026-10-02",
+          "quote": "Sammanfattningsvis tar avdelningen positiva steg inom kvalitet, bemanning och ekonomi. Det fortsatta arbetet fokuserar på god och säker vård och omsorg, rätt bemanning och kompetens, tydligare ansvar och kommunikation samt ett effektivare användande av personalresurser",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§74 VARD-OCH-OMSORGSNAMNDEN 2026-10-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-10-22/protocol/protokoll-von-2026-10-22pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "beslut-von-74-2026-10-22",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2026-10-22",
+          "quote": "1. Återrapporteringen godkänns. Uppdraget från 23 april 2026 § 27 VON anses därmed avslutat. 2. Vård- och omsorgsförvaltningen får i förnyat uppdrag att återrapportera effekterna utifrån handlingsplan för särskild boendeform för äldre personer 2026. Återrapportering ska ske i april 2027.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§74 VARD-OCH-OMSORGSNAMNDEN 2026-10-22",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2026-10-22/protocol/protokoll-von-2026-10-22pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "uppdrag-von-2026-04-23-74",
+        "field": "quote",
+        "quote": "Den 23 april 2026, § 27 VON gav vård- och omsorgsnämnden förvaltningen ett förnyat uppdrag om att återrapportera effekterna utifrån handlingsplan särskild boendeform för äldre personer.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "namndyttrande-forvaltningen-74",
+        "field": "quote",
+        "quote": "Sammanfattningsvis tar avdelningen positiva steg inom kvalitet, bemanning och ekonomi. Det fortsatta arbetet fokuserar på god och säker vård och omsorg, rätt bemanning och kompetens, tydligare ansvar och kommunikation samt ett effektivare användande av personalresurser",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "beslut-von-74-2026-10-22",
+        "field": "quote",
+        "quote": "1. Återrapporteringen godkänns. Uppdraget från 23 april 2026 § 27 VON anses därmed avslutat. 2. Vård- och omsorgsförvaltningen får i förnyat uppdrag att återrapportera effekterna utifrån handlingsplan för särskild boendeform för äldre personer 2026. Återrapportering ska ske i april 2027.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ekonomisk uppföljning 2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2026.034 SN",
+      "steps": [
+        {
+          "step_id": "sn-50-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2026-10-20",
+          "quote": "Socialnämnden godkänner månadsuppföljningen per september 2026. Socialnämnden ger förvaltningen i uppdrag att ta fram en åtgärdsplan för att hantera nämndens interna ekonomiska obalanser.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§50 SOCIALNAMNDEN 2026-10-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-10-20/protocol/protokoll-sn-2026-10-20pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-50-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden godkänner månadsuppföljningen per september 2026. Socialnämnden ger förvaltningen i uppdrag att ta fram en åtgärdsplan för att hantera nämndens interna ekonomiska obalanser.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion om att ta tillvara EPA-ungdomars engagemang i Alingsås - Marcus Wallin (V)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Marcus Wallin",
+          "party": "v"
+        }
+      ],
+      "category": "barn-utbildning",
+      "status": "pågående",
+      "diarienummer": "2026.090 SN",
+      "steps": [
+        {
+          "step_id": "kf-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2026-05-06",
+          "quote": "Marcus Wallin (V) har i en motion till kommunfullmäktige den 6 maj 2026, § 98/2026 KF, lämnat in en motion om att tillvarata EPA-ungdomars engagemang i Alingsås.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§51 SOCIALNAMNDEN 2026-10-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-10-20/protocol/protokoll-sn-2026-10-20pdf?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "sn-namndyttrande",
+          "instance": "socialnamnden",
+          "type": "namndyttrande",
+          "date": "2026-10-20",
+          "quote": "Socialförvaltningens förslag är därmed att socialnämnden beslutar att tillstyrka motionen avseende att fortsatt utreda möjligheten att engagera EPA-ungdomar för enklare, handledda uppgifter inom kommunal verksamhet, men att denna främst riktas till hur socialförvaltningen kan bidra till sådan försöksverksamhet inom vård- och omsorgsförvaltningen.",
+          "decision": "tillstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§51 SOCIALNAMNDEN 2026-10-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-10-20/protocol/protokoll-sn-2026-10-20pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-motion-inlamnad",
+        "field": "quote",
+        "quote": "Marcus Wallin (V) har i en motion till kommunfullmäktige den 6 maj 2026, § 98/2026 KF, lämnat in en motion om att tillvarata EPA-ungdomars engagemang i Alingsås.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "sn-namndyttrande",
+        "field": "quote",
+        "quote": "Socialförvaltningens förslag är därmed att socialnämnden beslutar att tillstyrka motionen avseende att fortsatt utreda möjligheten att engagera EPA-ungdomar för enklare, handledda uppgifter inom kommunal verksamhet, men att denna främst riktas till hur socialförvaltningen kan bidra till sådan försöksverksamhet inom vård- och omsorgsförvaltningen.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Sammanträdestider för Socialnämnden år 2027",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.145 SN",
+      "steps": [
+        {
+          "step_id": "sn-52-beslut",
+          "instance": "socialnamnden",
+          "type": "beslut",
+          "date": "2026-10-20",
+          "quote": "Socialnämnden beslutar att detta beslut ersätter socialnämndens beslut den 9 december 2025, § 69, i de delar som avser socialnämndens och arbetsutskottets sammanträden 2027. Socialnämnden godkänner datum och tider för socialnämndens och socialnämndens arbetsutskotts sammanträden under 2027 med Kent Perciwalls tilläggsändring.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 SOCIALNAMNDEN 2026-10-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-10-20/protocol/protokoll-sn-2026-10-20pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sn-52-beslut",
+        "field": "quote",
+        "quote": "Socialnämnden beslutar att detta beslut ersätter socialnämndens beslut den 9 december 2025, § 69, i de delar som avser socialnämndens och arbetsutskottets sammanträden 2027. Socialnämnden godkänner datum och tider för socialnämndens och socialnämndens arbetsutskotts sammanträden under 2027 med Kent Perciwalls tilläggsändring.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Gäsene 15, oanmäld installation eldstad/rökkanal braskamin (2026-0360)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.068 BMN",
+      "steps": [
+        {
+          "step_id": "bmu-83-beslut",
+          "instance": "bygg-och-miljonamnden",
+          "type": "beslut",
+          "date": "2026-10-20",
+          "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs ägarna XX och YY till fastigheten GÄSENE 15 en solidarisk sanktionsavgift på totalt 5 920 kr för att installation av eldstad med rökkanal har påbörjats innan bygg-och miljönämnden har gett ett startbesked.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§83 BYGG-OCH-MILJONAMNDEN 2026-10-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/bygg-och-miljonamnden/mote-2026-10-20/protocol/protokoll-bmn-20-oktober-gdprpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bmu-83-beslut",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs ägarna XX och YY till fastigheten GÄSENE 15 en solidarisk sanktionsavgift på totalt 5 920 kr för att installation av eldstad med rökkanal har påbörjats innan bygg-och miljönämnden har gett ett startbesked.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (44 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Meddelanden 2026",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.002 TEN",
+      "steps": [
+        {
+          "step_id": "ten-56-beslut",
+          "instance": "tekniska-namnden",
+          "type": "beslut",
+          "date": "2026-10-19",
+          "quote": "§ 137 2026.138 KS Sammanträdesdagar för kommunfullmäktige 2027 § 138 2026.277 KS VA-taxa 2027 § 139 2026.278 KS Renhållningstaxa 2027 § 140 2026.266 KS Revidering felparkeringsavgifter § 147 2020.487 KS Godkännande av markanvisnings avtal för Skogskullen 1",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§56 TEKNISKA-NAMNDEN 2026-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/tekniska-namnden/mote-2026-10-19/protocol/protokoll-skapad-ten-2026-10-23-094555pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ten-56-beslut",
+        "field": "quote",
+        "quote": "§ 137 2026.138 KS Sammanträdesdagar för kommunfullmäktige 2027 § 138 2026.277 KS VA-taxa 2027 § 139 2026.278 KS Renhållningstaxa 2027 § 140 2026.266 KS Revidering felparkeringsavgifter § 147 2020.487 KS Godkännande av markanvisnings avtal för Skogskullen 1",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]
