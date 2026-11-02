@@ -1,0 +1,331 @@
+[
+  {
+    "arende": {
+      "title": "Lokalförsörjningsplan 2027-2031",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "avgjort",
+      "diarienummer": "2026.135 KUN",
+      "steps": [
+        {
+          "step_id": "kun-101-beslut",
+          "instance": "kultur-och-utbildningsnamnden",
+          "type": "beslut",
+          "date": "2026-10-21",
+          "quote": "Kultur- och utbildningsnämnden antar upprättad lokalförsörjningsplan för perioden 2027–2031.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§101 KULTUR-OCH-UTBILDNINGSNAMNDEN 2026-10-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2026-10-21/protocol/protokoll-skapad-kun-2026-10-22-150658pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kun-101-beslut",
+        "field": "quote",
+        "quote": "Kultur- och utbildningsnämnden antar upprättad lokalförsörjningsplan för perioden 2027–2031.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Budget 2027-2029 för Alingsås kommun",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "ekonomi",
+      "status": "pågående",
+      "diarienummer": "2026.020 KS",
+      "steps": [
+        {
+          "step_id": "ks-150-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2026-10-19",
+          "quote": "Förslag till beslut i kommunfullmäktige:\n1. Budget för Alingsås kommun 2027–2029 med tillhörande investeringsbudget för 2027–2031 i enlighet med grundförutsättningarna från budgetberedningen samt budgetförslaget från S, V, C och MP antas.\n2. Skattesatsen fastställs till 21,36 procent.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "m",
+                "l",
+                "kd"
+              ],
+              "quote": "Jan-Erik Wallin (M), Inger Carlborg (M), Thomas Thim (M), Jens Christian Berlin (L) och Lady France Mulumba (KD) reserverar sig till förmån för eget förslag."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§150 KOMMUNSTYRELSEN 2026-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-10-19/protocol/protokoll-ks-2026-10-19-med-paragrafbilagorpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-150-beslut",
+        "field": "quote",
+        "quote": "Förslag till beslut i kommunfullmäktige:\n1. Budget för Alingsås kommun 2027–2029 med tillhörande investeringsbudget för 2027–2031 i enlighet med grundförutsättningarna från budgetberedningen samt budgetförslaget från S, V, C och MP antas.\n2. Skattesatsen fastställs till 21,36 procent.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-150-beslut",
+        "field": "reservation[m+l+kd]",
+        "quote": "Jan-Erik Wallin (M), Inger Carlborg (M), Thomas Thim (M), Jens Christian Berlin (L) och Lady France Mulumba (KD) reserverar sig till förmån för eget förslag.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ansökan om investeringsbidrag för inköp till friidrottsanläggningen - Alingsås IF Friidrott",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.403 KS",
+      "steps": [
+        {
+          "step_id": "ks-161-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2026-10-19",
+          "quote": "Föreningen Alingsås IF Friidrott (org.nr. 802469-2199) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som detta ärende avser, men maximalt 321 tkr, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§161 KOMMUNSTYRELSEN 2026-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-10-19/protocol/protokoll-ks-2026-10-19-med-paragrafbilagorpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-161-beslut",
+        "field": "quote",
+        "quote": "Föreningen Alingsås IF Friidrott (org.nr. 802469-2199) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som detta ärende avser, men maximalt 321 tkr, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ansökan om investeringsbidrag till bevattningsanläggning - Långareds Boll och Idrottssällskap (BoIS)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.301 KS",
+      "steps": [
+        {
+          "step_id": "ks-162-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2026-10-19",
+          "quote": "Föreningen Långared BOIS (org.nr. 864000-3862) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som detta ärende avser, men maximalt 200 000 kronor, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§162 KOMMUNSTYRELSEN 2026-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-10-19/protocol/protokoll-ks-2026-10-19-med-paragrafbilagorpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-162-beslut",
+        "field": "quote",
+        "quote": "Föreningen Långared BOIS (org.nr. 864000-3862) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som detta ärende avser, men maximalt 200 000 kronor, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ansökan om investeringsbidrag för nya omklädningsrum och dränering - Alingsås KIK",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2026.413 KS",
+      "steps": [
+        {
+          "step_id": "ks-163-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2026-10-19",
+          "quote": "Föreningen Alingsås KIK (org.nr. 864000-7335) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som gäller den del av ansökan som omfattar utbyggnad av omklädningsrum, men maximalt 900 tkr, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§163 KOMMUNSTYRELSEN 2026-10-19",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-10-19/protocol/protokoll-ks-2026-10-19-med-paragrafbilagorpdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-163-beslut",
+        "field": "quote",
+        "quote": "Föreningen Alingsås KIK (org.nr. 864000-7335) beviljas ett investeringsbidrag om maximalt hälften av föreningens totala utgift för den investering som gäller den del av ansökan som omfattar utbyggnad av omklädningsrum, men maximalt 900 tkr, under förutsättning att föreningen ensamt eller tillsammans med andra medfinansiärer bidrar till fullständig finansiering.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Etablerandet av ett regionalt stödcentrum för utsatta för hedersrelaterat våld och förtryck med placering i Göteborgs stad",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2020.206 KS",
+      "steps": [
+        {
+          "step_id": "ks-78-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-05-11",
+          "quote": "1. Alingsås kommun inleder samverkan med Göteborgs Stad kring det planerade stödcentrumet för utsatta för hedersrelaterat våld och förtryck, enligt GR:s förslag daterat den 21 februari 2020. 2. Utvärdering av Alingsås kommuns medverkan ska ske efter två år och återrapporteras till kommunstyrelsen senast den 31 mars 2023.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [
+            {
+              "parties": [
+                "sd"
+              ],
+              "quote": "Sverigedemokraterna yrkar avslag på att deltaga i \"Etablerandet av ett regionalt stödcentrum för utsatta för hedersrelaterat våld och förtryck med placering i Göteborgs stad.\""
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§78 KOMMUNSTYRELSEN 2020-05-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-05-11/protocol/protokoll-kommunstyrelsen-den-11-maj-2020pdf-51164?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-78-beslut",
+        "field": "quote",
+        "quote": "1. Alingsås kommun inleder samverkan med Göteborgs Stad kring det planerade stödcentrumet för utsatta för hedersrelaterat våld och förtryck, enligt GR:s förslag daterat den 21 februari 2020. 2. Utvärdering av Alingsås kommuns medverkan ska ske efter två år och återrapporteras till kommunstyrelsen senast den 31 mars 2023.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-78-beslut",
+        "field": "reservation[sd]",
+        "quote": "Sverigedemokraterna yrkar avslag på att deltaga i \"Etablerandet av ett regionalt stödcentrum för utsatta för hedersrelaterat våld och förtryck med placering i Göteborgs stad.\"",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Korpen 4, påbörjat utan startbesked samt ibruktagande utan slutbesked (2018-0624)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.143 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-127-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2020-05-11",
+          "quote": "En byggsanktionsavgift på 4205 kr tas ut av tidigare fastighetsägare till fastigheten Korpen 4, Fastighets AB Färgaregatan 1, org. nr. 16556983-1240, för att utan slutbesked ha tagit en bostad på 121,5 kvm i bruk i ett enbostadshus på fastigheten Korpen 4.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§127 SAMHALLSBYGGNADSNAMNDEN 2020-05-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-05-11/protocol/protokoll-skapad-sbn-2020-05-22-132821pdf-55454?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-127-beslut",
+        "field": "quote",
+        "quote": "En byggsanktionsavgift på 4205 kr tas ut av tidigare fastighetsägare till fastigheten Korpen 4, Fastighets AB Färgaregatan 1, org. nr. 16556983-1240, för att utan slutbesked ha tagit en bostad på 121,5 kvm i bruk i ett enbostadshus på fastigheten Korpen 4.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (41 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Korpen 4, påbörjat utan startbesked samt ibruktagande utan slutbesked (2018-0625)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.112 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-128-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2020-05-11",
+          "quote": "En byggsanktionsavgift på 33 258 kr tas ut av tidigare fastighetsägare till fastigheten Korpen 4, Fastighets AB Färgaregatan 1, org. nr. 16556983-1240, för att utan startbesked ha påbörjat en sådan åtgärd som kräver lov, genom att ha påbörjat ändring från lokal till bostad på 107,5 kvm på ett flerbostadshus på fastigheten Korpen 4.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§128 SAMHALLSBYGGNADSNAMNDEN 2020-05-11",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-05-11/protocol/protokoll-skapad-sbn-2020-05-22-132821pdf-55454?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-128-beslut",
+        "field": "quote",
+        "quote": "En byggsanktionsavgift på 33 258 kr tas ut av tidigare fastighetsägare till fastigheten Korpen 4, Fastighets AB Färgaregatan 1, org. nr. 16556983-1240, för att utan startbesked ha påbörjat en sådan åtgärd som kräver lov, genom att ha påbörjat ändring från lokal till bostad på 107,5 kvm på ett flerbostadshus på fastigheten Korpen 4.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (53 ord) — se spec §4.2 R2"
+      }
+    ]
+  }
+]
