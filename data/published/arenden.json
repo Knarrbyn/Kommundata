@@ -139735,5 +139735,3606 @@
       }
     ],
     "title": "Socialnämndens lokalförsörjningsplan 2020-2023"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.336 KS",
+    "id": "a-2026-0392",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2022-2026"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-10-21",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Leif Hansson (S) väljs till kommunfullmäktiges ordförande för tiden fram till och med den 14 oktober 2030.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2026-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-10-21/protocol/protokoll-skapad-kf-2026-11-05-112046pdf?downloadMode=open",
+          "protocol_ref": "§170 KOMMUNFULLMAKTIGE 2026-10-21"
+        },
+        "step_id": "kf-170-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Val av kommunfullmäktiges presidium perioden 2026-2030"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2026.339 KS",
+    "id": "a-2026-0393",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2022-2026"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2026-10-21",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Till revisorer för mandatperioden 2027-2030 utses: Lennart Mattson (L) Anita Andersson (S) Egil Krog (M) Jens-Christian Berlin (L) Axel Fromberg Carlsen (KD) Josef Johansson (V) Lennart Anderberg (C) Bibbi Olsson (MP) Cecilia Nithander (SD)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2026-10-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-10-21/protocol/protokoll-skapad-kf-2026-11-05-112046pdf?downloadMode=open",
+          "protocol_ref": "§171 KOMMUNFULLMAKTIGE 2026-10-21"
+        },
+        "step_id": "kf-171-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Val av kommunens revisorer för mandatperioden 2027-2030"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0102 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2020.062 BUN",
+    "id": "a-2020-0491",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av kartläggning och lägger informationen till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§25 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-25-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kartläggning av obehörig personal inom Barn- och ungdomsförvaltningen"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0101 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.063 BUN",
+    "id": "a-2020-0492",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av informationen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§26 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-26-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Nyckeltal personal och arbetsmiljö 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0055 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.040 BUN",
+    "id": "a-2020-0493",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden godkänner budgetuppföljning per mars 2020.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§27 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-27-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Budgetuppföljningar 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0470 (titel-likhet 0.80) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2020.039 BUN",
+    "id": "a-2020-0494",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av resultaten för grundskola utifrån kostnadsjämförelsen och lägger informationen till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§28 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-28-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kostnadsjämförelser grundskola"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0160 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2016.157 BUN",
+    "id": "a-2020-0495",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "s"
+            ],
+            "quote": "Vi socialdemokrater vill understryka vikten av att arbetet med minskade barngrupper utgår ifrån barnens behov, verksamhetens bästa samt lokala förutsättningar. Dock vill vi framhålla att en grundläggande förutsättning att lyckas med målsättningarna är att det i realiteten verkligen blir en lättnad för personalen genom lugnare arbetsmiljö för barn och pedagoger och inte en enbart en besparingsåtgärd."
+          }
+        ],
+        "quote": "Barn- och ungdomsnämnden tar del av uppföljningen och lägger den till handlingarna. Barn- och ungdomsnämnden ger förvaltningen i uppdrag att arbeta vidare med att skapa mindre barngrupper utifrån aktuellt uppdrag för barngruppernas storlek och förutsättningar.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§29 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-29-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Nuläge och målsättning rörande barngruppernas storlek i förskolan"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2020.037 BUN",
+    "id": "a-2020-0496",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Med 7 ja-röster röster mot 6 nej-röster antas arbetsutskottens förslag.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§30 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-30-beslut",
+        "type": "beslut",
+        "voting": {
+          "question": "Arbetsutskottets förslag (ja) mot Anton Césars förslag med tillägg (nej)",
+          "recorded": true,
+          "result": {
+            "avstar": 0,
+            "ja": 7,
+            "nej": 6
+          }
+        }
+      }
+    ],
+    "title": "Framtida skolorganisation kommundel Bjärke"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2020.038 BUN",
+    "id": "a-2020-0497",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ordförande ställer arbetsutskottets förslag till beslut mot Anton Césars förslag med tillägg i beslut och finner att barn- och ungdomsnämnden beslutar bifalla arbetsutskottets förslag.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§31 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-31-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Framtida skolorganisation Långared"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0171 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2020.057 BUN",
+    "id": "a-2020-0498",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ordförande ställer arbetsutskottets förslag till beslut mot Anton Césars förslag med tillägg i beslut och finner att barn- och ungdomsnämnden beslutar bifalla arbetsutskottets förslag.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§32 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-32-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Framtida skolorganisation Alingsås södra kommundel"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.082 BUN",
+    "id": "a-2020-0499",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden beslutar att fastställa handlingsplan pandemi.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§33 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-33-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Handlingsplan pandemi"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0278 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "barn-utbildning",
+    "diarienummer": "2019.331 BUN",
+    "id": "a-2020-0500",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av informationen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§36 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-36-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Anmälningar om kränkande behandlingar läsåret 2019/2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0065 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.001 BUN",
+    "id": "a-2020-0501",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-21",
+        "decision": "bifall",
+        "instance": "barn-och-ungdomsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Barn- och ungdomsnämnden tar del av informationen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/barn-och-ungdomsnamnden/2020-04-21/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+          "protocol_ref": "§37 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21"
+        },
+        "step_id": "bun-37-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsbeslut 2020- central administration"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2026-0087 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.035 SBN",
+    "id": "a-2020-0502",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden godkänner månadsuppföljningen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§85 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-85-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ekonomiuppföljning"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0198 (titel-likhet 0.63) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.222 SBN",
+    "id": "a-2020-0503",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden antar lednings- och kommunikationsplan för samhällsbyggnadsnämnden vid extraordinär händelse.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§86 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-86-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lednings- och kommunikationsplan för Samhällsbyggnadsnämnden"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0198 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "demokrati",
+    "diarienummer": "2019.030 SBN",
+    "id": "a-2020-0504",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "delvis",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden godkänner förslaget till ny delegationsordning, med följande undantag: Förvaltningens förslag om förändrad delegation i riksintresset för kulturmiljövård i stadskärnan avslås och samhällsbyggnadsnämnden fortsätter ha beslutanderätt över ny- och tillbyggnader i stadskärnan.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§87 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-87-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegationsordning för Samhällsbyggnadsnämnden"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2019.591 SBN",
+    "id": "a-2020-0505",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden ger positivt planbesked till att inleda ett planläggningsarbete för Bergsjödal 1:75 och 1:3 med avvikelser/kommentarer enligt Samhällsbyggnadskontorets yttrande ovan.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§88 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-88-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bergsjödal 1:75 och Bergsjödal 1:3, begäran om planbesked"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.212 SBN",
+    "id": "a-2020-0506",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "En byggsanktionsavgift på 6 196 kr tas ut solidariskt av fastighetsägarna till fastigheten Järngrund 1 för att utan startbesked ha påbörjat en ändring på 12 kvm av ett enbostadshus som kräver lov, innan byggnadsnämnden har gett ett startbesked.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§89 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-89-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Järngrund 1, tillsyn olovligt byggande (2019-0893)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.197 SBN",
+    "id": "a-2020-0507",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 c § Plan- och bygglagen (2010:900).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§91 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-91-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bananen 4, bygglov nybyggnad av sophantering (2020-0035)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.199 SBN",
+    "id": "a-2020-0508",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (PBL 2010:900).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§92 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-92-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Börta 2:23, bygglov nybyggnad av enbostadshus (2020-0048)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0401 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "infrastruktur",
+    "diarienummer": "2020.223 SBN",
+    "id": "a-2020-0509",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "ingen rekommendation",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet återremitteras till förvaltningen för att beredas för ett möjligt positivt besked.",
+        "reservations": [
+          {
+            "parties": [
+              "s",
+              "v",
+              "mp"
+            ],
+            "quote": "Bo Olsson (S), Lars Larsson (S), Thomas Olofsson (S), Lennart Pettersson (S), John Hedlund (V) och Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§93 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-93-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Gjutaren 18, rivningslov (2020-0058)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.185 SBN",
+    "id": "a-2020-0510",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (2010:900).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§94 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-94-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Långared 1:7, bygglov nybyggnad av askgravlund och minneslund (2019-0588)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.218 SBN",
+    "id": "a-2020-0511",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (PBL).",
+        "reservations": [
+          {
+            "parties": [
+              "mp",
+              "v"
+            ],
+            "quote": "Christian Wiberg (MP) och John Hedlund (V) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§95 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-95-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Simmenäs 1:1, bygglov nybyggnad av enbostadshus och garage (2019-0429)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.175 SBN",
+    "id": "a-2020-0512",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "ingen rekommendation",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet återremitteras till förvaltningen för att beredas för ett möjligt positivt besked.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§96 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-96-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Skepparen 33, bygglov tillbyggnad av rad/kedjehus (2019-0568)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.176 SBN",
+    "id": "a-2020-0513",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "avslag",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Avslag med stöd av 9 kap. 30 § plan och bygglagen (2010:900).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§97 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-97-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sollebrunn 19:2, bygglov nybyggnad av en 42 m mast samt tre teknikbodar (2019-0136)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.040 SBN",
+    "id": "a-2020-0514",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "avslag",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ansökan om bygglov för ändrad användning från bostad till kontor avslås med stöd av 9 kap. 30, 31 b och 31 c §§§ punkt 1 och 2 plan- och bygglagen (2010:900), PBL.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§98 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-98-beslut",
+        "type": "beslut",
+        "voting": {
+          "question": "JA-röst innebär bifall till förslag från Karl-Johan Karlsson (C) m.fl. och NEJ-röst innebär bifall till förslag från Bo Olsson (S) m.fl.",
+          "recorded": true,
+          "result": {
+            "avstar": 0,
+            "ja": 6,
+            "nej": 7
+          }
+        }
+      }
+    ],
+    "title": "Tjädern 4, bygglov ändrad användning av bostad till kontor (2019-0180)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.207 SBN",
+    "id": "a-2020-0515",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (PBL)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§99 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-99-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ödenäs 2:51, bygglov tillbyggnad av enbostadshus (2019-0785)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.201 SBN",
+    "id": "a-2020-0516",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked beviljas med stöd av 9 kap 17 § Plan- och bygglagen (PBL).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§100 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-100-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Attholmen 1:5, förhandsbesked nybyggnad av två enbostadshus (2019-0400)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.179 SBN",
+    "id": "a-2020-0517",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked till bygglov meddelas, med stöd av Plan- och bygglagen 9 kap. § 17, med nedanstående villkor.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§101 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-101-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Hemsjö 8:17, förhandsbesked nybyggnad av enbostadshus (2019-0551)"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2020.200 SBN",
+    "id": "a-2020-0518",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked med villkor beviljas med stöd av 9 kap 17 § Plan- och bygglagen (PBL)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§102 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-102-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Nolby 37:10, förhandsbesked nybyggnad av flerbostadshus (2019-0625)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.208 SBN",
+    "id": "a-2020-0519",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked med villkor beviljas med stöd av 9 kap 17 § Plan- och bygglagen (PBL).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§103 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-103-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ryd 2:5, förhandsbesked (2019-0524)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.214 SBN",
+    "id": "a-2020-0520",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked med villkor beviljas med stöd av 9 kap 17 § Plan- och bygglagen (PBL)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§104 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-104-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Västerbodarna 1:234 (tomt 1), förhandsbesked (2019-0793)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0520 (titel-likhet 0.73) — ej auto-sammanslagen",
+    "category": "infrastruktur",
+    "diarienummer": "2020.213 SBN",
+    "id": "a-2020-0521",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked med villkor beviljas med stöd av 9 kap 17 § Plan- och bygglagen (PBL)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§105 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-105-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Västerbodarna 1:234 (tomt 2), förhandsbesked (2019-0792)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0520 (titel-likhet 0.73) — ej auto-sammanslagen",
+    "category": "infrastruktur",
+    "diarienummer": "2020.215 SBN",
+    "id": "a-2020-0522",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked med villkor beviljas med stöd av 9 kap 17 § Plan- och bygglagen (PBL)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§106 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-106-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Västerbodarna 1:234 (tomt 3), förhandsbesked (2019-0794)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.186 SBN",
+    "id": "a-2020-0523",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked beviljas med stöd av 9 kap 17 § Plan- och bygglagen (PBL).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§107 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-107-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Västerbodarna 1:83, förhandsbesked nybyggnad av enbostadshus (2019-0099)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.220 SBN",
+    "id": "a-2020-0524",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas med stöd av 7 kap 18 c § p3 miljöbalken (MB).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§108 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-108-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Alingsås-Hulabäck 2:4, strandskyddsdipsens anlägga flytbrygga (2019-0681)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.221 SBN",
+    "id": "a-2020-0525",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas med stöd av 7 kap 18 c § p5 miljöbalken (MB) för nybyggnad av Va-anläggning",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§109 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-109-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bryngenäs 1:4 (Bryngenäs slott 1), strandskyddsdispens nybyggnad av VA-installation/anläggning (2019-0698)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.198 SBN",
+    "id": "a-2020-0526",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden beviljar ansökan om strandskyddsdispens för kompostfack på fastigheten Gräfsnäs 1:22.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§110 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-110-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Gräfsnäs 1:22, strandskyddsdispens (2019-0408)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.196 SBN",
+    "id": "a-2020-0527",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens från förbuden i 7 kap. 15 § miljöbalken (1998:808), MB, beviljas med stöd av 7 kap. 18 b § MB, för sökt åtgärd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§111 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-111-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Gräfsnäs 1:75, strandskyddsdispens nybyggnad av enbostadshus (2019-0675)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.177 SBN",
+    "id": "a-2020-0528",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas med stöd av 7 kap 18 c § p1 miljöbalken (MB).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§112 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-112-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Holmängen 1:26, strandskyddsdispens nybyggnad av fritidshus (2019-0687)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.202 SBN",
+    "id": "a-2020-0529",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden beviljar ansökan om strandskyddsdispens för nybyggnad av fritidshus med två tillhörande komplementbyggnader på fastigheten Holmängen 1:32.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§113 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-113-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Holmängen 1:32, strandskyddsdispens nybyggnad av ersättningsbyggnad, attefallshus och friggebod (2019-0649)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.219 SBN",
+    "id": "a-2020-0530",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden beviljar strandskyddsdispens för nybyggnad av ett bostadshus med tillhörande komplementbyggnad, med stöd av 7 kap 18 b § och 18 c § p1 miljöbalken (MB), med nedanstående villkor.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§114 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-114-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kampetå 1:21, strandskyddsdispens nybyggnad av enbostadshus (2019-0857)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.183 SBN",
+    "id": "a-2020-0531",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden beviljar ansökan om strandskyddsdispens för nybyggnation av ett enbostadshus på fastigheten Örsbråten 1:5.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§115 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-115-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Örsbråten 1:5, strandskyddsdispens (2019-0811)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0139 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.004 SBN",
+    "id": "a-2020-0532",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-20",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden tar del av redovisningen och lägger den till handlingarna",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-04-20/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
+          "protocol_ref": "§116 SAMHALLSBYGGNADSNAMNDEN 2020-04-20"
+        },
+        "step_id": "sbn-116-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0412 (titel-likhet 0.95) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2019.801 KS",
+    "id": "a-2020-0533",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Handlingsprogram 2020-2023 enligt Lag ( 2003:778 ) om skydd mot olyckor för Alingsås och Vårgårda räddningstjänstförbund antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§49 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-49-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Handlingsprogram för Alingsås och Vårgårda Räddningstjänstförbund enligt Lag (2003:778) om skydd mot olyckor 2020-2023"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0413 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.024 KS",
+    "id": "a-2020-0534",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: 1. Marknadsmässiga räntepåslag för AB Alingsås Rådhus fastställs till 0,48 procent för år 2021.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§50 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-50-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Marknadsmässiga räntepåslag 2021"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0414 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2018.565 KS",
+    "id": "a-2020-0535",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Nytt arkivreglemente för Alingsås kommun antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§51 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-51-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av arkivreglemente"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0160 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "demokrati",
+    "diarienummer": "2020.072 KS",
+    "id": "a-2020-0536",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens förslag till kommunfullmäktige för beslut: Handläggningen fortsätter för följande motion som är äldre än ett år: Motion om en ren och prydlig kommun - Pär-Göran Björkman (S), Björn Wallin Salthammer (S) och Anita Hedén Unosson (S)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§52 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-52-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Redovisning av obesvarade motioner 2020"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.160 KS",
+    "id": "a-2020-0537",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: 1. Fastighets AB Balder ges klartecken att starta anpassning av lokalen på Kolavägen 1, Kv. Konfektasken, Alingsås till kommunarkiv enligt presenterat förslag.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Anna Hansson (MP) reserverar sig till förmån för eget yrkande."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§53 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-53-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Anpassning av lokaler inför flytt av nytt kommunarkiv"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2019.310 KS",
+    "id": "a-2020-0538",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: 1. Den föreslagna platsen i Nolhaga godkänns som huvudalternativ för lokalisering av ny ishallsanläggning.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§54 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-54-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Utredning Ishall"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2019.131 KS",
+    "id": "a-2020-0539",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "s"
+            ],
+            "quote": "Socialdemokraterna ser givetvis positivt på ett gott samarbete med andra aktörer såsom Västra Götalandsregionen kring våra brukare. Vi ställer oss dock frågande till hur förarbetet till framtidens vårdmiljö gått till."
+          }
+        ],
+        "quote": "Kommunstyrelsens beslut: 1. Avrop av option 1 för IT-system Millenium till VGR godkänns. 2. Kommunstyrelsens ordförande ges i uppdrag att underteckna drift- och samverkansavtalet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§55 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-55-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Avrop optioner om gemensamt IT-stöd för hälso- och sjukvård i Västra Götalandsregionen (FVM)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0458 (titel-likhet 0.67) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.071 KS",
+    "id": "a-2020-0540",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: Kommunstyrelsen godkänner månadsrapportering, februari.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§56 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-56-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Månadsrapport finanshantering 2020, februari"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0116 (titel-likhet 0.88) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.177 KS",
+    "id": "a-2020-0541",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: Kommunstyrelsens månadsuppföljning till och med mars och prognos om +2,0 mnkr godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§57 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-57-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Månadsuppföljning 2020 för kommunstyrelsen, mars"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2024-0004 (titel-likhet 0.64) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.176 KS",
+    "id": "a-2020-0542",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: 1. Ägardirektiv för AB Alingsåshem godkänns. 2. Ägardirektiv för Fabs AB godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§58 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-58-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Revidering av ägardirektiv för AB Alingsåshem och Fabs AB"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2023-0428 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.163 KS",
+    "id": "a-2020-0543",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: 1. Köpeavtal för del av Bälinge 6:16 med Fabs AB godkänns. 2. Kommundirektören får i uppdrag att underteckna Köpeavtal för del av Bälinge 6:16",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§59 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-59-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Försäljning, del av Bälinge 6:16"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.082 KS",
+    "id": "a-2020-0544",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: 1. Ett 10-årigt arrende för telemast på Tuvebo 1:10 till förmån för Telia Sverige AB godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§60 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-60-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Arrendeavtal för Telia på fastigheten Tuvebo 1:10"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2018.708 KS",
+    "id": "a-2020-0545",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Avtal daterat 20 december 2018 med Långareds Intresseförening om övertagande av nyttjanderättsavtal för gc-väg Långared-Attholmen, dels avtal daterat 20 december 2018 med Loo Intresseförening om övertagande av nyttjanderättsavtal för gc-väg Loo-Loo Nytorp godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§61 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-61-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Nyttjanderättsavtal för gång- och cykelväg utmed väg 1985, sträckan Loo - Långared"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.170 KS",
+    "id": "a-2020-0546",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: 1. En förprojektering beställs av Alingsåshem för anpassning av Kabomhuset till kontor för kommunens förvaltningar. Programhandlingen ska visa en möjlig kontorslösning samt redovisa en hyreskostnad.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§62 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-62-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Framtida plan för Kv Solen, Kabomhuset"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.022 KS",
+    "id": "a-2020-0547",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: Kommunstyrelsen antar kommunledningskontorets svar som sitt eget.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§63 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-63-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Remissvar betänkande av utredning om Idéburen välfärd (SOU 2019:56)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0455 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "demokrati",
+    "diarienummer": "2020.007 KS",
+    "id": "a-2020-0548",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: Delegationsordning för kommunstyrelsen antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§64 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-64-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av delegationsordning för kommunstyrelsen 2020"
+  },
+  {
+    "category": "demokrati",
+    "diarienummer": "2020.184 KS",
+    "id": "a-2020-0549",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: 1. Följande föreningar/trossamfund utses att ingå i rådet för mänskliga rättigheter: •Svenska kyrkan •Neuroförbundet •Equmeniakyrkan •Reumatikerförbundet •Frälsningsarmén •Kommunala pensionärsrådet •FUB •Hjärt- och Lungförbundet",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§65 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-65-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Rådet för mänskliga rättigheter, val av föreningar/trossamfund till rådet"
+  },
+  {
+    "category": "barn-utbildning",
+    "diarienummer": "2020.201 KS",
+    "id": "a-2020-0550",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Vi i Miljöpartiet är tveksamma till om detta är en effektiv subvention. Vi är också tveksamma till om det är lämplig att göra en sådan subvention och om det är förenligt med god ekonomisk hushållning och likabehandlingsprincipen."
+          }
+        ],
+        "quote": "Kommunstyrelsens beslut: 1. Angivna riktlinjer för erbjudande om lunch för avhämtning för Alströmergymnasiets fjärrstuderande elever, folkbokförda i Alingsås kommun fastställs.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Anna Hansson (MP) reserverar sig till förmån för eget förslag."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§66 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-66-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Beslut om lunch för avhämtning för Alströmergymnasiets fjärrstuderande elever, folkbokförda i Alingsås kommun"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0457 (titel-likhet 0.78) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.205 KS",
+    "id": "a-2020-0551",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: Kommunstyrelsen debiterar inte de föreningar som hyr eller arrenderar fastigheter kostnad för hyra eller arrende motsvarande perioden april och maj 2020. Redan inbetalda hyror och arrenden för perioden återbetalas till föreningarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§67 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-67-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Tillfällig nedsättning av hyror och arrenden för föreningar som hyr eller arrenderar fastigheter av kommunstyrelsen"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0502 (titel-likhet 0.80) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.202 KS",
+    "id": "a-2020-0552",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: Göteborgsregionens kommunalförbunds (GR) förslag till budget 2021 godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§68 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-68-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förslag till samrådsunderlag inför budget för GR 2021"
+  },
+  {
+    "category": "ekonomi",
+    "diarienummer": "2020.192 KS",
+    "id": "a-2020-0553",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-04-14",
+        "decision": "bifall",
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens beslut: Ekonomichef Simon Lindau utses till ombud vid Kommuninvest föreningsstämma 2020, med koncernredovisningschef Peter Öfverström som ersättare.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunstyrelsen/2020-04-14/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+          "protocol_ref": "§69 KOMMUNSTYRELSEN 2020-04-14"
+        },
+        "step_id": "ks-69-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Val av ombud till Kommuninvest föreningsstämma 2020"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2026-0211 (titel-likhet 0.78) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.158 KS",
+    "id": "a-2020-0554",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [
+          {
+            "parties": [],
+            "quote": "Det antecknas att endast de ledamöter vilka jämlikt 5 kap 48 § kommunallagen är att anse som berättigade att delta i handläggningen av ärende om ansvarsfrihet deltar i respektive beslutspunkt om ansvarsfrihet."
+          }
+        ],
+        "quote": "Styrelsen och de övriga nämnderna och de förtroendevalda i dessa organ beviljas ansvarsfrihet för 2019.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§38 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "kf-38-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revisionsberättelse 2019 för Alingsås kommun"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0586 (titel-likhet 0.81) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.159 KS",
+    "id": "a-2020-0555",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [
+          {
+            "parties": [],
+            "quote": "Det antecknas att endast de ledamöter vilka jämlikt 5 kap 48 § kommunallagen är att anse som berättigade att delta i handläggningen av ärende om ansvarsfrihet deltar i respektive beslutspunkt om ansvarsfrihet."
+          }
+        ],
+        "quote": "Förbundsdirektionen beviljas ansvarsfrihet för verksamhetsåret 2019.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§39 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "kf-39-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revisionsberättelse 2019 för Alingsås och Vårgårda Räddningstjänstförbund (AVRF)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2025-0037 (titel-likhet 0.78) — ej auto-sammanslagen",
+    "category": "ekonomi",
+    "diarienummer": "2020.042 KS",
+    "id": "a-2020-0556",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-09",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsens har den 9 mars 2020, § 23 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§40 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "ks-40-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2020-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Årsredovisning 2019 för Alingsås kommun godkänns.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§40 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "kf-40-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Årsredovisning 2019 för Alingsås kommun"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2023-0668 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2019.794 KS",
+    "id": "a-2020-0557",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-09",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 9 mars 2020, § 24 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§41 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "ks-41-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2020-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Föreslagen förbundsordning för Alingsås och Vårgårda räddningstjänstförbund antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§41 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "kf-41-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Förbundsordning för Alingsås och Vårgårda Räddningstjänstförbund"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2025-0054 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "demokrati",
+    "diarienummer": "2020.053 KS",
+    "id": "a-2020-0558",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-09",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 9 mars 2020, § 34 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§42 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "ks-42-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2020-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Reviderat reglemente för kommunstyrelsen antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§42 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "kf-42-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av reglemente för kommunstyrelsen"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2022-0022 (titel-likhet 0.63) — ej auto-sammanslagen",
+    "category": "demokrati",
+    "diarienummer": "2020.054 KS",
+    "id": "a-2020-0559",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-09",
+        "decision": null,
+        "instance": "kommunstyrelsen",
+        "protocol_anteckning": [],
+        "quote": "Kommunstyrelsen har den 9 mars 2020, § 35 behandlat ärendet.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§43 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "ks-43-beredning",
+        "type": "beredning",
+        "voting": null
+      },
+      {
+        "date": "2020-03-25",
+        "decision": "bifall",
+        "instance": "kommunfullmaktige",
+        "protocol_anteckning": [],
+        "quote": "Reviderat reglemente för samhällsbyggnadsnämnden antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/kommunfullmaktige/2020-03-25/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+          "protocol_ref": "§43 KOMMUNFULLMAKTIGE 2020-03-25"
+        },
+        "step_id": "kf-43-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Revidering av reglemente för samhällsbyggnadsnämnden"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2020.026 SN",
+    "id": "a-2020-0560",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-24",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Pandemiplan för socialförvaltningen antas.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2020-03-24/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2020-03-24/protocol/protokoll-sn-2020-03-24pdf?downloadMode=open",
+          "protocol_ref": "§21 SOCIALNAMNDEN 2020-03-24"
+        },
+        "step_id": "sn-2020-03-24-21-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Pandemiplan för socialförvaltningen"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.012 SN",
+    "id": "a-2020-0561",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-24",
+        "decision": "bifall",
+        "instance": "socialnamnden",
+        "protocol_anteckning": [],
+        "quote": "Socialnämnden godkänner socialförvaltningens reviderade organisation för GDPR.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/socialnamnden/2020-03-24/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2020-03-24/protocol/protokoll-sn-2020-03-24pdf?downloadMode=open",
+          "protocol_ref": "§22 SOCIALNAMNDEN 2020-03-24"
+        },
+        "step_id": "sn-2020-03-24-22-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sociaförvaltningens organisation för GDPR"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2020.061 VON",
+    "id": "a-2020-0562",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner vård- och omsorgsförvaltningens patientsäkerhets- och kvalitetsberättelse för 2019.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-03-23/protocol/protokoll-skapad-von-2020-03-27-135750pdf-95421?downloadMode=open",
+          "protocol_ref": "§17 VARD-OCH-OMSORGSNAMNDEN 2020-03-23"
+        },
+        "step_id": "von-17-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Patientsäkerhets- och kvalitetsberättelse 2019"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2023-0072 (titel-likhet 0.86) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2020.075 VON",
+    "id": "a-2020-0563",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner informationen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-03-23/protocol/protokoll-skapad-von-2020-03-27-135750pdf-95421?downloadMode=open",
+          "protocol_ref": "§18 VARD-OCH-OMSORGSNAMNDEN 2020-03-23"
+        },
+        "step_id": "von-18-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Vård- och omsorgsförvaltningens kritiska verksamhetsfaktorer"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2023-0014 (titel-likhet 0.75) — ej auto-sammanslagen",
+    "category": "vård-omsorg",
+    "diarienummer": "2019.049 VÄN",
+    "id": "a-2020-0564",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "1. Vård och omsorgsnämnden antar förvaltningens kvartals och individrapport som sitt svar till IVO. 2. Vård och omsorgsnämnden beslutar att överlämna upprättad statistikrapport till kommunfullmäktige och revisorerna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-03-23/protocol/protokoll-skapad-von-2020-03-27-135750pdf-95421?downloadMode=open",
+          "protocol_ref": "§19 VARD-OCH-OMSORGSNAMNDEN 2020-03-23"
+        },
+        "step_id": "von-19-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ej verkställda beslut SOL 2019, Q4"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2021-0567 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.040 VON",
+    "id": "a-2020-0565",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "vard-och-omsorgsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Vård- och omsorgsnämnden godkänner anmälan av delegationsbeslut 2020 –februari.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/vard-och-omsorgsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-03-23/protocol/protokoll-skapad-von-2020-03-27-135750pdf-95421?downloadMode=open",
+          "protocol_ref": "§20 VARD-OCH-OMSORGSNAMNDEN 2020-03-23"
+        },
+        "step_id": "von-20-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Anmälan av delegationsbeslut 2020"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2019.422 SBN",
+    "id": "a-2020-0566",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden beslutar att anta ändring av detaljplan för Alingsås, Hemköp, Sveagatan 8a (Myggan 5) enligt 5 kap. 27-32 §§ PBL.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§47 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-47-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ändring av Detaljplan 106 för Alingsås, Hemköp, Sveagatan 8A (Del av Myggan 5)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2019.579 SBN",
+    "id": "a-2020-0567",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt planbesked, med förbehållet att planläggningen inte ska inledas innan planprogrammet för Mjörnstranden är antaget, samt att byggnationen ska rimma med planprogrammet för Mjörnstranden.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§48 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-48-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Lövekulle 1:12, Begäran om planbesked"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.143 SBN",
+    "id": "a-2020-0568",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": null,
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet utgår",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§49 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-49-utgar",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Korpen 4, påbörjat utan startbesked samt ibruktagande utan slutbesked (2018-0624)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0568 (titel-likhet 0.85) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.112 SBN",
+    "id": "a-2020-0569",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": null,
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet utgår",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§50 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-50-utgar",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Korpen 4, påbörjat utan startbesked samt ibruktagande utan slutbesked (2018-0625)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.095 SBN",
+    "id": "a-2020-0570",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs ägarna till fastigheten Ormekullen 6 solidariskt en byggsanktionsavgift på 7 568 kronor för att den bygglovspliktiga åtgärden har påbörjats innan byggnadsnämnden har gett ett startbesked.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§51 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-51-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ormekullen 6, tillsyn olovlig åtgärd mur (2019-0651)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2019.195 SBN",
+    "id": "a-2020-0571",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "avslag",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Avslag med stöd av 9 kap 30 § plan- och bygglagen (2010:900), PBL.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§53 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-53-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ingared 5:279 och Ingared 5:114, marklov, ändring av vall (bullervall), (2018-0174)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.137 SBN",
+    "id": "a-2020-0572",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (PBL). Startbesked medges enligt 10 kap 23 § Plan- och bygglagen (PBL).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§54 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-54-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bergsjödal 1:87, bygglov nybyggnad av fritidshus (2019-0891)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.087 SBN",
+    "id": "a-2020-0573",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": null,
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet utgår",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§55 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-55-utgar",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bomullen 1, bygglov ändrad användning av industrilokal (2019-0708)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.145 SBN",
+    "id": "a-2020-0574",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "ingen rekommendation",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet återremitteras till förvaltningen för att beredas för ett möjligt positivt besked.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§56 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-56-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Bomullen 1, bygglov ändrad användning av lokal (2020-0001)"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2020.088 SBN",
+    "id": "a-2020-0575",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas för Särskilt Äldreboende (SÄBO) samt växthus med stöd av 9 kap. 31 b § plan- och bygglagen (PBL)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§57 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-57-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Brogården 14, bygglov nybyggnad av flerfamiljshus (2019-0867)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.090 SBN",
+    "id": "a-2020-0576",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (PBL 2010:900).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§58 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-58-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Bälinge 12:9, bygglov nybyggnad av enbostadshus (2019-0878)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2019.617 SBN",
+    "id": "a-2020-0577",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Rivningslov beviljas med stöd av 9 kap. 34 § plan- och bygglagen (2010:900), PBL. Bygglov beviljas med stöd av 9 kap. 31 c § plan- och bygglagen (2010:900), PBL.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§59 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-59-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Centrum 1:17, bygglov nybyggnad av cykelgarage samt rivning av befintligt (2019-0398)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.133 SBN",
+    "id": "a-2020-0578",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 b § Plan- och bygglagen (2010:900), PBL.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§60 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-60-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Farkosten 11, bygglov nybyggnad av flerfamiljshus (2019-0632)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.089 SBN",
+    "id": "a-2020-0579",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § plan- och bygglagen (2010:900), PBL. Startbesked medges enligt 10 kap 23 § plan- och bygglagen.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§61 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-61-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Hjälmared 1:13, bygglov tillbyggnad av kontorsbyggnad (2019-0395)"
+  },
+  {
+    "category": "övrigt",
+    "diarienummer": "2020.132 SBN",
+    "id": "a-2020-0580",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "avslag",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Avslag med stöd av 9 kap. 30 § plan och bygglagen (2010:900).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§62 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-62-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kornetten 3, bygglov nybyggnad av mur (2019-0438)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0478 (titel-likhet 0.80) — ej auto-sammanslagen",
+    "category": "infrastruktur",
+    "diarienummer": "2020.091 SBN",
+    "id": "a-2020-0581",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "ingen rekommendation",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet återremitteras till förvaltningen för att beredas för ett möjligt positivt besked.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§63 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-63-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Mjönäs 1:15, bygglov tillbyggnad av fritidshus (2019-0462)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.129 SBN",
+    "id": "a-2020-0582",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (PBL)",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§64 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-64-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Mörlanda 1:23, bygglov tillbyggnad av fritidshus (2019-0798)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.002 SBN",
+    "id": "a-2020-0583",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ansökan beviljas med hänvisning till PBL 9 kap 31 § C p 2 om komplettering.",
+        "reservations": [
+          {
+            "parties": [
+              "s",
+              "mp"
+            ],
+            "quote": "Lars Larsson (S), Martin Pehrsson (S), Cecilia Wihlborg (S) och Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§65 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-65-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Räven 17, bygglov tillbyggnad av enbostadshus (2019-0715)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2019.313 SBN",
+    "id": "a-2020-0584",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ansökan beviljas med hänvisning till PBL 9 kap 31 § B p 1 om mindre avvikelse.",
+        "reservations": [
+          {
+            "parties": [
+              "mp"
+            ],
+            "quote": "Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§66 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-66-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Röhult 1:80, tillbyggnad av komplementbyggnad (2019-0219)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.134 SBN",
+    "id": "a-2020-0585",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas med stöd av 9 kap 31 § Plan- och bygglagen (PBL 2010:900).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§67 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-67-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Skämningared 5:2, bygglov nybyggnad av enbostadshus (2019-0806)"
+  },
+  {
+    "category": "vård-omsorg",
+    "diarienummer": "2020.097 SBN",
+    "id": "a-2020-0586",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Bygglov beviljas för Särskilt Äldreboende (SÄBO) med stöd av 9 kap. 30 § plan- och bygglagen (PBL).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§68 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-68-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Ädellövskogen 3, bygglov nybyggnad av äldreboende (2019-0885)"
+  },
+  {
+    "category": "infrastruktur",
+    "diarienummer": "2020.125 SBN",
+    "id": "a-2020-0587",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Positivt förhandsbesked till bygglov meddelas, med stöd av Plan- och bygglagen 9 kap. § 17, med nedanstående villkor.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§69 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-69-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Börta 2:16, förhandsbesked nybyggnad av enbostadshus (2019-0324)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0406 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "infrastruktur",
+    "diarienummer": "2020.135 SBN",
+    "id": "a-2020-0588",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "pågående",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "ingen rekommendation",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Ärendet återremitteras till förvaltningen för att beredas för ett möjligt positivt besked.",
+        "reservations": [
+          {
+            "parties": [
+              "s",
+              "mp"
+            ],
+            "quote": "Lars Larsson (S), Martin Pehrsson (S), Cecilia Wihlborg (S) och Christian Wiberg (MP) reserverar sig mot beslutet."
+          }
+        ],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§70 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-70-beslut",
+        "type": "beslut",
+        "voting": {
+          "note": "Röstfördelning ej redovisad i protokollet",
+          "recorded": false
+        }
+      }
+    ],
+    "title": "Ingared 4:76, förhandsbesked, nybyggnad av enbostadshus (2018-0598)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.128 SBN",
+    "id": "a-2020-0589",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas med stöd av 7 kap 18 c § p 3 och 5 miljöbalken (MB).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§71 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-71-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Alingsås-Hulabäck 2:59, strandskyddsdispens (2019-0251)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2019.118 SBN",
+    "id": "a-2020-0590",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden beviljar ansökan om strandskyddsdispens för hundlekplats på fastigheten Gräfsnäs 1:16.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§72 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-72-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Gräfsnäs 1:16, strandskyddsdispens (2018-0427)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.111 SBN",
+    "id": "a-2020-0591",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens från förbuden i 7 kap. 15 § miljöbalken (1998:808), MB, beviljas med stöd av 7 kap. 18 b § MB, för sökt åtgärd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§73 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-73-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Gröneslätt 1:18, strandskyddsdispens (2019-0807)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.110 SBN",
+    "id": "a-2020-0592",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas med stöd av 7 kap 18 c § p5 miljöbalken (MB) för nybyggnad av kabelskåp samt nedgrävning av kabel på fastigheten Kampetå 1:2, Kampetå 1:21, Rödene 11:8, Rödene 11:13.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§75 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-75-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Kampetå 1:2, strandskyddsdispens (2019-0688)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.138 SBN",
+    "id": "a-2020-0593",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas med stöd av 7 kap 18 c § p1 och 2 miljöbalken (MB).",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§76 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-76-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Lövekulle 1:147, strandskyddsdispens nybyggnad av GC-väg och lekplats (2019-0803)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2019.301 SBN",
+    "id": "a-2020-0594",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas för nybyggnad av komplementbyggnad på fastigheten Saxebo 1:11.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§77 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-77-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Saxebo 1:11, strandskyddsdispens (2018-0495)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.094 SBN",
+    "id": "a-2020-0595",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas med stöd av 7 kap 18 c § p2 miljöbalken (MB). Särskilt skäl för undantag från strandskyddsbestämmelserna är att området är avskilt från stranden genom en väg och annan bebyggelse.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§78 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-78-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Simmenäs 1:1, strandskyddsdispens (2020-0041)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.126 SBN",
+    "id": "a-2020-0596",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens från förbuden i 7 kap. 15 § miljöbalken (1998:808), MB, beviljas med stöd av 7 kap. 18 b § MB, för sökt åtgärd.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§79 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-79-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Sjöbo 3:4, strandskyddsdispens (2019-0777)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.140 SBN",
+    "id": "a-2020-0597",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas för komplementbyggnad på fastigheten Torstö 1:7.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§80 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-80-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Torstö 1:7, strandskyddsdispens (2019-0634)"
+  },
+  {
+    "category": "miljö-klimat",
+    "diarienummer": "2020.127 SBN",
+    "id": "a-2020-0598",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Strandskyddsdispens beviljas för nybyggnation av ett enbostadshus med tillhörande komplementbyggnad på fastigheten Östad 15:1.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§81 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-81-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Östad 15:1, strandskyddsdispens (2019-0724)"
+  },
+  {
+    "_link_flag": "Möjlig dubblett av a-2020-0139 (titel-likhet 1.00) — ej auto-sammanslagen",
+    "category": "övrigt",
+    "diarienummer": "2020.004 SBN",
+    "id": "a-2020-0599",
+    "initiativ_typ": "styrelseforslag",
+    "initiators": [],
+    "mandatperioder": [
+      "2018-2022"
+    ],
+    "status": "avgjort",
+    "steps": [
+      {
+        "date": "2020-03-23",
+        "decision": "bifall",
+        "instance": "samhallsbyggnadsnamnden",
+        "protocol_anteckning": [],
+        "quote": "Samhällsbyggnadsnämnden tar del av redovisningen och lägger den till handlingarna.",
+        "reservations": [],
+        "source": {
+          "archive_url": "git-pending:Knarrbyn/Kommundata-arkiv:data/raw/samhallsbyggnadsnamnden/2020-03-23/protokoll.pdf",
+          "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
+          "protocol_ref": "§82 SAMHALLSBYGGNADSNAMNDEN 2020-03-23"
+        },
+        "step_id": "sbn-82-beslut",
+        "type": "beslut",
+        "voting": null
+      }
+    ],
+    "title": "Delegerade beslut 2020"
   }
 ]

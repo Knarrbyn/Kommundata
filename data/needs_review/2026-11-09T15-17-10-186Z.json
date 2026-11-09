@@ -1,0 +1,244 @@
+[
+  {
+    "arende": {
+      "title": "Val av ledamöter i valberedningen perioden 2026-2030",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2026.337 KS",
+      "steps": [
+        {
+          "step_id": "kf-172-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2026-10-21",
+          "quote": "Till ledamöter i valberedningen för tiden fram till och med den 14 oktober 2030 utses: Mats Eriksson (MP) Adam Jansson (KD) Anita Hedén Unosson (S) Oscar Allard (S) Alexander Wikhall (S) Heidi Hankanen Ängberg (C) Magnus Linde (M) David Skoog (M) Maria Adrell (V) Kjerstin Hansson (SD) Anne Gunnevik (L)",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§172 KOMMUNFULLMAKTIGE 2026-10-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-10-21/protocol/protokoll-skapad-kf-2026-11-05-112046pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-172-beslut",
+        "field": "quote",
+        "quote": "Till ledamöter i valberedningen för tiden fram till och med den 14 oktober 2030 utses: Mats Eriksson (MP) Adam Jansson (KD) Anita Hedén Unosson (S) Oscar Allard (S) Alexander Wikhall (S) Heidi Hankanen Ängberg (C) Magnus Linde (M) David Skoog (M) Maria Adrell (V) Kjerstin Hansson (SD) Anne Gunnevik (L)",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (50 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Val av ersättare i valberedningen perioden 2026-2030",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "demokrati",
+      "status": "avgjort",
+      "diarienummer": "2026.338 KS",
+      "steps": [
+        {
+          "step_id": "kf-173-beslut",
+          "instance": "kommunfullmaktige",
+          "type": "beslut",
+          "date": "2026-10-21",
+          "quote": "Till ersättare i valberedningen för tiden fram till och med den 14 oktober 2030 utses: Jenny Hellsten (MP) Sanna Dabolins (V) Marcus Wallin (V) Morgan Fredvi (S) Helena Ericsson (S) Ali Said (C) Jan-Erik Wallin (M) Karin Schagerlind (M) Roger Svärd (SD) Thomas Liedström (L) Bertil Ynghammar (KD)",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§173 KOMMUNFULLMAKTIGE 2026-10-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-10-21/protocol/protokoll-skapad-kf-2026-11-05-112046pdf?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "kf-173-beslut",
+        "field": "quote",
+        "quote": "Till ersättare i valberedningen för tiden fram till och med den 14 oktober 2030 utses: Jenny Hellsten (MP) Sanna Dabolins (V) Marcus Wallin (V) Morgan Fredvi (S) Helena Ericsson (S) Ali Said (C) Jan-Erik Wallin (M) Karin Schagerlind (M) Roger Svärd (SD) Thomas Liedström (L) Bertil Ynghammar (KD)",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (48 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Delegation med anledning av lag om tillfällig stängning av verksamheterpå skolområdet vid extraordinära händelser i fredstid",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.081 BUN",
+      "steps": [
+        {
+          "step_id": "bun-34-beslut",
+          "instance": "barn-och-ungdomsnamnden",
+          "type": "beslut",
+          "date": "2020-04-21",
+          "quote": "Barn- och ungdomsnämnden beslutar att beslut av huvudman med stöd i \"Förordning om utbildning i vissa skolformer i skolväsendet vid spridning av viss smitta\" (2020:115) kan fattas av Barn- och ungdomsnämnden ordförande efter samråd med vice ordförande.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§34 BARN-OCH-UNGDOMSNAMNDEN 2020-04-21",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "bun-34-beslut",
+        "field": "quote",
+        "quote": "Barn- och ungdomsnämnden beslutar att beslut av huvudman med stöd i \"Förordning om utbildning i vissa skolformer i skolväsendet vid spridning av viss smitta\" (2020:115) kan fattas av Barn- och ungdomsnämnden ordförande efter samråd med vice ordförande.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Myggan 4, tillsyn olovlig åtgärd (2020-0103)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.209 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-90-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2020-04-20",
+          "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs ägaren till fastigheten Myggan 4 en byggsanktionsavgift på 30 154 kronor för att tagit i bruk byggnadsdelen utan slutbesked. Samhällsbyggnadsnämnden beslutar att avgiften ska sättas ned till en fjärdedel, det vill säga 7538,50 kronor.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [
+            {
+              "parties": [
+                "s"
+              ],
+              "quote": "Bo Olsson (S), Lars Larsson (S), Lennart Pettersson (S), Thomas Olofsson (S) reserverar sig mot beslutet."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§90 SAMHALLSBYGGNADSNAMNDEN 2020-04-20",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-90-beslut",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs ägaren till fastigheten Myggan 4 en byggsanktionsavgift på 30 154 kronor för att tagit i bruk byggnadsdelen utan slutbesked. Samhällsbyggnadsnämnden beslutar att avgiften ska sättas ned till en fjärdedel, det vill säga 7538,50 kronor.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (46 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "sbn-90-beslut",
+        "field": "reservation[s]",
+        "quote": "Bo Olsson (S), Lars Larsson (S), Lennart Pettersson (S), Thomas Olofsson (S) reserverar sig mot beslutet.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Poppeln 7, tillsyn (2018-0706)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "övrigt",
+      "status": "avgjort",
+      "diarienummer": "2020.092 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-52-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2020-03-23",
+          "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs före detta fastighetsägarna till fastigheten Poppeln 7 solidariskt en byggsanktionsavgift om 2 906 kr kronor för att den bygglovspliktiga åtgärden ändring av garageport till dörr och fönster har påbörjats innan byggnadsnämnden har gett ett startbesked.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§52 SAMHALLSBYGGNADSNAMNDEN 2020-03-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-52-beslut",
+        "field": "quote",
+        "quote": "Med stöd av 11 kap. 51 § plan- och bygglagen (2010:900) påförs före detta fastighetsägarna till fastigheten Poppeln 7 solidariskt en byggsanktionsavgift om 2 906 kr kronor för att den bygglovspliktiga åtgärden ändring av garageport till dörr och fönster har påbörjats innan byggnadsnämnden har gett ett startbesked.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (47 ord) — se spec §4.2 R2"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Hemsjö 1:15, strandskyddsdispens förläggning av markkabel (2019-0652)",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "avgjort",
+      "diarienummer": "2020.096 SBN",
+      "steps": [
+        {
+          "step_id": "sbn-74-beslut",
+          "instance": "samhallsbyggnadsnamnden",
+          "type": "beslut",
+          "date": "2020-03-23",
+          "quote": "Ansökan om strandskyddsdispens beviljas för förläggning av markkabel för el på fastigheterna Hemsjö 1:15, Hemsjö 2:13, Hemsjö 2:2, Hemsjö 2:8, Hemsjö 9:13, Hemsjö 9:14, Hemsjö 9:16, Hemsjö 9:2, Hemsjö 9:3, Hemsjö 1:80, Hemsjö 2:27, Hemsjö 2:29, Hemsjö 6:6, Hemsjö 9:17, Hemsjö 9:20 och Kyrkmarken 1:1.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§74 SAMHALLSBYGGNADSNAMNDEN 2020-03-23",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "sbn-74-beslut",
+        "field": "quote",
+        "quote": "Ansökan om strandskyddsdispens beviljas för förläggning av markkabel för el på fastigheterna Hemsjö 1:15, Hemsjö 2:13, Hemsjö 2:2, Hemsjö 2:8, Hemsjö 9:13, Hemsjö 9:14, Hemsjö 9:16, Hemsjö 9:2, Hemsjö 9:3, Hemsjö 1:80, Hemsjö 2:27, Hemsjö 2:29, Hemsjö 6:6, Hemsjö 9:17, Hemsjö 9:20 och Kyrkmarken 1:1.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (45 ord) — se spec §4.2 R2"
+      }
+    ]
+  }
+]
