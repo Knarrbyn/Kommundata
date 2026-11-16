@@ -1,8 +1,23 @@
 [
   {
     "instance": "barn-och-ungdomsnamnden",
-    "date": "2020-04-21",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open",
+    "date": "2020-02-18",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-02-18/protocol/protokoll-skapad-bun-2020-02-24-074308pdf-14153?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2020-0649",
+      "a-2020-0650",
+      "a-2020-0651",
+      "a-2020-0652",
+      "a-2020-0653",
+      "a-2020-0654",
+      "a-2020-0655",
+      "a-2020-0656",
+      "a-2020-0657"
+    ],
+    "mandatperiod": "2018-2022"
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2020-0491",
@@ -17,7 +32,10 @@
       "a-2020-0500",
       "a-2020-0501"
     ],
-    "mandatperiod": "2018-2022"
+    "date": "2020-04-21",
+    "instance": "barn-och-ungdomsnamnden",
+    "mandatperiod": "2018-2022",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/barn-och-ungdomsnamnden/mote-2020-04-21/protocol/protokoll-skapad-bun-2020-04-22-140543pdf-62149?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -1790,8 +1808,23 @@
   },
   {
     "instance": "kommunfullmaktige",
-    "date": "2020-03-25",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open",
+    "date": "2020-02-26",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-02-26/protocol/protokoll-for-kommunfullmaktige-den-26-februari-2020pdf-34267?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2019-0019",
+      "a-2019-0020",
+      "a-2019-0021",
+      "a-2019-0022",
+      "a-2020-0627",
+      "a-2020-0628",
+      "a-2020-0629",
+      "a-2020-0630",
+      "a-2020-0631"
+    ],
+    "mandatperiod": "2018-2022"
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2020-0554",
@@ -1801,7 +1834,10 @@
       "a-2020-0558",
       "a-2020-0559"
     ],
-    "mandatperiod": "2018-2022"
+    "date": "2020-03-25",
+    "instance": "kommunfullmaktige",
+    "mandatperiod": "2018-2022",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2020-03-25/protocol/protokoll-for-kommunfullmaktige-den-25-mars-2020pdf-29266?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -3116,20 +3152,48 @@
     "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-09-30/protocol/protokoll-kf-2026-09-30pdf?downloadMode=open"
   },
   {
-    "instance": "kommunfullmaktige",
-    "date": "2026-10-21",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-10-21/protocol/protokoll-skapad-kf-2026-11-05-112046pdf?downloadMode=open",
     "archive_url": null,
     "arende_ids": [
       "a-2026-0392",
       "a-2026-0393"
     ],
-    "mandatperiod": "2022-2026"
+    "date": "2026-10-21",
+    "instance": "kommunfullmaktige",
+    "mandatperiod": "2022-2026",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunfullmaktige/mote-2026-10-21/protocol/protokoll-skapad-kf-2026-11-05-112046pdf?downloadMode=open"
   },
   {
     "instance": "kommunstyrelsen",
-    "date": "2020-04-14",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open",
+    "date": "2020-03-09",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-03-09/protocol/protokoll-for-kommunstyrelsen-den-9-mars-2020pdf-90616?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2017-0003",
+      "a-2017-0004",
+      "a-2019-0018",
+      "a-2020-0608",
+      "a-2020-0609",
+      "a-2020-0610",
+      "a-2020-0611",
+      "a-2020-0612",
+      "a-2020-0613",
+      "a-2020-0614",
+      "a-2020-0615",
+      "a-2020-0616",
+      "a-2020-0617",
+      "a-2020-0618",
+      "a-2020-0619",
+      "a-2020-0620",
+      "a-2020-0621",
+      "a-2020-0622",
+      "a-2020-0623",
+      "a-2020-0624",
+      "a-2020-0625",
+      "a-2020-0626"
+    ],
+    "mandatperiod": "2018-2022"
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2020-0533",
@@ -3154,7 +3218,10 @@
       "a-2020-0552",
       "a-2020-0553"
     ],
-    "mandatperiod": "2018-2022"
+    "date": "2020-04-14",
+    "instance": "kommunstyrelsen",
+    "mandatperiod": "2018-2022",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-04-14/protocol/protokoll-for-kommunstyrelsen-den-14-april-2020pdf-85616?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -5084,6 +5151,46 @@
     "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2026-10-19/protocol/protokoll-ks-2026-10-19-med-paragrafbilagorpdf?downloadMode=open"
   },
   {
+    "instance": "kultur-och-utbildningsnamnden",
+    "date": "2020-02-19",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2020-02-19/protocol/protokoll-skapad-kun-2020-02-20-095317pdf?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2020-0632",
+      "a-2020-0633",
+      "a-2020-0634",
+      "a-2020-0635",
+      "a-2020-0636",
+      "a-2020-0637",
+      "a-2020-0638",
+      "a-2020-0639",
+      "a-2020-0640",
+      "a-2020-0641",
+      "a-2020-0642",
+      "a-2020-0643",
+      "a-2020-0644"
+    ],
+    "mandatperiod": "2018-2022"
+  },
+  {
+    "instance": "kultur-och-utbildningsnamnden",
+    "date": "2020-03-18",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/kultur-och-utbildningsnamnden/mote-2020-03-18/protocol/protokoll-skapad-kun-2020-03-19-101239pdf?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2019-0017",
+      "a-2020-0600",
+      "a-2020-0601",
+      "a-2020-0602",
+      "a-2020-0603",
+      "a-2020-0604",
+      "a-2020-0605",
+      "a-2020-0606",
+      "a-2020-0607"
+    ],
+    "mandatperiod": "2018-2022"
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2020-0425",
@@ -6165,9 +6272,6 @@
     "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/overformyndarnamnden/mote-2026-06-11/protocol/protokoll-skapad-ofn-2026-06-12-125113pdf?downloadMode=open"
   },
   {
-    "instance": "samhallsbyggnadsnamnden",
-    "date": "2020-03-23",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open",
     "archive_url": null,
     "arende_ids": [
       "a-2020-0566",
@@ -6205,12 +6309,12 @@
       "a-2020-0598",
       "a-2020-0599"
     ],
-    "mandatperiod": "2018-2022"
+    "date": "2020-03-23",
+    "instance": "samhallsbyggnadsnamnden",
+    "mandatperiod": "2018-2022",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-03-23/protocol/protokoll-sbn-2020-03-23pdf-57904?downloadMode=open"
   },
   {
-    "instance": "samhallsbyggnadsnamnden",
-    "date": "2020-04-20",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open",
     "archive_url": null,
     "arende_ids": [
       "a-2020-0502",
@@ -6245,7 +6349,10 @@
       "a-2020-0531",
       "a-2020-0532"
     ],
-    "mandatperiod": "2018-2022"
+    "date": "2020-04-20",
+    "instance": "samhallsbyggnadsnamnden",
+    "mandatperiod": "2018-2022",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/samhallsbyggnadsnamnden/mote-2020-04-20/protocol/protokoll-sbn-2020-04-20pdf-47896?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -6732,14 +6839,27 @@
   },
   {
     "instance": "socialnamnden",
-    "date": "2020-03-24",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2020-03-24/protocol/protokoll-sn-2020-03-24pdf?downloadMode=open",
+    "date": "2020-02-18",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2020-02-18/protocol/protokoll-sn-2020-02-18-allmannapdf-71614?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2020-0645",
+      "a-2020-0646",
+      "a-2020-0647",
+      "a-2020-0648"
+    ],
+    "mandatperiod": "2018-2022"
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2020-0560",
       "a-2020-0561"
     ],
-    "mandatperiod": "2018-2022"
+    "date": "2020-03-24",
+    "instance": "socialnamnden",
+    "mandatperiod": "2018-2022",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2020-03-24/protocol/protokoll-sn-2020-03-24pdf?downloadMode=open"
   },
   {
     "archive_url": null,
@@ -7584,6 +7704,17 @@
     "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-10-20/protocol/protokoll-sn-2026-10-20pdf?downloadMode=open"
   },
   {
+    "instance": "socialnamnden",
+    "date": "2026-11-10",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/socialnamnden/mote-2026-11-10/protocol/protokoll-sn-2026-11-10pdf?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2026-0394",
+      "a-2026-0395"
+    ],
+    "mandatperiod": "2022-2026"
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2023-0077",
@@ -8152,8 +8283,18 @@
   },
   {
     "instance": "vard-och-omsorgsnamnden",
-    "date": "2020-03-23",
-    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-03-23/protocol/protokoll-skapad-von-2020-03-27-135750pdf-95421?downloadMode=open",
+    "date": "2020-02-17",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-02-17/protocol/protokoll-skapad-von-2020-02-21-092313pdf-17003?downloadMode=open",
+    "archive_url": null,
+    "arende_ids": [
+      "a-2020-0658",
+      "a-2020-0659",
+      "a-2020-0660",
+      "a-2020-0661"
+    ],
+    "mandatperiod": "2018-2022"
+  },
+  {
     "archive_url": null,
     "arende_ids": [
       "a-2020-0562",
@@ -8161,7 +8302,10 @@
       "a-2020-0564",
       "a-2020-0565"
     ],
-    "mandatperiod": "2018-2022"
+    "date": "2020-03-23",
+    "instance": "vard-och-omsorgsnamnden",
+    "mandatperiod": "2018-2022",
+    "protocol_pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-03-23/protocol/protokoll-skapad-von-2020-03-27-135750pdf-95421?downloadMode=open"
   },
   {
     "archive_url": null,

@@ -1,0 +1,215 @@
+[
+  {
+    "arende": {
+      "title": "Revidering av lokala miljömål",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "miljö-klimat",
+      "status": "pågående",
+      "diarienummer": "2020.038 KS",
+      "steps": [
+        {
+          "step_id": "ks-28-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-03-09",
+          "quote": "Kommunstyrelsens beslut:\nKommunledningskontoret får i uppdrag att tillse att ansvarsfördelning och uppföljningsbara måltal för respektive mål och delmål i Agenda 2030 tas fram snarast.\nKommunstyrelsens förslag till kommunfullmäktige för beslut:\nDe globala målen i Agenda 2030 antas som Alingsås miljömål för åren 2020-2030.",
+          "decision": "bifall",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [],
+          "protocol_anteckning": [
+            {
+              "parties": [
+                "m",
+                "c",
+                "l",
+                "kd"
+              ],
+              "quote": "Allianspartierna välkomnar Miljöpartiets engagemang för genomförande och uppföljning av satta mål och kan samtidigt konstarera att arbete med att ta fram förslag på ansvarsfördelning och uppföljningsbara måltal för Agenda 2030 redan pågår i arbetsgruppen för Agenda 2030."
+            }
+          ],
+          "source": {
+            "protocol_ref": "§28 KOMMUNSTYRELSEN 2020-03-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-03-09/protocol/protokoll-for-kommunstyrelsen-den-9-mars-2020pdf-90616?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-28-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens beslut:\nKommunledningskontoret får i uppdrag att tillse att ansvarsfördelning och uppföljningsbara måltal för respektive mål och delmål i Agenda 2030 tas fram snarast.\nKommunstyrelsens förslag till kommunfullmäktige för beslut:\nDe globala målen i Agenda 2030 antas som Alingsås miljömål för åren 2020-2030.",
+        "passed": false,
+        "reason": "Citat överskrider 40 ord (43 ord) — se spec §4.2 R2"
+      },
+      {
+        "step_id": "ks-28-beslut",
+        "field": "protocol_anteckning[m+c+l+kd]",
+        "quote": "Allianspartierna välkomnar Miljöpartiets engagemang för genomförande och uppföljning av satta mål och kan samtidigt konstarera att arbete med att ta fram förslag på ansvarsfördelning och uppföljningsbara måltal för Agenda 2030 redan pågår i arbetsgruppen för Agenda 2030.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Svar på motion om återvändande IS-terrorister - Glenn Pettersson (SD), Boris Jernskiegg (SD), Agneta Grange (SD), Zandra Pettersson (SD) och Otto Stryhn (SD)",
+      "initiativ_typ": "motion",
+      "initiators": [
+        {
+          "name": "Glenn Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Boris Jernskiegg",
+          "party": "sd"
+        },
+        {
+          "name": "Agneta Grange",
+          "party": "sd"
+        },
+        {
+          "name": "Zandra Pettersson",
+          "party": "sd"
+        },
+        {
+          "name": "Otto Stryhn",
+          "party": "sd"
+        }
+      ],
+      "category": "övrigt",
+      "status": "pågående",
+      "diarienummer": "2019.724 KS",
+      "steps": [
+        {
+          "step_id": "ks-31-motion-inlamnad",
+          "instance": "kommunfullmaktige",
+          "type": "motion_inlamnad",
+          "date": "2019-10-30",
+          "quote": "Glenn Pettersson (S), Boris Jernskiegg (SD), Agneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD), Kristina Poulsen (SD) och Lars-Olof Jaeger (SD) har till kommunfullmäktige den 30 oktober 2019, § 214 lämnat en motion om återvändande IS-terrorister.",
+          "decision": null,
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 KOMMUNSTYRELSEN 2020-03-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-03-09/protocol/protokoll-for-kommunstyrelsen-den-9-mars-2020pdf-90616?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-31-namndyttrande",
+          "instance": "kommunstyrelsen",
+          "type": "namndyttrande",
+          "date": "2020-03-09",
+          "quote": "Kommunledningskontoret bedömer att lagstiftningen ger kommunen få eller inga förutsättningar att arbeta enligt motionens förslag. Kommunledningskontoret föreslår att motionen ska avslås.",
+          "decision": "avstyrker",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 KOMMUNSTYRELSEN 2020-03-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-03-09/protocol/protokoll-for-kommunstyrelsen-den-9-mars-2020pdf-90616?downloadMode=open"
+          }
+        },
+        {
+          "step_id": "ks-31-beslut",
+          "instance": "kommunstyrelsen",
+          "type": "beslut",
+          "date": "2020-03-09",
+          "quote": "Kommunstyrelsens beslut:\nKommunledningskontorets yttrande antas som kommunstyrelsens eget.\nKommunstyrelsens förslag till kommunfullmäktige för beslut:\nMotionen anses besvarad.",
+          "decision": "besvarad",
+          "voting": {
+            "recorded": false,
+            "note": "Röstfördelning ej redovisad i protokollet"
+          },
+          "reservations": [
+            {
+              "parties": [
+                "sd"
+              ],
+              "quote": "Boris Jernskiegg (SD) och Glenn Pettersson (SD) reserverar sig till förmån för eget yrkande."
+            }
+          ],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§31 KOMMUNSTYRELSEN 2020-03-09",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/kommunstyrelsen/mote-2020-03-09/protocol/protokoll-for-kommunstyrelsen-den-9-mars-2020pdf-90616?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "ks-31-motion-inlamnad",
+        "field": "quote",
+        "quote": "Glenn Pettersson (S), Boris Jernskiegg (SD), Agneta Grange (SD), Zandra Pettersson (SD), Otto Stryhn (SD), Kristina Poulsen (SD) och Lars-Olof Jaeger (SD) har till kommunfullmäktige den 30 oktober 2019, § 214 lämnat en motion om återvändande IS-terrorister.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      },
+      {
+        "step_id": "ks-31-namndyttrande",
+        "field": "quote",
+        "quote": "Kommunledningskontoret bedömer att lagstiftningen ger kommunen få eller inga förutsättningar att arbeta enligt motionens förslag. Kommunledningskontoret föreslår att motionen ska avslås.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-31-beslut",
+        "field": "quote",
+        "quote": "Kommunstyrelsens beslut:\nKommunledningskontorets yttrande antas som kommunstyrelsens eget.\nKommunstyrelsens förslag till kommunfullmäktige för beslut:\nMotionen anses besvarad.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      },
+      {
+        "step_id": "ks-31-beslut",
+        "field": "reservation[sd]",
+        "quote": "Boris Jernskiegg (SD) och Glenn Pettersson (SD) reserverar sig till förmån för eget yrkande.",
+        "passed": true,
+        "reason": "Citat verifierat ordagrant mot källdokumentet"
+      }
+    ]
+  },
+  {
+    "arende": {
+      "title": "Ej verkställda beslut LSS 2019",
+      "initiativ_typ": "styrelseforslag",
+      "initiators": [],
+      "category": "vård-omsorg",
+      "status": "avgjort",
+      "diarienummer": "2019.008 VÄN",
+      "steps": [
+        {
+          "step_id": "lss-beslut",
+          "instance": "vard-och-omsorgsnamnden",
+          "type": "beslut",
+          "date": "2020-02-17",
+          "quote": "Vård och omsorgsnämnden antar förvaltningens kvartals- och individrapport för Q4 som sitt svar till IVO. Vård och omsorgsnämnden beslutar att överlämna upprättad statistikrapport för Q4 till kommunfullmäktige och revisorerna.",
+          "decision": "bifall",
+          "voting": null,
+          "reservations": [],
+          "protocol_anteckning": [],
+          "source": {
+            "protocol_ref": "§13 VARD-OCH-OMSORGSNAMNDEN 2020-02-17",
+            "pdf_url": "https://sammantradesportal.alingsas.se/committees/vard-och-omsorgsnamnden/mote-2020-02-17/protocol/protokoll-skapad-von-2020-02-21-092313pdf-17003?downloadMode=open"
+          }
+        }
+      ]
+    },
+    "passed": false,
+    "checks": [
+      {
+        "step_id": "lss-beslut",
+        "field": "quote",
+        "quote": "Vård och omsorgsnämnden antar förvaltningens kvartals- och individrapport för Q4 som sitt svar till IVO. Vård och omsorgsnämnden beslutar att överlämna upprättad statistikrapport för Q4 till kommunfullmäktige och revisorerna.",
+        "passed": false,
+        "reason": "KUNDE INTE ÅTERFINNAS ordagrant i källdokumentet — needs_review.json, publiceras EJ (R2)"
+      }
+    ]
+  }
+]
